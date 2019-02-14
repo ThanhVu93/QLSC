@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Cơ Bản</value>
+  </data>
+  <data name="BasicSettingsDescription.Text" xml:space="preserve">
+    <value>Ở phần này, bạn có thể đặt những thiết lập cơ bản cho thông điệp của bạn.</value>
+  </data>
+  <data name="plRoles.Text" xml:space="preserve">
+    <value>Cấp Bậc Người Dùng</value>
+  </data>
+  <data name="plRoles.Help" xml:space="preserve">
+    <value>Bạn có thể chọn những Cấp bậc Người sử dụng nhận thông điệp này. VD tất cả quản trị viên, hoặc tất cả Thành Viên Đã Được Đăng Ký.</value>
+  </data>
+  <data name="plEmail.Text" xml:space="preserve">
+    <value>Danh Sách Email</value>
+  </data>
+  <data name="plEmail.Help" xml:space="preserve">
+    <value>Bạn có thể thêm vào địa chỉ Email, ngăn cách nhau bởi một dấu ";".</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Chủ Đề</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Nhập chủ đề của thông điệp.</value>
+  </data>
+  <data name="Message.Text" xml:space="preserve">
+    <value>Thông Điệp</value>
+  </data>
+  <data name="MessageDescription.Text" xml:space="preserve">
+    <value>Bạn có thể chọn Công cụ Soạn thảo dưới đây để viết thông điệp của bạn.</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Nâng Cao</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>Ở phần này, bạn có thể đặt những thiết lập nâng cao hơn cho thông điệp của bạn.</value>
+  </data>
+  <data name="plAttachment.Text" xml:space="preserve">
+    <value>Đính Kèm</value>
+  </data>
+  <data name="plAttachment.Help" xml:space="preserve">
+    <value>Chọn một file đính kèm cho thông điệp.</value>
+  </data>
+  <data name="plPriority.Text" xml:space="preserve">
+    <value>Quyền Ưu Tiên</value>
+  </data>
+  <data name="plPriority.Help" xml:space="preserve">
+    <value>Chọn quyền ưu tiên cho thông điệp.</value>
+  </data>
+  <data name="Normal.Text" xml:space="preserve">
+    <value>Bình Thường</value>
+  </data>
+  <data name="High.Text" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="Low.Text" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="plSendMethod.Text" xml:space="preserve">
+    <value>Cách Thức Gửi</value>
+  </data>
+  <data name="plSendMethod.Help" xml:space="preserve">
+    <value>Chọn cách thức gửi đi của email này.</value>
+  </data>
+  <data name="SendTo.Text" xml:space="preserve">
+    <value>TO: Một Thông Điệp Trên Mỗi Địa Chỉ Email ( Cụ thể một cá nhân )</value>
+  </data>
+  <data name="SendBCC.Text" xml:space="preserve">
+    <value>BCC: Một Email Đến Một Danh Sách( Không cụ thể một cá nhân nào )</value>
+  </data>
+  <data name="plSendAction.Text" xml:space="preserve">
+    <value>Thực Hiện Gửi</value>
+  </data>
+  <data name="plSendAction.Help" xml:space="preserve">
+    <value>Chọn cách bạn muốn thông điệp được gửi đi.</value>
+  </data>
+  <data name="Synchronous.Text" xml:space="preserve">
+    <value>Đồng Bộ</value>
+  </data>
+  <data name="Asynchronous.Text" xml:space="preserve">
+    <value>Không Đồng Bộ</value>
+  </data>
+  <data name="cmdSend.Text" xml:space="preserve">
+    <value>Gửi Email</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Thư Tin</value>
+  </data>
+  <data name="MessageSent.Text" xml:space="preserve">
+    <value>Thông Điệp Đã Được Gửi</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Về Thư Tin&lt;/h1&gt;&lt;p&gt;Các Quản trị viên có thể gửi email số lượng lớn đến tất cả người dùng thuộc về một Vai trò cụ thể nào đó.&lt;/p&gt;</value>
+  </data>
+  <data name="Heading.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="plFrom.Help" xml:space="preserve">
+    <value>Nhập địa chỉ gửi thư.</value>
+  </data>
+  <data name="plFrom.Text" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="revEmailAddress.ErrorMessage" xml:space="preserve">
+    <value>Địa chỉ email ở định dạng không hợp lệ!</value>
+  </data>
+  <data name="MessageValidation.Text" xml:space="preserve">
+    <value>Bạn phải đưa ra một Tiêu đề và nội dung thông điệp</value>
+  </data>
+  <data name="cmdPreview.Text" xml:space="preserve">
+    <value>Xem trước Email</value>
+  </data>
+  <data name="MessagesSentCount.Text" xml:space="preserve">
+    <value>{0} thông điệp đã được gửi đi thành công</value>
+  </data>
+  <data name="NoMessagesSent.Text" xml:space="preserve">
+    <value>Không có thông điệp nào được gửi đi, có thể vì nhóm không có thành viên nào</value>
+  </data>
+  <data name="plReplaceTokens.Help" xml:space="preserve">
+    <value>Chuỗi có chứa các dấu hiệu có thể được thay thế bởi các giá trị môi trường hiện tại?&lt;br&gt; Lưu ý: Chỉ các dấu hiệu của người dùng được thay thế, nếu phương thức gửi là "TO"
+	</value>
+  </data>
+  <data name="plReplaceTokens.Text" xml:space="preserve">
+    <value>Thay Thế Dấu Hiệu?</value>
+  </data>
+  <data name="AdvancedSettings.Text1" xml:space="preserve">
+    <value>Thiết lập nâng cao</value>
+  </data>
+  <data name="cmdCancelPreview.Text" xml:space="preserve">
+    <value>Cancel Preview</value>
+  </data>
+  <data name="NoMessagesSentPlusError.Text" xml:space="preserve">
+    <value>Đã xảy ra lỗi khi gửi rmaill: {0}</value>
+  </data>
+  <data name="NoRecipients.Text" xml:space="preserve">
+    <value>No Messages were sent because there are no recipients for this email.</value>
+  </data>
+  <data name="plAddressees.Text" xml:space="preserve">
+    <value>Addressees</value>
+  </data>
+  <data name="plLanguages.Help" xml:space="preserve">
+    <value>Specify a filter for users according to the languages in their profiles.</value>
+  </data>
+  <data name="plLanguages.Text" xml:space="preserve">
+    <value>Language Filter</value>
+  </data>
+  <data name="plNoDuplicates.Help" xml:space="preserve">
+    <value>Activate this option to remove duplicate email addresses from the addressees list.</value>
+  </data>
+  <data name="plNoDuplicates.Text" xml:space="preserve">
+    <value>No duplicate addresses</value>
+  </data>
+  <data name="plRelayAddress.Text" xml:space="preserve">
+    <value>Relay Address</value>
+  </data>
+  <data name="plReplyTo.Help" xml:space="preserve">
+    <value>Nhập địa chỉ email người gửi.</value>
+  </data>
+  <data name="plReplyTo.Text" xml:space="preserve">
+    <value>Gửi đến</value>
+  </data>
+</root>

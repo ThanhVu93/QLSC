@@ -1,0 +1,137 @@
+00:33:21,935 [Liink-PC][Thread:8][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 195
+15:43:47,694 [Liink-PC][Thread:26][ERROR] QLCC.NHANVIEN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.NHANVIEN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\DanhMuc\NHANVIEN_CN.ascx.cs:line 213
+16:39:38,834 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 196
+16:39:45,172 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 196
+16:39:51,466 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 196
+16:49:30,815 [Liink-PC][Thread:20][ERROR] QLCC.NHANVIEN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.NHANVIEN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\DanhMuc\NHANVIEN_CN.ascx.cs:line 213
+16:49:52,795 [Liink-PC][Thread:18][ERROR] QLCC.NHANVIEN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.NHANVIEN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\DanhMuc\NHANVIEN_CN.ascx.cs:line 213
+16:50:31,806 [Liink-PC][Thread:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:50:31,929 [Liink-PC][Thread:22][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_wwd5suqc.0.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_wwd5suqc.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+17:17:28,696 [Liink-PC][Thread:20][ERROR] QLCC.QLCC_DUAN_NHANVIEN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_NHANVIEN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_NHANVIEN_CN.ascx.cs:line 161
+17:18:12,633 [Liink-PC][Thread:14][ERROR] QLCC.QLCC_DUAN_NHANVIEN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name 'CV_TEN' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_NHANVIEN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_NHANVIEN_CN.ascx.cs:line 161
+17:20:08,021 [Liink-PC][Thread:16][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: A control with ID 'btn_XuatExcel' could not be found for the trigger in UpdatePanel 'uppnl'.
+   at System.Web.UI.UpdatePanelControlTrigger.FindTargetControl(Boolean searchNamingContainers)
+   at System.Web.UI.PostBackTrigger.Initialize()
+   at System.Web.UI.UpdatePanelTriggerCollection.Initialize()
+   at System.Web.UI.UpdatePanel.Initialize()
+   at System.Web.UI.UpdatePanel.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+17:20:08,043 [Liink-PC][Thread:16][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=A+control+with+ID+%27btn_XuatExcel%27+could+not+be+found+for+the+trigger+in+UpdatePanel+%27uppnl%27.
+System.InvalidOperationException: A control with ID 'btn_XuatExcel' could not be found for the trigger in UpdatePanel 'uppnl'.
+   at System.Web.UI.UpdatePanelControlTrigger.FindTargetControl(Boolean searchNamingContainers)
+   at System.Web.UI.PostBackTrigger.Initialize()
+   at System.Web.UI.UpdatePanelTriggerCollection.Initialize()
+   at System.Web.UI.UpdatePanel.Initialize()
+   at System.Web.UI.UpdatePanel.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)

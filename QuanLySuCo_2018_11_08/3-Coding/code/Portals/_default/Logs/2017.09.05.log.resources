@@ -1,0 +1,345 @@
+12:06:19,538 [Liink-PC][Thread:7][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx(231): error CS1061: 'ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx' does not contain a definition for 'dgSua' and no extension method 'dgSua' accepting a first argument of type 'ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+12:06:19,891 [Liink-PC][Thread:7][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i: Qu?n l? d? án hi?n chýa có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx(231): error CS1061: 'ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx' does not contain a definition for 'dgSua' and no extension method 'dgSua' accepting a first argument of type 'ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+12:14:13,171 [Liink-PC][Thread:13][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 447
+12:16:02,436 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 447
+12:20:45,720 [Liink-PC][Thread:21][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+12:20:50,796 [Liink-PC][Thread:16][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+12:24:04,546 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): A field or property with the name '_NV_ID' was not found on the selected data source.
+   at System.Web.UI.WebControls.BoundColumn.OnDataBindColumn(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+12:25:40,372 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+13:28:46,561 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+13:30:05,555 [Liink-PC][Thread:9][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+13:31:10,441 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+13:31:34,300 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+13:32:36,261 [Liink-PC][Thread:21][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:02:46,935 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:03:19,491 [Liink-PC][Thread:12][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:03:24,786 [Liink-PC][Thread:8][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:04:47,943 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:06:11,197 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:11:15,137 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:14:17,297 [Liink-PC][Thread:34][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Web.HttpException (0x80004005): DataBinding: 'QLCC.QLCC_GIAIDOAN_DUAN_NHANVIENInfo' does not contain a property with the name 'NV_ID'.
+   at System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   at System.Web.UI.DataBinder.Eval(Object container, String[] expressionParts)
+   at ASP.desktopmodules_qlcc_qlcc_duan_cn_ascx.__DataBinding__control64(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx:line 223
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 446
+14:51:42,801 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.SetInfo_DUAN_GIAIDOAN_THOIGIAN(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 122
+   at QLCC.QLCC_DUAN_CN.SetInfoForm(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 84
+   at QLCC.QLCC_DUAN_CN.Page_Load(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 62
+14:53:26,589 [Liink-PC][Thread:9][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.SetInfo_DUAN_GIAIDOAN_THOIGIAN(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 122
+   at QLCC.QLCC_DUAN_CN.SetInfoForm(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 84
+   at QLCC.QLCC_DUAN_CN.Page_Load(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 62
+14:55:17,270 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.SetInfo_DUAN_GIAIDOAN_THOIGIAN(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 122
+   at QLCC.QLCC_DUAN_CN.SetInfoForm(Int32 DA_ID) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 84
+   at QLCC.QLCC_DUAN_CN.Page_Load(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 62
+16:20:50,792 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.CAPNHAT_GIAIDOAN_DUAN(QLCC_GIAIDOAN_DUAN objQLCC_GIAIDOAN_DUAN) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 268
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 388
+16:26:31,719 [Liink-PC][Thread:22][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.CAPNHAT_GIAIDOAN_DUAN(QLCC_GIAIDOAN_DUAN objQLCC_GIAIDOAN_DUAN) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 268
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 388
+16:36:36,596 [Liink-PC][Thread:22][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.CAPNHAT_GIAIDOAN_DUAN(QLCC_GIAIDOAN_DUAN objQLCC_GIAIDOAN_DUAN) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 268
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 388
+16:45:56,910 [Liink-PC][Thread:52][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.CAPNHAT_GIAIDOAN_DUAN(QLCC_GIAIDOAN_DUAN objQLCC_GIAIDOAN_DUAN) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 268
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 388
+16:53:13,579 [Liink-PC][Thread:44][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.CAPNHAT_GIAIDOAN_DUAN(QLCC_GIAIDOAN_DUAN objQLCC_GIAIDOAN_DUAN) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 268
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 388
+16:53:35,854 [Liink-PC][Thread:44][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 406
+17:16:25,831 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 481
+17:33:44,525 [Liink-PC][Thread:32][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 193
+17:35:53,721 [Liink-PC][Thread:36][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 191
+22:44:36,461 [Liink-PC][Thread:62][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 193
+22:45:55,433 [Liink-PC][Thread:14][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 191

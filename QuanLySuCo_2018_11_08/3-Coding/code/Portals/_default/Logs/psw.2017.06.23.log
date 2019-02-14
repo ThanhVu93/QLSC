@@ -1,0 +1,35 @@
+09:33:51,046 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+09:33:51,131 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+09:33:51,143 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+17:16:05,742 [ERROR] PSW.HOPDONGCHOTHUEKHO_CN:1319 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGCHOTHUEKHO_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGCHOTHUEKHO_CN.ascx.cs:line 1319
+17:23:56,536 [ERROR] PSW.HOPDONGCHOTHUEKHO_CN:1496 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGCHOTHUEKHO_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGCHOTHUEKHO_CN.ascx.cs:line 1496

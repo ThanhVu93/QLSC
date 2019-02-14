@@ -1,0 +1,21 @@
+﻿.ModViewProfileC #UserProfileImg
+{
+    float:left;
+}
+.ModViewProfileC #UserProfileImg .ProfilePhoto
+{
+    margin:20px;
+}
+.ModViewProfileC .UserProfileControls
+{
+    padding-top: 20px;
+}
+.ModViewProfileC .UserProfileControls ul li
+{
+    margin:5px;
+}
+#UserDisplayNameHeader h2{
+    margin-left:20px;
+    padding-top:10px;
+    margin-bottom:0px;
+}

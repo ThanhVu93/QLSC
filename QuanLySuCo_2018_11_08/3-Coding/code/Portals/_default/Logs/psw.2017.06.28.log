@@ -1,0 +1,35 @@
+09:36:50,291 [ERROR] PSW.HOPDONGMUA_CN:1482 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGMUA_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGMUA_CN.ascx.cs:line 1482
+09:38:27,701 [ERROR] PSW.HOPDONGBAN_CN:1696 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1696
+09:39:28,831 [ERROR] PSW.HOPDONGCHOTHUEKHO_CN:1381 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGCHOTHUEKHO_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGCHOTHUEKHO_CN.ascx.cs:line 1381
+09:46:08,810 [ERROR] PSW.HOPDONGTHUEKHO_CN:1799 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGTHUEKHO_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGTHUEKHO_CN.ascx.cs:line 1799
+11:40:40,876 [ERROR] PSW.BIEUMAU_CN:268 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.BIEUMAU_CN.btn_CN_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\QuanTri\BIEUMAU_CN.ascx.cs:line 268

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_editprofileproperty.Text">
+    <value>Sửa Mô Tả Thuộc Tính Hồ Sơ</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Thêm Thuộc Tính Hồ Sơ Mới</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Text">
+    <value>Kiểu Dữ Liệu:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DataType.Help">
+    <value>Chọn Kiểu Dữ Liệu cho trường này</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Text">
+    <value>Giá Trị Mặc Định:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_DefaultValue.Help">
+    <value>Bạn có thể cung cấp một giá trị mặc định cho thuộc tính này</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Text">
+    <value>Nhóm Thuộc Tính:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Help">
+    <value>Nhập nhóm cho thuộc tính này. Điều này sẽ cho phép các thuộc tính có liên quan đến nhau được nhóm lại với nhau khi được hiển thị cho người dùng.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Text">
+    <value>Tên Thuộc Tính:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Help">
+    <value>Nhập tên cho thuộc tính</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Text">
+    <value>Mã Kiểm Tra:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ValidationExpression.Help">
+    <value>Bạn có thể cung cấp một Regular Expression để kiểm tra giá trị được nhập vào cho thuộc tính này.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Text">
+    <value>Thứ Tự Hiển Thị: </value>
+  </data>
+  <data name="ProfilePropertyDefinition_ViewOrder.Help">
+    <value>Chọn Thứ Tự Hiển Thị cho thuộc tính.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Text">
+    <value>Hiển Thị:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Visible.Help">
+    <value>Bạn có thể chọn hiển thị thuộc tính này cho người dùng</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Text">
+    <value>Bắt Buộc:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Required.Help">
+    <value>Xác định thuộc tính này có bắt buộc hay không.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Text">
+    <value>Độ Dài:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_Length.Help">
+    <value>Nhập độ dài tối đa cho thuộc tính. Chỉ áp dụng đối với một số kiểu dữ liệu nhất định.</value>
+  </data>
+  <data name="DuplicateName.Text">
+    <value>Thuộc tính này hiện đã có. Các tên Thuộc tính phải là duy nhất. Hãy chọn một tên khác cho thuộc tính này.</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyCategory.Required">
+    <value>Cần phải xác định nhóm</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Required">
+    <value>Cần phải xác định tên thuộc tính</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Trở về Danh sách Thuộc Tính Hồ Sơ</value>
+  </data>
+  <data name="cmdCreate.Text">
+    <value>Tạo Thuộc Tính Mới</value>
+  </data>
+  <data name="cmdSaveKeys.Text">
+    <value>Lưu dữ liệu được địa phương hóa</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Cập Nhật Thuộc Tính</value>
+  </data>
+  <data name="Introduction.Help">
+    <value>Bước đầu tiên trong việc sửa đổi một Định Nghĩa Thuộc Tính Hồ Sơ là cập nhật các thông tin về thuộc tính. Thực hiện các thay đổi bạn thấy cần thiết cho các trường trên trang này, và click "Tiếp" để lưu lại các thay đổi, và chuyển sang bước tiếp theo.</value>
+  </data>
+  <data name="Introduction.Title">
+    <value>Sửa Thông Tin Thuộc Tính</value>
+  </data>
+  <data name="Introduction_Add.Help">
+    <value>Bước đầu tiên trong việc thiết lập một Định Nghĩa Thuộc Tính Hồ Sơ là định nghĩa các thông tin về thuộc tính. Thực hiện các thay đổi bạn thấy cần thiết cho các trường trên trang này, và click "Tiếp" để tạo ra một Định nghĩa Thuộc Tính. &lt;b&gt;Lưu ý&lt;/b&gt;: Các trường với dấu mũi tên đỏ là bắt buộc.</value>
+  </data>
+  <data name="Introduction_Add.Title">
+    <value>Thêm Thông Tin Thuộc Tính</value>
+  </data>
+  <data name="List.Help">
+    <value>Các thông tin về thuộc tính đã được cập nhật. Thuộc tính này là một thuộc tính dạng Danh Sách. Bước tiếp theo là định nghĩa các mục cho danh sách.</value>
+  </data>
+  <data name="List.Title">
+    <value>Quản Lý Các Mục Danh Sách</value>
+  </data>
+  <data name="Localization.Help">
+    <value>Bước tiếp theo là quản lý ngôn ngữ cho thuộc tính. Chọn ngôn ngữ bạn muốn cập nhật, thêm vào mô tả hoặc sửa đổi các thông tin và click "Lưu"</value>
+  </data>
+  <data name="Localization.Title">
+    <value>Quản Lý Ngôn Ngữ</value>
+  </data>
+  <data name="plCategoryName.Help">
+    <value>Nhập vào đoạn chữ cho tên của thể loại cho ngôn ngữ đã chọn</value>
+  </data>
+  <data name="plCategoryName.Text">
+    <value>Tên Thể Loại:</value>
+  </data>
+  <data name="plLocales.Help">
+    <value>Lựa chọn ngôn ngữ</value>
+  </data>
+  <data name="plLocales.Text">
+    <value>Chọn Ngôn Ngữ:</value>
+  </data>
+  <data name="plPropertyHelp.Help">
+    <value>trong ngôn ngữ đã chọn</value>
+  </data>
+  <data name="plPropertyHelp.Text">
+    <value>Trợ Giúp Thuộc Tính:</value>
+  </data>
+  <data name="plPropertyName.Help">
+    <value>Nhập vào đoạn chữ cho tên thuộc tính trong ngôn ngữ đã chọn</value>
+  </data>
+  <data name="plPropertyName.Text">
+    <value>Tên Thuộc Tính:</value>
+  </data>
+  <data name="ProfilePropertyDefinition_PropertyName.Validation">
+    <value>Tên thuộc tính không thể chứa ký tự trống</value>
+  </data>
+</root>

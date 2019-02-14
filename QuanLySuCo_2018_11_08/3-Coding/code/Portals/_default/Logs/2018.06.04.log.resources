@@ -1,0 +1,124 @@
+14:00:23,986 [THANHVU][Thread:39][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 527
+14:16:27,469 [THANHVU][Thread:24][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 527
+14:28:02,070 [THANHVU][Thread:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:29:58,003 [THANHVU][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:31:43,327 [THANHVU][Thread:48][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:33:28,900 [THANHVU][Thread:39][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:35:14,614 [THANHVU][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:37:00,116 [THANHVU][Thread:20][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+15:12:56,841 [THANHVU][Thread:29][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx(32): error CS1061: 'ASP.desktopmodules_qlhd_qlhd_ds_ascx' does not contain a definition for 'dgDanhSach_PreRender' and no extension method 'dgDanhSach_PreRender' accepting a first argument of type 'ASP.desktopmodules_qlhd_qlhd_ds_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+15:12:56,875 [THANHVU][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i: Qu?n lý h?p d?ng hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx(32): error CS1061: 'ASP.desktopmodules_qlhd_qlhd_ds_ascx' does not contain a definition for 'dgDanhSach_PreRender' and no extension method 'dgDanhSach_PreRender' accepting a first argument of type 'ASP.desktopmodules_qlhd_qlhd_ds_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+16:32:54,078 [THANHVU][Thread:19][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:33:04,369 [THANHVU][Thread:19][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:07,905 [THANHVU][Thread:9][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:11,878 [THANHVU][Thread:7][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:13,005 [THANHVU][Thread:14][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:14,085 [THANHVU][Thread:16][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:15,492 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:17,243 [THANHVU][Thread:14][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:33:22,764 [THANHVU][Thread:18][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:34:09,654 [THANHVU][Thread:19][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:34:29,626 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:34:33,260 [THANHVU][Thread:14][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 262
+16:37:37,250 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 242
+16:37:53,342 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 242
+16:39:17,127 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 242
+16:40:04,408 [THANHVU][Thread:11][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 242
+16:42:23,559 [THANHVU][Thread:28][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:42:36,673 [THANHVU][Thread:33][ERROR] QLHD.QLHD_DS - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(String& o_Messages) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 242
+16:45:43,003 [THANHVU][Thread:24][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:45:55,904 [THANHVU][Thread:24][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272

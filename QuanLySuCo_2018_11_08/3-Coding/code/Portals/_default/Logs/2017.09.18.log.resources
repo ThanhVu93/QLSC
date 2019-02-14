@@ -1,0 +1,772 @@
+11:04:04,888 [Liink-PC][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:04,971 [Liink-PC][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:05,657 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:05,659 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:05,973 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:05,977 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:09,487 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:09,492 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:09,676 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:09,679 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,213 [Liink-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,216 [Liink-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,459 [Liink-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,461 [Liink-PC][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,711 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,715 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,995 [Liink-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:10,997 [Liink-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,378 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,381 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,623 [Liink-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,628 [Liink-PC][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,863 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:11,866 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,044 [Liink-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,046 [Liink-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,278 [Liink-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,281 [Liink-PC][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,526 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:12,528 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:13,024 [Liink-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:13,028 [Liink-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:13,272 [Liink-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:13,274 [Liink-PC][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:15,576 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:15,579 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,200 [Liink-PC][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,202 [Liink-PC][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,607 [Liink-PC][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,611 [Liink-PC][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,822 [Liink-PC][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:04:17,825 [Liink-PC][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.HtmlControls.HtmlAnchor.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:11:34,460 [Liink-PC][Thread:38][ERROR] QLCC.QLCC_DUAN_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ds_ascx.__DataBind__control28(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_DS.ascx:line 59
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_DS.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_DS.ascx.cs:line 237
+11:12:27,152 [Liink-PC][Thread:29][ERROR] QLCC.QLCC_DUAN_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ds_ascx.__DataBind__control27(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_DS.ascx:line 58
+   at System.Web.UI.Control.OnDataBinding(EventArgs e)
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.Control.DataBindChildren()
+   at System.Web.UI.Control.DataBind(Boolean raiseOnDataBinding)
+   at System.Web.UI.WebControls.DataGrid.CreateItem(Int32 itemIndex, Int32 dataSourceIndex, ListItemType itemType, Boolean dataBind, Object dataItem, DataGridColumn[] columns, TableRowCollection rows, PagedDataSource pagedDataSource)
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_DS.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_DS.ascx.cs:line 237
+11:21:56,792 [Liink-PC][Thread:37][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 927
+11:38:26,278 [Liink-PC][Thread:29][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 927
+11:39:06,241 [Liink-PC][Thread:35][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 927
+11:50:44,499 [Liink-PC][Thread:5][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx(225): error CS1061: 'ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx' does not contain a definition for 'btn_CapNhat_NhanVien_Click' and no extension method 'btn_CapNhat_NhanVien_Click' accepting a first argument of type 'ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+11:50:44,531 [Liink-PC][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chýa có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx(225): error CS1061: 'ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx' does not contain a definition for 'btn_CapNhat_NhanVien_Click' and no extension method 'btn_CapNhat_NhanVien_Click' accepting a first argument of type 'ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+11:51:49,304 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 479
+11:51:49,391 [Liink-PC][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: The DefaultButton of 'pnlCN' must be the ID of a control of type IButtonControl.
+   at System.Web.UI.WebControls.Panel.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.Panel.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx:line 6
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.UI.Modules.ModuleHost.RenderContents(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.portals__default_containers_qlcc_container_default_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in D:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Portals\_default\Containers\QLCC_Container\Default.ascx:line 7
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 860
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:51:49,456 [Liink-PC][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=The+DefaultButton+of+%27pnlCN%27+must+be+the+ID+of+a+control+of+type+IButtonControl.
+System.InvalidOperationException: The DefaultButton of 'pnlCN' must be the ID of a control of type IButtonControl.
+   at System.Web.UI.WebControls.Panel.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.Panel.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx:line 6
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.UI.Modules.ModuleHost.RenderContents(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.portals__default_containers_qlcc_container_default_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in D:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Portals\_default\Containers\QLCC_Container\Default.ascx:line 7
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 860
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:52:02,261 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 479
+11:52:02,306 [Liink-PC][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.InvalidOperationException: The DefaultButton of 'pnlCN' must be the ID of a control of type IButtonControl.
+   at System.Web.UI.WebControls.Panel.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.Panel.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx:line 6
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.UI.Modules.ModuleHost.RenderContents(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.portals__default_containers_qlcc_container_default_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in D:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Portals\_default\Containers\QLCC_Container\Default.ascx:line 7
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 860
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:52:02,311 [Liink-PC][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=The+DefaultButton+of+%27pnlCN%27+must+be+the+ID+of+a+control+of+type+IButtonControl.
+System.InvalidOperationException: The DefaultButton of 'pnlCN' must be the ID of a control of type IButtonControl.
+   at System.Web.UI.WebControls.Panel.AddAttributesToRender(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.Panel.RenderBeginTag(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.desktopmodules_qlcc_qlcc_duan_ct_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx:line 6
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.UI.Modules.ModuleHost.RenderContents(HtmlTextWriter writer)
+   at System.Web.UI.WebControls.WebControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at ASP.portals__default_containers_qlcc_container_default_ascx.__Render__control1(HtmlTextWriter __w, Control parameterContainer) in D:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Portals\_default\Containers\QLCC_Container\Default.ascx:line 7
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderChildren(HtmlTextWriter writer)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.HtmlControls.HtmlForm.RenderControl(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at System.Web.UI.HtmlControls.HtmlContainerControl.Render(HtmlTextWriter writer)
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Control.RenderChildrenInternal(HtmlTextWriter writer, ICollection children)
+   at DotNetNuke.Framework.PageBase.Render(HtmlTextWriter writer)
+   at DotNetNuke.Framework.DefaultPage.Render(HtmlTextWriter writer) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 860
+   at System.Web.UI.Control.RenderControlInternal(HtmlTextWriter writer, ControlAdapter adapter)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:52:22,708 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 479
+11:53:46,143 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 479
+12:02:58,682 [Liink-PC][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+12:02:58,717 [Liink-PC][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=269&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+12:04:28,861 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:30:00,612 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:30:21,671 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:34:02,735 [Liink-PC][Thread:18][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:34:32,391 [Liink-PC][Thread:9][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:34:42,756 [Liink-PC][Thread:18][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:35:03,570 [Liink-PC][Thread:9][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+13:35:03,640 [Liink-PC][Thread:9][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.0.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+13:35:08,035 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+13:39:59,308 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+13:40:05,274 [Liink-PC][Thread:13][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 395
+13:40:16,112 [Liink-PC][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+13:40:16,119 [Liink-PC][Thread:24][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.0.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+13:41:09,040 [Liink-PC][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+13:41:09,072 [Liink-PC][Thread:15][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.0.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\9847c3c6\cdef1414\App_Web_t5rs1qj1.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+13:48:41,791 [Liink-PC][Thread:12][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+13:48:49,180 [Liink-PC][Thread:14][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 360
+13:49:07,729 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 360
+13:53:58,243 [Liink-PC][Thread:14][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 364
+13:55:50,217 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+13:56:23,902 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+13:57:33,561 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+13:57:43,006 [Liink-PC][Thread:10][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+13:58:37,544 [Liink-PC][Thread:18][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+13:59:48,607 [Liink-PC][Thread:18][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:00:33,527 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:03:09,920 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:03:56,283 [Liink-PC][Thread:23][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:04:43,186 [Liink-PC][Thread:8][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:05:20,986 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:05:27,175 [Liink-PC][Thread:20][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:05:29,806 [Liink-PC][Thread:20][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 449
+14:05:37,985 [Liink-PC][Thread:19][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:11:08,648 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CT - 
+System.Web.HttpException (0x80004005): Invalid CurrentPageIndex value. It must be >= 0 and < the PageCount.
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at QLCC.QLCC_DUAN_CT.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 644
+14:11:14,985 [Liink-PC][Thread:7][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:14:53,381 [Liink-PC][Thread:11][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:16:27,681 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:16:54,356 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 449
+14:17:04,046 [Liink-PC][Thread:11][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:17:08,964 [Liink-PC][Thread:5][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:20:37,020 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:20:59,671 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:21:34,465 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 927
+14:24:37,337 [Liink-PC][Thread:13][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 930
+14:26:00,420 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 932
+14:26:20,699 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:26:34,945 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:26:45,441 [Liink-PC][Thread:11][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:26:54,760 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 932
+14:28:26,848 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 935
+14:28:37,291 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 935
+14:30:15,761 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:30:22,582 [Liink-PC][Thread:11][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:30:28,369 [Liink-PC][Thread:15][ERROR] QLCC.QLCC_DUAN_CT - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CT.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs:line 367
+14:30:37,868 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:31:36,404 [Liink-PC][Thread:11][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:31:53,239 [Liink-PC][Thread:13][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:36:19,625 [Liink-PC][Thread:24][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:38:23,144 [Liink-PC][Thread:29][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:41:50,831 [Liink-PC][Thread:13][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:43:01,950 [Liink-PC][Thread:17][ERROR] QLCC.QLCC_DUAN_CN - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at QLCC.QLCC_DUAN_CN.LoadDSTT(Int32 id) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 936
+14:59:06,103 [Liink-PC][Thread:18][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs(69): error CS1061: 'System.Web.UI.WebControls.Label' does not contain a definition for 'MaxLength' and no extension method 'MaxLength' accepting a first argument of type 'System.Web.UI.WebControls.Label' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+14:59:06,156 [Liink-PC][Thread:18][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chýa có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CT.ascx.cs(69): error CS1061: 'System.Web.UI.WebControls.Label' does not contain a definition for 'MaxLength' and no extension method 'MaxLength' accepting a first argument of type 'System.Web.UI.WebControls.Label' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"

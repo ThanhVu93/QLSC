@@ -1,0 +1,31 @@
+.blue-border-bottom
+{
+	  margin-top: 5px;
+}
+.blue-border-bottom .panel-heading 
+{
+	  background: #fff;
+	  border-bottom: 1px solid #006261;
+	  padding: 4px 10px 4px 5px;
+}
+.blue-border-bottom .panel-body
+{
+	padding: 5px;
+}
+.blue-border-bottom .panel-heading .panel-title .Head
+{
+	  text-transform: uppercase;
+	  margin-bottom: 3px;
+	  margin-top: 3px;
+	  color: #006261;
+	  font-size: 14px;
+	  padding-left: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 979px),
+{
+	.new-event .panel-heading 
+	{
+		background:#fff;
+	}
+	
+}

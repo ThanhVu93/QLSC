@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AllCategories.Text" xml:space="preserve">
+    <value>Tất cả danh mục</value>
+  </data>
+  <data name="Category.Text" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="cmdCancelAdd.Text" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="cmdConfirmAdd.Text" xml:space="preserve">
+    <value>Proceed</value>
+  </data>
+  <data name="PermissionEdit.Text" xml:space="preserve">
+    <value>Page Editors Only</value>
+  </data>
+  <data name="PermissionView.Text" xml:space="preserve">
+    <value>Same As Page</value>
+  </data>
+  <data name="ShareableWarningAlternate.Text" xml:space="preserve">
+    <value>If you are confused by this message or are working on a site that cannot tolerate any breakage, you should click Cancel and contact the &lt;a href="mailto:support@dnnsoftware.com"&gt;DotNetNuke Support Team&lt;/a&gt;.</value>
+  </data>
+  <data name="ShareableWarningContent.Text" xml:space="preserve">
+    <value>You are attempting to add a reference to this module that exists on another site in this group. This module may or may not support sharing across multiple sites - it doesn't explicitly state either way whether it does. &lt;br/&gt;&lt;br/&gt;If you are sure that it does, or if your intent is to test its ability to do so, then proceed with caution and be aware that certain functionality in the module - or even the entire module - may not function correctly in this configuration.</value>
+  </data>
+  <data name="ShareableWarningHeader.Text" xml:space="preserve">
+    <value>&lt;span style="color: red;"&gt;Warning&lt;/span&gt;: This module may not support sharing across sites</value>
+  </data>
+  <data name="ShareableWarningTitle.Text" xml:space="preserve">
+    <value>Điều này có thể không hoạt động</value>
+  </data>
+  <data name="Tool.ClearCache.Text" xml:space="preserve">
+    <value>Xóa Cache</value>
+  </data>
+  <data name="Tool.DeletePage.ConfirmText" xml:space="preserve">
+    <value>Bạn có muốn xóa trang này?</value>
+  </data>
+  <data name="Tool.DeletePage.Special.ToolTip" xml:space="preserve">
+    <value>Không thể xóa trang này vì nó là một trang hệ thống hoặc trang được sử dụng. Hoặc liên hệ với quản trị hệ thống của bạn.</value>
+  </data>
+  <data name="Tool.Help.Text" xml:space="preserve">
+    <value>Hỗ trợ</value>
+  </data>
+  <data name="Tool.Help.ToolTip" xml:space="preserve">
+    <value>Hỗ trợ trực tuyến</value>
+  </data>
+  <data name="Tool.RecycleApp.Text" xml:space="preserve">
+    <value>Recycle Application Domain</value>
+  </data>
+  <data name="Tool.UploadFile.Text" xml:space="preserve">
+    <value>Tải tập tin lên</value>
+  </data>
+  <data name="Pane.AddBottom.Text" xml:space="preserve">
+    <value>Add to {0} Bottom</value>
+  </data>
+  <data name="Pane.AddTop.Text" xml:space="preserve">
+    <value>Add to {0} Top</value>
+  </data>
+  <data name="Tool.AddExistingModule.Text" xml:space="preserve">
+    <value>Duyệt tìm Module</value>
+  </data>
+  <data name="Tool.AddNewModule.Text" xml:space="preserve">
+    <value>Thêm Module</value>
+  </data>
+  <data name="Tool.AddNewPage.Text" xml:space="preserve">
+    <value>Tạo trang mới</value>
+  </data>
+  <data name="Tool.AddToBookmarks.ToolTip" xml:space="preserve">
+    <value>Thêm vào Bookmarks</value>
+  </data>
+  <data name="Tool.Admin.Text" xml:space="preserve">
+    <value>Quản trị</value>
+  </data>
+  <data name="Tool.CopyPage.Text" xml:space="preserve">
+    <value>Sao chép trang</value>
+  </data>
+  <data name="Tool.DeletePage.Text" xml:space="preserve">
+    <value>Xóa trang này</value>
+  </data>
+  <data name="Tool.EditPage.Text" xml:space="preserve">
+    <value>Sửa trang</value>
+  </data>
+  <data name="Tool.EditThisPage.Text" xml:space="preserve">
+    <value>Sửa trang này</value>
+  </data>
+  <data name="Tool.ExportPage.Text" xml:space="preserve">
+    <value>Export Trang</value>
+  </data>
+  <data name="Tool.FindModules.Text" xml:space="preserve">
+    <value>Find More Modules</value>
+  </data>
+  <data name="Tool.Host.Text" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Tool.ImportPage.Text" xml:space="preserve">
+    <value>Import trang</value>
+  </data>
+  <data name="Tool.GettingStarted.Text" xml:space="preserve">
+    <value>Thiết lập bắt đầu</value>
+  </data>
+  <data name="Tool.LayoutMode.Text" xml:space="preserve">
+    <value>Chế độ Layout</value>
+  </data>
+  <data name="Tool.MakeCopy.Text" xml:space="preserve">
+    <value>Tạo một bản sao</value>
+  </data>
+  <data name="Tool.ManageRoles.Text" xml:space="preserve">
+    <value>Quản lý vai trò</value>
+  </data>
+  <data name="Tool.ManageTemplate.Text" xml:space="preserve">
+    <value>Cấu hình giao diện trang</value>
+  </data>
+  <data name="Tool.ManageUsers.Text" xml:space="preserve">
+    <value>Quản lý người dùng</value>
+  </data>
+  <data name="Tool.MobilePreview.Text" xml:space="preserve">
+    <value>Xem trên Mobile</value>
+  </data>
+  <data name="Tool.Modules.Text" xml:space="preserve">
+    <value>Modules</value>
+  </data>
+  <data name="Tool.NewUser.Text" xml:space="preserve">
+    <value>Tạo người dùng</value>
+  </data>
+  <data name="Tool.PagePermissions.Text" xml:space="preserve">
+    <value>Phân quyền trang</value>
+  </data>
+  <data name="Tool.Pages.Text" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="Tool.PageSettings.Text" xml:space="preserve">
+    <value>Cấu hình trang</value>
+  </data>
+  <data name="Tool.RemoveFromBookmarks.ToolTip" xml:space="preserve">
+    <value>Remove From Bookmarks</value>
+  </data>
+  <data name="Tool.SwitchSites.Button" xml:space="preserve">
+    <value>Chuyển</value>
+  </data>
+  <data name="Tool.SwitchSites.Text" xml:space="preserve">
+    <value>Chuyển đổi site:</value>
+  </data>
+  <data name="Tool.Tools.Text" xml:space="preserve">
+    <value>Công cụ</value>
+  </data>
+  <data name="Tool.Users.Text" xml:space="preserve">
+    <value>Người dùng</value>
+  </data>
+  <data name="Tool.CloseEditMode.Text" xml:space="preserve">
+    <value>Đóng chế độ sửa</value>
+  </data>
+  <data name="LoadingModule.Text" xml:space="preserve">
+    <value>Đang tải Module</value>
+  </data>
+  <data name="LoadingTabModule.Text" xml:space="preserve">
+    <value>&lt;b style="color:#fff"&gt;Để bắt đầu&lt;/b&gt;, Hãy &lt;b style="color:#fff"&gt;Lựa chọn vị trí Module&lt;/b&gt;</value>
+  </data>
+  <data name="SelectPage.Text" xml:space="preserve">
+    <value>Chọn trang</value>
+  </data>
+  <data name="SelectSite.Text" xml:space="preserve">
+    <value>Chọn Site</value>
+  </data>
+  <data name="Pane.Add.Text" xml:space="preserve">
+    <value>Add to {0}</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildren.Text" xml:space="preserve">
+    <value>Áp quyền cho trang con</value>
+  </data>
+  <data name="Tool.StayInEditMode.Text" xml:space="preserve">
+    <value>Chế độ sửa</value>
+  </data>
+  <data name="DragModuleToolTip.Text" xml:space="preserve">
+    <value>Kéo để thêm Module này vào trang bên dưới</value>
+  </data>
+  <data name="Upgrade.Text" xml:space="preserve">
+    <value>Nâng cấp</value>
+  </data>
+  <data name="Tool.CopyPermissionsToChildrenPageEditor.Confirm" xml:space="preserve">
+    <value>Quyền sẽ được áp dụng cho tất cả trang con.&lt;br /&gt;&lt;br /&gt;Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="Tool.AdvancedSettings.Text" xml:space="preserve">
+    <value>Thiết lập nâng cao</value>
+  </data>
+  <data name="Tool.BookmarkedSettings.Text" xml:space="preserve">
+    <value>Những Bookmark được thiết lập</value>
+  </data>
+  <data name="Tool.CommonSettings.Text" xml:space="preserve">
+    <value>Thiết lập chung</value>
+  </data>
+  <data name="Tool.SwitchLanguages.Text" xml:space="preserve">
+    <value>Switch UI Language:</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="Upgrade.ToolTip" xml:space="preserve">
+    <value>Chọn vào đây để có được phiên bản mới nhất</value>
+  </data>
+  <data name="LoadingTabModuleCE.Text" xml:space="preserve">
+    <value>&lt;b style="color:#fff"&gt;Để bắt đầu&lt;/b&gt;, Hãy &lt;b style="color:#fff"&gt;Lựa chọn trang&lt;/b&gt;</value>
+  </data>
+  <data name="NoModule.Text" xml:space="preserve">
+    <value>Không tìm thấy Module</value>
+  </data>
+  <data name="Tool.ManageLocalization.Text" xml:space="preserve">
+    <value>Page Localization</value>
+  </data>
+  <data name="Tool.CreateModule.Text" xml:space="preserve">
+    <value>Tạo Module</value>
+  </data>
+  <data name="Tool.PublishPage.ConfirmText" xml:space="preserve">
+    <value>Thiết lập trang này là công khai. Cho phép tất cả người dùng đều được phép xem trang này.&lt;br&gt;Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="Tool.PublishPage.Text" xml:space="preserve">
+    <value>Trang công khai</value>
+  </data>
+  <data name="ClearSearchModules.Text" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="SearchModules.Text" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="LoadingModuleOnNoDefaultCategory.Text" xml:space="preserve">
+    <value>Không tìm thẩy Module ở '{0}', Tìm kiếm với  'All'</value>
+  </data>
+  <data name="Tool.PublishPage.ConfirmHeader" xml:space="preserve">
+    <value>Thiết lập trang này công khai?</value>
+  </data>
+  <data name="Tool.UnpublishPage.ConfirmHeader" xml:space="preserve">
+    <value>Thiết lập trang dành cho quản trị?</value>
+  </data>
+  <data name="Tool.UnpublishPage.ConfirmText" xml:space="preserve">
+    <value>Thay đổi trang này chỉ cho phép quản trị xem Tất cả người dùng khác sẽ không thể xem được.&lt;br&gt;Bạn có muốn tiếp tục?</value>
+  </data>
+  <data name="Tool.UnpublishPage.Text" xml:space="preserve">
+    <value>Trang cho quản trị</value>
+  </data>
+</root>

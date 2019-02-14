@@ -1,0 +1,46 @@
+16:32:22,184 [ERROR] PSW.HOPDONGBAN_CN:2024 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 2024
+17:04:50,540 [ERROR] PSW.HOPDONGBAN_CN:1631 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1631
+17:05:03,402 [ERROR] PSW.HOPDONGBAN_CN:1631 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1631
+17:06:25,068 [ERROR] PSW.HOPDONGBAN_CN:1631 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1631
+17:25:12,834 [ERROR] PSW.HOPDONGMUA_CN:1482 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGMUA_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGMUA_CN.ascx.cs:line 1482
+17:25:55,300 [ERROR] PSW.HOPDONGBAN_CN:2024 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 2024
+17:26:17,989 [ERROR] PSW.HOPDONGBAN_CN:1631 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1631
+17:26:59,843 [ERROR] PSW.HOPDONGBAN_CN:1631 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1631

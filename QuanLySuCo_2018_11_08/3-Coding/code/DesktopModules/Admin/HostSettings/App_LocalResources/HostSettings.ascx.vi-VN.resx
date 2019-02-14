@@ -1,0 +1,1286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>Cấu Hình Site </value>
+  </data>
+  <data name="plVersion.Text" xml:space="preserve">
+    <value>Phiên Bản DotNetNuke:</value>
+  </data>
+  <data name="plDataProvider.Text" xml:space="preserve">
+    <value>Data Provider: </value>
+  </data>
+  <data name="plFramework.Text" xml:space="preserve">
+    <value>.NET Framework: </value>
+  </data>
+  <data name="plIdentity.Text" xml:space="preserve">
+    <value>Định danh ASP.NET:</value>
+  </data>
+  <data name="plHostName.Text" xml:space="preserve">
+    <value>Tên Host:</value>
+  </data>
+  <data name="plVersion.Help" xml:space="preserve">
+    <value>Phiên bản ứng dụng DotNetNuke bạn đang sử dụng</value>
+  </data>
+  <data name="plDataProvider.Help" xml:space="preserve">
+    <value>Tên nhà cung cấp được định danh như là nhà cung cấp dữ liệu mặc định trong file web.config</value>
+  </data>
+  <data name="plFramework.Help" xml:space="preserve">
+    <value>Phiên Bản .NET Framework mà ứng dụng đang chạy - được xác định bởi IIS</value>
+  </data>
+  <data name="plIdentity.Help" xml:space="preserve">
+    <value>Tài khoản người dùng Windows mà ứng dụng của bạn đang chạy. Tài khoản này cần được cấp quyền truy cập thư mục trên server</value>
+  </data>
+  <data name="plHostName.Help" xml:space="preserve">
+    <value>Tên Host của site.</value>
+  </data>
+  <data name="plHostPortal.Text" xml:space="preserve">
+    <value>Portal Host:</value>
+  </data>
+  <data name="plHostTitle.Text" xml:space="preserve">
+    <value>Tiêu đề Host:</value>
+  </data>
+  <data name="plHostURL.Text" xml:space="preserve">
+    <value>Host URL: </value>
+  </data>
+  <data name="plHostEmail.Text" xml:space="preserve">
+    <value>Host Email: </value>
+  </data>
+  <data name="plHostSkin.Text" xml:space="preserve">
+    <value>Skin của Host:</value>
+  </data>
+  <data name="plHostContainer.Text" xml:space="preserve">
+    <value>Host Container: </value>
+  </data>
+  <data name="plAdminSkin.Text" xml:space="preserve">
+    <value>Skin Quản Trị:</value>
+  </data>
+  <data name="plAdminContainer.Text" xml:space="preserve">
+    <value>Container Quản Trị:</value>
+  </data>
+  <data name="plProcessor.Text" xml:space="preserve">
+    <value>Xử lý Thanh toán:</value>
+  </data>
+  <data name="plUserId.Text" xml:space="preserve">
+    <value>Processor UserId: </value>
+  </data>
+  <data name="plPassword.Text" xml:space="preserve">
+    <value>Password Xử Lý Thanh Toán:</value>
+  </data>
+  <data name="plHostFee.Text" xml:space="preserve">
+    <value>Chi phí Hosting:</value>
+  </data>
+  <data name="plHostCurrency.Text" xml:space="preserve">
+    <value>Tiền Tệ:</value>
+  </data>
+  <data name="plHostSpace.Text" xml:space="preserve">
+    <value>Chỗ trống Hosting (MB):</value>
+  </data>
+  <data name="plDemoPeriod.Text" xml:space="preserve">
+    <value>Quá Trình Dùng Thử (Số Ngày):</value>
+  </data>
+  <data name="plDemoSignup.Text" xml:space="preserve">
+    <value>Đăng Ký Dùng Thử Giấu Mặt?</value>
+  </data>
+  <data name="plSiteLogBuffer.Text" xml:space="preserve">
+    <value>Đệm Nhật Ký của File (Các Mục):</value>
+  </data>
+  <data name="plSiteLogHistory.Text" xml:space="preserve">
+    <value>Lịch Sử Nhật Ký Site (Số Ngày):</value>
+  </data>
+  <data name="plUsersOnline.Text" xml:space="preserve">
+    <value>Tắt Chức Năng Người Dùng Online?</value>
+  </data>
+  <data name="plUsersOnlineTime.Text" xml:space="preserve">
+    <value>Thời Gian Người Dùng Online (Phút):</value>
+  </data>
+  <data name="plProxyServer.Text" xml:space="preserve">
+    <value>Máy chủ Proxy: </value>
+  </data>
+  <data name="plProxyPort.Text" xml:space="preserve">
+    <value>Cổng Proxy:</value>
+  </data>
+  <data name="plProxyUsername.Text" xml:space="preserve">
+    <value>Tên người sử dụng Proxy:</value>
+  </data>
+  <data name="plProxyPassword.Text" xml:space="preserve">
+    <value>Password cho Proxy:</value>
+  </data>
+  <data name="plWebRequestTimeout.Text" xml:space="preserve">
+    <value>Thời Gian Rỗi Cho Truy Vấn Web:</value>
+  </data>
+  <data name="plSMTPServer.Text" xml:space="preserve">
+    <value>Server của SMTP:</value>
+  </data>
+  <data name="EmailTest.Text" xml:space="preserve">
+    <value>Kiểm tra</value>
+  </data>
+  <data name="plSMTPAuthentication.Text" xml:space="preserve">
+    <value>Xác Nhận SMTP:</value>
+  </data>
+  <data name="plSMTPUsername.Text" xml:space="preserve">
+    <value>Tên Tài Khoản SMTP:</value>
+  </data>
+  <data name="plSMTPPassword.Text" xml:space="preserve">
+    <value>Password SMTP:</value>
+  </data>
+  <data name="plFileExtensions.Text" xml:space="preserve">
+    <value>Tên File Mở Rộng Tải Lên:</value>
+  </data>
+  <data name="plSkinUpload.Text" xml:space="preserve">
+    <value>Cho Phép Tải Lên Skin:</value>
+  </data>
+  <data name="plCache.Text" xml:space="preserve">
+    <value>Thời Gian Cache (giây):</value>
+  </data>
+  <data name="ClearCache.Text" xml:space="preserve">
+    <value>Xoá Bộ Đệm </value>
+  </data>
+  <data name="plCopyright.Text" xml:space="preserve">
+    <value>Hiện Bản Quyền?</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Text" xml:space="preserve">
+    <value>Sử Dụng Thông Điệp Lỗi Tự Định Nghĩa?</value>
+  </data>
+  <data name="UpgradeLog.Text" xml:space="preserve">
+    <value>Cập Nhật Nhật Ký Cho Phiên Bản</value>
+  </data>
+  <data name="EmailSentMessage.Text" xml:space="preserve">
+    <value>Gửi Email Thành Công </value>
+  </data>
+  <data name="SpecifyHostEmailMessage.Text" xml:space="preserve">
+    <value>Bạn Phải Đặt Địa Chỉ Email Của Host</value>
+  </data>
+  <data name="plSchedulerMode.Text" xml:space="preserve">
+    <value>Kiểu Thời Khoá Biểu:</value>
+  </data>
+  <data name="plSchedulerMode.Help" xml:space="preserve">
+    <value>Cách thức Đếm Thời Gian (Timer Method) duy trì một luồng riêng rẽ để thực hiện các tác vụ theo thời khoá biểu trong khi quá trình làm việc vẫn hoạt động. Như là một sự lựa chọn, Cách thức Truy Vấn(Request Method) thực hiện các tác vụ trong khi các Truy Vấn HTTP được thực hiện. Bạn cũng có thể vô hiệu hoá chức năng thời khoá biểu bằng cách chọn Vô Hiệu Hoá.</value>
+  </data>
+  <data name="Disabled.Text" xml:space="preserve">
+    <value>Vô Hiệu Hoá </value>
+  </data>
+  <data name="TimerMethod.Text" xml:space="preserve">
+    <value>Cách Thức Đếm Giờ</value>
+  </data>
+  <data name="RequestMethod.Text" xml:space="preserve">
+    <value>Cách Thức Truy Vấn</value>
+  </data>
+  <data name="15Seconds.Text" xml:space="preserve">
+    <value>15 giây</value>
+  </data>
+  <data name="30Seconds.Text" xml:space="preserve">
+    <value>30 giây</value>
+  </data>
+  <data name="45Seconds.Text" xml:space="preserve">
+    <value>45 giây</value>
+  </data>
+  <data name="60Seconds.Text" xml:space="preserve">
+    <value>60 giây</value>
+  </data>
+  <data name="plPerformance.Text" xml:space="preserve">
+    <value>Thiết Lập Hiệu Suất:</value>
+  </data>
+  <data name="HeavyCaching.Text" xml:space="preserve">
+    <value>Cao</value>
+  </data>
+  <data name="ModerateCaching.Text" xml:space="preserve">
+    <value>Trung Bình</value>
+  </data>
+  <data name="LightCaching.Text" xml:space="preserve">
+    <value>Thấp</value>
+  </data>
+  <data name="NoCaching.Text" xml:space="preserve">
+    <value>Không Dùng Bộ Đệm</value>
+  </data>
+  <data name="BasicSettingsHelp.Text" xml:space="preserve">
+    <value>Nhập Vào Những Thiết Lập Cơ Bản Cho Tài Khoản Hosting Của Bạn </value>
+  </data>
+  <data name="BasicSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Cơ Bản </value>
+  </data>
+  <data name="HostDetails.Text" xml:space="preserve">
+    <value>Chi Tiết Về Host</value>
+  </data>
+  <data name="plHostTitle.Help" xml:space="preserve">
+    <value>Nhập tên tài khoản hosting của bạn</value>
+  </data>
+  <data name="plHostURL.Help" xml:space="preserve">
+    <value>Nhập url của tài khoản hosting của bạn</value>
+  </data>
+  <data name="plHostEmail.Help" xml:space="preserve">
+    <value>Nhập một địa chỉ email hỗ trợ cho tài khoản hosting của bạn</value>
+  </data>
+  <data name="plHostSkin.Help" xml:space="preserve">
+    <value>Chọn skin mặc định sử dụng cho site của bạn</value>
+  </data>
+  <data name="plHostContainer.Help" xml:space="preserve">
+    <value>Chọn container mặc định để sử dụng cho site của bạn. </value>
+  </data>
+  <data name="plAdminSkin.Help" xml:space="preserve">
+    <value>Lựa chọn skin quản trị mặc định để sử dụng cho site của bạn. Skin này sẽ được sử dụng khi bạn truy cập đến những module quản trị</value>
+  </data>
+  <data name="plAdminContainer.Help" xml:space="preserve">
+    <value>Chọn  container quản trị mặc định để sử dụng cho site của bạn. Container này sẽ được sử dụng khi bạn truy cập đến những module quản trị</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Giao Diện </value>
+  </data>
+  <data name="Payment.Text" xml:space="preserve">
+    <value>Thiết Lập Chi Trả</value>
+  </data>
+  <data name="Proxy.Text" xml:space="preserve">
+    <value>Thiết Lập Proxy</value>
+  </data>
+  <data name="SMTP.Text" xml:space="preserve">
+    <value>Thiết Lập Server SMTP</value>
+  </data>
+  <data name="AdvancedSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Nâng Cao</value>
+  </data>
+  <data name="AdvancedSettingsHelp.Text" xml:space="preserve">
+    <value>Nhập vào các thiết lập nâng cao cho Tài Khoản Hosting </value>
+  </data>
+  <data name="Other.Text" xml:space="preserve">
+    <value>Các Thiết Lập Khác</value>
+  </data>
+  <data name="plCopyright.Help" xml:space="preserve">
+    <value>Chọn mục này để hiển thị bản quyền của DotNetNuke</value>
+  </data>
+  <data name="plUseCustomErrorMessages.Help" xml:space="preserve">
+    <value>Chọn mục này để chọn Thông Điệp Lỗi do bạn định nghĩa</value>
+  </data>
+  <data name="plProcessor.Help" xml:space="preserve">
+    <value>Chọn một cách xử lý thanh toán để chấp nhận thanh toán từ các site khách hàng</value>
+  </data>
+  <data name="plUserId.Help" xml:space="preserve">
+    <value>Nhập Định Danh Người Dùng (UserID) cho Xử Lý Thanh Toán</value>
+  </data>
+  <data name="plPassword.Help" xml:space="preserve">
+    <value>Nhập Password cho Xử lý Thanh toán</value>
+  </data>
+  <data name="plHostFee.Help" xml:space="preserve">
+    <value>Nhập vào chi phí cơ sở cho site hosting</value>
+  </data>
+  <data name="plHostCurrency.Help" xml:space="preserve">
+    <value>Chọn loại tiền tệ cho thanh toán của bạn</value>
+  </data>
+  <data name="plDemoPeriod.Help" xml:space="preserve">
+    <value>Nhập vào số ngày giành cho một tài khoản dùng thử dịch vụ</value>
+  </data>
+  <data name="plDemoSignup.Help" xml:space="preserve">
+    <value>Chọn xem bạn có cho phép người dùng đăng ký dùng thử hay không</value>
+  </data>
+  <data name="plHostSpace.Help" xml:space="preserve">
+    <value>Nhập chỗ trống cho phép của một account</value>
+  </data>
+  <data name="plSMTPServer.Help" xml:space="preserve">
+    <value>Nhập Địa Chỉ Server SMTP:</value>
+  </data>
+  <data name="plSMTPAuthentication.Help" xml:space="preserve">
+    <value>Nhập cách thức Xác Nhận Server SMTP ( mặc định = giấu tên )</value>
+  </data>
+  <data name="SMTPAnonymous.Text" xml:space="preserve">
+    <value>Ẩn Danh</value>
+  </data>
+  <data name="SMTPBasic.Text" xml:space="preserve">
+    <value>Cơ Sở</value>
+  </data>
+  <data name="SMTPNTLM.Text" xml:space="preserve">
+    <value>NTLM </value>
+  </data>
+  <data name="plSMTPUsername.Help" xml:space="preserve">
+    <value>Nhập Tên Người Sử Dụng cho Server SMTP</value>
+  </data>
+  <data name="plSMTPPassword.Help" xml:space="preserve">
+    <value>Nhập Password cho Server SMTP</value>
+  </data>
+  <data name="plControlPanel.Text" xml:space="preserve">
+    <value>Bảng Điều Khiển:</value>
+  </data>
+  <data name="plControlPanel.Help" xml:space="preserve">
+    <value>Bạn có thể đặt một điều khiển phụ để sử dụng cho Quản Lý Trang</value>
+  </data>
+  <data name="plFileExtensions.Help" xml:space="preserve">
+    <value>Nhập Vào tên mở rộng của file được chấp nhận (cách nhau bởi dấu phẩy)</value>
+  </data>
+  <data name="plSkinUpload.Help" xml:space="preserve">
+    <value>Chọn xem việc tải lên các Skin chỉ được giới hạn trong các tài khoản "Host" hay có thể được thực hiện bởi các Quản Trị Site</value>
+  </data>
+  <data name="Host.Text" xml:space="preserve">
+    <value>Host </value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Portal </value>
+  </data>
+  <data name="plCache.Help" xml:space="preserve">
+    <value>Đặt độ dài của khoảng thời gian mà đối tượng được lưu ở trong bộ đệm</value>
+  </data>
+  <data name="plPerformance.Help" xml:space="preserve">
+    <value>Chọn cách tối ưu hiệu suất.</value>
+  </data>
+  <data name="plUpgrade.Help" xml:space="preserve">
+    <value>Bạn có thể xem nhật ký cập nhật cho một phiên bản đã chọn, bằng cách chọn phiên bản từ danh sách và Click vào nút Chuyển Đi.</value>
+  </data>
+  <data name="plProxyServer.Help" xml:space="preserve">
+    <value>Nhập địa chỉ Proxy Server</value>
+  </data>
+  <data name="plProxyPort.Help" xml:space="preserve">
+    <value>Nhập cổng Proxy Server</value>
+  </data>
+  <data name="plProxyUsername.Help" xml:space="preserve">
+    <value>Nhập tên người sử dụng cho Proxy Server</value>
+  </data>
+  <data name="plProxyPassword.Help" xml:space="preserve">
+    <value>Nhập password cho Proxy Server</value>
+  </data>
+  <data name="plWebRequestTimeout.Help" xml:space="preserve">
+    <value>Nhập giá trị thời gian rỗi cho một Truy Vấn Web</value>
+  </data>
+  <data name="plSiteLogBuffer.Help" xml:space="preserve">
+    <value>Nhập số mục trong Đệm Nhật Ký (Log Buffer) của Site </value>
+  </data>
+  <data name="plSiteLogHistory.Help" xml:space="preserve">
+    <value>Nhập số ngày hoạt động được lưu giữ trong Nhật Ký Site</value>
+  </data>
+  <data name="plUsersOnline.Help" xml:space="preserve">
+    <value>Bạn có thể tuỳ chọn vô hiệu hoá chức năng Những Người Dùng Đang Online</value>
+  </data>
+  <data name="plUsersOnlineTime.Help" xml:space="preserve">
+    <value>Nhập độ dài của vùng nhớ đệm Những Người Dùng Đang Online</value>
+  </data>
+  <data name="plUseFriendlyUrls.Text" xml:space="preserve">
+    <value>Sử dụng Địa Chỉ Thân Thiện?</value>
+  </data>
+  <data name="plUseFriendlyUrls.Help" xml:space="preserve">
+    <value>Chọn để cho phép cơ chế tìm kiếm dựa trên các địa chỉ thân thiện.</value>
+  </data>
+  <data name="plHostPortal.Help" xml:space="preserve">
+    <value>Chọn portal mặc định</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Thiết Lập Host </value>
+  </data>
+  <data name="SkinUpload.Text" xml:space="preserve">
+    <value>Tải Lên Skin</value>
+  </data>
+  <data name="ContainerUpload.Text" xml:space="preserve">
+    <value>Tải Lên Container </value>
+  </data>
+  <data name="plSiteLogStorage.Text" xml:space="preserve">
+    <value>Nơi Chứa Nhật Ký Site:</value>
+  </data>
+  <data name="plSiteLogStorage.Help" xml:space="preserve">
+    <value>Chọn nơi chứa Nhật Ký Site</value>
+  </data>
+  <data name="Database.Text" xml:space="preserve">
+    <value>Cơ Sở Dữ Liệu </value>
+  </data>
+  <data name="FileSystem.Text" xml:space="preserve">
+    <value>File Hệ Thống </value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Về Các Thiết Lập Host&lt;/h1&gt;&lt;p&gt; Super User có thể quản lý các thiết lập cấu hình áp dụng cho phần còn lại của site&lt;/p&gt;</value>
+  </data>
+  <data name="plLogBuffer.Text" xml:space="preserve">
+    <value>Cho phép Event Log Buffer?</value>
+  </data>
+  <data name="plLogBuffer.Help" xml:space="preserve">
+    <value>Chọn mục này sẽ làm cho các mục nhật ký được lưu vào bộ nhớ và sau đó được thường xuyên đẩy sang lưu trữ dữ liệu. Không chọn nó sẽ làm nhật ký được ghi ngay lập tức.</value>
+  </data>
+  <data name="plAutoAccountUnlock.Text" xml:space="preserve">
+    <value>Tự Động Mở Khoá Cho Tài Khoản Sau (phút):</value>
+  </data>
+  <data name="plAutoAccountUnlock.Help" xml:space="preserve">
+    <value>Sau khi một tài khoản bị khoá vì những cố gắng đăng nhập không thành công, nó có thể được mở khoá tự động với một đăng nhập thành công sau một khoảng thời gian.  Nhập vào số phút để đợi đến khi tài khoản có thể tự mở khoá. Nhập "0" để vô hiệu hoá chức năng tự động mở khoá.</value>
+  </data>
+  <data name="plCacheMethod.Text" xml:space="preserve">
+    <value>Cách thức Caching Module:</value>
+  </data>
+  <data name="plCacheMethod.Help" xml:space="preserve">
+    <value>Memory Caching là cách thức lưu lại dữ liệu trong bộ nhớ để sử dụng lại. Memory Caching cung cấp một cách thức mềm dẻo nhất và cho hiệu năng cao nhất tuy nhiên nó cũng tiêu tốn nhiều tài nguyên hệ thống nhất. Disk caching là cách thức lưu lại dữ liệu trên đĩa cứng. Disk Caching ít tiêu tốn tài nguyên nhưng kém mềm dẻo.</value>
+  </data>
+  <data name="Memory.Text" xml:space="preserve">
+    <value>Bộ Nhớ</value>
+  </data>
+  <data name="Disk.Text" xml:space="preserve">
+    <value>Disk </value>
+  </data>
+  <data name="ProcessorWebSite.Text" xml:space="preserve">
+    <value>Đến WebSite Xử Lý Thanh Toán</value>
+  </data>
+  <data name="plHelpUrl.Text" xml:space="preserve">
+    <value>URL Trợ Giúp:</value>
+  </data>
+  <data name="plHelpUrl.Help" xml:space="preserve">
+    <value>Nhập URL cho Trợ Giúp Trực Tuyến. Nếu bạn để trống mục này sẽ không có Trợ Giúp Trực Tuyến nào cho khu vực Admin/Host của DotNetNuke.</value>
+  </data>
+  <data name="plEnableHelp.Text" xml:space="preserve">
+    <value>Cho Phép Trợ Giúp Trực Tuyến Module:</value>
+  </data>
+  <data name="plEnableHelp.Help" xml:space="preserve">
+    <value>Bạn có thể cho phép hoặc không cho phép Menu Trợ giúp Trực tuyến cho module. Nếu cho phép, bạn sẽ cần phải đưa ra một URL Trợ Giúp cho module, ở phần Định Nghĩa Module, mặc dù có thể đã được tác giả của module cung cấp.</value>
+  </data>
+  <data name="NoCache.Text" xml:space="preserve">
+    <value>Không Cache</value>
+  </data>
+  <data name="plCacheability.Help" xml:space="preserve">
+    <value>Đặt các giá trị điều khiển chế độ cache HTTP header cho các thành viên đã đăng nhập.</value>
+  </data>
+  <data name="plCacheability.Text" xml:space="preserve">
+    <value>Khả Năng Cache Đăng Nhập</value>
+  </data>
+  <data name="plUpgrade.Text" xml:space="preserve">
+    <value>Tìm Bản Cập Nhật?</value>
+  </data>
+  <data name="Private.Text" xml:space="preserve">
+    <value>Riêng Tư</value>
+  </data>
+  <data name="Public.Text" xml:space="preserve">
+    <value>Công Khai</value>
+  </data>
+  <data name="Server.Text" xml:space="preserve">
+    <value>Server </value>
+  </data>
+  <data name="ServerAndNoCache.Text" xml:space="preserve">
+    <value>ServerVàKhôngCache</value>
+  </data>
+  <data name="ServerAndPrivate.Text" xml:space="preserve">
+    <value>ServerVàRiêngTư</value>
+  </data>
+  <data name="FriendlyUrl.Text" xml:space="preserve">
+    <value>Thiết Lập URL Thân Thiện</value>
+  </data>
+  <data name="cmdRestart.Text" xml:space="preserve">
+    <value>Khởi Động Lại Ứng Dụng</value>
+  </data>
+  <data name="plAutoSync.Help" xml:space="preserve">
+    <value>Chọn để tự động đồng bộ hóa file hệ thống.</value>
+  </data>
+  <data name="plAutoSync.Text" xml:space="preserve">
+    <value>Tự Động Đồng Bộ File Hệ Thống?</value>
+  </data>
+  <data name="plAvailable.Help" xml:space="preserve">
+    <value>Hiển thị một icon nếu có một phiên bản mới của ứng dụng.</value>
+  </data>
+  <data name="plAvailable.Text" xml:space="preserve">
+    <value>Có Phiên Bản Mới?</value>
+  </data>
+  <data name="plLog.Help" xml:space="preserve">
+    <value>Cho phép bạn xem nhật ký cập nhật cơ sở dữ liệu cho một phiên bản xác định</value>
+  </data>
+  <data name="plLog.Text" xml:space="preserve">
+    <value>Xem Nhật Ký Cập Nhật Cho Phiên Bản:</value>
+  </data>
+  <data name="Compression.Text" xml:space="preserve">
+    <value>Thiết Lập Nén </value>
+  </data>
+  <data name="Deflate.Text" xml:space="preserve">
+    <value>Deflate</value>
+  </data>
+  <data name="GZip.Text" xml:space="preserve">
+    <value>GZip</value>
+  </data>
+  <data name="NoCompression.Text" xml:space="preserve">
+    <value>Không Nén</value>
+  </data>
+  <data name="Page.Text" xml:space="preserve">
+    <value>Trên Trang</value>
+  </data>
+  <data name="Performance.Text" xml:space="preserve">
+    <value>Thiết Lập Hiệu Năng</value>
+  </data>
+  <data name="plCompression.Help" xml:space="preserve">
+    <value>Chọn cách thức nén Http.</value>
+  </data>
+  <data name="plCompression.Text" xml:space="preserve">
+    <value>Thiết Lập Nén:</value>
+  </data>
+  <data name="plExcludedPaths.Help" xml:space="preserve">
+    <value>Nhập danh sách các đường dẫn phải bị loại bỏ.</value>
+  </data>
+  <data name="plExcludedPaths.Text" xml:space="preserve">
+    <value>Loại Bỏ Đường Dẫn:</value>
+  </data>
+  <data name="plPageQuota.Help" xml:space="preserve">
+    <value>Bạn có thể chỉ ra số trang tối đa của một portal.</value>
+  </data>
+  <data name="plPageQuota.Text" xml:space="preserve">
+    <value>Quota cho số trang:</value>
+  </data>
+  <data name="plPageState.Help" xml:space="preserve">
+    <value>Chọn cách thức lưu giữ trạng thái của một trang. Đây có thể là một trường ẩn trên trang đó(Mặc định) hoặc trên bộ nhớ (Cache).</value>
+  </data>
+  <data name="plPageState.Text" xml:space="preserve">
+    <value>Cách thức lưu giữ trạng thái trang:</value>
+  </data>
+  <data name="plSMTPEnableSSL.Help" xml:space="preserve">
+    <value>Được dùng cho dịch vụ SMTP đòi hỏi kết nối an toàn, trong đó dữ liệu thường được mã hóa (thường là không cần)</value>
+  </data>
+  <data name="plSMTPEnableSSL.Text" xml:space="preserve">
+    <value>SMTP Enable SSL: </value>
+  </data>
+  <data name="plUserQuota.Help" xml:space="preserve">
+    <value>Bạn có thể xác định số thành viên tối đa của một portal.</value>
+  </data>
+  <data name="plUserQuota.Text" xml:space="preserve">
+    <value>Giới hạn cho số thành viên:</value>
+  </data>
+  <data name="plWhitespace.Help" xml:space="preserve">
+    <value>Chọn tùy chọn này để loại bỏ ký tự trống thừa ra khỏi trang phản hồi cho client - điều này sẽ giảm bớt dữ liệu phản hồi  (10-15%) nhưng đôi khi có thể khiến trang html khó đọc hơn.</value>
+  </data>
+  <data name="plWhitespace.Text" xml:space="preserve">
+    <value>Sử Dụng Bộ Lọc Ký Tự Trống:</value>
+  </data>
+  <data name="plWhitespaceFilter.Help" xml:space="preserve">
+    <value>Nhập một chuỗi Regular Expression để lọc ô trống.</value>
+  </data>
+  <data name="plWhitespaceFilter.Text" xml:space="preserve">
+    <value>Bộ lọc ô trống:</value>
+  </data>
+  <data name="LogEmpty.Text" xml:space="preserve">
+    <value>File nhật ký cho phiên bản mã chương trình này bị trống. Thông thường điều này cho biết rằng đoạn mã đã được chạy thành công.</value>
+  </data>
+  <data name="NoLog.Text" xml:space="preserve">
+    <value>File nhật ký cho phiên bản mã chương trình này không được tìm thấy. Thông thường điều này cho biết rằng đoạn mã chưa được chạy.</value>
+  </data>
+  <data name="plApplicationMapPath.Help" xml:space="preserve">
+    <value>Vị trí vật lý thư mục gốc của site trên máy chủ.</value>
+  </data>
+  <data name="plApplicationMapPath.Text" xml:space="preserve">
+    <value>Đường Dẫn Vật Lý:</value>
+  </data>
+  <data name="plApplicationPath.Help" xml:space="preserve">
+    <value>Vị trí tương đối của ứng dụng so với thư mục gốc của site.</value>
+  </data>
+  <data name="plApplicationPath.Text" xml:space="preserve">
+    <value>Đường Dẫn Tương Đối:</value>
+  </data>
+  <data name="plGUID.Help" xml:space="preserve">
+    <value>Một chuỗi định danh riêng biệt được sử dụng để xác định ứng dụng này.</value>
+  </data>
+  <data name="plGUID.Text" xml:space="preserve">
+    <value>GUID: </value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Quyền truy cập mã của môi trường máy chủ.</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>Quyền Truy Cập:</value>
+  </data>
+  <data name="valHostFee.Error" xml:space="preserve">
+    <value>Giá trị chi phí không hợp lệ, cần phải là một giá trị tiền tệ!</value>
+  </data>
+  <data name="UpgradeNever.Text" xml:space="preserve">
+    <value>Chưa Bao Giờ</value>
+  </data>
+  <data name="Authentication.Text" xml:space="preserve">
+    <value>Cấu Hình Phương Thức Đăng Nhập</value>
+  </data>
+  <data name="EmailErrorMessage.Text" xml:space="preserve">
+    <value>Có lỗi xảy ra khi cố gắng gửi email thử nghiệm. Lỗi đó là:&lt;br /&gt;{0}</value>
+  </data>
+  <data name="plEnableRequestFilters.Help" xml:space="preserve">
+    <value>Chọn để cho phép lọc truy vấn.</value>
+  </data>
+  <data name="plEnableRequestFilters.Text" xml:space="preserve">
+    <value>Cho Phép Lọc Truy Vấn?</value>
+  </data>
+  <data name="RequestFilter.Text" xml:space="preserve">
+    <value>Cấu Hình Lọc Truy Vấn</value>
+  </data>
+  <data name="AlwaysUse.Text" xml:space="preserve">
+    <value>All URLs.</value>
+  </data>
+  <data name="btnCompactSearchIndex.Text" xml:space="preserve">
+    <value>Compact Index</value>
+  </data>
+  <data name="btnHostSearchReindex.Text" xml:space="preserve">
+    <value>Re-Index Host Content</value>
+  </data>
+  <data name="CdnSettings.Text" xml:space="preserve">
+    <value>Thiết lập CDN</value>
+  </data>
+  <data name="CharacterSubListLabel.Help" xml:space="preserve">
+    <value>Select the character to use to concatenate URLs.</value>
+  </data>
+  <data name="CharacterSubListLabel.Text" xml:space="preserve">
+    <value>Character:</value>
+  </data>
+  <data name="ClientResourceManagement.Text" xml:space="preserve">
+    <value>Quản lý tài nguyên</value>
+  </data>
+  <data name="CompactIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CompactIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Compacting Index can be CPU consuming and may require twice the space of the current Index Store for processing. Compacting is done by site search crawler and depends on its scheduling frequency. Are you sure you want to continue?</value>
+  </data>
+  <data name="CompactIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Confirm Compacting</value>
+  </data>
+  <data name="CompactIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ConnectionLimitValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="CrmIncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Nâng cấp phiên bản</value>
+  </data>
+  <data name="DebugEnabled.Text" xml:space="preserve">
+    <value>Chế độ Debug hiện được bật ở mức ứng dụng (điều này được quy định trong file web.config). Điều này có nghĩa rằng các tập tin sẽ không được kết hợp, thậm chí nếu tập tin kết hợp được kích hoạt ở đây hoặc ở cấp độ trang web.</value>
+  </data>
+  <data name="DebugEnabled.Title" xml:space="preserve">
+    <value>Liên quan đến chế độ gỡ lỗi ứng dụng</value>
+  </data>
+  <data name="EditSkinPreview.Text" xml:space="preserve">
+    <value>Preview Edit Skin and Container</value>
+  </data>
+  <data name="EmptyString.Text" xml:space="preserve">
+    <value>&lt;&lt;Empty String&gt;&gt;</value>
+  </data>
+  <data name="ExtensionLabel.Help" xml:space="preserve">
+    <value>Enter the extension, including the period prefix.  The default extension is .aspx.</value>
+  </data>
+  <data name="ExtensionLabel.Text" xml:space="preserve">
+    <value>Extension to use (default is .aspx):</value>
+  </data>
+  <data name="FrameworkDownLevel.Text" xml:space="preserve">
+    <value>Note: You are running on an old version of the .NET Framework.  The DNN Platform requires .NET 4.0 or later.</value>
+  </data>
+  <data name="HostEmail.Error" xml:space="preserve">
+    <value>Email Address is invalid</value>
+  </data>
+  <data name="Html5Doctype.Text" xml:space="preserve">
+    <value>HTML 5</value>
+  </data>
+  <data name="IncrementCrmVersionButton.Text" xml:space="preserve">
+    <value>Increment Site Version</value>
+  </data>
+  <data name="IncrementCrmVersionConfirm.Text" xml:space="preserve">
+    <value>&lt;p&gt;This action will force all site visitors to download new versions of CSS and JavaScript files. You should only do this if you are certain that the files have changed and you want those changes to be reflected on the client's browser.&lt;/p&gt;&lt;p&gt;Are you sure you want to increment the version number for your site?&lt;/p&gt;</value>
+  </data>
+  <data name="IncrementCrmVersionError.Text" xml:space="preserve">
+    <value>There was an error incrementing the Client Resource version.</value>
+  </data>
+  <data name="IPFilters.Text" xml:space="preserve">
+    <value>Lọc IP đăng nhập</value>
+  </data>
+  <data name="IPFiltersDisabled.Text" xml:space="preserve">
+    <value>Lọc IP đăng nhập đã vô hiệu hóa. Để kích hoạt này xin vui lòng kiểm tra kích hoạt kiểm tra địa chỉ IP.</value>
+  </data>
+  <data name="IPFiltersDisabled.Title" xml:space="preserve">
+    <value>Liên quan đến việc lọc IP</value>
+  </data>
+  <data name="IPFiltersInfo.Text" xml:space="preserve">
+    <value>Khi cấu hình các lọc địa chỉ IP, người dùng không thể chỉnh sửa/xóa một mục mà sẽ khóa địa chỉ IP hiện tại của họ.</value>
+  </data>
+  <data name="IPFiltersInfo.Title" xml:space="preserve">
+    <value>Liên quan đến các thiết lập lọc IP</value>
+  </data>
+  <data name="Items.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="JQuery.Text" xml:space="preserve">
+    <value>Thiết lập jQuery</value>
+  </data>
+  <data name="lblCustomAnalyzer.Help" xml:space="preserve">
+    <value>&lt;p&gt;If this is empty, system will use standard analyzer to index content. if you want to use custom analyzer, please type the full name of analyzer class in this field.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note: &lt;/b&gt;If you want exist content to index with new analyzer, you need visit "Admin &gt; Search Admin" in each site which you want re-index and click the "Re-Index Content" button.&lt;/p&gt;</value>
+  </data>
+  <data name="lblCustomAnalyzer.Text" xml:space="preserve">
+    <value>Tùy chỉnh loại phân tích:</value>
+  </data>
+  <data name="lblGetMoreInformation.Text" xml:space="preserve">
+    <value>Thông tin thêm</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Help" xml:space="preserve">
+    <value>Enter the maximum word size to be included in the Index.</value>
+  </data>
+  <data name="lblIndexWordMaxLength.Text" xml:space="preserve">
+    <value>Chiều dài tối đa ký tự:</value>
+  </data>
+  <data name="lblIndexWordMinLength.Help" xml:space="preserve">
+    <value>Enter the minimum word size to be included in the Index.</value>
+  </data>
+  <data name="lblIndexWordMinLength.Text" xml:space="preserve">
+    <value>Chiều dài ký tự tối thiểu:</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Help" xml:space="preserve">
+    <value>The number of active documents in search index files</value>
+  </data>
+  <data name="lblSearchIndexActiveDocuments.Text" xml:space="preserve">
+    <value>Active Documents:</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Help" xml:space="preserve">
+    <value>The total size of search index database files</value>
+  </data>
+  <data name="lblSearchIndexDbSize.Text" xml:space="preserve">
+    <value>Search Index Size:</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Help" xml:space="preserve">
+    <value>The number of deleted documents in search index files</value>
+  </data>
+  <data name="lblSearchIndexDeletedDocuments.Text" xml:space="preserve">
+    <value>Deleted Documents:</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Help" xml:space="preserve">
+    <value>Last modified time of search index files</value>
+  </data>
+  <data name="lblSearchIndexLastModifiedOn.Text" xml:space="preserve">
+    <value>Last Modified On:</value>
+  </data>
+  <data name="lblSearchIndexPath.Help" xml:space="preserve">
+    <value>Location where Search Index is stored. This location can be manually changed by creating a Host Setting "Search_IndexFolder" in database. It is advised to stop App Pool prior to making this change. Content of old folder must be manually copied to new location also or manual re-index must be triggered. </value>
+  </data>
+  <data name="lblSearchIndexPath.Text" xml:space="preserve">
+    <value>Đường dẫn chỉ mục tìm kiếm:</value>
+  </data>
+  <data name="LegacyDoctype.Text" xml:space="preserve">
+    <value>HTML 4 (legacy)</value>
+  </data>
+  <data name="LogLocations.Text" xml:space="preserve">
+    <value>Vị trí nhật ký</value>
+  </data>
+  <data name="LogSettings.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="LogSettingsHelp.Text" xml:space="preserve">
+    <value>View install and other logs</value>
+  </data>
+  <data name="MaxIdleTimeValidation.Text" xml:space="preserve">
+    <value>Numbers from 1 to 2147483647 only!</value>
+  </data>
+  <data name="maxUploadSize.Error" xml:space="preserve">
+    <value>Tối đa kích thước tải lên phải nằm trong 12 và {0}</value>
+  </data>
+  <data name="Mb.Text" xml:space="preserve">
+    <value>Mb</value>
+  </data>
+  <data name="MembershipManagement.Text" xml:space="preserve">
+    <value>Quản lý thành viên</value>
+  </data>
+  <data name="MessageIndexWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Compacting&lt;/b&gt; Index đòi không gian từ các file trong khu Index Store. Compacting được khuyến cáo chỉ khi có nhiều 'Tài liệu bị xóa' trong Index Store.  Compacting có thể yêu cầu gấp hai lần kích thước của Index Store trong lúc xử lý.
+&lt;b&gt;Re-Indexing&lt;/b&gt; áp dụng cho nội dung từ các trang Host. Re-Index sẽ xóa nội dung hiện tại ra khỏi Index Store và sau đó thiết lập lại re-indexes.
+Compacting và Re-Indexing được thực hiện bởi Site Search Crawler.
+
+&lt;b&gt;Chú ý&lt;/b&gt; - Compacting hoặc Re-Indexing  nên được thực hiện trong giờ không cao điểm.</value>
+  </data>
+  <data name="MinificationSettingsInfo.Text" xml:space="preserve">
+    <value>Nếu cài đặt được minification thay đổi khi các composite files được kích hoạt, đầu tiên bạn phải lưu các thiết lập minification bằng cách nhấn cập nhật và sau đó tăng phiên bản.</value>
+  </data>
+  <data name="MinificationSettingsInfo.Title" xml:space="preserve">
+    <value>liên quan đến các thiết lập minification</value>
+  </data>
+  <data name="ModuleCacheProvider.Help" xml:space="preserve">
+    <value>Select the default module caching provider.  This setting can be overridden by each individual module.</value>
+  </data>
+  <data name="ModuleCacheProvider.Text" xml:space="preserve">
+    <value>Module Cache Provider</value>
+  </data>
+  <data name="Never.Text" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="NoPermissions.Text" xml:space="preserve">
+    <value>No Permissions</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Thiết lập khác</value>
+  </data>
+  <data name="PageCacheProvider.Help" xml:space="preserve">
+    <value>Select the default Page Caching Provider.  The caching provider must be enabled by setting the cache timeout on each page.</value>
+  </data>
+  <data name="PageCacheProvider.Text" xml:space="preserve">
+    <value>Page Output Cache Provider</value>
+  </data>
+  <data name="PageOnly.Text" xml:space="preserve">
+    <value>Only pages with no querystring.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Help" xml:space="preserve">
+    <value>The number of days before a User must change their password (value of 0 means the password never expires)</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiry.Text" xml:space="preserve">
+    <value>Hiệu lực mật khẩu (trong ngày):</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Help" xml:space="preserve">
+    <value>The number of days warning the user will recieve that their password is about to expire.</value>
+  </data>
+  <data name="PasswordConfig_PasswordExpiryReminder.Text" xml:space="preserve">
+    <value>Nhắc nhở hiệu lực mật khẩu (trong ngày):</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Help" xml:space="preserve">
+    <value>Administrator reset links are only valid for (in minutes).</value>
+  </data>
+  <data name="plAdminResetLinkValidity.Text" xml:space="preserve">
+    <value>Thời gian quản trị đặt lại liện kết (phút)</value>
+  </data>
+  <data name="plAJAX.Help" xml:space="preserve">
+    <value>Check this box to enable AJAX support.</value>
+  </data>
+  <data name="plAJAX.Text" xml:space="preserve">
+    <value>Enable AJAX?</value>
+  </data>
+  <data name="plAsyncTimeout.Help" xml:space="preserve">
+    <value>Set a value that indicates the time, in seconds, before asynchronous postbacks time out if no response is received, the value should between 90-9999 seconds.</value>
+  </data>
+  <data name="plAsyncTimeout.Text" xml:space="preserve">
+    <value>Time Before Timeout:</value>
+  </data>
+  <data name="plBatch.Help" xml:space="preserve">
+    <value>The number of messages sent by the messaging scheduler in each batch.</value>
+  </data>
+  <data name="plBatch.Text" xml:space="preserve">
+    <value>Tổng số tin nhắn trong mỗi lần gửi</value>
+  </data>
+  <data name="plBetaNotice.Help" xml:space="preserve">
+    <value>Check this box to display a message indicating that the running version is a Beta release.</value>
+  </data>
+  <data name="plBetaNotice.Text" xml:space="preserve">
+    <value>Display Beta Message?</value>
+  </data>
+  <data name="plConnectionLimit.Help" xml:space="preserve">
+    <value>Số lượng tối đa cho phép kết nối trên đối tượng ServicePoint này. Giá trị tối đa là 2147483647. mặc định là 1.</value>
+  </data>
+  <data name="plConnectionLimit.Text" xml:space="preserve">
+    <value>Giới hạn kết nối:</value>
+  </data>
+  <data name="plContentLocalization.Help" xml:space="preserve">
+    <value>Check this to enable passing the users current culture allowing for dynamic website and content localization</value>
+  </data>
+  <data name="plContentLocalization.Text" xml:space="preserve">
+    <value>Cho phép nội dung nội địa hóa?</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Help" xml:space="preserve">
+    <value>Composite files are combinations of resources (JavaScript and CSS) created to reduce the number of file requests by the browser. This will significantly increase the page loading speed.</value>
+  </data>
+  <data name="plCrmEnableCompositeFiles.Text" xml:space="preserve">
+    <value>Cho phép Composite Files</value>
+  </data>
+  <data name="plCrmMinifyCss.Help" xml:space="preserve">
+    <value>CSS minification will reduce the size of the CSS code by using regular expressions to remove comments, whitespace and "dead css".  It is only available when composite files are enabled.</value>
+  </data>
+  <data name="plCrmMinifyCss.Text" xml:space="preserve">
+    <value>Thu gọn CSS</value>
+  </data>
+  <data name="plCrmMinifyJs.Help" xml:space="preserve">
+    <value>JS minification will reduce the size of the JavaScript code using JSMin. It is only available when composite files are enabled.</value>
+  </data>
+  <data name="plCrmMinifyJs.Text" xml:space="preserve">
+    <value>Thu gọn JS</value>
+  </data>
+  <data name="plCrmVersion.Help" xml:space="preserve">
+    <value>To manage browser caching, client resources are assigned a version number. This number is increased when an extension is installed, portal.css is updated, or when the server cache is cleared.  It applies to any processed file (combined and/or minified).  You can manually increase the number below to force browsers to download new copies of the resource files.</value>
+  </data>
+  <data name="plCrmVersion.Text" xml:space="preserve">
+    <value>Phiên bản Host hiện tại</value>
+  </data>
+  <data name="plDebugMode.Help" xml:space="preserve">
+    <value>If checked the installation runs in "debug mode", meaning that various parts of the application will write more verbose error logs etc. Note this may lead to performance degradation.</value>
+  </data>
+  <data name="plDebugMode.Text" xml:space="preserve">
+    <value>Chế độ Debug</value>
+  </data>
+  <data name="plebFarm.Text" xml:space="preserve">
+    <value>Web Farm Enabled?</value>
+  </data>
+  <data name="plEnableBannedList.Help" xml:space="preserve">
+    <value>Sets whether passwords are checked against a list of banned items</value>
+  </data>
+  <data name="plEnableBannedList.Text" xml:space="preserve">
+    <value>Kích hoạt danh sách mật khẩu cấm</value>
+  </data>
+  <data name="plEnableCDN.Help" xml:space="preserve">
+    <value>If checked, then the associated URL will be used for javascript libraries.  If unchecked then local copies of the file will be used.</value>
+  </data>
+  <data name="plEnableCDN.Text" xml:space="preserve">
+    <value>Sử dụng thư viện javascript CDN?</value>
+  </data>
+  <data name="plEnableContentLocalization.Help" xml:space="preserve">
+    <value>Check this box to allow site administrators to enable content localization for their site.</value>
+  </data>
+  <data name="plEnableContentLocalization.Text" xml:space="preserve">
+    <value>Cho phép nội dung nội địa hóa?</value>
+  </data>
+  <data name="plEnableIPChecking.Help" xml:space="preserve">
+    <value>Sets whether IP address is checked during login</value>
+  </data>
+  <data name="plEnableIPChecking.Text" xml:space="preserve">
+    <value>Kích hoạt kiểm tra địa chỉ IP</value>
+  </data>
+  <data name="plEnablePasswordHistory.Help" xml:space="preserve">
+    <value>Sets whether a list of recently used passwords is maintained and checked to prevent re-use.</value>
+  </data>
+  <data name="plEnablePasswordHistory.Text" xml:space="preserve">
+    <value>Cho phép lịch sử mật khẩu?</value>
+  </data>
+  <data name="plEnableStrengthMeter.Help" xml:space="preserve">
+    <value>Sets whether the password strength meter is shown on registration screen</value>
+  </data>
+  <data name="plEnableStrengthMeter.Text" xml:space="preserve">
+    <value>Kích hoạt kiểm tra đọ khó mật khẩu</value>
+  </data>
+  <data name="plHostDefaultDocType.Help" xml:space="preserve">
+    <value>Sets the fallback Skin Doctype for webpages.  This is used if the Skin does not define the DocType.</value>
+  </data>
+  <data name="plHostDefaultDocType.Text" xml:space="preserve">
+    <value>Fallback Skin Doctype:</value>
+  </data>
+  <data name="plIdentity.Help1" xml:space="preserve">
+    <value>The Windows user account under which the application is running. This is the account which needs to be granted folder permissions on the server.</value>
+  </data>
+  <data name="plIdentity.Text1" xml:space="preserve">
+    <value>ASP.NET Identity:</value>
+  </data>
+  <data name="plIPAddress.Help" xml:space="preserve">
+    <value>The IP Address of the Server.</value>
+  </data>
+  <data name="plIPAddress.Text" xml:space="preserve">
+    <value>IP Address:</value>
+  </data>
+  <data name="plJQueryDebugVersion.Help" xml:space="preserve">
+    <value>If checked, then the standard jQuery script file is used.  If unchecked, then a minified version is used which  significantly reduces the size of the javascript file, but decreases readability of the javascript.</value>
+  </data>
+  <data name="plJQueryDebugVersion.Text" xml:space="preserve">
+    <value>Use jQuery Debug Version?</value>
+  </data>
+  <data name="plJQueryHostUrl.Help" xml:space="preserve">
+    <value>This is the full URL for the jQuery script.  By default this is set to the latest jQuery minified script hosted on Google's CDN servers for optimum performance.</value>
+  </data>
+  <data name="plJQueryHostUrl.Text" xml:space="preserve">
+    <value>Hosted jQuery URL:</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Help" xml:space="preserve">
+    <value>This is the full URL for the jQuery migrate plugin. If this field is empty then it will continue to use the resource in website.</value>
+  </data>
+  <data name="plJQueryMigrateHostUrl.Text" xml:space="preserve">
+    <value>Hosted jQuery Migrate Plugin URL:</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Help" xml:space="preserve">
+    <value>This is the full URL for the jQuery UI script.  By default this is set to the latest jQuery UI minified script hosted on Google's CDN servers for optimum performance.</value>
+  </data>
+  <data name="plJQueryUIHostUrl.Text" xml:space="preserve">
+    <value>Hosted jQuery UI URL:</value>
+  </data>
+  <data name="plJQueryUIVersion.Help" xml:space="preserve">
+    <value>Identifies the version string embedded in the local jQuery UI script.</value>
+  </data>
+  <data name="plJQueryUIVersion.Text" xml:space="preserve">
+    <value>Phiên bản jQuery UI được cài đặt</value>
+  </data>
+  <data name="plJQueryUseHosted.Help" xml:space="preserve">
+    <value>If checked, then the associated URL will be used for the jQuery file.  If unchecked then local copies of the file will be used.</value>
+  </data>
+  <data name="plJQueryUseHosted.Text" xml:space="preserve">
+    <value>Use Hosted jQuery Version?</value>
+  </data>
+  <data name="plJQueryVersion.Help" xml:space="preserve">
+    <value>Identifies the version string embedded in the local jQuery script.</value>
+  </data>
+  <data name="plJQueryVersion.Text" xml:space="preserve">
+    <value>Phiên bản jQuery được cài đặt:</value>
+  </data>
+  <data name="plLogs.Help" xml:space="preserve">
+    <value>Danh sách tập tin nhật ký cho phép xem</value>
+  </data>
+  <data name="plLogs.Text" xml:space="preserve">
+    <value>Tập tin nhật ký</value>
+  </data>
+  <data name="plMaxIdleTime.Help" xml:space="preserve">
+    <value>The length of time, in milliseconds, that a connection associated with the ServicePoint object can remain idle before it is closed and reused for another connection. Max value is 2147483647. Default is 0. 
+</value>
+  </data>
+  <data name="plMaxIdleTime.Text" xml:space="preserve">
+    <value>Max Idle Time:</value>
+  </data>
+  <data name="plMaxUploadSize.Help" xml:space="preserve">
+    <value>Kích thước tối đa của tập tin đó có thể được tải lên trang web. Tối thiểu là 12 Mb..</value>
+  </data>
+  <data name="plMaxUploadSize.Text" xml:space="preserve">
+    <value>Tối đa kích thước tải lên</value>
+  </data>
+  <data name="plMsAjaxCdn.Help" xml:space="preserve">
+    <value>Enable CDN setting for Microsoft Ajax Library?</value>
+  </data>
+  <data name="plMsAjaxCdn.Text" xml:space="preserve">
+    <value>Cho phép MS Ajax CDN?</value>
+  </data>
+  <data name="plNotifyUpgrade.Help" xml:space="preserve">
+    <value>If checked the Host user will be notified of Updates by email.</value>
+  </data>
+  <data name="plNotifyUpgrade.Text" xml:space="preserve">
+    <value>Notify Host?</value>
+  </data>
+  <data name="plNumberPasswords.Help" xml:space="preserve">
+    <value>Sets number of passwords to store for reuse check</value>
+  </data>
+  <data name="plNumberPasswords.Text" xml:space="preserve">
+    <value>Số lượng mật khẩu được lưu</value>
+  </data>
+  <data name="plProduct.Help" xml:space="preserve">
+    <value>The application you are running</value>
+  </data>
+  <data name="plProduct.Text" xml:space="preserve">
+    <value>Sản phẩm:</value>
+  </data>
+  <data name="plPsWarning.Text" xml:space="preserve">
+    <value>Warning: Memory page state persistence can cause Ajax issues</value>
+  </data>
+  <data name="plRememberMe.Help" xml:space="preserve">
+    <value>Sets the remember me checkbox on login controls. If remember me is allowed, users can create cookies that are persisted over multiple visits.</value>
+  </data>
+  <data name="plRememberMe.Text" xml:space="preserve">
+    <value>Ghi nhớ đăng nhập?</value>
+  </data>
+  <data name="plResetLinkValidity.Help" xml:space="preserve">
+    <value>Password reset links are only valid for (in minutes).</value>
+  </data>
+  <data name="plResetLinkValidity.Text" xml:space="preserve">
+    <value>Thời gian đặt lại liên kết (phút)</value>
+  </data>
+  <data name="plServerTime.Help" xml:space="preserve">
+    <value>The current date and time for the web server</value>
+  </data>
+  <data name="plServerTime.Text" xml:space="preserve">
+    <value>Server Time:</value>
+  </data>
+  <data name="plShowCriticalErrors.Help" xml:space="preserve">
+    <value>This setting determines if error messages sent via the error querystring parameter should be shown inline in the page.</value>
+  </data>
+  <data name="plShowCriticalErrors.Text" xml:space="preserve">
+    <value>Hiển thị lỗi quan trọng trên màn hình?</value>
+  </data>
+  <data name="plSSLDomain.Help" xml:space="preserve">
+    <value>The domain used when upgrade wizard forced to shown in SSL channel.</value>
+  </data>
+  <data name="plSSLDomain.Text" xml:space="preserve">
+    <value>SSL Domain</value>
+  </data>
+  <data name="plTelerikBasicUrl.Help" xml:space="preserve">
+    <value>Set the basic URL of Telerik CDN, it will use the files on Telerik server if you keep this field empty. you can see more from &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;here&lt;/a&gt;.</value>
+  </data>
+  <data name="plTelerikBasicUrl.Text" xml:space="preserve">
+    <value>Telerik CDN Basic URL</value>
+  </data>
+  <data name="plTelerikCdn.Help" xml:space="preserve">
+    <value>Enable CDN settings for Telerik Controls?</value>
+  </data>
+  <data name="plTelerikCdn.Text" xml:space="preserve">
+    <value>Cho phép Telerik CDN?</value>
+  </data>
+  <data name="plTelerikSecureUrl.Help" xml:space="preserve">
+    <value>Set the secure URL of Telerik CDN, it will use the files on Telerik server if you keep this field empty. you can see more from &lt;a href="http://www.telerik.com/help/aspnet-ajax/cdn-custom-provider.html" target="_blank"&gt;here&lt;/a&gt;.</value>
+  </data>
+  <data name="plTelerikSecureUrl.Text" xml:space="preserve">
+    <value>Telerik CDN Secure URL</value>
+  </data>
+  <data name="plThrowExceptions.Help" xml:space="preserve">
+    <value>Check this to enable core exceptions that are due to missing fields in data returned from the database to be rethrown.  If this is not checked the error is logged in the Event Log.  If this is checked the error is bubbled up.  This setting is primarily used for developers to diagnose problems.</value>
+  </data>
+  <data name="plThrowExceptions.Text" xml:space="preserve">
+    <value>Rethrow CBO Exceptions:</value>
+  </data>
+  <data name="plUpgradeForceSSL.Help" xml:space="preserve">
+    <value>Whether force upgrade wizard shown in SSL channel.</value>
+  </data>
+  <data name="plUpgradeForceSSL.Text" xml:space="preserve">
+    <value>Require SSL for Upgrade wizard</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Help" xml:space="preserve">
+    <value>Check this option to enable a custom css class based on the module definition to be rendered.  This can be used by skin designers to apply specific css styles to specific module types.</value>
+  </data>
+  <data name="plUseCustomModuleCssClass.Text" xml:space="preserve">
+    <value>Use Custom Module Css Class?</value>
+  </data>
+  <data name="plWebFarm.Help" xml:space="preserve">
+    <value>Is this site using a Web Farm.</value>
+  </data>
+  <data name="plWebFarm.Text" xml:space="preserve">
+    <value>Is Web Farm?</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Please select a skin and/or container to preview.</value>
+  </data>
+  <data name="ReIndexConfirmationCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ReIndexConfirmationMessage.Text" xml:space="preserve">
+    <value>Re-Index will cause existing content in the Index Store to be deleted. Re-index is done by search crawler(s) and depends on their scheduling frequency. Are you sure you want to continue?</value>
+  </data>
+  <data name="ReIndexConfirmationTitle.Text" xml:space="preserve">
+    <value>Confirm Re-Indexing</value>
+  </data>
+  <data name="ReIndexConfirmationYes.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="SearchIndex.Text" xml:space="preserve">
+    <value>Thiết lập tìm kiếm</value>
+  </data>
+  <data name="SelectLog.Text" xml:space="preserve">
+    <value>Hãy chọn tập tin nhật ký để xem</value>
+  </data>
+  <data name="SkinPreview.Text" xml:space="preserve">
+    <value>Preview Host Skin and Container</value>
+  </data>
+  <data name="SmtpServerWarning.Text" xml:space="preserve">
+    <value>You are try to use a custom SMTP port with your install instance running under medium trust, you need contact your host provider to make sure this setting can work correctly on the server.</value>
+  </data>
+  <data name="StrictDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 strict</value>
+  </data>
+  <data name="TransDoctype.Text" xml:space="preserve">
+    <value>XHTML 1.0 transitional</value>
+  </data>
+  <data name="txtBatch.Help" xml:space="preserve">
+    <value>The number of messages sent by the messaging scheduler in each batch.</value>
+  </data>
+  <data name="txtBatch.Text" xml:space="preserve">
+    <value>Tổng số tin nhắn trong mỗi lần gửi:</value>
+  </data>
+  <data name="UpgradeFramework.Text" xml:space="preserve">
+    <value>Update Current .NET Framework</value>
+  </data>
+  <data name="UpgradeNever.Text1" xml:space="preserve">
+    <value>Never</value>
+  </data>
+  <data name="UserRestart.Text" xml:space="preserve">
+    <value>User triggered an Application Restart</value>
+  </data>
+  <data name="valAdminResetLink.Error" xml:space="preserve">
+    <value>Administrator reset link timeouts must be greater than 0</value>
+  </data>
+  <data name="valFileExtensions.Error" xml:space="preserve">
+    <value>&lt;br/&gt;File Extensions can only include letters, numbers and the underscore, separated by commas.</value>
+  </data>
+  <data name="valIndexWordMaxLengthCompare.Error" xml:space="preserve">
+    <value>Must be integer that greater than min length</value>
+  </data>
+  <data name="valIndexWordMaxLengthRequired.Error" xml:space="preserve">
+    <value>Max length of index word is required</value>
+  </data>
+  <data name="valIndexWordMinLengthCompare.Error" xml:space="preserve">
+    <value>Must be integer that greater than 0</value>
+  </data>
+  <data name="valIndexWordMinLengthRequired.Error" xml:space="preserve">
+    <value>Min length of index word is required</value>
+  </data>
+  <data name="valResetLink.Error" xml:space="preserve">
+    <value>Reset link timeouts must be greater than 0</value>
+  </data>
+</root>

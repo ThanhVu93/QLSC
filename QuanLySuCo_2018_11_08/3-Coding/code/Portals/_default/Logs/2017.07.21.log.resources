@@ -1,0 +1,321 @@
+08:47:02,365 [tdduy-pc][Thread:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:02,449 [tdduy-pc][Thread:31][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+08:47:04,147 [tdduy-pc][Thread:31][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:04,153 [tdduy-pc][Thread:31][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+08:47:04,635 [tdduy-pc][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:04,639 [tdduy-pc][Thread:28][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+08:47:06,947 [tdduy-pc][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:06,952 [tdduy-pc][Thread:27][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+08:47:09,392 [tdduy-pc][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:09,395 [tdduy-pc][Thread:19][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+08:47:10,490 [tdduy-pc][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 50461
+	Referer: http://psw.local:9988/Default.aspx?tabid=225
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: L50TCd0tbRR8RtQ0fMkF7ov2uLz49cyJXU8SJGcu7VbqpJ2upVYj3yCVKFS8lChEQFBi9czpC0ELfSFz9JmaQd72qMXI8J6jrgPs8wyhDFi6MGd6BaFunsh7x0RsDp2Er7Wqpr590v8l1MR72nATikZw5hkzQ0HtRNWp/LMn1QkKBYsoADJpCjJkmjUK43qyOrrqMkivVMVn5KGQyyfE/WXOBIs0Jbq6Vg7bWAUdO9xKkzTFscf5/ZGGwRRYrdkS+9s6J76R4CXc6BfbCyz7PN+1V6fQuMSnD+g+t/IjCs+73RcdjzYar/OZTklGJL0Sf8if6T71uqsNR1RNNIapMkzTleIT6Ag0wNCPGVVO6rxtqPpX6eZvxKiio0Y5w54wjv2dRI1/DjzP/gnCTpMNBuawzTRZJ09mtQAcXyQbKpJH2x/7o0NORZWM1n+5oaPvj5hKQEwQRqz113Ba7RFULTuCbdzGEKF9PigUpsMqBIVRZzozQ9fRzAohmR0LYGv6SlX+Be86/LsvrD6fq5kWLeatbCDTvXoRAdFgJD+j4qQkp6/mYivDfAnbR/vLR3tKcue1TstgiYUtmOFzs+BUoDFB6le1g4NcsQHaLsY/jkj+LH3FDrbV0MMJdnLfqIjkNyn5j1dn1Bo1nTnW0ro4Uxqod1Uh73b18/nzVAoIuji0dEbA4FGsPSj1n2Hnyu3XUNm95MSoGRar9Q655ssPKZuBbxqTs1R84lkbKKd0a2oBUiR7hPSrrgwvJgV...
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.ClientScriptManager.EnsureEventValidationFieldLoaded()
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.TextBox.LoadPostData(String postDataKey, NameValueCollection postCollection)
+   at System.Web.UI.Page.ProcessPostData(NameValueCollection postData, Boolean fBeforeLoad)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+08:47:10,496 [tdduy-pc][Thread:28][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.ApplicationException: Server.Transfer cannot be called in a Page callback.
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\2eb33aa4\6ab801b\App_Web_yqfaxdem.4.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:35:56,117 [tdduy-pc][Thread:28][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+09:35:56,157 [tdduy-pc][Thread:28][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+11:58:22,761 [tdduy-pc][Thread:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 57542
+	Referer: http://psw.local:9988/Default.aspx?tabid=239&ctl=edit&mid=707&title=C%E1%BA%ADp%20nh%E1%BA%ADt%20t%C3%ADnh%20ph%C3%AD%20kho&PK_ID=0
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: sLrvhJQD2PGcC/CSLnKwJb9Jc8fQ91zGqZA1oq9ZwMG+kKKsovTpVVrZtYZgymt+zsSGw2YYcTE5PCFjVETZSDsWcKhcdsu8AfMuYU5Anxb7ZJ6RX0epo/pTcCsh8c0gTMyYKhr/1eZCZourY20Q7/KlUeTuNVLo4+UEoS35hx3Ba1h79ipWHsc0ONxuT40r3mIFcfTvJMjYezPdwVQGGZpHFbCxCQ7m057sm0yOtUwpRY23VDBy7V9yLkClwaACzDxow4D0FSXnn0Hr6mgql2BsOAlrQYbAwV+TsEW2z4O/MYanBYKXP9GSHWryiBwZVrXdgKk28gi4DxXuasHF1sc6O1afhDoAJjqkc2C52y5Gk53cBk2+A57a6NQ6DmXtYFQDxm00zOHtoKWfJGdygnPsWxViWO1Txcj+FqiI3JxSwOaxozGKSR8IL+SyY+fsC0o/jffaNiZSD2xSNGJdA2Nb6gC1zKrFOimTUBWdsgepKP9iOnyVIwexapetGT4yGk0DsaF0/Y3tWBGoPM1x1JkTB8iccYmXo9Egou/xLGNqjPjenBoVhBOXR4wHx+VSCCe0tc+Xoj4/CNjuQ2eekGXB0lQBMHr/TsgrrUtiNmX5S63d7salt7CZybSeIu8I7JRwUYK/dEDOC0yqylfNvfrwSMwGjCFNBAKB... ---> System.ArgumentException: The serialized data is invalid. ---> System.Runtime.Serialization.SerializationException: Unable to find assembly 'App_Web_x3ktzaxw, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(BinaryAssemblyInfo assemblyInfo, String name)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(Stream inputStream)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.Deserialize(Stream inputStream)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:58:22,875 [tdduy-pc][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - DotNetNuke.Services.Exceptions.PageLoadException: The state information is invalid for this page and might be corrupted. ---> System.Web.HttpException: The state information is invalid for this page and might be corrupted. ---> System.Web.UI.ViewStateException: Invalid viewstate. 
+	Client IP: 127.0.0.1
+	Port: 57542
+	Referer: http://psw.local:9988/Default.aspx?tabid=239&ctl=edit&mid=707&title=C%E1%BA%ADp%20nh%E1%BA%ADt%20t%C3%ADnh%20ph%C3%AD%20kho&PK_ID=0
+	Path: /Default.aspx
+	User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+	ViewState: sLrvhJQD2PGcC/CSLnKwJb9Jc8fQ91zGqZA1oq9ZwMG+kKKsovTpVVrZtYZgymt+zsSGw2YYcTE5PCFjVETZSDsWcKhcdsu8AfMuYU5Anxb7ZJ6RX0epo/pTcCsh8c0gTMyYKhr/1eZCZourY20Q7/KlUeTuNVLo4+UEoS35hx3Ba1h79ipWHsc0ONxuT40r3mIFcfTvJMjYezPdwVQGGZpHFbCxCQ7m057sm0yOtUwpRY23VDBy7V9yLkClwaACzDxow4D0FSXnn0Hr6mgql2BsOAlrQYbAwV+TsEW2z4O/MYanBYKXP9GSHWryiBwZVrXdgKk28gi4DxXuasHF1sc6O1afhDoAJjqkc2C52y5Gk53cBk2+A57a6NQ6DmXtYFQDxm00zOHtoKWfJGdygnPsWxViWO1Txcj+FqiI3JxSwOaxozGKSR8IL+SyY+fsC0o/jffaNiZSD2xSNGJdA2Nb6gC1zKrFOimTUBWdsgepKP9iOnyVIwexapetGT4yGk0DsaF0/Y3tWBGoPM1x1JkTB8iccYmXo9Egou/xLGNqjPjenBoVhBOXR4wHx+VSCCe0tc+Xoj4/CNjuQ2eekGXB0lQBMHr/TsgrrUtiNmX5S63d7salt7CZybSeIu8I7JRwUYK/dEDOC0yqylfNvfrwSMwGjCFNBAKB... ---> System.ArgumentException: The serialized data is invalid. ---> System.Runtime.Serialization.SerializationException: Unable to find assembly 'App_Web_x3ktzaxw, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null'.
+   at System.Runtime.Serialization.Formatters.Binary.BinaryAssemblyInfo.GetAssembly()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.GetType(BinaryAssemblyInfo assemblyInfo, String name)
+   at System.Runtime.Serialization.Formatters.Binary.ObjectMap..ctor(String objectName, String[] memberNames, BinaryTypeEnum[] binaryTypeEnumA, Object[] typeInformationA, Int32[] memberAssemIds, ObjectReader objectReader, Int32 objectId, BinaryAssemblyInfo assemblyInfo, SizedArray assemIdToAssemblyTable)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.ReadObjectWithMapTyped(BinaryObjectWithMapTyped record)
+   at System.Runtime.Serialization.Formatters.Binary.__BinaryParser.Run()
+   at System.Runtime.Serialization.Formatters.Binary.ObjectReader.Deserialize(HeaderHandler handler, __BinaryParser serParser, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   at System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.DeserializeValue(SerializerBinaryReader reader)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(Stream inputStream)
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ObjectStateFormatter.Deserialize(Stream inputStream)
+   at System.Web.UI.ObjectStateFormatter.Deserialize(String inputString, Purpose purpose)
+   at System.Web.UI.Util.DeserializeWithAssert(IStateFormatter2 formatter, String serializedState, Purpose purpose)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   --- End of inner exception stack trace ---
+   --- End of inner exception stack trace ---
+   at System.Web.UI.ViewStateException.ThrowError(Exception inner, String persistedState, String errorPageMessage, Boolean macValidationError)
+   at System.Web.UI.HiddenFieldPageStatePersister.Load()
+   at System.Web.UI.Page.LoadPageStateFromPersistenceMedium()
+   at System.Web.UI.Page.LoadAllState()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- End of inner exception stack trace ---
+16:44:56,792 [tdduy-pc][Thread:67][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpParseException (0x80004005): The tag contains duplicate 'id' attributes. ---> System.Web.HttpParseException (0x80004005): The tag contains duplicate 'id' attributes. ---> System.Web.HttpException (0x80004005): The tag contains duplicate 'id' attributes.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+16:44:56,842 [tdduy-pc][Thread:67][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpParseException (0x80004005): The tag contains duplicate 'id' attributes. ---> System.Web.HttpParseException (0x80004005): The tag contains duplicate 'id' attributes. ---> System.Web.HttpException (0x80004005): The tag contains duplicate 'id' attributes.
+   at System.Web.UI.TemplateParser.ProcessError(String message)
+   at System.Web.UI.TemplateParser.ProcessBeginTag(Match match, String inputText)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ProcessException(Exception ex)
+   at System.Web.UI.TemplateParser.ParseStringInternal(String text, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseString(String text, VirtualPath virtualPath, Encoding fileEncoding)
+   at System.Web.UI.TemplateParser.ParseFile(String physicalPath, VirtualPath virtualPath)
+   at System.Web.UI.TemplateParser.ParseInternal()
+   at System.Web.UI.TemplateParser.Parse()
+   at System.Web.Compilation.BaseTemplateBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"

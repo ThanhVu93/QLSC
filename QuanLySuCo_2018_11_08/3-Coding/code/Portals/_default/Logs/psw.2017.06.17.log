@@ -1,0 +1,2345 @@
+09:12:04,781 [ERROR] PSW.HOPDONGMUA_CN:1694 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGMUA_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGMUA_CN.ascx.cs:line 1694
+10:40:10,751 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:41:47,967 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:49:50,852 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:51:09,042 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:52:36,942 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Decimal which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:53:05,759 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Decimal which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+10:59:25,849 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Decimal which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+11:02:50,856 [ERROR] PSW.KHACHHANG_DS:697 - 
+System.NotSupportedException: Unsupported overload used for query operator 'DefaultIfEmpty'.
+   at System.Data.Linq.SqlClient.QueryConverter.VisitSequenceOperatorCall(MethodCallExpression mc)
+   at System.Data.Linq.SqlClient.QueryConverter.VisitInner(Expression node)
+   at System.Data.Linq.SqlClient.QueryConverter.VisitAggregate(Expression sequence, LambdaExpression lambda, SqlNodeType aggType, Type returnType)
+   at System.Data.Linq.SqlClient.QueryConverter.VisitSequenceOperatorCall(MethodCallExpression mc)
+   at System.Data.Linq.SqlClient.QueryConverter.VisitInner(Expression node)
+   at System.Data.Linq.SqlClient.QueryConverter.ConvertOuter(Expression node)
+   at System.Data.Linq.SqlClient.SqlProvider.BuildQuery(Expression query, SqlNodeAnnotations annotations)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1380
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 697
+11:42:35,766 [ERROR] PSW.KHACHHANG_DS:582 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1238
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 582
+11:44:36,533 [ERROR] PSW.KHACHHANG_DS:582 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1238
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 582
+11:45:39,162 [ERROR] PSW.KHACHHANG_DS:582 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1238
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 582
+11:46:19,563 [ERROR] PSW.KHACHHANG_DS:582 - 
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1229
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 582
+11:47:40,903 [ERROR] PSW.KHACHHANG_DS:582 - 
+System.InvalidOperationException: Sequence contains more than one element
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.KHACHHANG_DS.GetCongNoKhachHang(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 1229
+   at PSW.KHACHHANG_DS.LoadDs(Int32 pCurentPage, Int32 v_LoaiExcel) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_DS.ascx.cs:line 582
+11:56:07,837 [ERROR] PSW.CONGNO_DS:524 - 
+System.Web.HttpException (0x80004005): Invalid CurrentPageIndex value. It must be >= 0 and < the PageCount.
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at PSW.CONGNO_DS.LoadDs(Int32 pCurentPage) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\CONGNO_DS.ascx.cs:line 524
+11:56:27,061 [ERROR] PSW.CONGNONCC_DS:524 - 
+System.Web.HttpException (0x80004005): Invalid CurrentPageIndex value. It must be >= 0 and < the PageCount.
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at PSW.CONGNONCC_DS.LoadDs(Int32 pCurentPage) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\CONGNONCC_DS.ascx.cs:line 524
+11:56:59,820 [ERROR] PSW.CONGNONCC_DS:524 - 
+System.Web.HttpException (0x80004005): Invalid CurrentPageIndex value. It must be >= 0 and < the PageCount.
+   at System.Web.UI.WebControls.DataGrid.CreateControlHierarchy(Boolean useDataSource)
+   at System.Web.UI.WebControls.BaseDataList.OnDataBinding(EventArgs e)
+   at PSW.CONGNONCC_DS.LoadDs(Int32 pCurentPage) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\CONGNONCC_DS.ascx.cs:line 524
+12:01:59,632 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,646 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [218]
+
+12:01:59,649 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:01:59,673 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,696 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,736 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,742 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [172]
+
+12:01:59,744 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:01:59,746 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,749 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,757 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,760 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [172]
+
+12:01:59,762 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:01:59,764 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,765 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,801 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,803 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [162]
+
+12:01:59,805 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:01:59,807 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,808 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,816 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,819 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [162]
+
+12:01:59,821 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:01:59,823 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,825 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,859 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,861 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [144]
+
+12:01:59,863 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:01:59,865 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,867 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,875 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,877 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [144]
+
+12:01:59,879 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:01:59,882 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,884 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,918 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,921 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [166]
+
+12:01:59,923 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:01:59,925 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,928 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,937 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,939 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [166]
+
+12:01:59,941 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:01:59,944 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,945 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:01:59,982 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:01:59,985 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [163]
+
+12:01:59,988 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:01:59,990 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:01:59,992 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,001 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,004 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [163]
+
+12:02:00,006 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,008 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,010 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,052 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,055 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [170]
+
+12:02:00,057 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,060 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,061 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,071 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,073 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [170]
+
+12:02:00,075 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,077 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,079 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,117 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,120 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [171]
+
+12:02:00,122 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,123 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,124 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,133 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,135 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [171]
+
+12:02:00,136 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,138 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,139 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,174 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,177 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [194]
+
+12:02:00,178 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,180 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,182 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,190 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,193 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [194]
+
+12:02:00,195 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,198 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,201 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,238 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,241 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [199]
+
+12:02:00,242 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,244 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,246 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,254 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,257 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [199]
+
+12:02:00,259 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,262 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,264 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,300 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,303 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [167]
+
+12:02:00,305 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,307 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,309 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,317 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,320 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [167]
+
+12:02:00,322 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,324 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,325 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,362 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,365 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [150]
+
+12:02:00,367 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,369 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,371 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,380 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,383 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [150]
+
+12:02:00,385 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,387 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,389 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,430 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,433 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [145]
+
+12:02:00,435 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,438 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,440 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,449 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,452 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [145]
+
+12:02:00,455 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,458 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,460 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,508 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,511 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,513 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,515 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,519 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,531 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,534 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,537 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,540 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,542 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,589 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,591 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [154]
+
+12:02:00,593 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,595 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,597 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,607 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,609 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [154]
+
+12:02:00,612 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,615 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,618 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,667 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,670 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [208]
+
+12:02:00,673 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,675 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,677 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,689 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,693 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [208]
+
+12:02:00,696 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,699 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,702 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,756 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,759 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [146]
+
+12:02:00,762 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,764 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,768 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,783 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,804 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [146]
+
+12:02:00,808 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,811 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,814 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,870 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,873 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [157]
+
+12:02:00,876 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,879 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,882 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,894 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,899 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [157]
+
+12:02:00,903 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,907 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,910 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,960 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,963 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [142]
+
+12:02:00,965 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:00,968 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,970 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:00,980 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:00,984 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [142]
+
+12:02:00,988 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:00,991 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:00,993 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,053 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,056 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [195]
+
+12:02:01,058 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,060 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,061 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,071 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,074 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [195]
+
+12:02:01,077 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,080 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,083 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,122 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,125 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [155]
+
+12:02:01,127 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,129 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,131 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,139 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,142 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [155]
+
+12:02:01,145 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,147 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,149 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,188 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,191 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [211]
+
+12:02:01,193 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,195 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,197 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,206 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,209 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [211]
+
+12:02:01,211 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,214 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,216 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,254 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,257 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [128]
+
+12:02:01,258 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,260 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,262 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,271 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,274 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [128]
+
+12:02:01,275 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,278 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,280 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,316 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,319 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [158]
+
+12:02:01,321 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,323 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,325 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,333 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,336 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [158]
+
+12:02:01,338 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,339 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,341 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,374 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,377 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [215]
+
+12:02:01,380 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,382 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,384 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,393 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,396 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [215]
+
+12:02:01,398 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,401 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,403 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,444 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,447 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [220]
+
+12:02:01,450 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,452 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,455 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,465 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,469 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [220]
+
+12:02:01,472 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,474 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,476 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,523 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,526 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [139]
+
+12:02:01,529 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,531 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,534 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,545 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,548 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [139]
+
+12:02:01,550 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,552 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,554 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,598 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,600 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [221]
+
+12:02:01,602 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,605 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,607 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,617 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,620 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [221]
+
+12:02:01,622 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,624 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,626 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,670 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,673 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [216]
+
+12:02:01,675 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,677 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,679 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,689 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,691 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [216]
+
+12:02:01,693 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,695 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,697 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,736 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,738 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [164]
+
+12:02:01,740 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:02:01,742 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,744 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:02:01,753 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:02:01,755 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [164]
+
+12:02:01,757 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:02:01,759 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:02:01,761 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,850 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,852 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [218]
+
+12:03:17,855 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:17,857 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:17,861 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,893 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,896 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [172]
+
+12:03:17,898 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:17,900 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:17,902 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,909 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,911 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [172]
+
+12:03:17,913 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:17,914 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:17,915 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,944 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,946 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [162]
+
+12:03:17,948 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:17,949 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:17,951 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,958 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,961 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [162]
+
+12:03:17,962 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:17,963 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:17,965 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:17,997 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:17,999 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [144]
+
+12:03:18,001 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,002 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,005 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,014 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,016 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [144]
+
+12:03:18,018 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,020 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,023 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,058 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,061 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [166]
+
+12:03:18,063 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,066 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,068 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,076 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,079 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [166]
+
+12:03:18,081 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,084 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,086 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,120 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,122 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [163]
+
+12:03:18,123 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,125 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,127 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,134 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,136 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [163]
+
+12:03:18,138 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,140 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,141 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,173 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,175 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [170]
+
+12:03:18,177 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,179 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,180 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,187 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,189 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [170]
+
+12:03:18,190 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,192 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,194 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,224 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,226 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [171]
+
+12:03:18,228 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,229 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,231 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,238 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,255 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [171]
+
+12:03:18,257 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,259 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,261 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,293 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,296 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [194]
+
+12:03:18,297 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,299 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,301 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,308 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,310 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [194]
+
+12:03:18,312 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,314 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,316 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,346 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,348 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [199]
+
+12:03:18,350 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,352 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,354 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,361 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,363 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [199]
+
+12:03:18,365 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,367 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,368 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,401 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,404 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [167]
+
+12:03:18,406 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,408 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,410 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,419 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,421 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [167]
+
+12:03:18,423 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,424 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,427 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,465 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,468 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [150]
+
+12:03:18,470 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,472 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,474 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,482 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,486 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [150]
+
+12:03:18,489 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,492 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,494 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,532 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,534 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [145]
+
+12:03:18,536 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,539 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,541 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,550 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,552 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [145]
+
+12:03:18,554 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,556 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,558 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,591 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,593 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,595 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,597 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,598 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,606 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,608 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,609 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,611 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,612 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,649 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,651 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [154]
+
+12:03:18,653 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,655 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,656 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,665 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,668 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [154]
+
+12:03:18,670 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,672 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,674 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,709 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,712 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [208]
+
+12:03:18,713 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,715 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,717 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,725 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,728 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [208]
+
+12:03:18,730 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,732 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,734 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,776 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,780 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [146]
+
+12:03:18,783 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,785 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,788 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,797 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,800 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [146]
+
+12:03:18,803 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,805 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,809 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,846 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,849 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [157]
+
+12:03:18,851 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,852 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,854 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,862 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,865 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [157]
+
+12:03:18,867 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,869 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,871 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,903 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,904 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [142]
+
+12:03:18,906 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,908 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,910 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,917 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,920 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [142]
+
+12:03:18,922 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,923 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,925 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,957 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,959 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [195]
+
+12:03:18,961 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:18,963 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,964 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:18,972 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:18,974 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [195]
+
+12:03:18,976 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:18,978 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:18,979 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,013 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,015 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [155]
+
+12:03:19,018 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,020 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,022 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,031 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,033 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [155]
+
+12:03:19,036 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,041 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,046 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,083 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,085 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [211]
+
+12:03:19,087 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,088 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,090 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,099 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,101 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [211]
+
+12:03:19,102 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,104 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,105 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,140 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,142 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [128]
+
+12:03:19,144 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,146 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,148 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,157 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,159 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [128]
+
+12:03:19,161 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,163 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,165 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,213 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,217 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [158]
+
+12:03:19,220 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,223 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,226 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,240 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,244 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [158]
+
+12:03:19,247 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,250 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,253 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,300 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,303 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [215]
+
+12:03:19,306 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,308 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,311 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,321 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,324 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [215]
+
+12:03:19,326 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,328 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,330 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,369 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,373 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [220]
+
+12:03:19,375 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,377 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,379 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,387 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,390 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [220]
+
+12:03:19,392 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,394 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,396 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,431 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,433 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [139]
+
+12:03:19,436 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,438 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,440 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,448 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,451 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [139]
+
+12:03:19,453 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,455 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,458 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,497 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,500 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [221]
+
+12:03:19,502 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,504 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,506 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,515 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,518 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [221]
+
+12:03:19,520 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,523 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,525 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,565 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,568 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [216]
+
+12:03:19,569 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,572 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,573 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,583 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,586 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [216]
+
+12:03:19,588 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,590 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,592 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,628 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,631 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [164]
+
+12:03:19,633 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [1]
+
+12:03:19,635 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,638 [DEBUG] PSW.Log4netTextWriter:24 - 
+
+12:03:19,647 [DEBUG] PSW.Log4netTextWriter:24 - SELECT TOP (1) [t2].[value] AS [giatri_congno]
+FROM (
+    SELECT [t1].[value] - [t1].[value2] AS [value]
+    FROM (
+        SELECT SUM([t0].[HD_GIATRI]) AS [value], SUM([t0].[HD_SOTIEN_DATHANHTOAN]) AS [value2]
+        FROM [dbo].[PSW_HOPDONG] AS [t0]
+        WHERE ([t0].[BENB_ID] = @p0) AND (NOT ([t0].[XOA] = 1)) AND ([t0].[HD_LOAI] = @p1)
+        GROUP BY [t0].[HD_GIATRI], [t0].[HD_SOTIEN_DATHANHTOAN]
+        ) AS [t1]
+    ) AS [t2]
+
+12:03:19,650 [DEBUG] PSW.Log4netTextWriter:24 - -- @p0: Input Int (Size = -1; Prec = 0; Scale = 0) [164]
+
+12:03:19,652 [DEBUG] PSW.Log4netTextWriter:24 - -- @p1: Input Int (Size = -1; Prec = 0; Scale = 0) [3]
+
+12:03:19,654 [DEBUG] PSW.Log4netTextWriter:24 - -- Context: SqlProvider(Sql2008) Model: AttributedMetaModel Build: 4.6.1055.0
+
+12:03:19,656 [DEBUG] PSW.Log4netTextWriter:24 - 
+

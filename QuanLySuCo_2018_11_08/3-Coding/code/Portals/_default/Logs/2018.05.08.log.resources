@@ -1,0 +1,6 @@
+16:36:47,160 [THANHVU][Thread:6][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.HasDataProviderLogFiles()
+   at DotNetNuke.Common.Globals.IsInstalled()
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Log.EventLog.LogController.AddLog(LogInfo logInfo)
+   at DotNetNuke.Common.Initialize.LogEnd()

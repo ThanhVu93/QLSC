@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plPortalID.Text" xml:space="preserve">
+    <value>Portal </value>
+  </data>
+  <data name="plPortalID.Help" xml:space="preserve">
+    <value>Chọn Portal bạn muốn xem</value>
+  </data>
+  <data name="plLogType.Text" xml:space="preserve">
+    <value>Thao tác</value>
+  </data>
+  <data name="plLogType.Help" xml:space="preserve">
+    <value>Bạn có thể chọn giới hạn Nhật ký ở những loại sự kiện nhất định</value>
+  </data>
+  <data name="plShowRecords.Text" xml:space="preserve">
+    <value>Hiển thị báo cáo</value>
+  </data>
+  <data name="plShowRecords.Help" xml:space="preserve">
+    <value>Chọn báo cáo bạn muốn xem</value>
+  </data>
+  <data name="ColorCoding.Text" xml:space="preserve">
+    <value>Mở mã màu</value>
+  </data>
+  <data name="Settings.Text" xml:space="preserve">
+    <value>Thiết lập hiển thị</value>
+  </data>
+  <data name="Legend.Text" xml:space="preserve">
+    <value>Chú giải mã màu</value>
+  </data>
+  <data name="Date.Text" xml:space="preserve">
+    <value>Ngày tháng</value>
+  </data>
+  <data name="Type.Text" xml:space="preserve">
+    <value>Thao tác</value>
+  </data>
+  <data name="Username.Text" xml:space="preserve">
+    <value>Tên người dùng</value>
+  </data>
+  <data name="Portal.Text" xml:space="preserve">
+    <value>Portal </value>
+  </data>
+  <data name="Summary.Text" xml:space="preserve">
+    <value>Tóm tắt</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>Xoá những nhật ký đã chọn</value>
+    <comment>Xoá Những Thông Báo Lỗi Đã Được Chọn</comment>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>Xoá nhật ký</value>
+  </data>
+  <data name="SendExceptions.Text" xml:space="preserve">
+    <value>Gửi thông báo lỗi</value>
+  </data>
+  <data name="ExceptionsWarning.Text" xml:space="preserve">
+    <value>&lt;b&gt;Hãy chú ý&lt;/b&gt;: Bằng việc sử dụng những chức năng dưới đây, bạn có thể sẽ gửi đi những dữ liệu nhạy cảm qua Intenet dưới dạng ký tự thông thường (KHÔNG được mã hoá). Trước khi gửi đi những thông báo lỗi, hãy xem lại nội dung thông báo lỗi của bạn để xác nhận là không dữ liệu nhạy cảm nào được chứa đựng bên trong. Chỉ những mục nhật ký được chọn ở trên được gửi đi.
+</value>
+  </data>
+  <data name="SendExceptionsEmail.Text" xml:space="preserve">
+    <value>Gửi thông báo lỗi qua Email</value>
+  </data>
+  <data name="plEmailAddress.Text" xml:space="preserve">
+    <value>Địa chỉ Email</value>
+  </data>
+  <data name="plEmailAddress.Help" xml:space="preserve">
+    <value>Nhập vào địa chỉ Email của người bạn muốn nhận thông báo lỗi.</value>
+  </data>
+  <data name="SendMessage.Text" xml:space="preserve">
+    <value>Thông điệp (không bắt buộc)</value>
+  </data>
+  <data name="SendMessage.Help" xml:space="preserve">
+    <value>Kèm một thông điệp vào thông báo lỗi</value>
+  </data>
+  <data name="btnEmail.Text" xml:space="preserve">
+    <value>Gửi đi những thông báo lỗi đã được chọn</value>
+  </data>
+  <data name="AddContent.Action" xml:space="preserve">
+    <value>Thay đổi các thiết lập nhật ký</value>
+  </data>
+  <data name="NoEntries.Text" xml:space="preserve">
+    <value>Không có mục nhật ký nào cả.</value>
+  </data>
+  <data name="Showing.Text" xml:space="preserve">
+    <value>Hiển thị {0} đến {1} của {2}</value>
+  </data>
+  <data name="DeleteSuccess.Text" xml:space="preserve">
+    <value>Những thông báo lỗi được chọn đã được xoá.</value>
+  </data>
+  <data name="EmailSuccess.Text" xml:space="preserve">
+    <value>Email của bạn đã được gửi.</value>
+  </data>
+  <data name="EmailFailure.Text" xml:space="preserve">
+    <value>Email của bạn đã &lt;b&gt;không&lt;/b&gt; được gửi.</value>
+  </data>
+  <data name="ServiceUnavailable.Text" xml:space="preserve">
+    <value>Dịch vụ mạng tại DotNetNuke.com hiện không có.</value>
+  </data>
+  <data name="ServerName.Text" xml:space="preserve">
+    <value>&lt;b&gt;Tên máy chủ&lt;/b&gt;: </value>
+  </data>
+  <data name="LogCleared.Text" xml:space="preserve">
+    <value>Nhật ký đã được xoá.</value>
+  </data>
+  <data name="ClickRow.Text" xml:space="preserve">
+    <value>Click vào một hàng để xem chi tiết.</value>
+  </data>
+  <data name="ExceptionCode.Text" xml:space="preserve">
+    <value>Thông báo lỗi</value>
+  </data>
+  <data name="ItemCreatedCode.Text" xml:space="preserve">
+    <value>Mục được tạo</value>
+  </data>
+  <data name="ItemUpdatedCode.Text" xml:space="preserve">
+    <value>Mục được cập nhật</value>
+  </data>
+  <data name="ItemDeletedCode.Text" xml:space="preserve">
+    <value>Mục được xoá</value>
+  </data>
+  <data name="SuccessCode.Text" xml:space="preserve">
+    <value>Quá trình thành công</value>
+  </data>
+  <data name="FailureCode.Text" xml:space="preserve">
+    <value>Hoạt động thất bại</value>
+  </data>
+  <data name="AdminOpCode.Text" xml:space="preserve">
+    <value>Hoạt động thông thường</value>
+    <comment>Hoạt Động Thông Thường Của Admin</comment>
+  </data>
+  <data name="AdminAlertCode.Text" xml:space="preserve">
+    <value>Duyệt</value>
+    <comment>Cảnh Báo Admin</comment>
+  </data>
+  <data name="HostAlertCode.Text" xml:space="preserve">
+    <value>Không duyệt</value>
+    <comment>Cảnh Báo Host</comment>
+  </data>
+  <data name="ToEmail.Text" xml:space="preserve">
+    <value>Đến địa chỉ Email đã xác định</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Xem nhật ký</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Về Chức Năng Xem Nhật Ký&lt;/h1&gt;&lt;p&gt;Cho phép bạn xem các mục nhật ký về các sự kiện của portal.&lt;/p&gt;</value>
+  </data>
+  <data name="SecurityException.Text" xml:space="preserve">
+    <value>Lỗi bảo mật </value>
+  </data>
+  <data name="ClearLog.Text" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa tất cả nhật ký?</value>
+  </data>
+  <data name="InavlidEmailAddress.Text" xml:space="preserve">
+    <value>'{0}' is not a valid email address.</value>
+  </data>
+  <data name="plSubject.Help" xml:space="preserve">
+    <value>Enter the subject for the email.</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="SelectException.Text" xml:space="preserve">
+    <value>Vui lòng chọn ít nhất một mục.</value>
+  </data>
+  <data name="Viewer.Text" xml:space="preserve">
+    <value>Viewer</value>
+  </data>
+</root>

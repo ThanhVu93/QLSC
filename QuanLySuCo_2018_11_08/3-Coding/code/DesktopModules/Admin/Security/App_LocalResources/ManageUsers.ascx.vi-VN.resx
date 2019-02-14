@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlTitle_edit.Text">
+    <value>Thay Đổi Tài Khoản Người Sử Dụng</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Module Quản Lý Người Dùng&lt;/h1&gt;&lt;p&gt;Các Quản trị viên có thể quản lý những người dùng đã được đăng ký của họ. Module này cho phép bạn thêm vào những Người dùng mới, thay đổi những người dùng hiện tại, xoá tài khoản, và quản lý Cấp bậc An ninh của người dùng.&lt;/p&gt;
+</value>
+  </data>
+  <data name="UserLockedOut.Text">
+    <value>Tài khoản này đang bị khoá do có quá nhiều đăng nhập không thành công.</value>
+  </data>
+  <data name="InvalidUser.Text">
+    <value>Tài khoản này không phải là một Người dùng của Portal hiện tại.</value>
+  </data>
+  <data name="SuperUser.Text">
+    <value>Tài khoản này là một SuperUser.  Bạn không có quyền thay đổi một Tài khoản SuperUser.</value>
+  </data>
+  <data name="NoUser.Text">
+    <value>Tài khoản này không tồn tại</value>
+  </data>
+  <data name="plNewPassword.Text">
+    <value>Password Mới:</value>
+  </data>
+  <data name="plNewPassword.Help">
+    <value>Nhập Password Mới</value>
+  </data>
+  <data name="plNewConfirm.Text">
+    <value>Xác Nhận Password Mới:</value>
+  </data>
+  <data name="plNewConfirm.Help">
+    <value>Nhập lại password mới để chắc chắn là bạn không đánh sai</value>
+  </data>
+  <data name="ResetPassword.Text">
+    <value>Đặt Lại Password</value>
+  </data>
+  <data name="cmdUpdatePassword.Text">
+    <value>Cập Nhật Password</value>
+  </data>
+  <data name="NewPassword.Text">
+    <value>Bạn phải nhập một password mới.</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Tạo Người Dùng</value>
+  </data>
+  <data name="AddUser.Text">
+    <value>Tạo Người Dùng</value>
+  </data>
+  <data name="cmdPassword.Text">
+    <value>Quản Lý Password</value>
+  </data>
+  <data name="cmdProfile.Text">
+    <value>Quản Lý Profile</value>
+  </data>
+  <data name="cmdRegister.Text">
+    <value>Đăng Ký</value>
+  </data>
+  <data name="cmdRoles.Text">
+    <value>Quản lý nhóm cho người dùng này</value>
+  </data>
+  <data name="cmdServices.Text">
+    <value>Quản Lý Dịch Vụ</value>
+  </data>
+  <data name="cmdUser.Text">
+    <value>Quản Lý Quyền Hạn Người Dùng</value>
+  </data>
+  <data name="ControlTitle_profile.Text">
+    <value>Quản Lý Hồ Sơ</value>
+  </data>
+  <data name="ControlTitle_register.Text">
+    <value>Đăng Ký</value>
+  </data>
+  <data name="ManageProfile.Action">
+    <value>Quản Lý Thuộc Tính Hồ Sơ</value>
+  </data>
+  <data name="MembershipTitle.Text">
+    <value>Thông Tin Đăng Ký</value>
+  </data>
+  <data name="NotAuthorized.Text">
+    <value>Bạn không được phép sửa thành viên này.</value>
+  </data>
+  <data name="Password.Action">
+    <value>Quản Lý Password của Thành Viên</value>
+  </data>
+  <data name="PasswordQAChanged.Text">
+    <value>Cập nhật thành công câu hỏi và câu trả lời.</value>
+  </data>
+  <data name="Profile.Action">
+    <value>Quản Lý Hồ Sơ Thành Viên</value>
+  </data>
+  <data name="Roles.Action">
+    <value>Quản Lý nhóm cho thành viên này</value>
+  </data>
+  <data name="UserAuthorized.Text">
+    <value>Người dùng đã được chấp nhận.</value>
+  </data>
+  <data name="UserTitle.Text">
+    <value>Thiết Lập Thành Viên - {0} (Id: {1})</value>
+  </data>
+  <data name="UserUnAuthorized.Text">
+    <value>Thành viên đã bị từ chối.</value>
+  </data>
+  <data name="ExceededRegisterQuota.Text">
+    <value>Bạn không thể đăng ký trên site này vào lúc này. Hãy liên hệ quản trị để được biết bao giờ việc đăng ký được cho phép trở lại.</value>
+  </data>
+  <data name="ExceededUserQuota.Text">
+    <value>Tạo thêm người dùng này sẽ vượt quá hạn mức về số người dùng đối với site này. Hãy liên hệ hoster của bạn để yêu cầu mở rộng hạn mức.</value>
+  </data>
+  <data name="UserSubscribed.Text">
+    <value>Bạn đã được đăng ký vào chức danh t login{0}.</value>
+  </data>
+  <data name="UserUnSubscribed.Text">
+    <value>Bạn đã được hủy đăng ký vào chức danh {0}.</value>
+  </data>
+  <data name="EmailError.Text">
+    <value>Portal này đòi hỏi mỗi thành viên phải có một email riêng biệt. Địa chỉ email bạn vừa nhập đã được sử dụng.</value>
+  </data>
+  <data name="AddUser.Title">
+    <value>Thêm người dùng</value>
+  </data>
+  <data name="CannotAddUser.Text">
+    <value>Your configuration requires the user to enter a Password reminder Question and Answer.  This is incompatible with Administrators adding users, so has been disabled for this portal.</value>
+  </data>
+  <data name="cmdLogin.Text">
+    <value>Proceed to Login</value>
+  </data>
+  <data name="plCaptcha.Help">
+    <value>Nhập mã bảo vệ</value>
+  </data>
+  <data name="plCaptcha.Text">
+    <value>Mã bảo vệ:</value>
+  </data>
+  <data name="Register.Text">
+    <value>Đăng ký tài khoản</value>
+  </data>
+  <data name="Register.Title">
+    <value>Đăng ký tài khoản</value>
+  </data>
+  <data name="RegisterWarning.Text">
+    <value> - &lt;em&gt;(&lt;strong&gt;Note:&lt;/strong&gt; - Việc đăng ký có thể mất một lúc.  Chỉ click vào nút Đăng ký và đợi cho tới khi hệ thống phản hồi.)&lt;/em&gt;</value>
+  </data>
+  <data name="UserPasswordUpdateChanged.Text">
+    <value>Người dùng phải cập nhật mật khẩu trong lần đăng nhập kế tiếp.</value>
+  </data>
+</root>

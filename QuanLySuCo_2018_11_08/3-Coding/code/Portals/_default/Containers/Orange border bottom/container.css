@@ -1,0 +1,23 @@
+.orange-border-bottom .panel-heading 
+{
+	background:#fff;
+	border-bottom:2px solid orange;
+	padding:7px 10px 6px 5px;
+}
+.orange-border-bottom .panel-heading .panel-title .Head
+{
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:3px;
+	font-size: 15px;
+	border-left:10px solid orange;
+	padding-left:10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 979px),
+{
+	.new-event .panel-heading 
+	{
+		background:#fff;
+	}
+	
+}

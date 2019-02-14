@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- 
+    Vietnamese Translation 2005 by Nguyen Viet Trung,  viechinguyen@gmail.com
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="plSource.Text">
+    <value>Nguồn Banner</value>
+  </data>
+  <data name="plSource.Help">
+    <value>Chỉ rõ banner được hiển thị cho site hay cho portal</value>
+  </data>
+  <data name="plType.Text">
+    <value>Kiểu Banner</value>
+  </data>
+  <data name="plType.Help">
+    <value>Chỉ rõ kiểu banner</value>
+  </data>
+  <data name="plGroup.Text">
+    <value>Nhóm Banner</value>
+  </data>
+  <data name="plGroup.Help">
+    <value>Đặt tên nhóm banner</value>
+  </data>
+  <data name="plCount.Text">
+    <value>Số Banner</value>
+  </data>
+  <data name="plCount.Help">
+    <value>Đặt số banner quảng cáo nhiều nhất được xuất hiện</value>
+  </data>
+  <data name="plOrientation.Text">
+    <value>Định Hướng</value>
+  </data>
+  <data name="plOrientation.Help">
+    <value>Chỉ rõ banner nên được hiển thị theo chiều ngang hay theo chiều dọc</value>
+  </data>
+  <data name="plBorder.Text">
+    <value>Độ Dày Đường Biên</value>
+  </data>
+  <data name="plBorder.Help">
+    <value>Đặt độ dày của đường biên</value>
+  </data>
+  <data name="plBorderColor.Text">
+    <value>Màu Đường Biên</value>
+  </data>
+  <data name="plBorderColor.Help">
+    <value>Đặt màu đường biên</value>
+  </data>
+  <data name="plRowHeight.Text">
+    <value>Độ Cao Hàng</value>
+  </data>
+  <data name="plRowHeight.Help">
+    <value>Cho biết độ cao của mỗi ô banner</value>
+  </data>
+  <data name="plColWidth.Text">
+    <value>Độ Rộng Hàng</value>
+  </data>
+  <data name="plColWidth.Help">
+    <value>Đặt độ rộng cho mỗi ô banner</value>
+  </data>
+  <data name="cmdUpdate.Text">
+    <value>Cập Nhật</value>
+  </data>
+  <data name="cmdCancel.Text">
+    <value>Huỷ Bỏ</value>
+  </data>
+  <data name="ControlTitle_edit.Text">
+    <value>Thay Đổi Banner</value>
+  </data>
+  <data name="AllTypes.Text">
+    <value>&lt;Tất Cả&gt;</value>
+  </data>
+  <data name="Horizontal.Text">
+    <value>Nằm ngang</value>
+  </data>
+  <data name="Host.Text">
+    <value>Host </value>
+  </data>
+  <data name="plPadding.Help">
+    <value>Khoảng cách giữa banner và đường viền</value>
+  </data>
+  <data name="plPadding.Text">
+    <value>Cell Padding </value>
+  </data>
+  <data name="Site.Text">
+    <value>Site </value>
+  </data>
+  <data name="valBorder.ErrorMessage">
+    <value>&lt;br&gt;Độ rộng đường viền phải là một số nguyên</value>
+  </data>
+  <data name="valColWidth.ErrorMessage">
+    <value>&lt;br&gt;Độ rộng đường viền phải là một số nguyên</value>
+  </data>
+  <data name="valCount.ErrorMessage">
+    <value>&lt;br&gt;Số banner phải là một số nguyên</value>
+  </data>
+  <data name="valPadding.ErrorMessage">
+    <value>&lt;br&gt;Cell padding phải là một số nguyên</value>
+  </data>
+  <data name="valRowHeight.ErrorMessage">
+    <value>&lt;br&gt;Độ cao hàng phải là một số nguyên</value>
+  </data>
+  <data name="Vertical.Text">
+    <value>Đứng</value>
+  </data>
+</root>

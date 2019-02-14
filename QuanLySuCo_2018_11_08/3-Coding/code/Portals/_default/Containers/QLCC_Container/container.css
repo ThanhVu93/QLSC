@@ -1,0 +1,37 @@
+.panel{
+    border-radius:0px !important;
+}
+.panel-default {
+    border-color:#3c8dbc;
+}
+.PSW
+{
+	  margin-top: 5px;
+}
+.PSW .panel-heading 
+{
+	  background: #fff;
+	  border-bottom: 1px solid #3c8dbc;
+	  padding: 0 10px 0 5px;
+}
+.PSW .panel-body
+{
+	padding: 5px;
+}
+.PSW .panel-heading .panel-title .Head
+{
+	  text-transform: uppercase;
+	  margin-bottom: 3px;
+	  margin-top: 3px;
+	  color: #3c8dbc;
+	  font-size: 14px;
+	  padding-left: 10px;
+}
+@media only screen and (min-width: 320px) and (max-width: 979px)
+{
+	.new-event .panel-heading 
+	{
+		background:#fff;
+	}
+	
+}

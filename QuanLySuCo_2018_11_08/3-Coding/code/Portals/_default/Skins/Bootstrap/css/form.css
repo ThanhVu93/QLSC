@@ -1,0 +1,312 @@
+﻿/*------------------------------------------------*/
+/* TAINGUYEN */
+/*------------------------------------------------*/
+/*------------------------------------------------*/
+/* FORM STYLE */
+/*------------------------------------------------*/
+
+.required
+{
+	color:Red;
+}
+.lable-form{
+    text-align:right;
+}
+.form-group {
+    margin: 5px;
+    content: " ";
+    display: table;
+    clear: both;
+}
+.required ul
+{
+    background-color: #E64B4B;
+    margin: 0px;
+    max-width: 90%;
+    border-radius: 3px;
+}
+.required li
+{
+    list-style: none;
+    color: #fff;
+    padding: 3px;
+}
+.cssTdLeft
+{
+   text-align:right;
+
+}.panel
+{
+	margin-bottom:5px;
+}
+ .form-skin  .control-label
+ {
+     line-height:34px !important;
+     padding-right: 10px !important;
+     font-weight: normal;
+ }
+ .control-label.alignleft
+ {
+  text-align: left !important;
+ }
+ .form-search
+ {
+   
+     padding: 10px 15px 10px 15px;
+      position: relative;
+      display: table;
+ }
+ .btn-right-form-search
+ {
+    margin-top:10px !important;
+    margin-right:10px !important;
+ }
+ .form-horizontal .row
+ {
+  position: relative;
+ }
+ .form-horizontal , .form-horizontal table td,.form-horizontal table td span,.form-horizontal table td p
+ {
+ 	font-size:14px;
+ 	font-family:Tahoma;
+ }
+.form-search legend, .form-horizontal legend,.form-skin legend, .form-skin-popup legend
+{
+	width:90%;
+	margin: 0 auto;
+	line-height: 35px;
+}
+ .form-skin
+ {
+ 	font-size:14px;
+ 	font-family:Tahoma;
+    width: 100%;
+ }
+ .form-skin .input-group
+ {
+    max-width: 400px;
+ }
+ /*@media (min-width: 768px)
+{*/
+	.form-skin .lable-form 
+	{
+	  text-align: right;
+	  margin-bottom: 0;
+	  padding-top: 6px;
+	  padding-right: 0px;
+	}
+    .form-horizontal .control-label
+    {
+        padding-top: 0px;
+    }
+
+.form-search .control-label
+{
+        line-height: 30px;
+        font-size: 14px;
+        margin-bottom: 0px;
+}
+/*------------------------------------------------*/
+/* GRID STYLE */
+/*------------------------------------------------*/
+.table-header td 
+{
+	vertical-align:middle !important;
+}
+.table-header
+{
+    font-family: Tahoma;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+/*.table-striped
+{
+    border-top: 3px solid #205081;
+}*/
+a.link-data-grird
+{
+	display: inline-flex;
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #C01212;
+	text-decoration: none;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td
+{
+	vertical-align: middle;
+	font-size: 14px;
+}
+.icon-delete
+    {
+        color: red; 
+        font-size: 20px;
+    }
+    .icon-view
+    {
+        color: #CBB6C0; 
+        font-size: 17px;
+    }
+    .icon-edit
+    {
+        color: #F57010; 
+        font-size: 18px;
+    }
+    
+/*------------------------------------------------*/
+/* DNN FORM POPUP STYLE */
+/*------------------------------------------------*/
+/*.dnnFormPopup
+{
+    max-width: 100%;
+}*/
+.form-skin-popup  .control-label
+{
+     line-height:34px !important;
+     padding-right: 10px !important;
+     font-weight: normal;
+}
+  .col-sp-1, .col-sp-2, .col-sp-3, .col-sp-4, .col-sp-5, .col-sp-6, .col-sp-7, .col-sp-8, .col-sp-9, .col-sp-10, .col-sp-11, .col-sp-12 {
+    float: left;
+    min-height: 1px;
+  }
+  .col-sp-12 {
+    width: 100%;
+  }
+  .col-sp-11 {
+    width: 91.66666667%;
+  }
+  .col-sp-10 {
+    width: 83.33333333%;
+  }
+  .col-sp-9 {
+    width: 75%;
+  }
+  .col-sp-8 {
+    width: 66.66666667%;
+  }
+  .col-sp-7 {
+    width: 58.33333333%;
+  }
+  .col-sp-6 {
+    width: 50%;
+  }
+  .col-sp-5 {
+    width: 41.66666667%;
+  }
+  .col-sp-4 {
+    width: 33.33333333%;
+  }
+  .col-sp-3 {
+    width: 25%;
+  }
+  .col-sp-2 {
+    width: 16.66666667%;
+  }
+  .col-sp-1 {
+    width: 8.33333333%;
+  }
+  .form-skin-popup input[type="text"],.form-skin-popup input[type="password"]
+  {
+    width: 70%;
+    max-width: 450px;
+  }
+  
+  .form-skin-popup textarea
+  {
+    width: 90%;
+    max-width: 550px;
+    min-height:80px;
+  }
+  .form-skin-popup select
+  {
+    width: 60%;
+    max-width: 400px;
+  }
+ 
+  .form-skin-popup .control-label
+  {
+    text-align: right;
+  }
+    .form-search input[type="text"],.form-skin select.form-control
+  {
+    width: 200px;   
+  }
+  /*Cho group*/
+   .form-skin .input-group input[type="text"] ,.form-skin .input-group input[type="password"],.form-skin .input-group select
+  {
+    width: 100%;
+  }
+
+
+/**/
+/*
+TEXTBOX BOTTOM
+*/
+/**/
+.sb-textbox-bottom
+{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+
+.cssDatagrid_Paging a
+{
+	font-weight: bold;
+}
+
+
+/**/
+/*RadioButtonList*/
+/**/
+.RadioButtonList tr td
+{
+	padding: 0px 0px 0px 10px;
+	margin-right: 20px;
+	float: left;
+	border: 1px solid #ddd;
+	line-height: 22px;
+	border-radius: 3px;
+}
+.RadioButtonList tr td input
+{
+	margin-right: 10px;
+	margin-top: 0;
+	position: relative;
+	top: 2px;
+}
+.RadioButtonList tr td label 
+{
+	margin-bottom: 0px;
+	font-weight: normal;
+	line-height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-left: 1px solid #ddd;
+	
+}
+.RadioButtonList tr td input[type="radio"]:checked + label {
+    color: #747373;
+  	background-color: #e6e6e6;
+  	border-color: #adadad;
+  	outline: 0;
+  	-webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  	box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.RadioButtonList-item-width-margin tr td label
+{
+	width: 300px;
+}
+.RadioButtonList-item-width-margin tr td
+{
+	  margin-bottom: 5px;
+}
+.RadioButtonList-item-width-margin tr:last-child td
+{
+	margin-bottom: 0px;
+}

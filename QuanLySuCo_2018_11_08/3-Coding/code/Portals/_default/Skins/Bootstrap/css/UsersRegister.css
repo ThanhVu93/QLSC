@@ -1,0 +1,100 @@
+﻿.custom-form.dnnManageUsers 
+{
+      margin: 1em auto 0em;
+}
+.custom-form .dnnFormItem > .dnnLabel
+{
+      padding-right:0px;
+      margin-right:0px;
+}
+.custom-form .dnnForm .dnnFormItem
+{
+    margin-top:5px;
+    display: inline-block;
+}
+.custom-form .dnnFormItem input[type="text"], .custom-form .dnnFormItem select, .custom-form .dnnFormItem textarea,.custom-form .dnnFormItem input[type="email"],.custom-form .dnnFormItem input[type="search"],.custom-form .dnnFormItem input[type="password"]
+{
+    margin-bottom:0px;
+    height:30px;
+    width:30%;
+    font-size: 13px;
+}
+.custom-form .dnnFormItem > .dnnLabel .dnnFormHelp
+{
+    display:none;
+}
+.custom-form .dnnFormItem > .dnnLabel label
+{
+    font-size:13px;
+    font-weight:normal;
+      padding-right: 4px;
+}
+.custom-form .dnnFormItem > .dnnLabel label .dnnFormRequired::after
+{
+    content:"*";
+    font-size:13px;
+    margin: 0 2px 0 2px;
+}
+.dnnRegistrationForm .password-strength-container, .dnnFormPassword .password-strength-container, .dnnPasswordReset .password-strength-container, .dnnPassword .password-strength-container
+{
+    margin:0px !important;
+}
+.dnnFormItem .password-strength-container input[type="password"] {
+    width: 100% !important;
+}
+.custom-from-action.dnnForm ul
+{
+    padding-top:10px;
+    padding-left:32.075%;
+}
+
+
+
+
+
+.dnnForm cam,.dnnForm .cam,.dnnForm .cam
+{
+  color: #fff;
+  background-color: #CD8115;
+  border-color: #BE750C;
+  text-shadow:none;
+}
+
+.dnnForm .cam:hover,.dnnForm .cam:hover,.dnnForm .cam:hover
+.dnnForm .cam:focus,.dnnForm .cam:focus,.dnnForm .cam:focus
+.dnnForm .cam:active,.dnnForm .cam:active,.dnnForm .cam:active
+.dnnForm .cam.active,.dnnForm .cam.active,.dnnForm .cam.active
+.dnnForm .cam.focus,.dnnForm .cam.focus,.dnnForm .cam.focus
+{
+  color: #ffffff;
+  background-color: #A86302;
+  border-color: #995B02;
+}
+.dnnForm .cam.disabled,.dnnForm .cam.disabled,.dnnForm .cam.disabled,
+.dnnForm .cam[disabled],.dnnForm .cam[disabled],.dnnForm .cam[disabled],
+.dnnForm[disabled]  .cam,.dnnForm[disabled] .cam,.dnnForm[disabled] .cam,
+.dnnForm .cam.disabled:hover,.dnnForm .cam.disabled:hover,.dnnForm .cam.disabled:hover,
+.dnnForm .cam[disabled]:hover,.dnnForm .cam[disabled]:hover,.dnnForm .cam[disabled]:hover,
+.dnnForm[disabled]  .cam:hover,.dnnForm[disabled] .cam:hover,.dnnForm[disabled] .cam:hover,
+.dnnForm .cam.disabled:focus,.dnnForm .cam.disabled:focus,.dnnForm .cam.disabled:focus,
+.dnnForm .cam[disabled]:focus,.dnnForm .cam[disabled]:focus,.dnnForm .cam[disabled]:focus,
+.dnnForm[disabled]  .cam:focus,.dnnForm[disabled] .cam:focus,.dnnForm[disabled] .cam:focus,
+.dnnForm .cam.disabled.focus,.dnnForm .cam.disabled.focus,.dnnForm .cam.disabled.focus,
+.dnnForm .cam[disabled].focus,.dnnForm .cam[disabled].focus,.dnnForm .cam[disabled].focus,
+.dnnForm[disabled]  .cam.focus,.dnnForm[disabled] .cam.focus,.dnnForm[disabled] .cam.focus,
+.dnnForm .cam.disabled:active,.dnnForm .cam.disabled:active,.dnnForm .cam.disabled:active,
+.dnnForm .cam[disabled]:active,.dnnForm .cam[disabled]:active,.dnnForm .cam[disabled]:active,
+.dnnForm[disabled]  .cam:active,.dnnForm[disabled] .cam:active,.dnnForm[disabled] .cam:active
+{
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.NextPrevAndNumeric .RadComboBox.RadComboBox_Default
+{
+    min-width:100px !important;
+}
+.NextPrevAndNumeric .RadComboBox.RadComboBox_Default .rcbInputCell.rcbInputCellLeft input
+{
+    padding: 4px !important;
+}

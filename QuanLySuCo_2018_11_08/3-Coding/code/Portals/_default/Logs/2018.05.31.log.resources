@@ -1,0 +1,1377 @@
+08:18:35,835 [THANHVU][Thread:35][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+08:18:36,092 [THANHVU][Thread:35][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+08:18:38,746 [THANHVU][Thread:35][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName)
+08:18:54,567 [THANHVU][Thread:61][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+08:18:54,609 [THANHVU][Thread:61][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+08:18:55,822 [THANHVU][Thread:61][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName)
+08:27:23,610 [THANHVU][Thread:4][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+08:27:23,731 [THANHVU][Thread:4][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+09:08:56,947 [THANHVU][Thread:55][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in e:\ThanhVu\QLHD\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+09:08:57,042 [THANHVU][Thread:55][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.4.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:11:56,290 [THANHVU][Thread:58][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in e:\ThanhVu\QLHD\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+09:11:56,301 [THANHVU][Thread:58][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.4.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+09:15:17,350 [THANHVU][Thread:64][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:15:17,373 [THANHVU][Thread:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:17:08,359 [THANHVU][Thread:10][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:17:08,368 [THANHVU][Thread:10][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:17:12,780 [THANHVU][Thread:56][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:17:12,790 [THANHVU][Thread:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:18:15,063 [THANHVU][Thread:56][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:18:15,087 [THANHVU][Thread:56][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:18:17,562 [THANHVU][Thread:57][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:18:17,572 [THANHVU][Thread:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:18:55,916 [THANHVU][Thread:57][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:18:55,923 [THANHVU][Thread:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:21:42,052 [THANHVU][Thread:57][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:21:42,059 [THANHVU][Thread:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:21:57,271 [THANHVU][Thread:64][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:21:57,278 [THANHVU][Thread:64][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:22:11,656 [THANHVU][Thread:57][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+09:22:11,664 [THANHVU][Thread:57][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i:  hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx(397): error CS1041: Identifier expected; 'return' is a keyword
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+09:59:04,049 [THANHVU][Thread:46][ERROR] QLHD.QLHD_CN - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 376
+09:59:13,030 [THANHVU][Thread:17][ERROR] QLHD.QLHD_CN - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 376
+09:59:17,775 [THANHVU][Thread:17][ERROR] QLHD.QLHD_CN - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 376
+09:59:19,494 [THANHVU][Thread:16][ERROR] QLHD.QLHD_CN - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 376
+10:05:05,242 [THANHVU][Thread:47][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 506
+10:09:07,214 [THANHVU][Thread:50][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 506
+10:14:33,001 [THANHVU][Thread:65][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 249
+10:30:41,094 [THANHVU][Thread:76][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 249
+10:44:20,284 [THANHVU][Thread:22][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 509
+11:07:33,200 [THANHVU][Thread:61][ERROR] QLHD.QLHD_CN - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 376
+11:49:37,716 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+11:49:37,802 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Common.Globals.get_Status()
+   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
+11:49:38,932 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
+   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName)
+11:55:50,375 [THANHVU][Thread:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:55:50,450 [THANHVU][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:55:51,696 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:55:51,702 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:56:01,825 [THANHVU][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+11:56:01,839 [THANHVU][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 656
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:07:21,288 [THANHVU][Thread:33][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.Net.Mail.SmtpException: The operation has timed out.
+   at System.Net.Mail.SmtpClient.Send(MailMessage message)
+   at DotNetNuke.Services.Mail.Mail.SendMailInternal(MailMessage mailMessage, String subject, String body, MailPriority priority, MailFormat bodyFormat, Encoding bodyEncoding, IEnumerable`1 attachments, String smtpServer, String smtpAuthentication, String smtpUsername, String smtpPassword, Boolean smtpEnableSSL)
+14:18:37,549 [THANHVU][Thread:36][ERROR] DotNetNuke.UI.Modules.ModuleHost - System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx(16): error CS0103: The name 'tungay' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()
+14:18:37,561 [THANHVU][Thread:36][ERROR] DotNetNuke.Services.Exceptions.Exceptions - FriendlyMessage="L?i: Qu?n lý h?p d?ng hi?n chua có." ctrl="DotNetNuke.UI.Modules.ModuleControlBase" exc="System.Web.HttpCompileException (0x80004005): e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx(16): error CS0103: The name 'tungay' does not exist in the current context
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.UI.TemplateControl.LoadControl(VirtualPath virtualPath)
+   at DotNetNuke.UI.ControlUtilities.LoadControl[T](TemplateControl containerControl, String ControlSrc)
+   at DotNetNuke.UI.Modules.ModuleControlFactory.LoadModuleControl(TemplateControl containerControl, ModuleInfo moduleConfiguration)
+   at DotNetNuke.UI.Modules.ModuleHost.LoadModuleControl()"
+14:25:36,782 [THANHVU][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:25:36,838 [THANHVU][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:25:47,478 [THANHVU][Thread:26][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:25:47,486 [THANHVU][Thread:26][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:26:10,990 [THANHVU][Thread:28][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:26:11,001 [THANHVU][Thread:28][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:28:32,576 [THANHVU][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:28:32,585 [THANHVU][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:30:08,357 [THANHVU][Thread:32][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:30:08,364 [THANHVU][Thread:32][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:32:10,282 [THANHVU][Thread:8][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:32:10,289 [THANHVU][Thread:8][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Invalid+postback+or+callback+argument.++Event+validation+is+enabled+using+%3cpages+enableEventValidation%3d%22true%22%2f%3e+in+configuration+or+%3c%25%40+Page+EnableEventValidation%3d%22true%22+%25%3e+in+a+page.++For+security+purposes%2c+this+feature+verifies+that+arguments+to+postback+or+callback+events+originate+from+the+server+control+that+originally+rendered+them.++If+the+data+is+valid+and+expected%2c+use+the+ClientScriptManager.RegisterForEventValidation+method+in+order+to+register+the+postback+or+callback+data+for+validation.&content=0
+System.ArgumentException: Invalid postback or callback argument.  Event validation is enabled using <pages enableEventValidation="true"/> in configuration or <%@ Page EnableEventValidation="true" %> in a page.  For security purposes, this feature verifies that arguments to postback or callback events originate from the server control that originally rendered them.  If the data is valid and expected, use the ClientScriptManager.RegisterForEventValidation method in order to register the postback or callback data for validation.
+   at System.Web.UI.ClientScriptManager.ValidateEvent(String uniqueId, String argument)
+   at System.Web.UI.Control.ValidateEvent(String uniqueID, String eventArgument)
+   at System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+14:53:22,925 [THANHVU][Thread:50][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+14:54:29,134 [THANHVU][Thread:46][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+14:55:51,378 [THANHVU][Thread:44][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:55:57,701 [THANHVU][Thread:44][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:55:59,408 [THANHVU][Thread:46][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:01,354 [THANHVU][Thread:45][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:04,304 [THANHVU][Thread:51][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:14,509 [THANHVU][Thread:45][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:17,291 [THANHVU][Thread:46][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:19,426 [THANHVU][Thread:44][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:26,458 [THANHVU][Thread:44][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:32,290 [THANHVU][Thread:51][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:39,712 [THANHVU][Thread:45][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:47,034 [THANHVU][Thread:45][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:50,810 [THANHVU][Thread:24][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:56:52,536 [THANHVU][Thread:24][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:58:38,317 [THANHVU][Thread:51][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:58:40,211 [THANHVU][Thread:46][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:58:57,945 [THANHVU][Thread:51][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:59:06,804 [THANHVU][Thread:47][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:59:10,945 [THANHVU][Thread:46][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:59:12,090 [THANHVU][Thread:51][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:59:14,690 [THANHVU][Thread:46][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+14:59:15,936 [THANHVU][Thread:47][ERROR] QLHD.QLHD_DS - 
+System.FormatException: String was not recognized as a valid DateTime.
+   at System.DateTimeParse.Parse(String s, DateTimeFormatInfo dtfi, DateTimeStyles styles)
+   at QLHD.QLHD_DS.Get_QLHD_HDInfos(Int32 pCurentPage, Int32& o_Count) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 115
+   at QLHD.QLHD_DS.LoadDanhSach(Int32 pCurentPage) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_DS.ascx.cs:line 79
+16:14:32,179 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:32,246 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:37,252 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:37,274 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:38,825 [THANHVU][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:38,838 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,376 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,397 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,566 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,584 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,753 [THANHVU][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,772 [THANHVU][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,943 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:42,954 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,139 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,155 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,309 [THANHVU][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,324 [THANHVU][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,506 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,519 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,671 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,692 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,851 [THANHVU][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:43,872 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,034 [THANHVU][Thread:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,055 [THANHVU][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,173 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,187 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,384 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:44,404 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:50,739 [THANHVU][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:50,759 [THANHVU][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:50,996 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,017 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,179 [THANHVU][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,197 [THANHVU][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,311 [THANHVU][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,325 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,876 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:14:51,891 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:08,164 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:08,179 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:08,240 [THANHVU][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:08,247 [THANHVU][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:09,778 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:09,796 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:09,977 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:09,998 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,152 [THANHVU][Thread:15][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,164 [THANHVU][Thread:15][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,343 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,363 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,514 [THANHVU][Thread:24][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,535 [THANHVU][Thread:24][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,706 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,725 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,902 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:10,914 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:27,306 [THANHVU][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:27,320 [THANHVU][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:27,410 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:27,431 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,250 [THANHVU][Thread:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,261 [THANHVU][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,449 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,471 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,607 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:28,628 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:45,862 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:45,875 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:45,918 [THANHVU][Thread:27][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:45,929 [THANHVU][Thread:27][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:54,957 [THANHVU][Thread:21][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:54,977 [THANHVU][Thread:21][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:56,535 [THANHVU][Thread:19][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:56,547 [THANHVU][Thread:19][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:56,729 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:15:56,745 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThiCong_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 672
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:17:14,503 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:17:14,514 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:17:39,815 [THANHVU][Thread:5][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:17:39,831 [THANHVU][Thread:5][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:12,277 [THANHVU][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:12,291 [THANHVU][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:12,331 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:12,340 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,161 [THANHVU][Thread:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,168 [THANHVU][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,367 [THANHVU][Thread:23][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,375 [THANHVU][Thread:23][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,551 [THANHVU][Thread:29][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:19:13,558 [THANHVU][Thread:29][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:20:41,180 [THANHVU][Thread:14][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:20:41,202 [THANHVU][Thread:14][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:20:41,702 [THANHVU][Thread:22][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:20:41,709 [THANHVU][Thread:22][ERROR] DotNetNuke.Services.Exceptions.Exceptions - ~/Default.aspx?tabid=277&error=Input+string+was+not+in+a+correct+format.
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.txtThoiGianThucHien_TextChanged(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 655
+   at System.Web.UI.WebControls.TextBox.OnTextChanged(EventArgs e)
+   at System.Web.UI.Page.RaiseChangedEvents()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+16:23:54,477 [THANHVU][Thread:29][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:28:03,713 [THANHVU][Thread:26][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:30:37,725 [THANHVU][Thread:38][ERROR] QLHD.QLHD_GIAHAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_GIAHAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_GIAHAN_CN.ascx.cs:line 272
+16:47:22,520 [THANHVU][Thread:27][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 527
+17:28:47,861 [THANHVU][Thread:33][FATAL] DotNetNuke.Framework.PageBase - An error has occurred while loading page.
+System.Web.HttpException (0x80004005): Server cannot append header after HTTP headers have been sent.
+   at System.Web.HttpResponse.AppendHeader(String name, String value)
+   at DotNetNuke.Framework.DefaultPage.OnPreRender(EventArgs evt) in e:\ThanhVu\QLHD\3-Coding\code\Default.aspx.cs:line 836
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+17:28:47,895 [THANHVU][Thread:33][FATAL] DotNetNuke.Web.Common.Internal.DotNetNukeHttpApplication - System.Web.HttpException (0x80004005): Error executing child request for /ErrorPage.aspx. ---> System.Web.HttpException (0x80004005): Server cannot set content type after HTTP headers have been sent.
+   at System.Web.HttpResponse.set_ContentType(String value)
+   at System.Web.UI.Page.SetIntrinsics(HttpContext context, Boolean allowAsync)
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.errorpage_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.4.cs:line 0
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(String path, TextWriter writer, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path, Boolean preserveForm)
+   at System.Web.HttpServerUtility.Transfer(String path)
+   at DotNetNuke.Framework.PageBase.OnError(EventArgs e)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.default_aspx.ProcessRequest(HttpContext context) in c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\6259dec3\aabb7444\App_Web_g03jtjfr.2.cs:line 0
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 11.375" name="QLHD">
+  <DataContextMoniker Name="/QLHDDataContext" />
+  <nestedChildShapes>
+    <classShape Id="2e7dc1c5-9180-4a27-be4e-339b1b85d6c8" absoluteBounds="0.75, 0.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QLHDDataContext/QLHD_BIEUMAU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7a9ef60b-1502-46a1-8052-9bad2b17c548" absoluteBounds="0.765, 1.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0efc27e7-c798-47c7-aeb1-cac55b7631b6" absoluteBounds="3.75, 0.75, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/QLHDDataContext/QLHD_TAPTIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0699e2f6-4c70-48c8-ad9a-339065ca0279" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7cb0f0a-5304-427f-adb8-90bbc3a277b5" absoluteBounds="0.75, 4.75, 2, 4.2708154296874987">
+      <DataClassMoniker Name="/QLHDDataContext/QLHD_GIAHANHD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2383ac20-7ecd-4f32-a3dd-d3603afa71ef" absoluteBounds="0.765, 5.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1ac043cd-35af-4258-9bf9-7e3bd68cbe19" absoluteBounds="3.75, 4.75, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/QLHDDataContext/QLHD_HD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fce0ceb8-6624-4365-96cf-fc46e10673ff" absoluteBounds="3.765, 5.21, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2da1adff-5001-4f3f-a9e4-7b5ddde0dcb3" absoluteBounds="6.75, 0.75, 2, 1.3862939453125003">
+      <DataClassMoniker Name="/QLHDDataContext/QLHD_LOAIBIEUMAU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4f6dfe3c-ff7c-4bc2-9ad0-3de16d4c434b" absoluteBounds="6.765, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

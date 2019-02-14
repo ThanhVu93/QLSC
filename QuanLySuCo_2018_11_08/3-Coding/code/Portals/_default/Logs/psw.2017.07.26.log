@@ -1,0 +1,44 @@
+10:06:33,497 [ERROR] PSW.HOPDONGBAN_CT:1174 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.HOPDONGBAN_CT.LoadHopDongHH(Int32 ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 377
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1174
+10:06:33,872 [ERROR] PSW.HOPDONGBAN_CT:1174 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.HOPDONGBAN_CT.LoadHopDongHH(Int32 ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 377
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1174
+10:06:34,061 [ERROR] PSW.HOPDONGBAN_CT:1174 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.HOPDONGBAN_CT.LoadHopDongHH(Int32 ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 377
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1174
+10:06:34,206 [ERROR] PSW.HOPDONGBAN_CT:1174 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.HOPDONGBAN_CT.LoadHopDongHH(Int32 ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 377
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1174
+10:06:34,743 [ERROR] PSW.HOPDONGBAN_CT:1174 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.HOPDONGBAN_CT.LoadHopDongHH(Int32 ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 377
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1174
+10:06:56,513 [ERROR] PSW.HOPDONGBAN_CT:1154 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1154
+10:06:57,208 [ERROR] PSW.HOPDONGBAN_CT:1154 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at PSW.HOPDONGBAN_CT.bnt_left_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1154
+10:06:57,864 [ERROR] PSW.HOPDONGBAN_CT:1105 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at PSW.HOPDONGBAN_CT.bnt_right_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1105
+10:06:58,324 [ERROR] PSW.HOPDONGBAN_CT:1105 - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at PSW.HOPDONGBAN_CT.bnt_right_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CT.ascx.cs:line 1105

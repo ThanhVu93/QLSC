@@ -1,0 +1,59 @@
+00:15:58,771 [THANHVU][Thread:33][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 216
+00:17:20,206 [THANHVU][Thread:21][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 216
+00:18:40,986 [THANHVU][Thread:34][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 163
+00:18:52,248 [THANHVU][Thread:21][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 165
+00:18:57,075 [THANHVU][Thread:34][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 168
+00:19:15,200 [THANHVU][Thread:30][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 197
+00:22:06,396 [THANHVU][Thread:38][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 230
+08:13:16,880 [THANHVU][Thread:56][ERROR] QLHD.QLHD_CN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.Decimal.Parse(String s)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 172
+08:13:32,429 [THANHVU][Thread:55][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 197
+11:44:19,604 [THANHVU][Thread:65][ERROR] QLHD.QLHD_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLHD.QLHD_CN.btnCapNhat_Click(Object sender, EventArgs e) in e:\ThanhVu\QLHD\3-Coding\code\DesktopModules\QLHD\QLHD_CN.ascx.cs:line 197

@@ -1,0 +1,130 @@
+11:30:33,802 [ERROR] PSW.KHACHHANG_CT:101 - 
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at PSW.KHACHHANG_CT.SetFormInfo(Int32 DT_ID) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_CT.ascx.cs:line 142
+   at PSW.KHACHHANG_CT.Page_Load(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\KHACHHANG_CT.ascx.cs:line 101
+11:55:08,891 [ERROR] PSW.HOPDONGCHOTHUEKHO_CN:1300 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGCHOTHUEKHO_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGCHOTHUEKHO_CN.ascx.cs:line 1300
+11:55:57,938 [ERROR] PSW.HOPDONGMUA_CN:1408 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGMUA_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGMUA_CN.ascx.cs:line 1408
+11:56:55,493 [ERROR] PSW.HOPDONGBAN_CN:1617 - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at PSW.HOPDONGBAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in c:\Data\Project\20170206_psw\3-Coding\code\psw\DesktopModules\PSW\HOPDONGBAN_CN.ascx.cs:line 1617
+12:00:18,388 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:00:18,424 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:00:18,441 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:04:37,432 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:04:37,448 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:04:37,464 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+12:04:37,482 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:51:09,535 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:51:09,581 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:51:09,596 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:51:09,607 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:55:44,203 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:55:44,232 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:55:44,258 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85
+13:55:44,284 [ERROR] PSW.TONKHOController:85 - 
+System.InvalidOperationException: The null value cannot be assigned to a member with type System.Double which is a non-nullable value type.
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at PSW.TONKHOController.Sum_TONKHO_CHITIET(Int32 pLoai, Int32 pDT_ID, Int32 pKHO_ID, Int32 pHDHH_ID, DateTime pTuNgay, DateTime pDenNgay) in c:\Data\Project\20170206_psw\3-Coding\code\psw\App_Code\PSW\TONKHOController.cs:line 85

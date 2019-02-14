@@ -1,0 +1,279 @@
+﻿.footer_top {
+	/*background-image: url(../../../0/images/homepage/foot_bg_1.jpg);*/
+	background-attachment: scroll;
+	background-position: center top;
+	background-repeat: repeat;
+	background-size: auto;
+    background: #404040;
+}
+.dnn_layout {
+	width: 980px;
+	margin: 0px auto;
+}
+.content_mid, .footer_mid {
+	padding: 0px 20px;
+}
+.row [class*="Pane"] {
+	padding:0px;
+}
+.FootPaneA, .FootPaneB, .FootPaneC, .FootPaneD, .FootPaneE {
+	margin: 35px 0px 30px;
+}
+.Container-3 .dnntitle {
+	white-space: nowrap;
+    text-align: left;
+    padding: 0px 0px 5px 0px;
+    border-bottom: 2px solid #585858;
+}
+.footer_top .title3 {
+	color: #e5e5e5;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #D0402F;
+}
+.title3 {
+	font-size: 16px;
+	line-height: 1.2;
+	color: #e5e5e5;
+	white-space: normal;
+	vertical-align: middle;
+}
+.content-ltd
+{
+	font-size:15px;
+	margin-top:10px;
+    color:#fff;
+}
+
+/*Contact Information*/
+.Contact_list_footer {
+	padding:0px;
+	margin:0px 0px 0px;
+    font-size:13px;
+}
+.Contact_list_footer li {
+	border-bottom:1px solid #535353;
+	padding:10px 0px 12px 0px;
+	margin:0px;
+	list-style:none;
+}
+.Contact_list_footer li span {
+	/*width:29px;
+	height:29px;
+	background:url(images/Contact_icon_footer.png) 0px 0px #EDEDED;
+	display:inline;
+	display:inline-block;
+	margin-right:20px;
+	vertical-align:middle;*/
+    font-size: 18px;
+    padding: 7px;
+    margin-right: 10px;
+    background: #2E2E2E;
+    color: #AAA8A8;
+    line-height: 18px;
+}
+.Contact_list_footer li span.cl_p {
+	background-position:0px 0px;
+}
+.Contact_list_footer li span.cl_e {
+	background-position:0px -29px;
+}
+.Contact_list_footer li span.cl_f {
+	background-position:0px -58px;
+}
+.Contact_list_footer li span.cl_ad {
+	background-position:0px -87px;
+}
+
+.contentmain1
+{
+	color: #D0D0D0;
+}
+.title3 span {
+	font-size: 22px;
+	margin-right: 15px;
+}
+@media only screen and (min-width: 1200px){
+	.dnn_layout {
+		width: 1170px;
+	}
+	.head_mid, .content_mid, .footer_mid {
+		padding: 0px 20px;
+	}
+}
+.Container-3{
+    padding-right:20px;
+}
+.follow-us li i
+{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+   border: 1px solid #949494;
+    text-align: center;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    margin: 6px 18px 0 0;
+}
+.follow-us li
+{
+    list-style:none;
+    padding-bottom: 5px;
+    margin-left:20px;
+
+}
+
+
+/**/
+/*
+    CMS FOOTER LIINK BY TAI NGUYEN
+*/
+/**/
+.list-new-footer > .new-footer-item> a> img.new-footer-image
+{
+    float:left;
+    margin: 0px 15px 0px 0px;
+    vertical-align: middle;
+    width: 90px;
+    height: 70px;
+}
+.list-new-footer  .new-footer-item
+{
+    display: inline-block;
+    display: inline-block;
+    padding: 15px 0px;
+    border-bottom:1px solid #5C5C5C;
+}
+.list-new-footer  .new-footer-item:last-child
+{
+    border-bottom:none;
+}
+.list-new-footer  .new-footer-item  >a.item-new-title
+{
+    font-size:14px;
+    color:#D0D0D0;
+}
+
+.ContactFooter .dnnForm.FeedbackForm .dnnFormItem .dnnLabel
+{
+   width: 100%;
+    text-align: left;
+    margin-top: 0px;
+    font-weight: normal;
+    line-height: 25px;
+    font-size: 13px;
+}
+.ContactFooter span.dnnFormRequired:after,.ContactFooter div.dnnFormItem.dnnFormRequired > div.dnnLabel span:after {
+    content: "*";
+    display: inline-block;
+    margin: 0 0 0 5px;
+    color: Red;
+    font-size: 14px;
+    line-height: 1em;
+    font-weight: bold;
+}
+.ContactFooter .dnnForm .dnnFormItem.Feedback_CharCount
+{
+    display:none;
+}
+.ContactFooter .dnnForm.FeedbackForm .dnnFormItem INPUT,.ContactFooter .dnnForm.FeedbackForm .dnnFormItem TEXTAREA,.ContactFooter .dnnForm.FeedbackForm .dnnFormItem SELECT
+{
+    width:100%;
+}
+.ContactFooter .dnnActions
+{
+    padding-top:0px;
+
+}
+.ContactFooter .dnnActions a
+{
+    font-size: 14px;
+    color: #999 !important;
+    border: 2px solid #999;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: none;
+    text-shadow: none;
+    box-shadow: none;
+    transition: border-color ease-in 200ms, color ease-in 200ms;
+    -moz-transition: border-color ease-in 200ms, color ease-in 200ms;
+    -webkit-transition: border-color ease-in 200ms, color ease-in 200ms;
+    -o-transition: border-color ease-in 200ms, color ease-in 200ms;
+    -ms-transition: border-color ease-in 200ms, color ease-in 200ms;
+}
+.ContactFooter .dnnFormItem input[type="text"],.ContactFooter .dnnFormItem select,.ContactFooter  .dnnFormItem textarea,.ContactFooter  .dnnFormItem input[type="email"],.ContactFooter  .dnnFormItem input[type="search"],.ContactFooter  .dnnFormItem input[type="password"]
+{
+    margin-bottom:5px;
+    border-radius:0px;
+    outline:none;
+    border-radius: 5px;
+box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4) inset;
+background: #1e1e1e;
+border: none;
+font-size: 13px;
+color: #999;
+border-bottom: 1px solid #3d4041;
+border-right: 1px solid #3d4041;
+}
+.ContactFooter
+{
+    padding-top:15px;
+}
+.ContactFooter .dnnFormMessage
+{
+    display:none;
+}
+.ContactFooter .dnnFormItem textarea
+{
+    min-height:150px;
+}
+
+
+/*FOOTER*/
+footer {
+color: #999999;
+background: #2a2a2a;
+}
+.footer_mid_copyright {
+    padding: 7px 0px;
+}
+.copyright_style {
+    float: left;
+    margin: 12px 0px 12px 0px;
+    color: #999999;
+    font-size: 13px;
+}
+#to_top
+{
+    transition: background-color ease-in 200ms;
+    -moz-transition: background-color ease-in 200ms;
+    -webkit-transition: background-color ease-in 200ms;
+    -o-transition: background-color ease-in 200ms;
+    -ms-transition: background-color ease-in 200ms;
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 6px;
+    z-index: 1000;
+    padding: 18px 15px;
+    font-size: 0px;
+    background-color: #1d1d1d;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+    margin: 0px 0px 0px 0px;
+}
+#to_top .to_topimg {
+    background-image: url(Images/backtotop.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    height: 7px;
+    width: 14px;
+}
+#to_top:hover {
+    background-color: #D0402F ;
+}

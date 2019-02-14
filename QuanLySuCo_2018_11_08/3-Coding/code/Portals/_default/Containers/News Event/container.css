@@ -1,0 +1,18 @@
+.new-event .panel-heading 
+{
+	background:url('images/tintuc.png');
+}
+.new-event .panel-heading .panel-title .Head
+{
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:3px;
+	font-size: 15px;
+}
+@media only screen and (min-width: 320px) and (max-width: 979px),
+{
+	.new-event .panel-heading 
+	{
+		background:#fff;
+	}
+}

@@ -1,0 +1,7 @@
+	.dnnSendPasswordContent input[type=text]{width:35%;}
+	.dnnSendPasswordContent ul.dnnActions{margin:10px 0 0 0;border:none;padding:0 0 0 356px;}
+	.dnnSendPasswordContent{width:100%;}
+    
+    .dnnPasswordResetContent input[type=text]{width:35%;}
+	.dnnPasswordResetContent ul.dnnActions{margin:10px 0 0 0;border:none;padding:0 0 0 356px;}
+	.dnnPasswordResetContent{width:100%;}

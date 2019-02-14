@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3300.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Title.Header">
+    <value>Tiêu Đề</value>
+  </data>
+  <data name="Portal Aliases.Header">
+    <value>Portal Alias</value>
+  </data>
+  <data name="Users.Header">
+    <value>Thành Viên</value>
+  </data>
+  <data name="DiskSpace.Header">
+    <value>Đĩa Trống</value>
+  </data>
+  <data name="HostingFee.Header">
+    <value>Chi phí Hosting</value>
+  </data>
+  <data name="Expires.Header">
+    <value>Hết Hiệu Lực</value>
+  </data>
+  <data name="AddContent.Action">
+    <value>Thêm Portal Mới</value>
+  </data>
+  <data name="Edit.Text">
+    <value>Cấu hình Portal này</value>
+  </data>
+  <data name="ControlTitle_.Text">
+    <value>Portal</value>
+  </data>
+  <data name="ModuleHelp.Text">
+    <value>&lt;h1&gt;Về Portal&lt;/h1&gt;&lt;p&gt;Tài khoản Super User có thể quản lý các Portal mẹ và Portal con khác nhau trong cùng một site. Module này cho phép bạn thêm vào một portal mới, thay đổi một portal hiện có, và xoá một portal.&lt;/p&gt;</value>
+  </data>
+  <data name="DeleteExpired.Action">
+    <value>Xóa Các Portal Đã Hết Hạn</value>
+  </data>
+  <data name="Expired.Text">
+    <value>Đã Hết Hạn</value>
+  </data>
+  <data name="ExportTemplate.Action">
+    <value>Xuất Mẫu Portal</value>
+  </data>
+  <data name="Filter.Text">
+    <value>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z </value>
+  </data>
+  <data name="Pages.Header">
+    <value>Trang</value>
+  </data>
+  <data name="PortalDeleted.Text">
+    <value>Portal xóa thành công</value>
+  </data>
+</root>

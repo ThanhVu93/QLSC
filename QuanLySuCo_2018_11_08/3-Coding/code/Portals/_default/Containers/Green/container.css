@@ -1,0 +1,14 @@
+.green-container-panel .panel-heading 
+{
+	background-image: linear-gradient(to bottom, #08741A 0, #066716 100%) !important;
+	padding: 7px 15px;
+}
+.green-container-panel .panel-heading .panel-title .Head
+{
+	text-transform:uppercase;
+	margin-bottom:3px;
+	margin-top:3px;
+	color:#fff;	
+	font-size: 15px;
+	white-space:nowrap;
+}

@@ -1,0 +1,75 @@
+﻿/*------------------------------------------------*/
+/* TAI NGUYEN */
+/*------------------------------------------------*/
+
+/*------------------------------------------------*/
+/* DEFAULT CORLOR SKIN */
+/*------------------------------------------------*/
+.skin-bg-corlor
+{
+    background-color: #006261;
+
+}
+.skin-corlor
+{
+
+}
+.skin-corlor:hover,.skin-corlor:active,.skin-corlor:focus
+{
+
+}
+.skin-text-corlor
+{
+  color:  #006261;
+}
+/*------------------------------------------------*/
+/* MENU DEFAULT CORLOR SKIN */
+/*------------------------------------------------*/
+.top_menu> ul.nav> li> a
+{
+    color: #fff;
+}
+.top_menu > ul.nav > li:hover > a, .top_menu > ul.nav> li> a.menu_hover, .top_menu> ul.nav >li.active > a, .top_menu> ul.nav >li.open > a {
+  color: #fff;
+  background-color: #22B5B3 !important;
+  -webkit-box-shadow: inset 0 3px 9px rgba(0,0,0,0.25);
+  box-shadow: inset 0 3px 9px rgba(0,0,0,0.25);
+}
+
+.top_menu ul.dropdown-menu > li:hover > a,.top_menu ul.dropdown-menu > li.active > a,.top_menu ul.dropdown-menu > li.open > a
+{
+    color: #fff;
+    background-color: #22B5B3 !important;
+}
+/*------------------------------------------------*/
+/* FONT SKIN */
+/*------------------------------------------------*/
+.font-skin-familu
+{
+    font-family: Tahoma;
+}
+.font-skin-size
+{
+    font-size: 13px;
+}
+/*------------------------------------------------*/
+/* TO TOP SKIN */
+/*------------------------------------------------*/
+#to_top
+{
+    background-color: #006261;
+}
+#to_top:hover
+{
+    background-color: #429392;
+}
+/*------------------------------------------------*/
+/* HEADER BAR SKIN */
+/*------------------------------------------------*/
+ #login .loginGroup a {
+    color: #4A4A4A;
+        }
+#login .registerGroup a, #login .loginGroup a
+{
+  color: #4A4A4A;
+}

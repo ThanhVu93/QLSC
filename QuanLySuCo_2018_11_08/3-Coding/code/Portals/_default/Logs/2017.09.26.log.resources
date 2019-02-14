@@ -1,0 +1,13 @@
+09:41:30,289 [Liink-PC][Thread:10][ERROR] QLCC.GIAMSATDUAN - 
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at QLCC.GIAMSATDUAN.Get_TUVANTHIETKEInfos(Int32 pCurentPage, Int32& o_Count, Double& o_Sum_PHUCAPCONGTAC_12col_10x11_Right, Double& o_Sum_TONGCONG_16col_Right) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\ThongKe\GIAMSATDUAN.ascx.cs:line 111
+   at QLCC.GIAMSATDUAN.LoadDanhSach(Int32 pCurentPage) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\ThongKe\GIAMSATDUAN.ascx.cs:line 181
+09:41:55,844 [Liink-PC][Thread:28][ERROR] QLCC.QLCC_DUAN_CN - 
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at QLCC.QLCC_DUAN_CN.btnCapNhat_Click(Object sender, EventArgs e) in d:\ThanhVu\CHAMCONG_DIENLUC_ST\3-Coding\code\DesktopModules\QLCC\QLCC_DUAN_CN.ascx.cs:line 480

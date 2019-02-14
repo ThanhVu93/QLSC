@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ModuleSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Module</value>
+  </data>
+  <data name="ModuleSettingsHelp.Text" xml:space="preserve">
+    <value>Ở mục này, bạn có thể định nghĩa các thiết lập liên quan đến nội dung của Module và quyền truy cập (vd. những thiết lập giống nhau ở tất cả các trang mà Module xuất hiện ).</value>
+  </data>
+  <data name="plTitle.Text" xml:space="preserve">
+    <value>Tiêu Đề Module:</value>
+  </data>
+  <data name="plTitle.Help" xml:space="preserve">
+    <value>Nhập vào một tiêu đề cho Module. Nó sẽ xuất hiện ở trên Thanh Tiêu Đề của Container của Module, nếu được Container hỗ trợ.</value>
+  </data>
+  <data name="PageSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Trang</value>
+  </data>
+  <data name="PageSettingsHelp.Text" xml:space="preserve">
+    <value>Ở mục này, bạn có thể định nghĩa những thiết lập đặc thù cho sự xuất hiện của module của trang này.</value>
+  </data>
+  <data name="Security.Text" xml:space="preserve">
+    <value>Thiết Lập Nâng Cao</value>
+  </data>
+  <data name="plAllTabs.Text" xml:space="preserve">
+    <value>Hiển Thị Module Ở Tất Cả Các Trang?</value>
+  </data>
+  <data name="plAllTabs.Help" xml:space="preserve">
+    <value>Chọn xem module có nên xuất hiện ở cùng một vị trí ở tất cả các trang của site hay không</value>
+  </data>
+  <data name="plVisibility.Text" xml:space="preserve">
+    <value>Đặc Tính Hiển Thị:</value>
+  </data>
+  <data name="plVisibility.Help" xml:space="preserve">
+    <value>Chọn đặc tính hiển thị mặc định cho Module</value>
+  </data>
+  <data name="plTab.Text" xml:space="preserve">
+    <value>Chuyển Đến Trang:</value>
+  </data>
+  <data name="plTab.Help" xml:space="preserve">
+    <value>Di chuyển module này sang một trang khác.</value>
+  </data>
+  <data name="plHeader.Text" xml:space="preserve">
+    <value>Header: </value>
+  </data>
+  <data name="plHeader.Help" xml:space="preserve">
+    <value>Nhập vào dòng chữ sẽ được hiển thị ở đầu Module</value>
+  </data>
+  <data name="plFooter.Text" xml:space="preserve">
+    <value>Footer: </value>
+  </data>
+  <data name="plFooter.Help" xml:space="preserve">
+    <value>Nhập vào dòng chữ sẽ được hiển thị ở dưới Module</value>
+  </data>
+  <data name="plIcon.Text" xml:space="preserve">
+    <value>Icon: </value>
+  </data>
+  <data name="plIcon.Help" xml:space="preserve">
+    <value>Chọn một Icon cho module này để hiển thị trên Thanh Tiêu Đề</value>
+  </data>
+  <data name="plAlign.Text" xml:space="preserve">
+    <value>Sắp Hàng:</value>
+  </data>
+  <data name="plAlign.Help" xml:space="preserve">
+    <value>Chọn Sắp hàng cho Module</value>
+  </data>
+  <data name="plColor.Text" xml:space="preserve">
+    <value>Màu:</value>
+  </data>
+  <data name="plColor.Help" xml:space="preserve">
+    <value>Chọn một màu cho Module</value>
+  </data>
+  <data name="plBorder.Text" xml:space="preserve">
+    <value>Đường Biên:</value>
+  </data>
+  <data name="plBorder.Help" xml:space="preserve">
+    <value>Nhập vào độ rộng đường biên cho Module</value>
+  </data>
+  <data name="plModuleContainer.Text" xml:space="preserve">
+    <value>Module Container: </value>
+  </data>
+  <data name="plModuleContainer.Help" xml:space="preserve">
+    <value>Chọn một Container cho Module (để thêm vào một Container mới đến File Manager)</value>
+  </data>
+  <data name="plPermissions.Text" xml:space="preserve">
+    <value>Quyền Truy Cập:</value>
+  </data>
+  <data name="plPermissions.Help" xml:space="preserve">
+    <value>Chọn quyền truy cập View và Edit bằng cách chọn/ bỏ chọn các hộp trong lưới. module có thể thừa kế quyền truy cập của nó từ Trang chứa nó. Để làm được điều này chọn hộp kiểm Thừa Kế Quyền Truy Cập Hiển Thị .</value>
+  </data>
+  <data name="plCacheTime.Text" xml:space="preserve">
+    <value>Thời Gian Cache:</value>
+  </data>
+  <data name="plCacheTime.Help" xml:space="preserve">
+    <value>Nhập vào thời gian cho đối tượng này được giữ trong Cache</value>
+  </data>
+  <data name="plStartDate.Text" xml:space="preserve">
+    <value>Ngày Bắt Đầu:</value>
+  </data>
+  <data name="plStartDate.Help" xml:space="preserve">
+    <value>Chọn ngày bắt đầu để hiển thị  module này. Bạn có thể sử dụng Lịch để chọn lấy một ngày.</value>
+  </data>
+  <data name="plEndDate.Text" xml:space="preserve">
+    <value>Ngày Kết Thúc:</value>
+  </data>
+  <data name="plEndDate.Help" xml:space="preserve">
+    <value>Chọn ngày kết thúc cho module. Bạn có thể sử dụng Lịch để chọn lấy một ngày.</value>
+  </data>
+  <data name="plDefault.Text" xml:space="preserve">
+    <value>Đặt Thiết Lập Mặc Định?</value>
+  </data>
+  <data name="plDefault.Help" xml:space="preserve">
+    <value>Chọn tuỳ chọn này nếu bạn muốn trang Cấu hình của module này được sử dụng như là thiết lập mặc định khi thêm vào các module mới.</value>
+  </data>
+  <data name="plAllModules.Text" xml:space="preserve">
+    <value>Áp Dụng Cho Tất Cả Các Module?</value>
+  </data>
+  <data name="plAllModules.Help" xml:space="preserve">
+    <value>Chọn tuỳ chọn này nếu bạn muốn Thiết Lập Trang của module được áp dụng cho tất cả các module hiện có trong site.</value>
+  </data>
+  <data name="SpecificSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Đặc Trưng Của Module</value>
+  </data>
+  <data name="SpecificSettingsHelp.Text" xml:space="preserve">
+    <value>Ở mục này, bạn có thể đặt các thiết lập đặc trưng cho module này.</value>
+  </data>
+  <data name="GeneralDetails.Text" xml:space="preserve">
+    <value>Thiết Lập Cơ Bản</value>
+  </data>
+  <data name="Appearance.Text" xml:space="preserve">
+    <value>Thiết Lập Cơ Bản</value>
+  </data>
+  <data name="OtherSettings.Text" xml:space="preserve">
+    <value>Thiết Lập Nâng Cao</value>
+  </data>
+  <data name="InheritPermissions.Text" xml:space="preserve">
+    <value>Thừa kế quyền &lt;b&gt;Hiển Thị&lt;/b&gt; từ &lt;b&gt;Trang&lt;/b&gt;</value>
+  </data>
+  <data name="ControlTitle_module.Text" xml:space="preserve">
+    <value>Module </value>
+  </data>
+  <data name="plDisplayTitle.Text" xml:space="preserve">
+    <value>Hiển Thị Container?</value>
+  </data>
+  <data name="plDisplayTitle.Help" xml:space="preserve">
+    <value>Chọn tuỳ chọn này nếu bạn muốn hiển thị container của Module</value>
+  </data>
+  <data name="plDisplaySyndicate.Text" xml:space="preserve">
+    <value>Cho phép Chia Sẻ?</value>
+  </data>
+  <data name="plDisplayPrint.Help" xml:space="preserve">
+    <value>Chọn tuỳ chọn này nếu bạn muốn cho phép chức năng in ấn cho module</value>
+  </data>
+  <data name="plDisplaySyndicate.Help" xml:space="preserve">
+    <value>Chọn tuỳ chọn này nếu bạn muốn cho phép RSS cho module này</value>
+  </data>
+  <data name="plDisplayPrint.Text" xml:space="preserve">
+    <value>Cho Phép In Ấn?</value>
+  </data>
+  <data name="valStartDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Ngày Bắt Đầu Không Hợp Lệ</value>
+  </data>
+  <data name="valEndDate.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Ngày Kết Thúc Không Hợp Lệ</value>
+  </data>
+  <data name="valCacheTime.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Thời Gian Cache Không Hợp Lệ</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Thiết Lập Module&lt;/h1&gt;&lt;p&gt;Cách Quản trị viên có thể quản lý các Thiết Lập Module cho trang hiện tại. Điều này cho phép bạn xác định các đặc tính của module bao gồm nội dung, quyền truy cập, và các thuộc tính hiển thị.&lt;/p&gt;</value>
+  </data>
+  <data name="valBorder.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Đường biên không hợp lệ (phải là một số từ 0 đến 9)</value>
+  </data>
+  <data name="Bind.Text" xml:space="preserve">
+    <value>Gắn</value>
+  </data>
+  <data name="CacheDuration.Help" xml:space="preserve">
+    <value>Enter the duration (in seconds) to cache the page for.  This must be an integer.</value>
+  </data>
+  <data name="CacheDuration.Text" xml:space="preserve">
+    <value>Thời gian cache (giây)</value>
+  </data>
+  <data name="CacheDurationWarning.Text" xml:space="preserve">
+    <value>This module has indicated a recommendation to disable caching (select NONE from the Output Cache Provider list above).  Enabling caching on this module is not recommended and may cause the module to display stale data.</value>
+  </data>
+  <data name="CacheInherited.Text" xml:space="preserve">
+    <value>Kế thừa</value>
+  </data>
+  <data name="CacheProvider.Help" xml:space="preserve">
+    <value>Select the provider to use for this page.</value>
+  </data>
+  <data name="CacheProvider.Text" xml:space="preserve">
+    <value>Output Cache Provider</value>
+  </data>
+  <data name="cmdClearAllTabModuleCache.Text" xml:space="preserve">
+    <value>Làm mới bộ nhớ cache trên các tab module</value>
+  </data>
+  <data name="cmdClearTabModuleCache.Text" xml:space="preserve">
+    <value>Làm mới bộ nhớ cache trên module này</value>
+  </data>
+  <data name="CreateBoundCopies.Text" xml:space="preserve">
+    <value>Create Bound Copies</value>
+  </data>
+  <data name="cultureLabel.Help" xml:space="preserve">
+    <value>Văn hóa cho module này</value>
+  </data>
+  <data name="cultureLabel.Text" xml:space="preserve">
+    <value>Văn hóa của module:</value>
+  </data>
+  <data name="CustomSettings.Text" xml:space="preserve">
+    <value>{0} Thiết lập</value>
+  </data>
+  <data name="defaultCultureLabel.Help" xml:space="preserve">
+    <value>Click this link to view the version of this module in the default culture</value>
+  </data>
+  <data name="defaultCultureLabel.Text" xml:space="preserve">
+    <value>Văn hóa mặc định:</value>
+  </data>
+  <data name="edit.Text" xml:space="preserve">
+    <value>Sửa</value>
+  </data>
+  <data name="InstalledOn.Help" xml:space="preserve">
+    <value>Lists the pages that contain this module. An existing module can be added to other pages by using the Add Existing Module feature. This list only includes pages this module was added to using the Add Existing Module feature.</value>
+  </data>
+  <data name="InstalledOn.Text" xml:space="preserve">
+    <value>This module has been added to the following pages:</value>
+  </data>
+  <data name="lblCachedItemCount.Text" xml:space="preserve">
+    <value>Current Cache Count: {0} item for this tab module</value>
+  </data>
+  <data name="LocalizedModules.Text" xml:space="preserve">
+    <value>Module Localization</value>
+  </data>
+  <data name="ModuleExists.Text" xml:space="preserve">
+    <value>This module already exists on the target page (it may be in the recycle bin), and only one instance of a module can exist on a page.</value>
+  </data>
+  <data name="ModuleInstalledOn.Text" xml:space="preserve">
+    <value>Đã được thêm vào các trang</value>
+  </data>
+  <data name="MsgInstalledOnAll.Text" xml:space="preserve">
+    <value>Module được hiển thị trên các trang</value>
+  </data>
+  <data name="MsgInstalledOnNone.Text" xml:space="preserve">
+    <value>This module instance has not been added to any additional pages.</value>
+  </data>
+  <data name="plAdminBorder.Help" xml:space="preserve">
+    <value>Checking this box will enable red admin border to be displayed around the module to admins when logged on to the site.</value>
+  </data>
+  <data name="plAdminBorder.Text" xml:space="preserve">
+    <value>Ẩn đường viền quản trị</value>
+  </data>
+  <data name="plFriendlyName.Help" xml:space="preserve">
+    <value>Hiển thị tên module.</value>
+  </data>
+  <data name="plFriendlyName.Text" xml:space="preserve">
+    <value>Module:</value>
+  </data>
+  <data name="plNewTabs.Help" xml:space="preserve">
+    <value>Check this box to add the module to new pages only.</value>
+  </data>
+  <data name="plNewTabs.Text" xml:space="preserve">
+    <value>Chỉ thêm vào trang mới?</value>
+  </data>
+  <data name="plTags.Help" xml:space="preserve">
+    <value>Select items from the drop-down to tag this Module.</value>
+  </data>
+  <data name="plTags.Text" xml:space="preserve">
+    <value>Tags:</value>
+  </data>
+  <data name="plWebSlice.Help" xml:space="preserve">
+    <value>Check this box to make this module an IE8 WebSlice</value>
+  </data>
+  <data name="plWebSlice.Text" xml:space="preserve">
+    <value>Là WebSlice?</value>
+  </data>
+  <data name="plWebSliceExpiry.Help" xml:space="preserve">
+    <value>Enter a date when the Web Slice will expire - if left blank the Module's End date will be used</value>
+  </data>
+  <data name="plWebSliceExpiry.Text" xml:space="preserve">
+    <value>Web Slice Expires:</value>
+  </data>
+  <data name="plWebSliceTitle.Help" xml:space="preserve">
+    <value>Enter a title for the Web Slice - if you leave this blank the Module's Title will be used.</value>
+  </data>
+  <data name="plWebSliceTitle.Text" xml:space="preserve">
+    <value>Web Slice Title:</value>
+  </data>
+  <data name="plWebSliceTTL.Help" xml:space="preserve">
+    <value>Enter the Time to Live (TTL) for this web slice in minutes.  If left blank this will default to the cache time (converted to minutes)</value>
+  </data>
+  <data name="plWebSliceTTL.Text" xml:space="preserve">
+    <value>Web Slice TTL:</value>
+  </data>
+  <data name="Translated.Text" xml:space="preserve">
+    <value>Đánh dấu đã dịch</value>
+  </data>
+  <data name="UnBind.Text" xml:space="preserve">
+    <value>Gỡ</value>
+  </data>
+  <data name="UnTranslated.Text" xml:space="preserve">
+    <value>Đánh dấu chưa dịch</value>
+  </data>
+  <data name="valEndDate2.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Ngày kết thúc phải lớn hơn Ngày bắt đầu</value>
+  </data>
+  <data name="valWebSliceExpiry.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Ngày hết hạn không hợp lệ</value>
+  </data>
+  <data name="valWebSliceTTL.ErrorMessage" xml:space="preserve">
+    <value>&lt;br&gt;Invalid TTL - value must be an integer</value>
+  </data>
+  <data name="AllowIndexLabel.Help" xml:space="preserve">
+    <value>Thiết lập này điều khiển một module được thiết lập chỉ mục bởi trình thu thập tìm kiếm.</value>
+  </data>
+  <data name="AllowIndexLabel.Text" xml:space="preserve">
+    <value>Cho phép lập chỉ mục?</value>
+  </data>
+  <data name="ExpandAll.Text" xml:space="preserve">
+    <value>Mở rộng</value>
+  </data>
+  <data name="isShareableLabel.Help" xml:space="preserve">
+    <value>Check this box to allow the module to be shared across sites.</value>
+  </data>
+  <data name="isShareableLabel.Text" xml:space="preserve">
+    <value>Cho phép chia sẻ?</value>
+  </data>
+  <data name="isShareableViewOnlyLabel.Help" xml:space="preserve">
+    <value>Check this box to restrict the module to be shared as View Only.</value>
+  </data>
+  <data name="isShareableViewOnlyLabel.Text" xml:space="preserve">
+    <value>Chỉ xem?</value>
+  </data>
+  <data name="lblNoRecords.Text" xml:space="preserve">
+    <value>Module này không được thêm vào bất kỳ trang nào khác</value>
+  </data>
+  <data name="Page.Header" xml:space="preserve">
+    <value>Trang</value>
+  </data>
+  <data name="Permissions.Text" xml:space="preserve">
+    <value>Phân quyền</value>
+  </data>
+  <data name="PreviewNoSelectionMessage.Text" xml:space="preserve">
+    <value>Please select a container to preview.</value>
+  </data>
+  <data name="Site.Header" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+</root>

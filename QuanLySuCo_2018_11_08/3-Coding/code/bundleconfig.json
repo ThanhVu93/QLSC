@@ -1,0 +1,28 @@
+[
+  {
+    "outputFileName": "DesktopModules/PSW/lib/daterangepicker/daterangepicker.min.js",
+    "inputFiles": [
+      "DesktopModules/PSW/lib/daterangepicker/daterangepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "DesktopModules/PSW/lib/daterangepicker/daterangepicker.min.css",
+    "inputFiles": [
+      "DesktopModules/PSW/lib/daterangepicker/daterangepicker.css"
+    ]
+  },
+  {
+    "outputFileName": "Portals/_default/Skins/PSW/css/psw.css",
+    "inputFiles": [
+      "Portals/_default/Skins/PSW/css/waves.css",
+      "Portals/_default/Skins/PSW/css/jquery.tabs.css",
+      "Portals/_default/Skins/PSW/css/login_form.css",
+      "Portals/_default/Skins/PSW/css/menu.css",
+      "Portals/_default/Skins/PSW/css/custom.css",
+      "Portals/_default/Skins/PSW/css/lib.css",
+      "Portals/_default/Skins/PSW/css/toastr.css",
+      "Portals/_default/Skins/PSW/css/module.css",
+      "Portals/_default/Skins/PSW/css/styleAdmin.css"
+    ]
+  }
+]
