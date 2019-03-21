@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="quanlysuco" Class="QLSCDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(local);Initial Catalog=quanlysuco;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SiteSqlServer" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.QLSC_DONVI" Member="QLSC_DONVIs">
+    <Type Name="QLSC_DONVI">
+      <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DONVI_TEN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DONVI_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="DONVI_ROLE_ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="QLSC_DONVI_QLSC_SUCO" Member="QLSC_SUCOs" ThisKey="DONVI_ID" OtherKey="DONVI_ID" Type="QLSC_SUCO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QLSC_LOAISUCO" Member="QLSC_LOAISUCOs">
+    <Type Name="QLSC_LOAISUCO">
+      <Column Name="LOAISC_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LOAISC_TEN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="LOAISC_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="QLSC_LOAISUCO_QLSC_SUCO" Member="QLSC_SUCOs" ThisKey="LOAISC_ID" OtherKey="LOAISC_ID" Type="QLSC_SUCO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QLSC_SUCO" Member="QLSC_SUCOs">
+    <Type Name="QLSC_SUCO">
+      <Column Name="SC_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SC_Date" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SC_NGAYXAYRA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SC_NGAYTAILAP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SC_NOIDUNG" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SC_NGUYENNHAN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_DIENAP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_CQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_KQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_LOAI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_TONGSOKH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_TAISAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LOAISC_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="QLSC_DONVI_QLSC_SUCO" Member="QLSC_DONVI" ThisKey="DONVI_ID" OtherKey="DONVI_ID" Type="QLSC_DONVI" IsForeignKey="true" />
+      <Association Name="QLSC_LOAISUCO_QLSC_SUCO" Member="QLSC_LOAISUCO" ThisKey="LOAISC_ID" OtherKey="LOAISC_ID" Type="QLSC_LOAISUCO" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuperUser" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AffiliateId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="DisplayName" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="UpdatePassword" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LastIPAddress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IsDeleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedByUserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedOnDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastModifiedByUserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastModifiedOnDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PasswordResetToken" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="PasswordResetExpiration" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LowerEmail" Type="System.String" DbType="NVarChar(256)" IsDbGenerated="true" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Roles" Member="Roles">
+    <Type Name="Role">
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PortalID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="ServiceFee" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="BillingFrequency" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="TrialPeriod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TrialFrequency" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="BillingPeriod" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TrialFee" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="IsPublic" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="AutoAssignment" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="RoleGroupID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RSVPCode" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IconFile" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="CreatedByUserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CreatedOnDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="LastModifiedByUserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastModifiedOnDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SecurityMode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsSystemRole" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QLSC_NGUOIDUNG" Member="QLSC_NGUOIDUNGs">
+    <Type Name="QLSC_NGUOIDUNG">
+      <Column Name="ND_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ND_TEN" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ND_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QLSC_TAPTIN" Member="QLSC_TAPTINs">
+    <Type Name="QLSC_TAPTIN">
+      <Column Name="FILE_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FILE_NAME" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_MOTA" Type="System.String" DbType="NVarChar(1000) NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_EXT" Type="System.String" DbType="VarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_SIZE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_USERID_CAPNHAT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FILE_NGAYCAPNHAT" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="OBJECT_LOAI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OBJECT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

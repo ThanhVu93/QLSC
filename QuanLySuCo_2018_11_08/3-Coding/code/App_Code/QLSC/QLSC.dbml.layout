@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.625" name="QLSC">
+  <DataContextMoniker Name="/QLSCDataContext" />
+  <nestedChildShapes>
+    <classShape Id="627b8433-5e6a-4acb-97ec-edf96cba6d85" absoluteBounds="0.75, 2.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLSCDataContext/QLSC_DONVI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="74f95d53-0f90-4fcd-9290-d2b1dad09c96" absoluteBounds="0.76500000000000012, 3.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de58f49c-19b5-4827-863c-a3ccf77fb4e1" absoluteBounds="0.875, 0.5, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/QLSCDataContext/QLSC_LOAISUCO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b3e139d9-c281-4bf7-b969-dd2af4287243" absoluteBounds="0.88999999999999968, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1624cf88-d57c-4523-a88d-039ab2957c41" absoluteBounds="5.125, 0.5, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/QLSCDataContext/QLSC_SUCO" />
+      <nestedChildShapes>
+        <elementListCompartment Id="240ecf17-140c-4f27-b018-59489c8c7eb9" absoluteBounds="5.1400000000000006, 0.96, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 3.41429768880208); (5.125 : 3.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSCDataContext/QLSC_DONVI/QLSC_DONVI_QLSC_SUCO" />
+      <nodes>
+        <classShapeMoniker Id="627b8433-5e6a-4acb-97ec-edf96cba6d85" />
+        <classShapeMoniker Id="1624cf88-d57c-4523-a88d-039ab2957c41" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 1.19314697265625); (5.125 : 1.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLSCDataContext/QLSC_LOAISUCO/QLSC_LOAISUCO_QLSC_SUCO" />
+      <nodes>
+        <classShapeMoniker Id="de58f49c-19b5-4827-863c-a3ccf77fb4e1" />
+        <classShapeMoniker Id="1624cf88-d57c-4523-a88d-039ab2957c41" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9953944f-e4dc-4537-80a5-7509cb4409f6" absoluteBounds="1, 7.375, 2, 4.2708154296875">
+      <DataClassMoniker Name="/QLSCDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0ee69c69-6bf2-4546-ab3d-f97fbee4b400" absoluteBounds="1.0150000000000001, 7.8350000000000009, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19dfe9e4-ce45-4ca9-be60-4a6c47371a52" absoluteBounds="3.625, 7.375, 2, 5.0400211588541657">
+      <DataClassMoniker Name="/QLSCDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85f34956-aa64-4956-b703-e075ace89709" absoluteBounds="3.6399999999999997, 7.835, 1.9700000000000002, 4.4800211588541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f7f6bea-2159-46fe-95aa-5755a2c44515" absoluteBounds="0.875, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLSCDataContext/QLSC_NGUOIDUNG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="906002f8-e9d3-433e-b2f5-ac351c75b32b" absoluteBounds="0.89, 5.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5b2b1d21-5c05-4e77-8896-470cda431f74" absoluteBounds="8, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/QLSCDataContext/QLSC_TAPTIN" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca7d5888-64c0-490c-a44d-f75831c56d20" absoluteBounds="8.015, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
