@@ -164,7 +164,7 @@
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Nội dung sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <asp:TextBox ID="txtNoiDungSuCo" runat="server" CssClass="form-control requirements" MaxLength="490" TextMode="MultiLine" Rows="3" />
+                                        <asp:TextBox ID="txtNoiDungSuCo" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="3" />
                                          <asp:RequiredFieldValidator ID="rq_NDSC" runat="server" ControlToValidate="txtNoiDungSuCo"
                                             Display="None" ErrorMessage="Vui lòng nhập nội dung sự cố"
                                             SetFocusOnError="true" />
@@ -176,7 +176,10 @@
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Nguyên nhân </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <asp:TextBox ID="txtNguyenNhan" runat="server" CssClass="form-control" MaxLength="490" TextMode="MultiLine" Rows="3" />
+                                        <asp:TextBox ID="txtNguyenNhan" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="3" />
+                                         <asp:RequiredFieldValidator ID="rq_NguyenNhan" runat="server" ControlToValidate="txtNguyenNhan"
+                                            Display="None" ErrorMessage="Vui lòng nhập nguyên nhân sự cố"
+                                            SetFocusOnError="true" />
                                     </div>
                                 </div>
                             </div>

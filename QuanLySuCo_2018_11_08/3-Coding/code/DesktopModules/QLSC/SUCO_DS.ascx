@@ -41,34 +41,34 @@
                         <HeaderStyle CssClass="tieude" />
                         <Columns>
                             <asp:BoundColumn DataField="SC_ID" Visible="false"></asp:BoundColumn>
-                            <asp:TemplateColumn HeaderText="STT">
-                                <HeaderStyle Width="2%" />
+                            <asp:TemplateColumn HeaderText="STT" HeaderStyle-CssClass="generator-stt">
+                                <HeaderStyle Width="2%" CssClass="generator-stt"/>
                                 <ItemStyle HorizontalAlign="Center" Width="2%" />
                                 <ItemTemplate>
                                     <%#STT() %>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
-                            <asp:BoundColumn HeaderText="Ngày tháng xảy ra sự cố" DataField="SC_NGAYXAYRA">
+                            <asp:BoundColumn HeaderText="Ngày tháng xảy ra sự cố" DataField="SC_NGAYXAYRA" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="5%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="Giờ xảy ra sự cố" DataField="SC_GIOXAYRA">
+                            <asp:BoundColumn HeaderText="Giờ xảy ra sự cố" DataField="SC_GIOXAYRA" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Center" Width="3%" />
                                 <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="Giờ tái lập" DataField="SC_NGAYTAILAP">
+                            <asp:BoundColumn HeaderText="Giờ tái lập" DataField="SC_NGAYTAILAP" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Center" Width="3%" />
                                 <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="Nội dung sự cố" DataField="SC_NOIDUNG">
+                            <asp:BoundColumn HeaderText="Nội dung sự cố" DataField="SC_NOIDUNG" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="10%" />
                                 <HeaderStyle Width="10%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="Nguyên nhân" DataField="SC_NGUYENNHAN">
+                            <asp:BoundColumn HeaderText="Nguyên nhân" DataField="SC_NGUYENNHAN" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="10%" />
                                 <HeaderStyle Width="10%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="ĐV để xảy ra sự cố" DataField="SC_DONVI">
+                            <asp:BoundColumn HeaderText="ĐV để xảy ra sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="7%" />
                                 <HeaderStyle Width="7%" />
                             </asp:BoundColumn>
@@ -80,9 +80,9 @@
                                                 <td style="width: 100%; border-bottom: 1px solid #ddd" colspan="3">VTTB sự cố</td>
                                             </tr>
                                             <tr>
-                                                <td style="width: 40%;">Tên chủng loại</td>
-                                                <td style="width: 20%;">Số lượng</td>
-                                                <td style="width: 40%;">Nhà sản xuất</td>
+                                                <td style="width: 40%;" class="generator-stt">Tên chủng loại</td>
+                                                <td style="width: 20%;" class="generator-stt">Số lượng</td>
+                                                <td style="width: 40%;" class="generator-stt">Nhà sản xuất</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -100,7 +100,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
-                            <asp:BoundColumn HeaderText="Điện áp (TT, HT)" DataField="SC_DIENAP">
+                            <asp:BoundColumn HeaderText="Điện áp (TT, HT)" DataField="SC_DIENAP" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Center" Width="3%" />
                                 <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
@@ -128,12 +128,12 @@
                                             <td style="width: 15%;">Ngã rẽ</td>
                                         </tr>
 
-                                        <div style="width: 16%; border-right: 1px solid #ddd"></div>
-                                        <div style="width: 16%; border-right: 1px solid #ddd"></div>
-                                        <div style="width: 16%; border-right: 1px solid #ddd"></div>
-                                        <div style="width: 16%; border-right: 1px solid #ddd"></div>
-                                        <div style="width: 16%; border-right: 1px solid #ddd"></div>
-                                        <div style="width: 20%; border-right: 1px solid #ddd"></div>
+                                        <div style="width: 15%; border-right: 1px solid #ddd" class="generator-stt"></div>
+                                        <div style="width: 15%; border-right: 1px solid #ddd" class="generator-stt"></div>
+                                        <div style="width: 15%; border-right: 1px solid #ddd" class="generator-stt"></div>
+                                        <div style="width: 15%; border-right: 1px solid #ddd" class="generator-stt"></div>
+                                        <div style="width: 20%; border-right: 1px solid #ddd" class="generator-stt"></div>
+                                        <div style="width: 20%; border-right: 1px solid #ddd" class="generator-stt"></div>
                                     </table>
                                 </HeaderTemplate>
                                 <ItemTemplate>
@@ -153,7 +153,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
-                            <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG">
+                            <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="5%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
@@ -165,8 +165,8 @@
                                                 <td style="width: 30%; border-bottom: 1px solid #ddd" colspan="2">Tài sản</td>
                                             </tr>
                                             <tr>
-                                                <td style="width: 50%;">Điện lực</td>
-                                                <td style="width: 50%;">Khách hàng</td>
+                                                <td style="width: 50%;" class="generator-stt">Điện lực</td>
+                                                <td style="width: 50%;" class="generator-stt">Khách hàng</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -183,18 +183,18 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
-                            <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU">
+                            <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU" HeaderStyle-CssClass="generator-stt" >
                                 <ItemStyle HorizontalAlign="Left" Width="8%" />
                                 <HeaderStyle Width="8%" />
                             </asp:BoundColumn>
 
-                            <asp:TemplateColumn HeaderText="Sửa" HeaderStyle-CssClass="headerGrid">
+                            <asp:TemplateColumn HeaderText="Sửa" HeaderStyle-CssClass="headerGrid generator-stt">
                                 <ItemStyle Width="3%" HorizontalAlign="Center" CssClass="c" />
                                 <ItemTemplate>
                                     <a onserverclick="dgSua" oncontextmenu="return false" href='<%#DataBinder.Eval(Container,"DataItem.SC_ID")%>' runat="server"><span class="glyphicon glyphicon-pencil" style="color: #F57010;"></span></a>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
-                            <asp:TemplateColumn HeaderText="Xóa" HeaderStyle-CssClass="headerGrid">
+                            <asp:TemplateColumn HeaderText="Xóa" HeaderStyle-CssClass="headerGrid generator-stt ">
                                 <ItemStyle Width="3%" HorizontalAlign="Center" CssClass="c" />
                                 <ItemTemplate>
                                     <a onserverclick="dgXoa" class="icon-xoa" onclick="return ConfirmDelete();" oncontextmenu="return false" href='<%#DataBinder.Eval(Container,"DataItem.SC_ID")%>' runat="server"></a>
@@ -210,22 +210,22 @@
     </ContentTemplate>    
 </asp:UpdatePanel>
 <script type="text/javascript">
-    //function set_generator_stt() {
-    //    $(".generator-stt-row").remove();
-    //    var generator_num_cols = jQuery(".danhsach table.has_table > tbody > tr.tieude").find(".generator-stt");
-    //    var v_html;
-    //    v_html += "<tr class='generator-stt-row aligncenter' >";
-    //    v_html += "<td colspan='" + generator_num_cols.length + "'>";
+    function set_generator_stt() {
+        $(".generator-stt-row").remove();
+        var generator_num_cols = jQuery(".danhsach table.has_table > tbody > tr.tieude").find(".generator-stt");
+        var v_html;
+        v_html += "<tr class='generator-stt-row aligncenter' >";
+        v_html += "<td colspan='" + generator_num_cols.length + "'>";
 
-    //    for (var i = 0; i < generator_num_cols.length; i++) {
-    //        v_html += "<div class='generator-stt-item' style='width:" + jQuery(generator_num_cols[i]).outerWidth() + "px;' >";
-    //        v_html += "-" + (i + 1);
-    //        v_html += "</div>";
-    //    }
-    //    v_html += "</td>";
-    //    v_html += "</tr>";
-    //    $('.danhsach table.has_table> tbody>tr:nth-child(2)').after(v_html)
-    //}
+        for (var i = 0; i < generator_num_cols.length; i++) {
+            v_html += "<div class='generator-stt-item' style='width:" + jQuery(generator_num_cols[i]).outerWidth() + "px;' >";
+            v_html += "-" + (i + 1);
+            v_html += "</div>";
+        }
+        v_html += "</td>";
+        v_html += "</tr>";
+        $('.danhsach table.has_table> tbody>tr:nth-child(2)').after(v_html)
+    }
     var myScroll;
     function loaded() {
         if ($('.wrapper_scroller').has("table").length != 0) {
