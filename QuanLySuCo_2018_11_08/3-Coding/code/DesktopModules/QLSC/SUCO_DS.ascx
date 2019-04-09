@@ -35,9 +35,9 @@
             </di>    
         </asp:Panel>
         <div class="boxbox">
-            <asp:Panel ID="pnlDanhSach" runat="server" CssClass="danhsach danhsach_scroller_container">
+            <asp:Panel ID="pnlDanhSach" runat="server" CssClass="danhsach danhsach_scroller_container" >
                 <div class="wrapper_scroller" id="divTable" runat="server">
-                    <asp:DataGrid UseAccessibleHeader="true" Width="2500" OnItemDataBound="dgDanhSach_ItemDataBound" runat="server" ID="dgDanhSach" CssClass="has_table  scroller_content" AutoGenerateColumns="False" OnInit="dgCustom_Init" OnPreRender="dgDanhSach_PreRender" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="true" AllowCustomPaging="false" OnItemCreated="dgDanhSach_ItemCreated">
+                    <asp:DataGrid UseAccessibleHeader="true" Width="3000px" OnItemDataBound="dgDanhSach_ItemDataBound" runat="server" ID="dgDanhSach" CssClass="has_table  scroller_content" AutoGenerateColumns="False" OnInit="dgCustom_Init" OnPreRender="dgDanhSach_PreRender" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="true" AllowCustomPaging="false" OnItemCreated="dgDanhSach_ItemCreated" >
                         <HeaderStyle CssClass="tieude" />
                         <Columns>
                             <asp:BoundColumn DataField="SC_ID" Visible="false"></asp:BoundColumn>
@@ -49,7 +49,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
                             <asp:BoundColumn HeaderText="Ngày tháng xảy ra sự cố" DataField="SC_NGAYXAYRA" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="5%" />
+                                <ItemStyle HorizontalAlign="Center" Width="5%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Giờ xảy ra sự cố" DataField="SC_GIOXAYRA" HeaderStyle-CssClass="generator-stt">
@@ -62,15 +62,15 @@
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Nội dung sự cố" DataField="SC_NOIDUNG" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="10%" />
-                                <HeaderStyle Width="10%" />
+                                <HeaderStyle Width="11%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Nguyên nhân" DataField="SC_NGUYENNHAN" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="10%" />
-                                <HeaderStyle Width="10%" />
+                                <HeaderStyle Width="11%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="ĐV để xảy ra sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="7%" />
-                                <HeaderStyle Width="7%" />
+                                <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
                             <asp:TemplateColumn ItemStyle-Width="15%" HeaderStyle-Width="12%" ItemStyle-CssClass="pd-0">
                                 <HeaderTemplate>
@@ -154,7 +154,7 @@
                             </asp:TemplateColumn>
 
                             <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="5%" />
+                                <ItemStyle HorizontalAlign="Right" Width="5%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
                             <asp:TemplateColumn ItemStyle-Width="7%" HeaderStyle-Width="7%" ItemStyle-CssClass="pd-0">
@@ -184,18 +184,18 @@
                             </asp:TemplateColumn>
 
                             <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU" HeaderStyle-CssClass="generator-stt" >
-                                <ItemStyle HorizontalAlign="Left" Width="8%" />
-                                <HeaderStyle Width="8%" />
+                                <ItemStyle HorizontalAlign="Left"  />
+                                <%--<HeaderStyle Width="8%" />--%>
                             </asp:BoundColumn>
 
                             <asp:TemplateColumn HeaderText="Sửa" HeaderStyle-CssClass="headerGrid generator-stt">
-                                <ItemStyle Width="3%" HorizontalAlign="Center" CssClass="c" />
+                                <ItemStyle Width="2%" HorizontalAlign="Center" CssClass="c" />
                                 <ItemTemplate>
                                     <a onserverclick="dgSua" oncontextmenu="return false" href='<%#DataBinder.Eval(Container,"DataItem.SC_ID")%>' runat="server"><span class="glyphicon glyphicon-pencil" style="color: #F57010;"></span></a>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
                             <asp:TemplateColumn HeaderText="Xóa" HeaderStyle-CssClass="headerGrid generator-stt ">
-                                <ItemStyle Width="3%" HorizontalAlign="Center" CssClass="c" />
+                                <ItemStyle Width="2%" HorizontalAlign="Center" CssClass="c" />
                                 <ItemTemplate>
                                     <a onserverclick="dgXoa" class="icon-xoa" onclick="return ConfirmDelete();" oncontextmenu="return false" href='<%#DataBinder.Eval(Container,"DataItem.SC_ID")%>' runat="server"></a>
                                 </ItemTemplate>

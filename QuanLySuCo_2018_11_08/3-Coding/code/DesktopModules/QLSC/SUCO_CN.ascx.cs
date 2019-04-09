@@ -168,7 +168,7 @@ namespace QLSC
 
                     objSUCO.SC_NOIDUNG = ClassCommon.ClearHTML(txtNoiDungSuCo.Text.Trim());
                     objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
-                    objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
+                    //objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
 
                     objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai.Text.Trim());
                     objSUCO.SC_VTTB_SOLUONG = int.Parse(txtSoLuong.Text.Trim());
@@ -382,7 +382,7 @@ namespace QLSC
                     HttpPostedFile userPostedFile = uploadedFiles[i];
                     try
                     {
-                        if (userPostedFile.ContentType == "image/jpg" || userPostedFile.ContentType == "image/png" || userPostedFile.ContentType == "image/jpeg")
+                        if (userPostedFile.ContentType == "image/jpg" || userPostedFile.ContentType == "image/png" || userPostedFile.ContentType == "image/jpeg" || userPostedFile.ContentType == "application/msword" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || userPostedFile.ContentType == "application/pdf" || userPostedFile.ContentType == "application/vnd.ms-excel" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" || userPostedFile.ContentType == "application/zip" || userPostedFile.ContentType == "application/rar")
                         {
                             if (userPostedFile.ContentLength < 1048576 * 5)
                             {
@@ -412,7 +412,7 @@ namespace QLSC
                         else
                         {
                             pnThongBao.Visible = true;
-                            lblThongBao.Text = "Hình ảnh không đúng định dạng!";
+                            lblThongBao.Text = "Tập tin không đúng định dạng!";
                         }
                     }
                     catch

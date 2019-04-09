@@ -223,8 +223,8 @@ namespace QLSC
                     DataRow row = dtTable.NewRow();
                     row["SC_ID"] = it.SC_ID;
                     row["SC_NGAYXAYRA"] = ClassCommon.HienThiNgayThangNam(Convert.ToDateTime(it.SC_NGAYXAYRA));
-                    row["SC_GIOXAYRA"] = String.Format("{0:HH : mm}", it.SC_NGAYTAILAP);
-                    row["SC_NGAYTAILAP"] = String.Format("{0:HH : mm}", it.SC_NGAYTAILAP);
+                    row["SC_GIOXAYRA"] = String.Format("{0:HH:mm}", it.SC_NGAYTAILAP);
+                    row["SC_NGAYTAILAP"] = String.Format("{0:HH:mm}", it.SC_NGAYTAILAP);
                     row["SC_NOIDUNG"] = it.SC_NOIDUNG;
                     row["SC_NGUYENNHAN"] = it.SC_NOIDUNG;
                     row["SC_DONVI"] = it.DONVI_TEN;
@@ -232,18 +232,18 @@ namespace QLSC
                     row["SC_VTTB_SOLUONG"] = it.SC_VTTB_SOLUONG;
                     row["SC_VTTB_NHASANXUAT"] = it.SC_VTTB_NHASANXUAT;
                     row["SC_DIENAP"] = it.SC_DIENAP == 1 ? "HT" : "";
-                    row["SC_CQ"] = it.SC_CQ == 1 ? "X" : "";
-                    row["SC_KQ"] = it.SC_KQ == 1 ? "X" : "";
+                    row["SC_CQ"] = it.SC_CQ == 1 ? "x" : "";
+                    row["SC_KQ"] = it.SC_KQ == 1 ? "x" : "";
                     row["SC_DIENAP"] = it.SC_DIENAP == 2 ? "HT" : "TT";
-                    row["SC_PHANLOAI_TQ_DUONGTRUC"] = it.SC_LOAI == 1 ? "X" : "";
-                    row["SC_PHANLOAI_TQ_NGARE"] = it.SC_LOAI == 2 ? "X" : "";
-                    row["SC_PHANLOAI_VC_DUONGTRUC"] = it.SC_LOAI == 3 ? "X" : "";
-                    row["SC_PHANLOAI_VC_NGARE"] = it.SC_LOAI == 4 ? "X" : "";
-                    row["SC_PHANLOAI_TBA"] = it.SC_LOAI == 5 ? "X" : "";
-                    row["SC_PHANLOAI_HA"] = it.SC_LOAI == 6 ? "X" : "";
+                    row["SC_PHANLOAI_TQ_DUONGTRUC"] = it.SC_LOAI == 1 ? "x" : "";
+                    row["SC_PHANLOAI_TQ_NGARE"] = it.SC_LOAI == 2 ? "x" : "";
+                    row["SC_PHANLOAI_VC_DUONGTRUC"] = it.SC_LOAI == 3 ? "x" : "";
+                    row["SC_PHANLOAI_VC_NGARE"] = it.SC_LOAI == 4 ? "x" : "";
+                    row["SC_PHANLOAI_TBA"] = it.SC_LOAI == 5 ? "x" : "";
+                    row["SC_PHANLOAI_HA"] = it.SC_LOAI == 6 ? "x" : "";
                     row["SC_TONGSOKHACHHANG"] = it.SC_TONGSOKH;
-                    row["SC_TAISAN_TBA"] = it.SC_TAISAN == 1 ? "X" : "";
-                    row["SC_TAISAN_HA"] = it.SC_TAISAN == 2 ? "X" : "";
+                    row["SC_TAISAN_TBA"] = it.SC_TAISAN == 1 ? "x" : "";
+                    row["SC_TAISAN_HA"] = it.SC_TAISAN == 2 ? "x" : "";
                     row["SC_GHICHU"] = it.SC_GHICHU;
                     row["UserID"] = it.UserID;
                     dtTable.Rows.Add(row);
@@ -764,7 +764,8 @@ namespace QLSC
                                 ws.Cells[vIndexRow, 19].Value = dt.Rows[i]["SC_PHANLOAI_HA"];
                                 ws.Cells[vIndexRow, 20].Value = dt.Rows[i]["SC_TONGSOKHACHHANG"];
                                 ws.Cells[vIndexRow, 21].Value = dt.Rows[i]["SC_TAISAN_TBA"];
-                                ws.Cells[vIndexRow, 22].Value = dt.Rows[i]["SC_TAISAN_HA"];                               
+                                ws.Cells[vIndexRow, 22].Value = dt.Rows[i]["SC_TAISAN_HA"];
+                                ws.Cells[vIndexRow, 23].Value = dt.Rows[i]["SC_GHICHU"];
                                 vIndexRow++;
                                 ws.InsertRow(vIndexRow, 1, vIndexRow - 1);
                             }
@@ -772,7 +773,7 @@ namespace QLSC
                             Byte[] fileBytes = pck.GetAsByteArray();
                             Response.Clear();
                             Response.Buffer = true;
-                            Response.AddHeader("content-disposition", "attachment;filename=" + "DANHSACH_THANHVIEN_" + DateTime.Now.Day + "_" + DateTime.Now.Month + "_"
+                            Response.AddHeader("content-disposition", "attachment;filename=" + "Bao_Cao_Su_Co_Dien_Luc_" + DateTime.Now.Day + "_" + DateTime.Now.Month + "_"
                                  + DateTime.Now.Year + ".xlsx");
                             Response.Charset = "";
                             Response.ContentType = "application/vnd.ms-excel";
