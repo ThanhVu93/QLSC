@@ -80,7 +80,7 @@
         <div class="row">
             <div class="col-sm-12 mr-b10">
                 <strong>Lưu ý </strong><span>(<span class="batbuoc" style="top: 3px; left: 1px;">*</span>) bắt buộc nhập</span><br />
-                - Phí đặt lệnh và phí đăng ký thành viên sau khi thay đổi thiết lập sẽ áp dụng trên toàn bộ hệ thống.
+               
             </div>
         </div>
 

@@ -184,7 +184,7 @@ namespace QLSC
                                 && sc.SC_NGAYXAYRA >= tungay
                                 && sc.SC_NGAYXAYRA <= denngay
                                 && (dv.DONVI_ID == DONVI_ID || DONVI_ID == 0)
-                                orderby sc.SC_ID descending
+                                orderby sc.SC_NGAYXAYRA descending
                                 select new
                                 {
                                     sc.DONVI_ID,
@@ -732,13 +732,19 @@ namespace QLSC
                                     ws.Cells[2, 1].Value = "ĐIỆN LỰC " + tenDV.ToUpper();
                                     ws.Cells[4, 13].Value = tenDV + ", ngày " + DateTime.Now.Day + " tháng " + DateTime.Now.Month + " năm " + DateTime.Now.Year;
                                 }
+                              
                             }
                             else
                             {
                                 ws.Cells[2, 1].Value = "";
                                 ws.Cells[4, 13].Value = "Sóc Trăng" + ", ngày " + DateTime.Now.Day + " tháng " + DateTime.Now.Month + " năm " + DateTime.Now.Year;
                             }
-                            
+                            if (drpDonVi.SelectedValue != "0")
+                            {
+                                ws.Cells[2, 1].Value = "ĐIỆN LỰC " + drpDonVi.Text.ToUpper();
+                                ws.Cells[4, 13].Value = drpDonVi.Text + ", ngày " + DateTime.Now.Day + " tháng " + DateTime.Now.Month + " năm " + DateTime.Now.Year;
+                            }
+
                             //Gán thời gian cho báo cáo
                             ws.Cells[6, 1].Value = "Báo cáo tình hình sự cố từ ngày " + ClassCommon.HienThiNgayThangNam(txtTuNgay.SelectedDate??DateTime.Now.AddDays(-7)) + " đến ngày " + ClassCommon.HienThiNgayThangNam(txtDenNgay.SelectedDate ?? DateTime.Now);
                             for (int i = 0; i < dt.Rows.Count; i++)

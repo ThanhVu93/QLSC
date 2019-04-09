@@ -48,11 +48,11 @@
                                     <%#STT() %>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
-                            <asp:BoundColumn HeaderText="Ngày tháng xảy ra sự cố" DataField="SC_NGAYXAYRA" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Center" Width="5%" />
-                                <HeaderStyle Width="5%" />
+                            <asp:BoundColumn HeaderText="Ngày tháng xảy ra<br/> sự cố" DataField="SC_NGAYXAYRA" HeaderStyle-CssClass="generator-stt">
+                                <ItemStyle HorizontalAlign="Center" Width="5%" Font-Bold="true" />
+                                <HeaderStyle Width="5%"/>
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="Giờ xảy ra sự cố" DataField="SC_GIOXAYRA" HeaderStyle-CssClass="generator-stt">
+                            <asp:BoundColumn HeaderText="Giờ xảy ra <br/> sự cố" DataField="SC_GIOXAYRA" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Center" Width="3%" />
                                 <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
@@ -68,7 +68,7 @@
                                 <ItemStyle HorizontalAlign="Left" Width="10%" />
                                 <HeaderStyle Width="11%" />
                             </asp:BoundColumn>
-                            <asp:BoundColumn HeaderText="ĐV để xảy ra sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
+                            <asp:BoundColumn HeaderText="ĐV để xảy ra <br/>sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Left" Width="7%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
