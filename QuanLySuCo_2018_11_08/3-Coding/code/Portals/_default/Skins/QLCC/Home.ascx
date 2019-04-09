@@ -42,8 +42,8 @@
         <!-- Logo -->
         <div class="logo hidden-xs">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini">QUẢN LÝ HỢP ĐỒNG</span>
-            <span class="logo-lg">QUẢN LÝ HỢP ĐỒNG</span>
+            <span class="logo-mini">QUẢN LÝ SỰ CỐ</span>
+            <span class="logo-lg">QUẢN LÝ SỰ CỐ</span>
         </div>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar">
