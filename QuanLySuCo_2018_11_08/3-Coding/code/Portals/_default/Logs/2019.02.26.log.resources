@@ -1,8 +1,0 @@
-20:34:28,738 [Administrator][Thread:6][ERROR] DotNetNuke.Services.Exceptions.Exceptions - System.NullReferenceException: Object reference not set to an instance of an object.
-   at DotNetNuke.Web.UI.Utilities.ApplySkin(Control telerikControl, String fallBackEmbeddedSkinName, String controlName, String webControlSkinSubFolderName)
-23:58:47,478 [Administrator][Thread:67][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
-   at DotNetNuke.Common.Globals.get_Status()
-   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
-23:58:47,540 [Administrator][Thread:67][ERROR] DotNetNuke.Services.Localization.LocalizationProvider - System.NullReferenceException: Object reference not set to an instance of an object.
-   at DotNetNuke.Common.Globals.get_Status()
-   at DotNetNuke.Services.Localization.LocalizationProvider.TryGetStringInternal(String key, String userLanguage, String resourceFile, PortalSettings portalSettings, String& resourceValue)
