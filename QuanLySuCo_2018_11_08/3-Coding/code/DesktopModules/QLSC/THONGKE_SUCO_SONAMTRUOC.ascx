@@ -67,7 +67,12 @@
                     background-color: #337ab7 !important;
                     border-color: #2e6da4 !important;
     } 
-           
+            .sc_tang{
+                color:red;
+            }
+            .sc_giam{
+                color:green;
+            }
         </style>
         <table id="suco">
             <tr>

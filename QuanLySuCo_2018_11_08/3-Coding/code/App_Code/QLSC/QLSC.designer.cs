@@ -30,15 +30,6 @@ namespace QLSC
 		
     #region Extensibility Method Definitions
     partial void OnCreated();
-    partial void InsertQLSC_DONVI(QLSC_DONVI instance);
-    partial void UpdateQLSC_DONVI(QLSC_DONVI instance);
-    partial void DeleteQLSC_DONVI(QLSC_DONVI instance);
-    partial void InsertQLSC_LOAISUCO(QLSC_LOAISUCO instance);
-    partial void UpdateQLSC_LOAISUCO(QLSC_LOAISUCO instance);
-    partial void DeleteQLSC_LOAISUCO(QLSC_LOAISUCO instance);
-    partial void InsertQLSC_SUCO(QLSC_SUCO instance);
-    partial void UpdateQLSC_SUCO(QLSC_SUCO instance);
-    partial void DeleteQLSC_SUCO(QLSC_SUCO instance);
     partial void InsertUser(User instance);
     partial void UpdateUser(User instance);
     partial void DeleteUser(User instance);
@@ -51,6 +42,15 @@ namespace QLSC
     partial void InsertQLSC_TAPTIN(QLSC_TAPTIN instance);
     partial void UpdateQLSC_TAPTIN(QLSC_TAPTIN instance);
     partial void DeleteQLSC_TAPTIN(QLSC_TAPTIN instance);
+    partial void InsertQLSC_SUCO(QLSC_SUCO instance);
+    partial void UpdateQLSC_SUCO(QLSC_SUCO instance);
+    partial void DeleteQLSC_SUCO(QLSC_SUCO instance);
+    partial void InsertQLSC_DONVI(QLSC_DONVI instance);
+    partial void UpdateQLSC_DONVI(QLSC_DONVI instance);
+    partial void DeleteQLSC_DONVI(QLSC_DONVI instance);
+    partial void InsertQLSC_LOAISUCO(QLSC_LOAISUCO instance);
+    partial void UpdateQLSC_LOAISUCO(QLSC_LOAISUCO instance);
+    partial void DeleteQLSC_LOAISUCO(QLSC_LOAISUCO instance);
     #endregion
 		
 		public QLSCDataContext() : 
@@ -81,30 +81,6 @@ namespace QLSC
 				base(connection, mappingSource)
 		{
 			OnCreated();
-		}
-		
-		public System.Data.Linq.Table<QLSC_DONVI> QLSC_DONVIs
-		{
-			get
-			{
-				return this.GetTable<QLSC_DONVI>();
-			}
-		}
-		
-		public System.Data.Linq.Table<QLSC_LOAISUCO> QLSC_LOAISUCOs
-		{
-			get
-			{
-				return this.GetTable<QLSC_LOAISUCO>();
-			}
-		}
-		
-		public System.Data.Linq.Table<QLSC_SUCO> QLSC_SUCOs
-		{
-			get
-			{
-				return this.GetTable<QLSC_SUCO>();
-			}
 		}
 		
 		public System.Data.Linq.Table<User> Users
@@ -138,880 +114,28 @@ namespace QLSC
 				return this.GetTable<QLSC_TAPTIN>();
 			}
 		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_DONVI")]
-	public partial class QLSC_DONVI : INotifyPropertyChanging, INotifyPropertyChanged
-	{
 		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _DONVI_ID;
-		
-		private string _DONVI_TEN;
-		
-		private string _DONVI_GHICHU;
-		
-		private System.Nullable<int> _DONVI_ROLE_ID;
-		
-		private EntitySet<QLSC_SUCO> _QLSC_SUCOs;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnDONVI_IDChanging(int value);
-    partial void OnDONVI_IDChanged();
-    partial void OnDONVI_TENChanging(string value);
-    partial void OnDONVI_TENChanged();
-    partial void OnDONVI_GHICHUChanging(string value);
-    partial void OnDONVI_GHICHUChanged();
-    partial void OnDONVI_ROLE_IDChanging(System.Nullable<int> value);
-    partial void OnDONVI_ROLE_IDChanged();
-    #endregion
-		
-		public QLSC_DONVI()
-		{
-			this._QLSC_SUCOs = new EntitySet<QLSC_SUCO>(new Action<QLSC_SUCO>(this.attach_QLSC_SUCOs), new Action<QLSC_SUCO>(this.detach_QLSC_SUCOs));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int DONVI_ID
+		public System.Data.Linq.Table<QLSC_SUCO> QLSC_SUCOs
 		{
 			get
 			{
-				return this._DONVI_ID;
-			}
-			set
-			{
-				if ((this._DONVI_ID != value))
-				{
-					this.OnDONVI_IDChanging(value);
-					this.SendPropertyChanging();
-					this._DONVI_ID = value;
-					this.SendPropertyChanged("DONVI_ID");
-					this.OnDONVI_IDChanged();
-				}
+				return this.GetTable<QLSC_SUCO>();
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_TEN", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string DONVI_TEN
+		public System.Data.Linq.Table<QLSC_DONVI> QLSC_DONVIs
 		{
 			get
 			{
-				return this._DONVI_TEN;
-			}
-			set
-			{
-				if ((this._DONVI_TEN != value))
-				{
-					this.OnDONVI_TENChanging(value);
-					this.SendPropertyChanging();
-					this._DONVI_TEN = value;
-					this.SendPropertyChanged("DONVI_TEN");
-					this.OnDONVI_TENChanged();
-				}
+				return this.GetTable<QLSC_DONVI>();
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string DONVI_GHICHU
+		public System.Data.Linq.Table<QLSC_LOAISUCO> QLSC_LOAISUCOs
 		{
 			get
 			{
-				return this._DONVI_GHICHU;
-			}
-			set
-			{
-				if ((this._DONVI_GHICHU != value))
-				{
-					this.OnDONVI_GHICHUChanging(value);
-					this.SendPropertyChanging();
-					this._DONVI_GHICHU = value;
-					this.SendPropertyChanged("DONVI_GHICHU");
-					this.OnDONVI_GHICHUChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ROLE_ID", DbType="Int")]
-		public System.Nullable<int> DONVI_ROLE_ID
-		{
-			get
-			{
-				return this._DONVI_ROLE_ID;
-			}
-			set
-			{
-				if ((this._DONVI_ROLE_ID != value))
-				{
-					this.OnDONVI_ROLE_IDChanging(value);
-					this.SendPropertyChanging();
-					this._DONVI_ROLE_ID = value;
-					this.SendPropertyChanged("DONVI_ROLE_ID");
-					this.OnDONVI_ROLE_IDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_DONVI_QLSC_SUCO", Storage="_QLSC_SUCOs", ThisKey="DONVI_ID", OtherKey="DONVI_ID")]
-		public EntitySet<QLSC_SUCO> QLSC_SUCOs
-		{
-			get
-			{
-				return this._QLSC_SUCOs;
-			}
-			set
-			{
-				this._QLSC_SUCOs.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_QLSC_SUCOs(QLSC_SUCO entity)
-		{
-			this.SendPropertyChanging();
-			entity.QLSC_DONVI = this;
-		}
-		
-		private void detach_QLSC_SUCOs(QLSC_SUCO entity)
-		{
-			this.SendPropertyChanging();
-			entity.QLSC_DONVI = null;
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_LOAISUCO")]
-	public partial class QLSC_LOAISUCO : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _LOAISC_ID;
-		
-		private string _LOAISC_TEN;
-		
-		private string _LOAISC_GHICHU;
-		
-		private EntitySet<QLSC_SUCO> _QLSC_SUCOs;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnLOAISC_IDChanging(int value);
-    partial void OnLOAISC_IDChanged();
-    partial void OnLOAISC_TENChanging(string value);
-    partial void OnLOAISC_TENChanged();
-    partial void OnLOAISC_GHICHUChanging(string value);
-    partial void OnLOAISC_GHICHUChanged();
-    #endregion
-		
-		public QLSC_LOAISUCO()
-		{
-			this._QLSC_SUCOs = new EntitySet<QLSC_SUCO>(new Action<QLSC_SUCO>(this.attach_QLSC_SUCOs), new Action<QLSC_SUCO>(this.detach_QLSC_SUCOs));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int LOAISC_ID
-		{
-			get
-			{
-				return this._LOAISC_ID;
-			}
-			set
-			{
-				if ((this._LOAISC_ID != value))
-				{
-					this.OnLOAISC_IDChanging(value);
-					this.SendPropertyChanging();
-					this._LOAISC_ID = value;
-					this.SendPropertyChanged("LOAISC_ID");
-					this.OnLOAISC_IDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_TEN", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string LOAISC_TEN
-		{
-			get
-			{
-				return this._LOAISC_TEN;
-			}
-			set
-			{
-				if ((this._LOAISC_TEN != value))
-				{
-					this.OnLOAISC_TENChanging(value);
-					this.SendPropertyChanging();
-					this._LOAISC_TEN = value;
-					this.SendPropertyChanged("LOAISC_TEN");
-					this.OnLOAISC_TENChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string LOAISC_GHICHU
-		{
-			get
-			{
-				return this._LOAISC_GHICHU;
-			}
-			set
-			{
-				if ((this._LOAISC_GHICHU != value))
-				{
-					this.OnLOAISC_GHICHUChanging(value);
-					this.SendPropertyChanging();
-					this._LOAISC_GHICHU = value;
-					this.SendPropertyChanged("LOAISC_GHICHU");
-					this.OnLOAISC_GHICHUChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_LOAISUCO_QLSC_SUCO", Storage="_QLSC_SUCOs", ThisKey="LOAISC_ID", OtherKey="LOAISC_ID")]
-		public EntitySet<QLSC_SUCO> QLSC_SUCOs
-		{
-			get
-			{
-				return this._QLSC_SUCOs;
-			}
-			set
-			{
-				this._QLSC_SUCOs.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_QLSC_SUCOs(QLSC_SUCO entity)
-		{
-			this.SendPropertyChanging();
-			entity.QLSC_LOAISUCO = this;
-		}
-		
-		private void detach_QLSC_SUCOs(QLSC_SUCO entity)
-		{
-			this.SendPropertyChanging();
-			entity.QLSC_LOAISUCO = null;
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_SUCO")]
-	public partial class QLSC_SUCO : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private int _SC_ID;
-		
-		private string _SC_Date;
-		
-		private System.Nullable<System.DateTime> _SC_NGAYXAYRA;
-		
-		private System.Nullable<System.DateTime> _SC_NGAYTAILAP;
-		
-		private string _SC_NOIDUNG;
-		
-		private string _SC_NGUYENNHAN;
-		
-		private string _SC_VTTB_TENCHUNGLOAI;
-		
-		private System.Nullable<int> _SC_VTTB_SOLUONG;
-		
-		private string _SC_VTTB_NHASANXUAT;
-		
-		private System.Nullable<int> _SC_DIENAP;
-		
-		private System.Nullable<int> _SC_CQ;
-		
-		private System.Nullable<int> _SC_KQ;
-		
-		private System.Nullable<int> _SC_LOAI;
-		
-		private System.Nullable<int> _SC_TONGSOKH;
-		
-		private System.Nullable<int> _SC_TAISAN;
-		
-		private string _SC_GHICHU;
-		
-		private System.Nullable<int> _UserID;
-		
-		private int _DONVI_ID;
-		
-		private int _LOAISC_ID;
-		
-		private EntityRef<QLSC_DONVI> _QLSC_DONVI;
-		
-		private EntityRef<QLSC_LOAISUCO> _QLSC_LOAISUCO;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnSC_IDChanging(int value);
-    partial void OnSC_IDChanged();
-    partial void OnSC_DateChanging(string value);
-    partial void OnSC_DateChanged();
-    partial void OnSC_NGAYXAYRAChanging(System.Nullable<System.DateTime> value);
-    partial void OnSC_NGAYXAYRAChanged();
-    partial void OnSC_NGAYTAILAPChanging(System.Nullable<System.DateTime> value);
-    partial void OnSC_NGAYTAILAPChanged();
-    partial void OnSC_NOIDUNGChanging(string value);
-    partial void OnSC_NOIDUNGChanged();
-    partial void OnSC_NGUYENNHANChanging(string value);
-    partial void OnSC_NGUYENNHANChanged();
-    partial void OnSC_VTTB_TENCHUNGLOAIChanging(string value);
-    partial void OnSC_VTTB_TENCHUNGLOAIChanged();
-    partial void OnSC_VTTB_SOLUONGChanging(System.Nullable<int> value);
-    partial void OnSC_VTTB_SOLUONGChanged();
-    partial void OnSC_VTTB_NHASANXUATChanging(string value);
-    partial void OnSC_VTTB_NHASANXUATChanged();
-    partial void OnSC_DIENAPChanging(System.Nullable<int> value);
-    partial void OnSC_DIENAPChanged();
-    partial void OnSC_CQChanging(System.Nullable<int> value);
-    partial void OnSC_CQChanged();
-    partial void OnSC_KQChanging(System.Nullable<int> value);
-    partial void OnSC_KQChanged();
-    partial void OnSC_LOAIChanging(System.Nullable<int> value);
-    partial void OnSC_LOAIChanged();
-    partial void OnSC_TONGSOKHChanging(System.Nullable<int> value);
-    partial void OnSC_TONGSOKHChanged();
-    partial void OnSC_TAISANChanging(System.Nullable<int> value);
-    partial void OnSC_TAISANChanged();
-    partial void OnSC_GHICHUChanging(string value);
-    partial void OnSC_GHICHUChanged();
-    partial void OnUserIDChanging(System.Nullable<int> value);
-    partial void OnUserIDChanged();
-    partial void OnDONVI_IDChanging(int value);
-    partial void OnDONVI_IDChanged();
-    partial void OnLOAISC_IDChanging(int value);
-    partial void OnLOAISC_IDChanged();
-    #endregion
-		
-		public QLSC_SUCO()
-		{
-			this._QLSC_DONVI = default(EntityRef<QLSC_DONVI>);
-			this._QLSC_LOAISUCO = default(EntityRef<QLSC_LOAISUCO>);
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
-		public int SC_ID
-		{
-			get
-			{
-				return this._SC_ID;
-			}
-			set
-			{
-				if ((this._SC_ID != value))
-				{
-					this.OnSC_IDChanging(value);
-					this.SendPropertyChanging();
-					this._SC_ID = value;
-					this.SendPropertyChanged("SC_ID");
-					this.OnSC_IDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_Date", DbType="NChar(10)")]
-		public string SC_Date
-		{
-			get
-			{
-				return this._SC_Date;
-			}
-			set
-			{
-				if ((this._SC_Date != value))
-				{
-					this.OnSC_DateChanging(value);
-					this.SendPropertyChanging();
-					this._SC_Date = value;
-					this.SendPropertyChanged("SC_Date");
-					this.OnSC_DateChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGAYXAYRA", DbType="DateTime")]
-		public System.Nullable<System.DateTime> SC_NGAYXAYRA
-		{
-			get
-			{
-				return this._SC_NGAYXAYRA;
-			}
-			set
-			{
-				if ((this._SC_NGAYXAYRA != value))
-				{
-					this.OnSC_NGAYXAYRAChanging(value);
-					this.SendPropertyChanging();
-					this._SC_NGAYXAYRA = value;
-					this.SendPropertyChanged("SC_NGAYXAYRA");
-					this.OnSC_NGAYXAYRAChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGAYTAILAP", DbType="DateTime")]
-		public System.Nullable<System.DateTime> SC_NGAYTAILAP
-		{
-			get
-			{
-				return this._SC_NGAYTAILAP;
-			}
-			set
-			{
-				if ((this._SC_NGAYTAILAP != value))
-				{
-					this.OnSC_NGAYTAILAPChanging(value);
-					this.SendPropertyChanging();
-					this._SC_NGAYTAILAP = value;
-					this.SendPropertyChanged("SC_NGAYTAILAP");
-					this.OnSC_NGAYTAILAPChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NOIDUNG", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string SC_NOIDUNG
-		{
-			get
-			{
-				return this._SC_NOIDUNG;
-			}
-			set
-			{
-				if ((this._SC_NOIDUNG != value))
-				{
-					this.OnSC_NOIDUNGChanging(value);
-					this.SendPropertyChanging();
-					this._SC_NOIDUNG = value;
-					this.SendPropertyChanged("SC_NOIDUNG");
-					this.OnSC_NOIDUNGChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGUYENNHAN", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string SC_NGUYENNHAN
-		{
-			get
-			{
-				return this._SC_NGUYENNHAN;
-			}
-			set
-			{
-				if ((this._SC_NGUYENNHAN != value))
-				{
-					this.OnSC_NGUYENNHANChanging(value);
-					this.SendPropertyChanging();
-					this._SC_NGUYENNHAN = value;
-					this.SendPropertyChanged("SC_NGUYENNHAN");
-					this.OnSC_NGUYENNHANChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_TENCHUNGLOAI", DbType="NVarChar(500)")]
-		public string SC_VTTB_TENCHUNGLOAI
-		{
-			get
-			{
-				return this._SC_VTTB_TENCHUNGLOAI;
-			}
-			set
-			{
-				if ((this._SC_VTTB_TENCHUNGLOAI != value))
-				{
-					this.OnSC_VTTB_TENCHUNGLOAIChanging(value);
-					this.SendPropertyChanging();
-					this._SC_VTTB_TENCHUNGLOAI = value;
-					this.SendPropertyChanged("SC_VTTB_TENCHUNGLOAI");
-					this.OnSC_VTTB_TENCHUNGLOAIChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_SOLUONG", DbType="Int")]
-		public System.Nullable<int> SC_VTTB_SOLUONG
-		{
-			get
-			{
-				return this._SC_VTTB_SOLUONG;
-			}
-			set
-			{
-				if ((this._SC_VTTB_SOLUONG != value))
-				{
-					this.OnSC_VTTB_SOLUONGChanging(value);
-					this.SendPropertyChanging();
-					this._SC_VTTB_SOLUONG = value;
-					this.SendPropertyChanged("SC_VTTB_SOLUONG");
-					this.OnSC_VTTB_SOLUONGChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_NHASANXUAT", DbType="NVarChar(500)")]
-		public string SC_VTTB_NHASANXUAT
-		{
-			get
-			{
-				return this._SC_VTTB_NHASANXUAT;
-			}
-			set
-			{
-				if ((this._SC_VTTB_NHASANXUAT != value))
-				{
-					this.OnSC_VTTB_NHASANXUATChanging(value);
-					this.SendPropertyChanging();
-					this._SC_VTTB_NHASANXUAT = value;
-					this.SendPropertyChanged("SC_VTTB_NHASANXUAT");
-					this.OnSC_VTTB_NHASANXUATChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_DIENAP", DbType="Int")]
-		public System.Nullable<int> SC_DIENAP
-		{
-			get
-			{
-				return this._SC_DIENAP;
-			}
-			set
-			{
-				if ((this._SC_DIENAP != value))
-				{
-					this.OnSC_DIENAPChanging(value);
-					this.SendPropertyChanging();
-					this._SC_DIENAP = value;
-					this.SendPropertyChanged("SC_DIENAP");
-					this.OnSC_DIENAPChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_CQ", DbType="Int")]
-		public System.Nullable<int> SC_CQ
-		{
-			get
-			{
-				return this._SC_CQ;
-			}
-			set
-			{
-				if ((this._SC_CQ != value))
-				{
-					this.OnSC_CQChanging(value);
-					this.SendPropertyChanging();
-					this._SC_CQ = value;
-					this.SendPropertyChanged("SC_CQ");
-					this.OnSC_CQChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_KQ", DbType="Int")]
-		public System.Nullable<int> SC_KQ
-		{
-			get
-			{
-				return this._SC_KQ;
-			}
-			set
-			{
-				if ((this._SC_KQ != value))
-				{
-					this.OnSC_KQChanging(value);
-					this.SendPropertyChanging();
-					this._SC_KQ = value;
-					this.SendPropertyChanged("SC_KQ");
-					this.OnSC_KQChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_LOAI", DbType="Int")]
-		public System.Nullable<int> SC_LOAI
-		{
-			get
-			{
-				return this._SC_LOAI;
-			}
-			set
-			{
-				if ((this._SC_LOAI != value))
-				{
-					this.OnSC_LOAIChanging(value);
-					this.SendPropertyChanging();
-					this._SC_LOAI = value;
-					this.SendPropertyChanged("SC_LOAI");
-					this.OnSC_LOAIChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_TONGSOKH", DbType="Int")]
-		public System.Nullable<int> SC_TONGSOKH
-		{
-			get
-			{
-				return this._SC_TONGSOKH;
-			}
-			set
-			{
-				if ((this._SC_TONGSOKH != value))
-				{
-					this.OnSC_TONGSOKHChanging(value);
-					this.SendPropertyChanging();
-					this._SC_TONGSOKH = value;
-					this.SendPropertyChanged("SC_TONGSOKH");
-					this.OnSC_TONGSOKHChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_TAISAN", DbType="Int")]
-		public System.Nullable<int> SC_TAISAN
-		{
-			get
-			{
-				return this._SC_TAISAN;
-			}
-			set
-			{
-				if ((this._SC_TAISAN != value))
-				{
-					this.OnSC_TAISANChanging(value);
-					this.SendPropertyChanging();
-					this._SC_TAISAN = value;
-					this.SendPropertyChanged("SC_TAISAN");
-					this.OnSC_TAISANChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
-		public string SC_GHICHU
-		{
-			get
-			{
-				return this._SC_GHICHU;
-			}
-			set
-			{
-				if ((this._SC_GHICHU != value))
-				{
-					this.OnSC_GHICHUChanging(value);
-					this.SendPropertyChanging();
-					this._SC_GHICHU = value;
-					this.SendPropertyChanged("SC_GHICHU");
-					this.OnSC_GHICHUChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UserID", DbType="Int")]
-		public System.Nullable<int> UserID
-		{
-			get
-			{
-				return this._UserID;
-			}
-			set
-			{
-				if ((this._UserID != value))
-				{
-					this.OnUserIDChanging(value);
-					this.SendPropertyChanging();
-					this._UserID = value;
-					this.SendPropertyChanged("UserID");
-					this.OnUserIDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ID", DbType="Int NOT NULL")]
-		public int DONVI_ID
-		{
-			get
-			{
-				return this._DONVI_ID;
-			}
-			set
-			{
-				if ((this._DONVI_ID != value))
-				{
-					if (this._QLSC_DONVI.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnDONVI_IDChanging(value);
-					this.SendPropertyChanging();
-					this._DONVI_ID = value;
-					this.SendPropertyChanged("DONVI_ID");
-					this.OnDONVI_IDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_ID", DbType="Int NOT NULL")]
-		public int LOAISC_ID
-		{
-			get
-			{
-				return this._LOAISC_ID;
-			}
-			set
-			{
-				if ((this._LOAISC_ID != value))
-				{
-					if (this._QLSC_LOAISUCO.HasLoadedOrAssignedValue)
-					{
-						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
-					}
-					this.OnLOAISC_IDChanging(value);
-					this.SendPropertyChanging();
-					this._LOAISC_ID = value;
-					this.SendPropertyChanged("LOAISC_ID");
-					this.OnLOAISC_IDChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_DONVI_QLSC_SUCO", Storage="_QLSC_DONVI", ThisKey="DONVI_ID", OtherKey="DONVI_ID", IsForeignKey=true)]
-		public QLSC_DONVI QLSC_DONVI
-		{
-			get
-			{
-				return this._QLSC_DONVI.Entity;
-			}
-			set
-			{
-				QLSC_DONVI previousValue = this._QLSC_DONVI.Entity;
-				if (((previousValue != value) 
-							|| (this._QLSC_DONVI.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._QLSC_DONVI.Entity = null;
-						previousValue.QLSC_SUCOs.Remove(this);
-					}
-					this._QLSC_DONVI.Entity = value;
-					if ((value != null))
-					{
-						value.QLSC_SUCOs.Add(this);
-						this._DONVI_ID = value.DONVI_ID;
-					}
-					else
-					{
-						this._DONVI_ID = default(int);
-					}
-					this.SendPropertyChanged("QLSC_DONVI");
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_LOAISUCO_QLSC_SUCO", Storage="_QLSC_LOAISUCO", ThisKey="LOAISC_ID", OtherKey="LOAISC_ID", IsForeignKey=true)]
-		public QLSC_LOAISUCO QLSC_LOAISUCO
-		{
-			get
-			{
-				return this._QLSC_LOAISUCO.Entity;
-			}
-			set
-			{
-				QLSC_LOAISUCO previousValue = this._QLSC_LOAISUCO.Entity;
-				if (((previousValue != value) 
-							|| (this._QLSC_LOAISUCO.HasLoadedOrAssignedValue == false)))
-				{
-					this.SendPropertyChanging();
-					if ((previousValue != null))
-					{
-						this._QLSC_LOAISUCO.Entity = null;
-						previousValue.QLSC_SUCOs.Remove(this);
-					}
-					this._QLSC_LOAISUCO.Entity = value;
-					if ((value != null))
-					{
-						value.QLSC_SUCOs.Add(this);
-						this._LOAISC_ID = value.LOAISC_ID;
-					}
-					else
-					{
-						this._LOAISC_ID = default(int);
-					}
-					this.SendPropertyChanged("QLSC_LOAISUCO");
-				}
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+				return this.GetTable<QLSC_LOAISUCO>();
 			}
 		}
 	}
@@ -2509,6 +1633,906 @@ namespace QLSC
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_SUCO")]
+	public partial class QLSC_SUCO : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _SC_ID;
+		
+		private string _SC_Date;
+		
+		private System.Nullable<System.DateTime> _SC_NGAYXAYRA;
+		
+		private System.Nullable<System.DateTime> _SC_NGAYTAILAP;
+		
+		private string _SC_NOIDUNG;
+		
+		private string _SC_NGUYENNHAN;
+		
+		private string _SC_VTTB_TENCHUNGLOAI;
+		
+		private System.Nullable<int> _SC_VTTB_SOLUONG;
+		
+		private string _SC_VTTB_NHASANXUAT;
+		
+		private System.Nullable<int> _SC_DIENAP;
+		
+		private System.Nullable<int> _SC_CQ;
+		
+		private System.Nullable<int> _SC_KQ;
+		
+		private System.Nullable<int> _SC_LOAI;
+		
+		private System.Nullable<int> _SC_TONGSOKH;
+		
+		private System.Nullable<int> _SC_TAISAN;
+		
+		private string _SC_GHICHU;
+		
+		private System.Nullable<int> _UserID;
+		
+		private int _DONVI_ID;
+		
+		private int _LOAISC_ID;
+		
+		private EntityRef<QLSC_DONVI> _QLSC_DONVI;
+		
+		private EntityRef<QLSC_LOAISUCO> _QLSC_LOAISUCO;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnSC_IDChanging(int value);
+    partial void OnSC_IDChanged();
+    partial void OnSC_DateChanging(string value);
+    partial void OnSC_DateChanged();
+    partial void OnSC_NGAYXAYRAChanging(System.Nullable<System.DateTime> value);
+    partial void OnSC_NGAYXAYRAChanged();
+    partial void OnSC_NGAYTAILAPChanging(System.Nullable<System.DateTime> value);
+    partial void OnSC_NGAYTAILAPChanged();
+    partial void OnSC_NOIDUNGChanging(string value);
+    partial void OnSC_NOIDUNGChanged();
+    partial void OnSC_NGUYENNHANChanging(string value);
+    partial void OnSC_NGUYENNHANChanged();
+    partial void OnSC_VTTB_TENCHUNGLOAIChanging(string value);
+    partial void OnSC_VTTB_TENCHUNGLOAIChanged();
+    partial void OnSC_VTTB_SOLUONGChanging(System.Nullable<int> value);
+    partial void OnSC_VTTB_SOLUONGChanged();
+    partial void OnSC_VTTB_NHASANXUATChanging(string value);
+    partial void OnSC_VTTB_NHASANXUATChanged();
+    partial void OnSC_DIENAPChanging(System.Nullable<int> value);
+    partial void OnSC_DIENAPChanged();
+    partial void OnSC_CQChanging(System.Nullable<int> value);
+    partial void OnSC_CQChanged();
+    partial void OnSC_KQChanging(System.Nullable<int> value);
+    partial void OnSC_KQChanged();
+    partial void OnSC_LOAIChanging(System.Nullable<int> value);
+    partial void OnSC_LOAIChanged();
+    partial void OnSC_TONGSOKHChanging(System.Nullable<int> value);
+    partial void OnSC_TONGSOKHChanged();
+    partial void OnSC_TAISANChanging(System.Nullable<int> value);
+    partial void OnSC_TAISANChanged();
+    partial void OnSC_GHICHUChanging(string value);
+    partial void OnSC_GHICHUChanged();
+    partial void OnUserIDChanging(System.Nullable<int> value);
+    partial void OnUserIDChanged();
+    partial void OnDONVI_IDChanging(int value);
+    partial void OnDONVI_IDChanged();
+    partial void OnLOAISC_IDChanging(int value);
+    partial void OnLOAISC_IDChanged();
+    #endregion
+		
+		public QLSC_SUCO()
+		{
+			this._QLSC_DONVI = default(EntityRef<QLSC_DONVI>);
+			this._QLSC_LOAISUCO = default(EntityRef<QLSC_LOAISUCO>);
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int SC_ID
+		{
+			get
+			{
+				return this._SC_ID;
+			}
+			set
+			{
+				if ((this._SC_ID != value))
+				{
+					this.OnSC_IDChanging(value);
+					this.SendPropertyChanging();
+					this._SC_ID = value;
+					this.SendPropertyChanged("SC_ID");
+					this.OnSC_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_Date", DbType="NChar(10)")]
+		public string SC_Date
+		{
+			get
+			{
+				return this._SC_Date;
+			}
+			set
+			{
+				if ((this._SC_Date != value))
+				{
+					this.OnSC_DateChanging(value);
+					this.SendPropertyChanging();
+					this._SC_Date = value;
+					this.SendPropertyChanged("SC_Date");
+					this.OnSC_DateChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGAYXAYRA", DbType="DateTime")]
+		public System.Nullable<System.DateTime> SC_NGAYXAYRA
+		{
+			get
+			{
+				return this._SC_NGAYXAYRA;
+			}
+			set
+			{
+				if ((this._SC_NGAYXAYRA != value))
+				{
+					this.OnSC_NGAYXAYRAChanging(value);
+					this.SendPropertyChanging();
+					this._SC_NGAYXAYRA = value;
+					this.SendPropertyChanged("SC_NGAYXAYRA");
+					this.OnSC_NGAYXAYRAChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGAYTAILAP", DbType="DateTime")]
+		public System.Nullable<System.DateTime> SC_NGAYTAILAP
+		{
+			get
+			{
+				return this._SC_NGAYTAILAP;
+			}
+			set
+			{
+				if ((this._SC_NGAYTAILAP != value))
+				{
+					this.OnSC_NGAYTAILAPChanging(value);
+					this.SendPropertyChanging();
+					this._SC_NGAYTAILAP = value;
+					this.SendPropertyChanged("SC_NGAYTAILAP");
+					this.OnSC_NGAYTAILAPChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NOIDUNG", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string SC_NOIDUNG
+		{
+			get
+			{
+				return this._SC_NOIDUNG;
+			}
+			set
+			{
+				if ((this._SC_NOIDUNG != value))
+				{
+					this.OnSC_NOIDUNGChanging(value);
+					this.SendPropertyChanging();
+					this._SC_NOIDUNG = value;
+					this.SendPropertyChanged("SC_NOIDUNG");
+					this.OnSC_NOIDUNGChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_NGUYENNHAN", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string SC_NGUYENNHAN
+		{
+			get
+			{
+				return this._SC_NGUYENNHAN;
+			}
+			set
+			{
+				if ((this._SC_NGUYENNHAN != value))
+				{
+					this.OnSC_NGUYENNHANChanging(value);
+					this.SendPropertyChanging();
+					this._SC_NGUYENNHAN = value;
+					this.SendPropertyChanged("SC_NGUYENNHAN");
+					this.OnSC_NGUYENNHANChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_TENCHUNGLOAI", DbType="NVarChar(500)")]
+		public string SC_VTTB_TENCHUNGLOAI
+		{
+			get
+			{
+				return this._SC_VTTB_TENCHUNGLOAI;
+			}
+			set
+			{
+				if ((this._SC_VTTB_TENCHUNGLOAI != value))
+				{
+					this.OnSC_VTTB_TENCHUNGLOAIChanging(value);
+					this.SendPropertyChanging();
+					this._SC_VTTB_TENCHUNGLOAI = value;
+					this.SendPropertyChanged("SC_VTTB_TENCHUNGLOAI");
+					this.OnSC_VTTB_TENCHUNGLOAIChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_SOLUONG", DbType="Int")]
+		public System.Nullable<int> SC_VTTB_SOLUONG
+		{
+			get
+			{
+				return this._SC_VTTB_SOLUONG;
+			}
+			set
+			{
+				if ((this._SC_VTTB_SOLUONG != value))
+				{
+					this.OnSC_VTTB_SOLUONGChanging(value);
+					this.SendPropertyChanging();
+					this._SC_VTTB_SOLUONG = value;
+					this.SendPropertyChanged("SC_VTTB_SOLUONG");
+					this.OnSC_VTTB_SOLUONGChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_VTTB_NHASANXUAT", DbType="NVarChar(500)")]
+		public string SC_VTTB_NHASANXUAT
+		{
+			get
+			{
+				return this._SC_VTTB_NHASANXUAT;
+			}
+			set
+			{
+				if ((this._SC_VTTB_NHASANXUAT != value))
+				{
+					this.OnSC_VTTB_NHASANXUATChanging(value);
+					this.SendPropertyChanging();
+					this._SC_VTTB_NHASANXUAT = value;
+					this.SendPropertyChanged("SC_VTTB_NHASANXUAT");
+					this.OnSC_VTTB_NHASANXUATChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_DIENAP", DbType="Int")]
+		public System.Nullable<int> SC_DIENAP
+		{
+			get
+			{
+				return this._SC_DIENAP;
+			}
+			set
+			{
+				if ((this._SC_DIENAP != value))
+				{
+					this.OnSC_DIENAPChanging(value);
+					this.SendPropertyChanging();
+					this._SC_DIENAP = value;
+					this.SendPropertyChanged("SC_DIENAP");
+					this.OnSC_DIENAPChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_CQ", DbType="Int")]
+		public System.Nullable<int> SC_CQ
+		{
+			get
+			{
+				return this._SC_CQ;
+			}
+			set
+			{
+				if ((this._SC_CQ != value))
+				{
+					this.OnSC_CQChanging(value);
+					this.SendPropertyChanging();
+					this._SC_CQ = value;
+					this.SendPropertyChanged("SC_CQ");
+					this.OnSC_CQChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_KQ", DbType="Int")]
+		public System.Nullable<int> SC_KQ
+		{
+			get
+			{
+				return this._SC_KQ;
+			}
+			set
+			{
+				if ((this._SC_KQ != value))
+				{
+					this.OnSC_KQChanging(value);
+					this.SendPropertyChanging();
+					this._SC_KQ = value;
+					this.SendPropertyChanged("SC_KQ");
+					this.OnSC_KQChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_LOAI", DbType="Int")]
+		public System.Nullable<int> SC_LOAI
+		{
+			get
+			{
+				return this._SC_LOAI;
+			}
+			set
+			{
+				if ((this._SC_LOAI != value))
+				{
+					this.OnSC_LOAIChanging(value);
+					this.SendPropertyChanging();
+					this._SC_LOAI = value;
+					this.SendPropertyChanged("SC_LOAI");
+					this.OnSC_LOAIChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_TONGSOKH", DbType="Int")]
+		public System.Nullable<int> SC_TONGSOKH
+		{
+			get
+			{
+				return this._SC_TONGSOKH;
+			}
+			set
+			{
+				if ((this._SC_TONGSOKH != value))
+				{
+					this.OnSC_TONGSOKHChanging(value);
+					this.SendPropertyChanging();
+					this._SC_TONGSOKH = value;
+					this.SendPropertyChanged("SC_TONGSOKH");
+					this.OnSC_TONGSOKHChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_TAISAN", DbType="Int")]
+		public System.Nullable<int> SC_TAISAN
+		{
+			get
+			{
+				return this._SC_TAISAN;
+			}
+			set
+			{
+				if ((this._SC_TAISAN != value))
+				{
+					this.OnSC_TAISANChanging(value);
+					this.SendPropertyChanging();
+					this._SC_TAISAN = value;
+					this.SendPropertyChanged("SC_TAISAN");
+					this.OnSC_TAISANChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_SC_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string SC_GHICHU
+		{
+			get
+			{
+				return this._SC_GHICHU;
+			}
+			set
+			{
+				if ((this._SC_GHICHU != value))
+				{
+					this.OnSC_GHICHUChanging(value);
+					this.SendPropertyChanging();
+					this._SC_GHICHU = value;
+					this.SendPropertyChanged("SC_GHICHU");
+					this.OnSC_GHICHUChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_UserID", DbType="Int")]
+		public System.Nullable<int> UserID
+		{
+			get
+			{
+				return this._UserID;
+			}
+			set
+			{
+				if ((this._UserID != value))
+				{
+					this.OnUserIDChanging(value);
+					this.SendPropertyChanging();
+					this._UserID = value;
+					this.SendPropertyChanged("UserID");
+					this.OnUserIDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ID", DbType="Int NOT NULL")]
+		public int DONVI_ID
+		{
+			get
+			{
+				return this._DONVI_ID;
+			}
+			set
+			{
+				if ((this._DONVI_ID != value))
+				{
+					if (this._QLSC_DONVI.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnDONVI_IDChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_ID = value;
+					this.SendPropertyChanged("DONVI_ID");
+					this.OnDONVI_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_ID", DbType="Int NOT NULL")]
+		public int LOAISC_ID
+		{
+			get
+			{
+				return this._LOAISC_ID;
+			}
+			set
+			{
+				if ((this._LOAISC_ID != value))
+				{
+					if (this._QLSC_LOAISUCO.HasLoadedOrAssignedValue)
+					{
+						throw new System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException();
+					}
+					this.OnLOAISC_IDChanging(value);
+					this.SendPropertyChanging();
+					this._LOAISC_ID = value;
+					this.SendPropertyChanged("LOAISC_ID");
+					this.OnLOAISC_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_DONVI_QLSC_SUCO", Storage="_QLSC_DONVI", ThisKey="DONVI_ID", OtherKey="DONVI_ID", IsForeignKey=true)]
+		public QLSC_DONVI QLSC_DONVI
+		{
+			get
+			{
+				return this._QLSC_DONVI.Entity;
+			}
+			set
+			{
+				QLSC_DONVI previousValue = this._QLSC_DONVI.Entity;
+				if (((previousValue != value) 
+							|| (this._QLSC_DONVI.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._QLSC_DONVI.Entity = null;
+						previousValue.QLSC_SUCOs.Remove(this);
+					}
+					this._QLSC_DONVI.Entity = value;
+					if ((value != null))
+					{
+						value.QLSC_SUCOs.Add(this);
+						this._DONVI_ID = value.DONVI_ID;
+					}
+					else
+					{
+						this._DONVI_ID = default(int);
+					}
+					this.SendPropertyChanged("QLSC_DONVI");
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_LOAISUCO_QLSC_SUCO", Storage="_QLSC_LOAISUCO", ThisKey="LOAISC_ID", OtherKey="LOAISC_ID", IsForeignKey=true)]
+		public QLSC_LOAISUCO QLSC_LOAISUCO
+		{
+			get
+			{
+				return this._QLSC_LOAISUCO.Entity;
+			}
+			set
+			{
+				QLSC_LOAISUCO previousValue = this._QLSC_LOAISUCO.Entity;
+				if (((previousValue != value) 
+							|| (this._QLSC_LOAISUCO.HasLoadedOrAssignedValue == false)))
+				{
+					this.SendPropertyChanging();
+					if ((previousValue != null))
+					{
+						this._QLSC_LOAISUCO.Entity = null;
+						previousValue.QLSC_SUCOs.Remove(this);
+					}
+					this._QLSC_LOAISUCO.Entity = value;
+					if ((value != null))
+					{
+						value.QLSC_SUCOs.Add(this);
+						this._LOAISC_ID = value.LOAISC_ID;
+					}
+					else
+					{
+						this._LOAISC_ID = default(int);
+					}
+					this.SendPropertyChanged("QLSC_LOAISUCO");
+				}
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_DONVI")]
+	public partial class QLSC_DONVI : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _DONVI_ID;
+		
+		private string _DONVI_TEN;
+		
+		private string _DONVI_GHICHU;
+		
+		private System.Nullable<int> _DONVI_ROLE_ID;
+		
+		private string _DONVI_TENRUTGON;
+		
+		private EntitySet<QLSC_SUCO> _QLSC_SUCOs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnDONVI_IDChanging(int value);
+    partial void OnDONVI_IDChanged();
+    partial void OnDONVI_TENChanging(string value);
+    partial void OnDONVI_TENChanged();
+    partial void OnDONVI_GHICHUChanging(string value);
+    partial void OnDONVI_GHICHUChanged();
+    partial void OnDONVI_ROLE_IDChanging(System.Nullable<int> value);
+    partial void OnDONVI_ROLE_IDChanged();
+    partial void OnDONVI_TENRUTGONChanging(string value);
+    partial void OnDONVI_TENRUTGONChanged();
+    #endregion
+		
+		public QLSC_DONVI()
+		{
+			this._QLSC_SUCOs = new EntitySet<QLSC_SUCO>(new Action<QLSC_SUCO>(this.attach_QLSC_SUCOs), new Action<QLSC_SUCO>(this.detach_QLSC_SUCOs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int DONVI_ID
+		{
+			get
+			{
+				return this._DONVI_ID;
+			}
+			set
+			{
+				if ((this._DONVI_ID != value))
+				{
+					this.OnDONVI_IDChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_ID = value;
+					this.SendPropertyChanged("DONVI_ID");
+					this.OnDONVI_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_TEN", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string DONVI_TEN
+		{
+			get
+			{
+				return this._DONVI_TEN;
+			}
+			set
+			{
+				if ((this._DONVI_TEN != value))
+				{
+					this.OnDONVI_TENChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_TEN = value;
+					this.SendPropertyChanged("DONVI_TEN");
+					this.OnDONVI_TENChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string DONVI_GHICHU
+		{
+			get
+			{
+				return this._DONVI_GHICHU;
+			}
+			set
+			{
+				if ((this._DONVI_GHICHU != value))
+				{
+					this.OnDONVI_GHICHUChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_GHICHU = value;
+					this.SendPropertyChanged("DONVI_GHICHU");
+					this.OnDONVI_GHICHUChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_ROLE_ID", DbType="Int")]
+		public System.Nullable<int> DONVI_ROLE_ID
+		{
+			get
+			{
+				return this._DONVI_ROLE_ID;
+			}
+			set
+			{
+				if ((this._DONVI_ROLE_ID != value))
+				{
+					this.OnDONVI_ROLE_IDChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_ROLE_ID = value;
+					this.SendPropertyChanged("DONVI_ROLE_ID");
+					this.OnDONVI_ROLE_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DONVI_TENRUTGON", DbType="NVarChar(100)")]
+		public string DONVI_TENRUTGON
+		{
+			get
+			{
+				return this._DONVI_TENRUTGON;
+			}
+			set
+			{
+				if ((this._DONVI_TENRUTGON != value))
+				{
+					this.OnDONVI_TENRUTGONChanging(value);
+					this.SendPropertyChanging();
+					this._DONVI_TENRUTGON = value;
+					this.SendPropertyChanged("DONVI_TENRUTGON");
+					this.OnDONVI_TENRUTGONChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_DONVI_QLSC_SUCO", Storage="_QLSC_SUCOs", ThisKey="DONVI_ID", OtherKey="DONVI_ID")]
+		public EntitySet<QLSC_SUCO> QLSC_SUCOs
+		{
+			get
+			{
+				return this._QLSC_SUCOs;
+			}
+			set
+			{
+				this._QLSC_SUCOs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_QLSC_SUCOs(QLSC_SUCO entity)
+		{
+			this.SendPropertyChanging();
+			entity.QLSC_DONVI = this;
+		}
+		
+		private void detach_QLSC_SUCOs(QLSC_SUCO entity)
+		{
+			this.SendPropertyChanging();
+			entity.QLSC_DONVI = null;
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.QLSC_LOAISUCO")]
+	public partial class QLSC_LOAISUCO : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private int _LOAISC_ID;
+		
+		private string _LOAISC_TEN;
+		
+		private string _LOAISC_GHICHU;
+		
+		private EntitySet<QLSC_SUCO> _QLSC_SUCOs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnLOAISC_IDChanging(int value);
+    partial void OnLOAISC_IDChanged();
+    partial void OnLOAISC_TENChanging(string value);
+    partial void OnLOAISC_TENChanged();
+    partial void OnLOAISC_GHICHUChanging(string value);
+    partial void OnLOAISC_GHICHUChanged();
+    #endregion
+		
+		public QLSC_LOAISUCO()
+		{
+			this._QLSC_SUCOs = new EntitySet<QLSC_SUCO>(new Action<QLSC_SUCO>(this.attach_QLSC_SUCOs), new Action<QLSC_SUCO>(this.detach_QLSC_SUCOs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_ID", AutoSync=AutoSync.OnInsert, DbType="Int NOT NULL IDENTITY", IsPrimaryKey=true, IsDbGenerated=true)]
+		public int LOAISC_ID
+		{
+			get
+			{
+				return this._LOAISC_ID;
+			}
+			set
+			{
+				if ((this._LOAISC_ID != value))
+				{
+					this.OnLOAISC_IDChanging(value);
+					this.SendPropertyChanging();
+					this._LOAISC_ID = value;
+					this.SendPropertyChanged("LOAISC_ID");
+					this.OnLOAISC_IDChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_TEN", DbType="NVarChar(1000)")]
+		public string LOAISC_TEN
+		{
+			get
+			{
+				return this._LOAISC_TEN;
+			}
+			set
+			{
+				if ((this._LOAISC_TEN != value))
+				{
+					this.OnLOAISC_TENChanging(value);
+					this.SendPropertyChanging();
+					this._LOAISC_TEN = value;
+					this.SendPropertyChanged("LOAISC_TEN");
+					this.OnLOAISC_TENChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_LOAISC_GHICHU", DbType="NText", UpdateCheck=UpdateCheck.Never)]
+		public string LOAISC_GHICHU
+		{
+			get
+			{
+				return this._LOAISC_GHICHU;
+			}
+			set
+			{
+				if ((this._LOAISC_GHICHU != value))
+				{
+					this.OnLOAISC_GHICHUChanging(value);
+					this.SendPropertyChanging();
+					this._LOAISC_GHICHU = value;
+					this.SendPropertyChanged("LOAISC_GHICHU");
+					this.OnLOAISC_GHICHUChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="QLSC_LOAISUCO_QLSC_SUCO", Storage="_QLSC_SUCOs", ThisKey="LOAISC_ID", OtherKey="LOAISC_ID")]
+		public EntitySet<QLSC_SUCO> QLSC_SUCOs
+		{
+			get
+			{
+				return this._QLSC_SUCOs;
+			}
+			set
+			{
+				this._QLSC_SUCOs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_QLSC_SUCOs(QLSC_SUCO entity)
+		{
+			this.SendPropertyChanging();
+			entity.QLSC_LOAISUCO = this;
+		}
+		
+		private void detach_QLSC_SUCOs(QLSC_SUCO entity)
+		{
+			this.SendPropertyChanging();
+			entity.QLSC_LOAISUCO = null;
 		}
 	}
 }

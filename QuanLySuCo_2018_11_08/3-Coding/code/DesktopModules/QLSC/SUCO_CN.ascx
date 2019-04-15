@@ -38,7 +38,7 @@
                                     LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">                                            
                                 </telerik:RadComboBox>
                                         <asp:RequiredFieldValidator ID="rq_LSC" runat="server" ControlToValidate="drpLoaiSuCo"
-                                            Display="None" ErrorMessage="Vui lòng chọn loại sự cố"
+                                            Display="None" ErrorMessage="Vui lòng chọn Loại sự cố"
                                             SetFocusOnError="true" />
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                             </DateInput>
                                         </telerik:RadDatePicker>
                                         <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtNgayXayRaSuCo"
-                                            Display="None" ErrorMessage="Vui lòng chọn ngày xảy ra sự cố"
+                                            Display="None" ErrorMessage="Vui lòng chọn Ngày, tháng xảy ra sự cố"
                                             SetFocusOnError="true" />
                                     </div>
                                 </div>
@@ -166,7 +166,7 @@
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <asp:TextBox ID="txtNoiDungSuCo" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="5" />
                                          <asp:RequiredFieldValidator ID="rq_NDSC" runat="server" ControlToValidate="txtNoiDungSuCo"
-                                            Display="None" ErrorMessage="Vui lòng nhập nội dung sự cố"
+                                            Display="None" ErrorMessage="Vui lòng nhập Nội dung sự cố"
                                             SetFocusOnError="true" />
                                     </div>
 
@@ -174,11 +174,11 @@
                             </div>
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">Nguyên nhân </label>
+                                    <label class="col-sm-4 control-label pd-r0">Nguyên nhân sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <asp:TextBox ID="txtNguyenNhan" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="5" />
                                          <asp:RequiredFieldValidator ID="rq_NguyenNhan" runat="server" ControlToValidate="txtNguyenNhan"
-                                            Display="None" ErrorMessage="Vui lòng nhập nguyên nhân sự cố"
+                                            Display="None" ErrorMessage="Vui lòng nhập Nguyên nhân sự cố"
                                             SetFocusOnError="true" />
                                     </div>
                                 </div>
@@ -195,7 +195,7 @@
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">VTTB số lượng</label>
                                     <div class="col-sm-3 col-md-2 col-lg-3">
-                                        <asp:TextBox ID="txtSoLuong" runat="server" CssClass="form-control requirements" MaxLength="500" />
+                                        <asp:TextBox ID="txtSoLuong" runat="server" CssClass="form-control requirements auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
                                     </div>
                                     <label class="col-sm-2 control-label pd-r0">VTTB nhà sản xuất</label>
                                     <div class="col-md-3">
@@ -217,21 +217,22 @@
                                 </div>
                             </div>
 
-                              <div class="col-sm-12 col-md-11 col-lg-10">
+                               <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">CQ</label>
-                                    <div class="col-sm-3 col-md-1 pd-l30">
-                                        <asp:CheckBox  runat="server" ID="cbCQ" Checked="false"/>
-                                    </div>
-                                    <label class="col-sm-1 control-label pd-r0 ">KQ</label>
-                                    <div class="col-md-3 pd-l30">
-                                        <asp:CheckBox  runat="server" ID="cbKQ" Checked="True"/>
+                                    <label class="col-sm-4 control-label pd-r0"></label>
+                                    <div class="radio col-xs-8 rdoList-3-col form_radiobuttonlist">
+                                        <div class="col-sm-8 col-md-9 col-lg-8">
+                                            <asp:RadioButtonList runat="server" RepeatColumns="2" AutoPostBack="true" RepeatLayout="Table" ID="rd_CQ_KQ">
+                                                <asp:ListItem Value="CQ" Selected="true" >CQ </asp:ListItem>
+                                                <asp:ListItem Value="KQ"  style="padding-left:100px">KQ</asp:ListItem>
+                                            </asp:RadioButtonList>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                              <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">Phân loại </label>
+                                    <label class="col-sm-4 control-label pd-r0">Phân loại sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <telerik:RadComboBox Skin="Simple" ID="drpPhanLoai" Filter="Contains"  CausesValidation="false" CssClass="custom-radcombox "
                                     InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px" DropDownWidth="500px"
@@ -247,7 +248,7 @@
                                             </Items>
                                 </telerik:RadComboBox>
                                          <asp:RequiredFieldValidator ID="rq_PHANLOAI" runat="server" ControlToValidate="drpPhanLoai"
-                                            Display="None" ErrorMessage="Vui lòng chọn phân loại sự cố"
+                                            Display="None" ErrorMessage="Vui lòng chọn Phân loại sự cố"
                                             SetFocusOnError="true" />
 
                                     </div>
@@ -257,7 +258,7 @@
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Tổng số khách hàng mất điện </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <asp:TextBox ID="txtTongSoKH" runat="server" CssClass="form-control" Width="50%"  />
+                                        <asp:TextBox ID="txtTongSoKH" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" Width="50%"   />
                                     </div>
                                 </div>
                             </div>
@@ -268,7 +269,7 @@
                                         <div class="col-sm-8 col-md-9 col-lg-8">
                                             <asp:RadioButtonList runat="server" RepeatColumns="2" AutoPostBack="true" RepeatLayout="Table" ID="TaiSan">
                                                 <asp:ListItem Value="1" Selected="true" >Điện lực </asp:ListItem>
-                                                <asp:ListItem Value="2"  style="padding-left:100px">Khách hàng </asp:ListItem>
+                                                <asp:ListItem Value="2"  style="padding-left:74px">Khách hàng </asp:ListItem>
                                             </asp:RadioButtonList>
                                         </div>
                                     </div>
@@ -344,8 +345,8 @@
                     <strong>Lưu ý: </strong>
                     <br />
                     - <span>(<span class="batbuoc" style="top: 3px; left: 1px;">*</span>) bắt buộc nhập</span><br />
-                    - <span>Chỉ hỗ trợ tập tin có kích thước 
-                    tối đa là <span style="color: red">10MB</span></span>.
+                    - <span>Chỉ hỗ trợ tập tin có kích thước tối đa là <span style="color: red">10MB</span></span>.<br />
+                    - <span>Chỉ hỗ trợ tập tin có kích định dạng  <span style="color: red"> (jpg, jpeg, png, xls, xlsx, doc, docx, pdf, zip, rar)</span></span>.
                 </div>
             </div>
 

@@ -75,25 +75,25 @@ namespace QLSC
                 string namTruoc = (DateTime.Now.Year - 1).ToString();
                 lbNamHienTai.Text = namHienTai;
                 lbNamTruoc.Text = namTruoc;
-                for (int i=1; i<= DateTime.Now.Month; i++)
+                for (int i = 1; i <= 12; i++)
                 {
                     vHTML += "<tr>";
                     vHTML += "<td rowspan='2' class='center'>" + i + "</td>";
-                    vHTML += "<td>T" + i + "/" + namHienTai + "</td>";
-                    vHTML += "<td>T" + i + "/" + namTruoc + "</td>";
+                    vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
+                    vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
                     
-                    vHTML += "<td>T" + i + "/" + namHienTai + "</td>";
-                    vHTML += "<td>T" + i + "/" + namTruoc + "</td>";
+                    vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
+                    vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
 
                     
-                    vHTML += "<td>T" + i + "/" + namHienTai + "</td>";
-                    vHTML += "<td>T" + i + "/" + namTruoc + "</td>";
+                    vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
+                    vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
                     
-                    vHTML += "<td>T" + i + "/" + namHienTai + "</td>";
-                    vHTML += "<td>T" + i + "/" + namTruoc + "</td>";
+                    vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
+                    vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
                     vHTML += "</tr>";
 
@@ -119,7 +119,23 @@ namespace QLSC
                             rsThayDoi_DongVat = "Giảm " + Math.Abs(thaydoi) + " vụ";
                         }
                     }
-                    vHTML += "<td>" + rsThayDoi_DongVat + "</td>";
+                    if(thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
+                    {
+                        rsThayDoi_DongVat = "Không SC";
+                    }
+                    string cssThayDoi = "";
+                    if(thaydoi > 0)
+                    {
+                        cssThayDoi = "sc_tang";
+                    }
+                    else
+                    {
+                        if(thaydoi < 0)
+                        {
+                            cssThayDoi = "sc_giam";
+                        }
+                    }
+                    vHTML += "<td class='"+ cssThayDoi +"'>" + rsThayDoi_DongVat + "</td>";
 
                     countNamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, i, 2);
                     countNamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, i, 2);
@@ -142,7 +158,23 @@ namespace QLSC
                             rsThayDoi_SetDanh = "Giảm " + Math.Abs(thaydoi) + " vụ";
                         }
                     }
-                    vHTML += "<td>" + rsThayDoi_SetDanh + "</td>";
+                    if (thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
+                    {
+                        rsThayDoi_SetDanh = "Không SC";
+                    }
+                    cssThayDoi = "";
+                    if (thaydoi > 0)
+                    {
+                        cssThayDoi = "sc_tang";
+                    }
+                    else
+                    {
+                        if (thaydoi < 0)
+                        {
+                            cssThayDoi = "sc_giam";
+                        }
+                    }
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_SetDanh + "</td>";                    
 
                     countNamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, i, 3);
                     countNamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, i, 3);
@@ -165,7 +197,23 @@ namespace QLSC
                             rsThayDoi_PhongDien = "Giảm " + Math.Abs(thaydoi) + " vụ";
                         }
                     }
-                    vHTML += "<td>" + rsThayDoi_PhongDien + "</td>";
+                    if (thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
+                    {
+                        rsThayDoi_PhongDien = "Không SC";
+                    }
+                    cssThayDoi = "";
+                    if (thaydoi > 0)
+                    {
+                        cssThayDoi = "sc_tang";
+                    }
+                    else
+                    {
+                        if (thaydoi < 0)
+                        {
+                            cssThayDoi = "sc_giam";
+                        }
+                    }
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_PhongDien + "</td>";
 
                     countNamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, i, 4);
                     countNamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, i, 4);
@@ -188,7 +236,23 @@ namespace QLSC
                             rsThayDoi_HanhLang = "Giảm " + Math.Abs(thaydoi) + " vụ";
                         }
                     }
-                    vHTML += "<td>" + rsThayDoi_HanhLang + "</td>";
+                    if (thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
+                    {
+                        rsThayDoi_HanhLang = "Không SC";
+                    }
+                    cssThayDoi = "";
+                    if (thaydoi > 0)
+                    {
+                        cssThayDoi = "sc_tang";
+                    }
+                    else
+                    {
+                        if (thaydoi < 0)
+                        {
+                            cssThayDoi = "sc_giam";
+                        }
+                    }
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_HanhLang + "</td>";                    
                     vHTML += "</tr>";
                     lbContent.Text = vHTML;
                 }

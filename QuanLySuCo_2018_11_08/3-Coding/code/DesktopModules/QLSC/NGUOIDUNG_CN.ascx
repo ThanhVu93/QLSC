@@ -1,6 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="NGUOIDUNG_CN.ascx.cs" Inherits="QLSC.NGUOIDUNG_CN" %>
 <%@ Register TagPrefix="dnn" Namespace="DotNetNuke.Web.UI.WebControls" Assembly="DotNetNuke.Web" %>
 <%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+<script type="text/javascript" src="<%=vPathCommonJS%>"></script>
+<%=vJavascriptMask%>
 <asp:UpdatePanel runat="server" ID="upn">
     <ContentTemplate>
         <asp:Panel runat="server" ID="pnCN">

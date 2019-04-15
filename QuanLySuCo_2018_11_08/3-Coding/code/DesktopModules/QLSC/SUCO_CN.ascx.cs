@@ -36,6 +36,7 @@ namespace QLSC
         #endregion
         protected void Page_Load(object sender, EventArgs e)
         {
+            vJavascriptMask = ClassParameter.vJavascriptMaskNumber;
             if (Request.QueryString["ID"] != null)
             {
                 vSC_ID = int.Parse(Request.QueryString["ID"]);
@@ -77,14 +78,13 @@ namespace QLSC
                         txtNoiDungSuCo.Text = objSUCO.SC_NOIDUNG;
                         txtNguyenNhan.Text = objSUCO.SC_NGUYENNHAN;
                         txtTenChungLoai.Text = objSUCO.SC_VTTB_TENCHUNGLOAI;
-                        txtSoLuong.Text = objSUCO.SC_VTTB_SOLUONG.ToString();
+                        txtSoLuong.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG);
                         txtNhaSX.Text = objSUCO.SC_VTTB_NHASANXUAT;
 
                         DienAp.SelectedValue = objSUCO.SC_DIENAP.ToString();
-                        cbCQ.Checked = objSUCO.SC_CQ == 1 ? true : false;
-                        cbKQ.Checked = objSUCO.SC_KQ == 1 ? true : false;
+                        rd_CQ_KQ.SelectedValue = objSUCO.SC_CQ == 1 ? "CQ" :"KQ";                        
                         drpPhanLoai.SelectedValue = objSUCO.SC_LOAI.ToString();
-                        txtTongSoKH.Text = objSUCO.SC_TONGSOKH.ToString();
+                        txtTongSoKH.Text = String.Format("{0:#,0.#}", objSUCO.SC_TONGSOKH);
                         txtGhiChu.Text = objSUCO.SC_GHICHU;
                     }
                 }
@@ -171,19 +171,19 @@ namespace QLSC
                     //objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
 
                     objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai.Text.Trim());
-                    objSUCO.SC_VTTB_SOLUONG = int.Parse(txtSoLuong.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG = Int32.Parse(txtSoLuong.Text.ToString().Replace(".", ""));
                     objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX.Text.Trim());
 
                     objSUCO.SC_DIENAP = int.Parse(DienAp.SelectedValue);
-                    int vKQ = cbKQ.Checked ? 1 : 0;
+                    int vKQ = rd_CQ_KQ.SelectedValue == "KQ" ? 1 : 0;
                     objSUCO.SC_KQ = vKQ;
-                    int vCQ = cbCQ.Checked ? 1 : 0;
+                    int vCQ = rd_CQ_KQ.SelectedValue == "CQ" ? 1 : 0;
                     objSUCO.SC_CQ = vCQ;
 
                     objSUCO.SC_LOAI = int.Parse(drpPhanLoai.SelectedValue);
                     if (txtTongSoKH.Text.Trim() != "")
                     {
-                        objSUCO.SC_TONGSOKH = int.Parse(txtTongSoKH.Text.Trim());
+                        objSUCO.SC_TONGSOKH = Int32.Parse(txtTongSoKH.Text.ToString().Replace(".", ""));
                     }
                     objSUCO.SC_TAISAN = int.Parse(TaiSan.SelectedValue);
                     objSUCO.SC_GHICHU = ClassCommon.ClearHTML(txtGhiChu.Text.Trim());
@@ -243,19 +243,19 @@ namespace QLSC
                         objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
 
                         objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai.Text.Trim());
-                        objSUCO.SC_VTTB_SOLUONG = int.Parse(txtSoLuong.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG =  Int32.Parse(txtSoLuong.Text.ToString().Replace(".", ""));
                         objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX.Text.Trim());
 
                         objSUCO.SC_DIENAP = int.Parse(DienAp.SelectedValue);
-                        int vKQ = cbKQ.Checked ? 1 : 0;
+                        int vKQ = rd_CQ_KQ.SelectedValue == "KQ" ? 1 : 0;
                         objSUCO.SC_KQ = vKQ;
-                        int vCQ = cbCQ.Checked ? 1 : 0;
+                        int vCQ = rd_CQ_KQ.SelectedValue == "CQ" ? 1 : 0;
                         objSUCO.SC_CQ = vCQ;
 
                         objSUCO.SC_LOAI = int.Parse(drpPhanLoai.SelectedValue);
                         if(txtTongSoKH.Text.Trim() != "")
                         {
-                            objSUCO.SC_TONGSOKH = int.Parse(txtTongSoKH.Text.Trim());
+                            objSUCO.SC_TONGSOKH = Int32.Parse(txtTongSoKH.Text.ToString().Replace(".", ""));
                         }
                         objSUCO.SC_TAISAN = int.Parse(TaiSan.SelectedValue);
                         objSUCO.SC_GHICHU = ClassCommon.ClearHTML(txtGhiChu.Text.Trim());
@@ -382,7 +382,7 @@ namespace QLSC
                     HttpPostedFile userPostedFile = uploadedFiles[i];
                     try
                     {
-                        if (userPostedFile.ContentType == "image/jpg" || userPostedFile.ContentType == "image/png" || userPostedFile.ContentType == "image/jpeg" || userPostedFile.ContentType == "application/msword" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || userPostedFile.ContentType == "application/pdf" || userPostedFile.ContentType == "application/vnd.ms-excel" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" || userPostedFile.ContentType == "application/zip" || userPostedFile.ContentType == "application/rar")
+                        if (userPostedFile.ContentType == "image/jpg" || userPostedFile.ContentType == "image/png" || userPostedFile.ContentType == "image/jpeg" || userPostedFile.ContentType == "application/msword" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.wordprocessingml.document" || userPostedFile.ContentType == "application/pdf" || userPostedFile.ContentType == "application/vnd.ms-excel" || userPostedFile.ContentType == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" || userPostedFile.ContentType == "application/x-zip-compressed" || userPostedFile.ContentType == "application/octet-stream")
                         {
                             if (userPostedFile.ContentLength < 1048576 * 5)
                             {
@@ -396,6 +396,7 @@ namespace QLSC
                                 DataRow row = dt.NewRow();
                                 row["HA_FILE_PATH"] = result;
                                 row["HA_ID"] = 0;
+                                row["FILE_MOTA"] = filename.Substring(0, filename.Length - extension.Length);
                                 row["HA_TENFILE"] = filename.Substring(0, filename.Length - extension.Length);
                                 row["HA_EXT"] = extension;
                                 row["HA_SIZE"] = userPostedFile.ContentLength.ToString();

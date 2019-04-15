@@ -20,7 +20,7 @@ namespace QLSC
         #endregion
 
         #region Paths
-        public static string vPathCommonJavascript = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/js/common.js";
+        public static string vPathCommonJavascript = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/Scripts/common.js";
         public static string vPathCommonImages = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/image/";
         public static string vPathCommonData = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/data/";        
         public static string vPathCommonBieuMau = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/bieumau/";
@@ -29,8 +29,8 @@ namespace QLSC
         public static string vPathIQueryJavascript = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/Scripts/jquery/";
         public static string vPathCommonCss = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/css/";
         public static string vPathCommon = DotNetNuke.Common.Globals.ApplicationPath.ToString();
-        public static string vJavascriptMaskNumber = "<script type='text/javascript' src='" + DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLHD/js/mask/jquery.metadata.js'></script>"
-         + "<script type='text/javascript' src='" + DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLHD/js/mask/autoNumeric-1.6.2.js'></script>";
+        public static string vJavascriptMaskNumber = "<script type='text/javascript' src='" + DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/Scripts/mask/jquery.metadata.js'></script>"
+         + "<script type='text/javascript' src='" + DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/Scripts/mask/autoNumeric-1.6.2.js'></script>";
         #endregion
 
         public static int vSizeFile = 20971520; // 20MB        

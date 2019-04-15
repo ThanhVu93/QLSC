@@ -159,6 +159,7 @@ namespace QLSC
                 dtTable.Columns.Add("SC_NOIDUNG");
                 dtTable.Columns.Add("SC_NGUYENNHAN");
                 dtTable.Columns.Add("SC_DONVI");
+                dtTable.Columns.Add("SC_DONVI_TENRUTGON");
                 dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI");
                 dtTable.Columns.Add("SC_VTTB_SOLUONG");
                 dtTable.Columns.Add("SC_VTTB_NHASANXUAT");
@@ -193,7 +194,8 @@ namespace QLSC
                                     sc.SC_NGAYTAILAP,
                                     sc.SC_NOIDUNG,
                                     sc.SC_NGUYENNHAN,
-                                    dv.DONVI_TEN,
+                                    dv.DONVI_TEN,    
+                                    dv.DONVI_TENRUTGON,                                
                                     sc.SC_VTTB_TENCHUNGLOAI,
                                     sc.SC_VTTB_SOLUONG,
                                     sc.SC_VTTB_NHASANXUAT,
@@ -228,6 +230,7 @@ namespace QLSC
                     row["SC_NOIDUNG"] = it.SC_NOIDUNG;
                     row["SC_NGUYENNHAN"] = it.SC_NOIDUNG;
                     row["SC_DONVI"] = it.DONVI_TEN;
+                    row["SC_DONVI_TENRUTGON"] = it.DONVI_TENRUTGON;
                     row["SC_VTTB_TENCHUNGLOAI"] = it.SC_VTTB_TENCHUNGLOAI;
                     row["SC_VTTB_SOLUONG"] = it.SC_VTTB_SOLUONG;
                     row["SC_VTTB_NHASANXUAT"] = it.SC_VTTB_NHASANXUAT;
@@ -755,7 +758,7 @@ namespace QLSC
                                 ws.Cells[vIndexRow, 4].Value = dt.Rows[i]["SC_NGAYTAILAP"];
                                 ws.Cells[vIndexRow, 5].Value = dt.Rows[i]["SC_NOIDUNG"];
                                 ws.Cells[vIndexRow, 6].Value = dt.Rows[i]["SC_NGUYENNHAN"];
-                                ws.Cells[vIndexRow, 7].Value = dt.Rows[i]["SC_DONVI"];
+                                ws.Cells[vIndexRow, 7].Value = dt.Rows[i]["SC_DONVI_TENRUTGON"];
                                 ws.Cells[vIndexRow, 8].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI"];
                                 ws.Cells[vIndexRow, 9].Value = dt.Rows[i]["SC_VTTB_SOLUONG"];
                                 ws.Cells[vIndexRow, 10].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT"];

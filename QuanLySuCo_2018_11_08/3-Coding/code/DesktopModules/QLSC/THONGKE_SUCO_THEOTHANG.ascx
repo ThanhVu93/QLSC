@@ -13,7 +13,10 @@
         <%--<asp:LinkButton ID="btn_XuatExcel" Visible="true" OnClientClick="InThongKe()'" runat="server" CssClass="btn btn-primary waves-effect none-radius none-shadow btn-sm min-width-100 mr-t3 mr-b6 fright mr-r10"><i class="glyphicon glyphicon-print"></i> In báo cáo</asp:LinkButton>--%>
         <div class="form-group pd-l10" style="margin-bottom: -3px; float:right;">
             <button class="btn btn-primary waves-effect none-radius none-shadow btn-sm min-width-100 mr-b6 fright mr-r10 hv" onclick="InThongKe();"><i class='fa fa-print' style="font-size: 15px"></i>In thống kê </button>
-            <telerik:RadComboBox Skin="Simple" ID="drpDonVi" Filter="Contains" CssClass="custom-radcombox drp pd-r20" Style="font-size: 14px;"
+           
+        </div>
+        <label class="pd-r10">Chọn tháng</label>
+         <telerik:RadComboBox Skin="Simple" ID="drpThang" Filter="Contains" CssClass="custom-radcombox drp" Style="font-size: 14px;"
                 InputCssClass="form-control" AllowCustomText="true" runat="server" Width="200px"
                 Height="250px" EmptyMessage="Chọn tháng" ShowWhileLoading="true" LoadingMessage="Đang tải..."
                 Localization-NoMatches="Không tìm thấy" AutoPostBack="True">
@@ -32,8 +35,6 @@
                     <telerik:RadComboBoxItem Value="12" Text="Tháng 12" />
                 </Items>
             </telerik:RadComboBox>
-        </div>
-        
     </div>
     <div runat="server" id="pPrint">
 
@@ -94,6 +95,12 @@
                 color: #fff;
                 background-color: #337ab7;
                 border-color: #204d74;
+            }
+            .sc_tang{
+                color:red;
+            }
+            .sc_giam{
+                color:green;
             }
         </style>
         <table id="suco">

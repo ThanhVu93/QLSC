@@ -27,7 +27,7 @@
         <asp:Label ID="lblThongBao" runat="server" Text=""></asp:Label>
     </asp:Panel>
 
-    <asp:DataGrid  runat="server" ID="dgDanhSach" oninit="dgCustom_Init" AutoGenerateColumns="False" OnItemDataBound="dgDanhSach_ItemDataBound" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="True" AllowCustomPaging="true" OnItemCreated="dgDanhSach_ItemCreated" >
+    <asp:DataGrid  runat="server" ID="dgDanhSach" oninit="dgCustom_Init" AutoGenerateColumns="False" OnItemDataBound="dgDanhSach_ItemDataBound" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="True" AllowCustomPaging="False" OnItemCreated="dgDanhSach_ItemCreated" >
         <HeaderStyle CssClass="tieude" />
         <Columns>
             <asp:TemplateColumn HeaderText="Stt">
@@ -56,7 +56,7 @@
             <asp:TemplateColumn HeaderText="Xóa" Visible="true">
                 <ItemStyle Width="5%" HorizontalAlign="Center"/>
                 <ItemTemplate>
-                    <a onserverclick="dgDanhSach_Xoa" class="icon-xoa" onclick="return ConfirmDelete();" href='<%# Eval("ND_ID").ToString() %>' oncontextmenu="return false" runat="server"></a>
+                    <a onserverclick="dgDanhSach_Xoa" class="icon-xoa" onclick="return ConfirmDelete();" href='<%# Eval("UserID").ToString() %>' oncontextmenu="return false" runat="server"></a>
                 </ItemTemplate>
             </asp:TemplateColumn>
         </Columns>

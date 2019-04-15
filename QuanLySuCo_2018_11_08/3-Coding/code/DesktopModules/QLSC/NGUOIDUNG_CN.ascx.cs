@@ -18,13 +18,16 @@ namespace QLSC
         int vND_ID;
         DataTable dtTable = new DataTable();
         QLSC_NGUOIDUNG objNGUOIDUNG;
-        
+        public string vPathCommon = ClassParameter.vPathCommon;
+        public string vPathCommonJS = ClassParameter.vPathCommonJavascript;
         UserInfo _currentUser = UserController.Instance.GetCurrentUserInfo();
+        public string vJavascriptMask;
         #endregion
 
         #region Phương thức sự kiện 
         protected void Page_Load(object sender, EventArgs e)
         {
+            vJavascriptMask = ClassParameter.vJavascriptMaskNumber;
             if (!String.IsNullOrEmpty(Session[TabId.ToString() + "_Message"] as string) && !String.IsNullOrEmpty(Session[TabId.ToString() + "_Type"] as string))
             {
                 if (Session[TabId.ToString() + "_Message"].ToString() != "" && Session[TabId.ToString() + "_Type"].ToString() != "")
@@ -33,18 +36,18 @@ namespace QLSC
                 }
                 Session[TabId.ToString() + "_Message"] = "";
                 Session[TabId.ToString() + "_Type"] = "";
-            }          
+            }
             DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(DotNetNuke.Framework.JavaScriptLibraries.CommonJs.jQuery);
             DotNetNuke.Framework.JavaScriptLibraries.JavaScript.RequestRegistration(DotNetNuke.Framework.JavaScriptLibraries.CommonJs.DnnPlugins);
-            DotNetNuke.UI.Utilities.ClientAPI.RegisterClientReference(this.Page, DotNetNuke.UI.Utilities.ClientAPI.ClientNamespaceReferences.dnn);         
+            DotNetNuke.UI.Utilities.ClientAPI.RegisterClientReference(this.Page, DotNetNuke.UI.Utilities.ClientAPI.ClientNamespaceReferences.dnn);
             try
-            {                
+            {
                 if (!IsPostBack)
                 {
-                    if (Request.QueryString["ND_ID"] != null)
+                    if (Request.QueryString["UserID"] != null)
                     {
 
-                        vND_ID = Convert.ToInt32(Request.QueryString["ND_ID"]);
+                        vND_ID = Convert.ToInt32(Request.QueryString["UserID"]);
                         if (vND_ID > 0)
                         {
                             btnCapNhatTiepTuc.Visible = false;
@@ -65,7 +68,7 @@ namespace QLSC
                 lstDonVi = vDC.QLSC_DONVIs.ToList();
                 dtTable = new DataTable();
                 dtTable.Columns.Add("DV_TEN");
-                dtTable.Columns.Add("DV_ID");               
+                dtTable.Columns.Add("DV_ID");
                 foreach (var it in lstDonVi)
                 {
                     DataRow row = dtTable.NewRow();
@@ -92,14 +95,14 @@ namespace QLSC
             if (ND_ID != 0)
             {
                 divMatKhau.Visible = false; //ẩn trường mật khẩu
-                objNGUOIDUNG = getNguoiDungByID(ND_ID);                
+                objNGUOIDUNG = getNguoiDungByID(ND_ID);
                 txtTenDangNhap.Text = objNGUOIDUNG.UserName;
                 txtTenNguoiDung.Text = objNGUOIDUNG.ND_TEN;
                 drpDonVi.SelectedValue = objNGUOIDUNG.DONVI_ID.ToString();
-                txtGhiChu.Text = objNGUOIDUNG.ND_GHICHU;                               
+                txtGhiChu.Text = objNGUOIDUNG.ND_GHICHU;
             }
         }
-        
+
 
         protected void btn_CN_Click(object sender, EventArgs e)
         {
@@ -107,7 +110,7 @@ namespace QLSC
             {
                 LinkButton btn = sender as LinkButton;
                 string action = btn.CommandName;
-                vND_ID = Convert.ToInt32(Request.QueryString["ND_ID"]);
+                vND_ID = Convert.ToInt32(Request.QueryString["UserID"]);
                 //Trường hợp thêm mới
                 if (vND_ID == 0)
                 {
@@ -125,104 +128,112 @@ namespace QLSC
                         }
                         else
                         {
-                            if (txtTenNguoiDung.Text.Trim() == "")
+                            if (txtMatKhau.Text.Trim() == "")
                             {
-                                ClassCommon.ShowToastr(this.Page, "Vui lòng nhập tên người dùng", "Thông báo lỗi", "error");
-                                txtTenDangNhap.Focus();
+                                ClassCommon.ShowToastr(this.Page, "Vui lòng nhập mật khẩu", "Thông báo lỗi", "error");
+                                txtMatKhau.Focus();
                             }
                             else
                             {
-                                if (KiemTraTrungTenNguoiDung(txtTenNguoiDung.Text.Trim(), vND_ID))
+                                if (txtMatKhau.Text.Length < 7)
                                 {
-                                   
-                                    ClassCommon.ShowToastr(this.Page, "Tên người dùng đã tồn tại vui lòng chọn tên khác", "Thông báo lỗi", "error");
-                                    txtTenNguoiDung.Focus();                                
+                                    ClassCommon.ShowToastr(this.Page, "Vui lòng nhập mật khẩu lớn hơn 6 ký tự", "Thông báo lỗi", "error");
+                                    txtMatKhau.Focus();
                                 }
                                 else
                                 {
-
-                                    if (txtMatKhau.Text.Trim() == "")
+                                    if (txtMatKhau.Text.Trim() != txtXacNhanMatKhau.Text.Trim())
                                     {
-                                        ClassCommon.ShowToastr(this.Page, "Vui lòng nhập mật khẩu", "Thông báo lỗi", "error");
-                                        txtMatKhau.Focus();
+                                        ClassCommon.ShowToastr(this.Page, "Xác nhận mật khẩu không chính xác", "Thông báo lỗi", "error");
+                                        txtXacNhanMatKhau.Focus();
                                     }
                                     else
                                     {
-                                        if (txtMatKhau.Text.Length < 7)
+                                        if (txtTenNguoiDung.Text.Trim() == "")
                                         {
-                                            ClassCommon.ShowToastr(this.Page, "Vui lòng nhập mật khẩu lớn hơn 6 ký tự", "Thông báo lỗi", "error");
-                                            txtMatKhau.Focus();
+                                            ClassCommon.ShowToastr(this.Page, "Vui lòng nhập tên người dùng", "Thông báo lỗi", "error");
+                                            txtTenNguoiDung.Focus();
                                         }
                                         else
                                         {
-                                            if (drpDonVi.SelectedValue == "")
+                                            if (KiemTraTrungTenNguoiDung(txtTenNguoiDung.Text.Trim(), vND_ID))
                                             {
-                                                ClassCommon.ShowToastr(this.Page, "Vui lòng chọn đơn vị", "Thông báo lỗi", "error");
-                                                drpDonVi.Focus();
+
+                                                ClassCommon.ShowToastr(this.Page, "Tên người dùng đã tồn tại vui lòng chọn tên khác", "Thông báo lỗi", "error");
+                                                txtTenNguoiDung.Focus();
                                             }
                                             else
                                             {
-                                                UserInfo objUser = new UserInfo();
-                                                objUser.PortalID = this.PortalId;
-                                                objUser.IsSuperUser = false;
-                                                objUser.FirstName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                objUser.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                objUser.DisplayName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                objUser.Email = "test@gmail.com";
-                                                objUser.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
-                                                //objUser.Profile.PreferredLocale = PortalSettings.DefaultLanguage;
-                                                //objUser.Profile.TimeZone = PortalSettings.TimeZoneOffset;
-                                                //objUser.Profile.FirstName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                //objUser.Profile.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                //Nạp giá trị vào objMembership
-
-                                                UserMembership objMembership = new UserMembership();
-                                                objMembership.Approved = true;
-                                                objMembership.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
-                                                objMembership.CreatedDate = DateTime.Now;
-                                                objMembership.Email = "test@gmail.com";
-                                                objMembership.IsOnLine = false;
-                                                objMembership.Password = txtMatKhau.Text.Trim();
-                                                objUser.Membership = objMembership;
-                                                //Thêm user và trả đối tượng user vừa thêm
-                                                UserCreateStatus result = UserController.CreateUser(ref objUser);
-
-                                                if (result == UserCreateStatus.Success)
+                                                if (drpDonVi.SelectedValue == "")
                                                 {
-                                                    QLSC_NGUOIDUNG objNGUOIDUNG = new QLSC_NGUOIDUNG();
-                                                    objNGUOIDUNG = new QLSC_NGUOIDUNG();
-                                                    objNGUOIDUNG.UserName = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
-                                                    objNGUOIDUNG.ND_TEN = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                    objNGUOIDUNG.ND_GHICHU = ClassCommon.ClearHTML(txtGhiChu.Text.Trim());
-                                                    objNGUOIDUNG.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
-                                                    objNGUOIDUNG.UserID = objUser.UserID;
-                                                    vDC.QLSC_NGUOIDUNGs.InsertOnSubmit(objNGUOIDUNG);
-                                                    vDC.SubmitChanges();
-                                                }
-                                                Session[TabId + "_Message"] = "Thêm mới nhóm thành viên thành công";
-                                                Session[TabId + "_Type"] = "success";
-                                                if (action == "TiepTuc")
-                                                {
-                                                    Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Thêm mới nhóm thành viên", "NTV_ID=0"));
+                                                    ClassCommon.ShowToastr(this.Page, "Vui lòng chọn đơn vị", "Thông báo lỗi", "error");
+                                                    drpDonVi.Focus();
                                                 }
                                                 else
                                                 {
-                                                    Response.Redirect(Globals.NavigateURL(), false);
+                                                    UserInfo objUser = new UserInfo();
+                                                    objUser.PortalID = this.PortalId;
+                                                    objUser.IsSuperUser = false;
+                                                    objUser.FirstName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    objUser.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    objUser.DisplayName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    objUser.Email = "test@gmail.com";
+                                                    objUser.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
+                                                    //objUser.Profile.PreferredLocale = PortalSettings.DefaultLanguage;
+                                                    //objUser.Profile.TimeZone = PortalSettings.TimeZoneOffset;
+                                                    //objUser.Profile.FirstName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    //objUser.Profile.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    //Nạp giá trị vào objMembership
+
+                                                    UserMembership objMembership = new UserMembership();
+                                                    objMembership.Approved = true;
+                                                    //objMembership.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
+                                                    objMembership.CreatedDate = DateTime.Now;
+                                                    objMembership.Email = "test@gmail.com";
+                                                    objMembership.IsOnLine = false;
+                                                    objMembership.Password = txtMatKhau.Text.Trim();
+                                                    objUser.Membership = objMembership;
+                                                    //Thêm user và trả đối tượng user vừa thêm
+                                                    UserCreateStatus result = UserController.CreateUser(ref objUser);
+
+                                                    if (result == UserCreateStatus.Success)
+                                                    {
+                                                        QLSC_NGUOIDUNG objNGUOIDUNG = new QLSC_NGUOIDUNG();
+                                                        objNGUOIDUNG = new QLSC_NGUOIDUNG();
+                                                        objNGUOIDUNG.UserName = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
+                                                        objNGUOIDUNG.ND_TEN = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                        objNGUOIDUNG.ND_GHICHU = ClassCommon.ClearHTML(txtGhiChu.Text.Trim());
+                                                        objNGUOIDUNG.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
+                                                        objNGUOIDUNG.UserID = objUser.UserID;
+                                                        vDC.QLSC_NGUOIDUNGs.InsertOnSubmit(objNGUOIDUNG);
+                                                        vDC.SubmitChanges();
+                                                    }
+                                                    Session[TabId + "_Message"] = "Thêm mới người dùng thành công";
+                                                    Session[TabId + "_Type"] = "success";
+                                                    if (action == "TiepTuc")
+                                                    {
+                                                        Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Thêm mới thành viên", "UserID=0"));
+                                                    }
+                                                    else
+                                                    {
+                                                        Response.Redirect(Globals.NavigateURL(), false);
+                                                    }
                                                 }
                                             }
                                         }
                                     }
                                 }
+
                             }
                         }
-                           
+
                     }
 
                 }
 
                 //Trường hợp cập nhật
                 else
-                {                    
+                {
                     if (txtTenDangNhap.Text.Trim() == "")
                     {
                         ClassCommon.ShowToastr(this.Page, "Vui lòng nhập tên đăng nhập", "Thông báo lỗi", "error");
@@ -230,7 +241,7 @@ namespace QLSC
                     }
                     else
                     {
-                       
+
                         if (KiemTraTrungTenDangNhap(txtTenDangNhap.Text.Trim(), vND_ID))
                         {
                             ClassCommon.ShowToastr(this.Page, "Tên đăng nhập đã tồn tại vui lòng nhập tên khác", "Thông báo lỗi", "error");
@@ -259,7 +270,7 @@ namespace QLSC
                                     }
                                     else
                                     {
-                                        vND_ID = Convert.ToInt32(Request.QueryString["ND_ID"]);
+                                        vND_ID = Convert.ToInt32(Request.QueryString["UserID"]);
                                         objNGUOIDUNG = getNguoiDungByID(vND_ID);
                                         UserInfo objUser = UserController.GetUserById(this.PortalId, objNGUOIDUNG.UserID ?? 0);
                                         objNGUOIDUNG.UserName = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
@@ -268,11 +279,11 @@ namespace QLSC
                                         objNGUOIDUNG.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
                                         UserController.ChangeUsername(objNGUOIDUNG.UserID ?? 0, ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim()));
                                         vDC.SubmitChanges();
-                                        Session[TabId + "_Message"] = "Cập nhật nhóm thành viên thành công";
+                                        Session[TabId + "_Message"] = "Cập nhật thông tin người dùng thành công";
                                         Session[TabId + "_Type"] = "success";
                                         if (action == "TiepTuc")
                                         {
-                                            Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Thêm mới nhóm thành viên", "NTV_ID=0"));
+                                            Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Cập nhật thông tin người dùng thành công", "UserID=0"));
                                         }
                                         else
                                         {
@@ -282,7 +293,7 @@ namespace QLSC
                                 }
                             }
                         }
-                        
+
                     }
                 }
             }
@@ -307,7 +318,7 @@ namespace QLSC
         }
 
         //Kiểm tra trùng mã nhóm thành viên
-      
+
 
         public bool KiemTraTrungTenDangNhap(string Username, int id)
         {

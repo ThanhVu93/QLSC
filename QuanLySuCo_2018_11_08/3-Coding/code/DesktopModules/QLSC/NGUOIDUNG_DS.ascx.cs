@@ -126,7 +126,9 @@ namespace QLSC
                 dtTable.Columns.Add("ND_ID");
                 dtTable.Columns.Add("ND_TEN");
                 dtTable.Columns.Add("ND_DONVI");                
-                dtTable.Columns.Add("Username");                               
+                dtTable.Columns.Add("Username");
+                dtTable.Columns.Add("UserID");
+
                 var dsNhomThanhVien = (from nd in vDC.QLSC_NGUOIDUNGs
                                        join dv in vDC.QLSC_DONVIs on nd.DONVI_ID equals dv.DONVI_ID
                                        where (dv.DONVI_ID == int.Parse(drpDonVi.SelectedValue) || drpDonVi.SelectedValue == "0") 
@@ -143,6 +145,7 @@ namespace QLSC
                                            dv.DONVI_TEN,
                                            nd.UserName,
                                            nd.ND_GHICHU,
+                                           nd.UserID
                                        });
                 dsNhomThanhVien.Skip((pCurentPage) * vPageSize).Take(vPageSize).ToList();
                 if (dsNhomThanhVien != null)
@@ -155,9 +158,8 @@ namespace QLSC
                             row["ND_ID"] = obj.ND_ID;
                             row["ND_TEN"] = obj.ND_TEN;
                             row["ND_DONVI"] = obj.DONVI_TEN;
-                           
+                            row["UserID"] = obj.UserID;
                             row["Username"] = obj.UserName;
-                          
                             dtTable.Rows.Add(row);
                         }
                     }
@@ -209,8 +211,8 @@ namespace QLSC
         protected void dgDanhSach_Sua(object sender, EventArgs e)
         {
             HtmlAnchor html = (HtmlAnchor)sender;
-            int nd_id = Convert.ToInt32(html.HRef.ToString());
-            Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Cập nhật người dùng", "ND_ID=" + nd_id));
+            int UserID = Convert.ToInt32(html.HRef.ToString());
+            Response.Redirect(Globals.NavigateURL("create_update", "mid=" + this.ModuleId, "title=Cập nhật người dùng", "UserID=" + UserID));
         }
 
         protected void dgDanhSach_Xoa(object sender, EventArgs e)
@@ -220,7 +222,7 @@ namespace QLSC
 
             try
             {
-                var objCheck_KhoaNgoai = vDC.QLSC_SUCOs.Where(x => x.LOAISC_ID == nd_id).Count();
+                var objCheck_KhoaNgoai = vDC.QLSC_SUCOs.Where(x => x.UserID == nd_id).Count();
                 if (objCheck_KhoaNgoai == 0)
                 {
                     var objNGuoiDung = (from obj in vDC.QLSC_NGUOIDUNGs

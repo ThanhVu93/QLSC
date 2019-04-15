@@ -58,8 +58,9 @@ namespace QLSC
             return count;
         }
 
-        public string xulyChenhLech(int thaydoi)
+        public string xulyChenhLech(int vCountNamHienTai, int vCountNamTruoc)
         {
+            int thaydoi = vCountNamHienTai - vCountNamTruoc;
             string result = "None";        
             if (thaydoi > 0)
             {
@@ -76,6 +77,10 @@ namespace QLSC
                     result = "Giảm " + Math.Abs(thaydoi) + " vụ"; ;
                 }
             }
+            if(thaydoi == 0 && vCountNamHienTai == 0 && vCountNamTruoc == 0)
+            {
+                result = "Không SC";
+            }
             return result;
         }
 
@@ -83,7 +88,7 @@ namespace QLSC
         {
             try
             {
-                int vThang = int.Parse(drpDonVi.SelectedValue);
+                int vThang = int.Parse(drpThang.SelectedValue);
                 string vHTML = "";
                 string namHienTai = DateTime.Now.Year.ToString();
                 string namTruoc = (DateTime.Now.Year - 1).ToString();
@@ -101,7 +106,7 @@ namespace QLSC
                 vHTML += "<th width='8%' rowspan='2'>SO SÁNH CÙNG KỲ NĂM 2018</th>";
                 vHTML += "</tr>";
                 vHTML += "<tr>";
-                string vrowThang = "<th>T1" + namHienTai.ToString() + "</th>" + "<th>" + "T1" + namTruoc + "</th>";
+                string vrowThang = "<th>T."+ vThang+ "/" + namHienTai.ToString() + "</th>" + "<th>" + "T."+ vThang + "/" + namTruoc + "</th>";
                 vHTML += vrowThang + vrowThang + vrowThang + vrowThang;
                 int j = 1;
                 if (lstDONVI != null)
@@ -116,25 +121,74 @@ namespace QLSC
                         int countDV_NamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, vThang, 1, obj.DONVI_ID);
                         vHTML += "<td>" + countDV_NamHienTai + "</td>";
                         vHTML += "<td>" + countDV_NamTruoc + "</td>";
-                        vHTML += "<td>"+ xulyChenhLech(countDV_NamHienTai - countDV_NamTruoc) + "</td>";
+                        string cssThayDoi = "";
+                        if (countDV_NamHienTai - countDV_NamTruoc > 0)
+                        {
+                            cssThayDoi = "sc_tang";
+                        }
+                        else
+                        {
+                            if (countDV_NamHienTai - countDV_NamTruoc < 0)
+                            {
+                                cssThayDoi = "sc_giam";
+                            }
+                        }
+                        
+                        vHTML += "<td class='"+ cssThayDoi + "'>"+ xulyChenhLech(countDV_NamHienTai, countDV_NamTruoc) + "</td>";
 
                         int countSD_NamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, vThang, 2, obj.DONVI_ID);
                         int countSD_NamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, vThang, 2, obj.DONVI_ID);
                         vHTML += "<td>" + countSD_NamHienTai + "</td>";
                         vHTML += "<td>" + countSD_NamTruoc + "</td>";
-                        vHTML += "<td>" + xulyChenhLech(countSD_NamHienTai - countSD_NamTruoc) + "</td>";
-
+                        cssThayDoi = "";
+                        if (countSD_NamHienTai - countSD_NamTruoc > 0)
+                        {
+                            cssThayDoi = "sc_tang";
+                        }
+                        else
+                        {
+                            if (countSD_NamHienTai - countSD_NamTruoc < 0)
+                            {
+                                cssThayDoi = "sc_giam";
+                            }
+                        } 
+                        vHTML += "<td class='"+ cssThayDoi +"'>" + xulyChenhLech(countSD_NamHienTai, countSD_NamTruoc) + "</td>";
+                       
                         int countPD_NamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, vThang, 3, obj.DONVI_ID);
                         int countPD_NamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, vThang, 3, obj.DONVI_ID);
                         vHTML += "<td>" + countPD_NamHienTai + "</td>";
                         vHTML += "<td>" + countPD_NamTruoc + "</td>";
-                        vHTML += "<td>" + xulyChenhLech(countPD_NamHienTai - countPD_NamTruoc) + "</td>";
+                        cssThayDoi = "";
+                        if (countPD_NamHienTai - countPD_NamTruoc > 0)
+                        {
+                            cssThayDoi = "sc_tang";
+                        }
+                        else
+                        {
+                            if (countPD_NamHienTai - countPD_NamTruoc < 0)
+                            {
+                                cssThayDoi = "sc_giam";
+                            }
+                        }
+                        vHTML += "<td class='"+ cssThayDoi + "'>" + xulyChenhLech(countPD_NamHienTai, countPD_NamTruoc) + "</td>";
 
                         int countVPHL_NamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, vThang, 4, obj.DONVI_ID);
                         int countVPHLD_NamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, vThang, 4, obj.DONVI_ID);
                         vHTML += "<td>" + countVPHL_NamHienTai + "</td>";
                         vHTML += "<td>" + countVPHLD_NamTruoc + "</td>";
-                        vHTML += "<td>" + xulyChenhLech(countVPHL_NamHienTai - countVPHLD_NamTruoc) + "</td>";
+                        cssThayDoi = "";
+                        if (countVPHL_NamHienTai - countVPHLD_NamTruoc > 0)
+                        {
+                            cssThayDoi = "sc_tang";
+                        }
+                        else
+                        {
+                            if (countVPHL_NamHienTai - countVPHLD_NamTruoc < 0)
+                            {
+                                cssThayDoi = "sc_giam";
+                            }
+                        }
+                        vHTML += "<td class='"+ cssThayDoi + "'>" + xulyChenhLech(countVPHL_NamHienTai, countVPHLD_NamTruoc) + "</td>";
                         vHTML += "</tr>";
                     }
                     j = 0;
