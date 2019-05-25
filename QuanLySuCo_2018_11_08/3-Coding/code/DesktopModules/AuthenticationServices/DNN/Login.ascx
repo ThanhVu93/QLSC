@@ -4,7 +4,7 @@
     <div class="logo">
         <img src="Portals/_default/Skins/QLCC/images/logo1.png"   />
         <h2>Phần mềm Quản lý sự cố</h2>
-        <h4>Công ty điện lực Sóc Trăng</h4>
+        <h4>Công ty Điện lực Sóc Trăng</h4>
     </div>
   
     <div class="dnnFormItem">

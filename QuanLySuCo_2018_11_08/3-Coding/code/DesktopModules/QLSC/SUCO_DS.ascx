@@ -122,10 +122,10 @@
                                         </tr>
 
                                         <tr>
-                                            <td style="width: 15%;">Đ.Trục</td>
-                                            <td style="width: 15%;">Ngã rẽ</td>
-                                            <td style="width: 15%;">Đ.Trục</td>
-                                            <td style="width: 15%;">Ngã rẽ</td>
+                                            <td style="width: 15%;">Bật MC</td>
+                                            <td style="width: 15%;">RCS</td>
+                                            <td style="width: 15%;">Bật MC</td>
+                                            <td style="width: 15%;">RCS</td>
                                         </tr>
 
                                         <div style="width: 15%; border-right: 1px solid #ddd" class="generator-stt"></div>

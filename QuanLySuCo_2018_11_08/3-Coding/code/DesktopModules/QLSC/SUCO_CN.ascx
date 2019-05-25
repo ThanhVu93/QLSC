@@ -239,10 +239,10 @@
                                     EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
                                     LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">
                                             <Items>
-                                                <telerik:RadComboBoxItem  Value="1" Text="TQ - Đường trục"/>
-                                                <telerik:RadComboBoxItem  Value="2" Text="TQ - Ngã rẽ"/>
-                                                <telerik:RadComboBoxItem  Value="3" Text="VC - Đường trục"/>
-                                                <telerik:RadComboBoxItem  Value="4" Text="VC - Ngã rẽ"/>
+                                                <telerik:RadComboBoxItem  Value="1" Text="TQ - Bật MC"/>
+                                                <telerik:RadComboBoxItem  Value="2" Text="TQ - RCS"/>
+                                                <telerik:RadComboBoxItem  Value="3" Text="VC - Bật MC"/>
+                                                <telerik:RadComboBoxItem  Value="4" Text="VC - RCS"/>
                                                 <telerik:RadComboBoxItem  Value="5" Text="TBA"/>
                                                 <telerik:RadComboBoxItem  Value="6" Text="HA"/>
                                             </Items>
