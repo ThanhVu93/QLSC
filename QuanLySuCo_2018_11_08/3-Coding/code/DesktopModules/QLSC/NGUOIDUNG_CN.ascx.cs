@@ -178,21 +178,26 @@ namespace QLSC
                                                     objUser.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
                                                     objUser.DisplayName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
                                                     objUser.Email = "test@gmail.com";
-                                                    objUser.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
-                                                    //objUser.Profile.PreferredLocale = PortalSettings.DefaultLanguage;
-                                                    //objUser.Profile.TimeZone = PortalSettings.TimeZoneOffset;
-                                                    //objUser.Profile.FirstName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
-                                                    //objUser.Profile.LastName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                                    objUser.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());                                                 
                                                     //Nạp giá trị vào objMembership
+
+                                                    //UserMembership objMembership = new UserMembership();
+                                                    //objMembership.Approved = true;
+                                                    //objMembership.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
+                                                    //objMembership.CreatedDate = DateTime.Now;
+                                                    //objMembership.Email = "test@gmail.com";
+                                                    //objMembership.IsOnLine = false;
+                                                    //objMembership.Password = txtMatKhau.Text.Trim();
+                                                    //objUser.Membership = objMembership;
 
                                                     UserMembership objMembership = new UserMembership();
                                                     objMembership.Approved = true;
-                                                    //objMembership.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
+                                                    objMembership.Username = ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim());
                                                     objMembership.CreatedDate = DateTime.Now;
-                                                    objMembership.Email = "test@gmail.com";
-                                                    objMembership.IsOnLine = false;
+                                                    objMembership.Email = "hhan17894@gmail.com";
                                                     objMembership.Password = txtMatKhau.Text.Trim();
                                                     objUser.Membership = objMembership;
+
                                                     //Thêm user và trả đối tượng user vừa thêm
                                                     UserCreateStatus result = UserController.CreateUser(ref objUser);
 
@@ -277,6 +282,8 @@ namespace QLSC
                                         objNGUOIDUNG.ND_TEN = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
                                         objNGUOIDUNG.ND_GHICHU = ClassCommon.ClearHTML(txtGhiChu.Text.Trim());
                                         objNGUOIDUNG.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
+                                        objUser.DisplayName = ClassCommon.ClearHTML(txtTenNguoiDung.Text.Trim());
+                                        UserController.UpdateUser(this.PortalId, objUser);
                                         UserController.ChangeUsername(objNGUOIDUNG.UserID ?? 0, ClassCommon.ClearHTML(txtTenDangNhap.Text.Trim()));
                                         vDC.SubmitChanges();
                                         Session[TabId + "_Message"] = "Cập nhật thông tin người dùng thành công";

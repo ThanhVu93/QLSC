@@ -69,7 +69,7 @@
                                 <HeaderStyle Width="11%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="ĐV để xảy ra <br/>sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="7%" />
+                                <ItemStyle HorizontalAlign="Left" Width="5%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
                             <asp:TemplateColumn ItemStyle-Width="15%" HeaderStyle-Width="12%" ItemStyle-CssClass="pd-0">
@@ -154,7 +154,7 @@
                             </asp:TemplateColumn>
 
                             <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Right" Width="5%" />
+                                <ItemStyle HorizontalAlign="Right" Width="4%" />
                                 <HeaderStyle Width="5%" />
                             </asp:BoundColumn>
                             <asp:TemplateColumn ItemStyle-Width="7%" HeaderStyle-Width="7%" ItemStyle-CssClass="pd-0">
@@ -183,6 +183,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
+                             <asp:BoundColumn DataField="FILE" HeaderText="File đính kèm" ItemStyle-Width="3%" ItemStyle-CssClass="min-width-max" ItemStyle-HorizontalAlign="Left" HeaderStyle-CssClass="headerGrid"></asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU" HeaderStyle-CssClass="generator-stt" >
                                 <ItemStyle HorizontalAlign="Left"  />
                                 <%--<HeaderStyle Width="8%" />--%>

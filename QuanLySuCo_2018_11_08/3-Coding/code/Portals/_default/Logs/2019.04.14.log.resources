@@ -1,0 +1,34 @@
+22:29:01,083 [Administrator][Thread:34][ERROR] DotNetNuke.Services.Exceptions.Exceptions - Lucene.Net.Index.CorruptIndexException: doc counts differ for segment _2jy: fieldsReader shows 416 but segmentInfo shows 415
+   at Lucene.Net.Index.SegmentReader.CoreReaders.OpenDocStores(SegmentInfo si)
+   at Lucene.Net.Index.SegmentReader.Get(Boolean readOnly, Directory dir, SegmentInfo si, Int32 readBufferSize, Boolean doOpenStores, Int32 termInfosIndexDivisor)
+   at Lucene.Net.Index.IndexWriter.ReaderPool.Get(SegmentInfo info, Boolean doOpenStores, Int32 readBufferSize, Int32 termsIndexDivisor)
+   at Lucene.Net.Index.IndexWriter.ReaderPool.GetReadOnlyClone(SegmentInfo info, Boolean doOpenStores, Int32 termInfosIndexDivisor)
+   at Lucene.Net.Index.DirectoryReader..ctor(IndexWriter writer, SegmentInfos infos, Int32 termInfosIndexDivisor)
+   at Lucene.Net.Index.IndexWriter.GetReader(Int32 termInfosIndexDivisor)
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.get_Writer()
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.Delete(Query query)
+   at DotNetNuke.Services.Search.UserIndexer.PerformDelete(Int32 portalId, String keyword)
+   at DotNetNuke.Services.Search.UserIndexer.DeleteDocuments(Int32 portalId, IList`1 usersList)
+   at DotNetNuke.Services.Search.UserIndexer.GetSearchDocuments(Int32 portalId, DateTime startDateLocal)
+22:29:01,193 [Administrator][Thread:34][ERROR] DotNetNuke.Services.Search.Internals.LuceneControllerImpl - Search Document error: Portal ID: 0, Tab ID: 0, Module ID: 0, Mod. Def.ID: 0, Url: , Unique Key: 1_allusers, Last Modified: 2019-04-14T15:28:01.1370000Z, Culture: , Search Type: 3
+DotNetNuke.Services.Exceptions.SearchException: Unable to create Lucene writer (lock file is in use). Please recycle AppPool in IIS to release lock. ---> System.IO.IOException: The process cannot access the file 'C:\Data\Source\QLSC\QLSC\QuanLySuCo_2018_11_08\3-Coding\code\App_Data\Search\write.lock' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.get_Writer()
+   --- End of inner exception stack trace ---
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.get_Writer()
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.Delete(Query query)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.DeleteSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.AddSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.AddSearchDocuments(IEnumerable`1 searchDocuments)
+22:29:01,199 [Administrator][Thread:34][ERROR] DotNetNuke.Services.Search.Internals.LuceneControllerImpl - Search Document error: Portal ID: 0, Tab ID: 0, Module ID: 0, Mod. Def.ID: 0, Url: , Unique Key: 1_adminonly, Last Modified: 2019-04-14T15:28:01.1370000Z, Culture: , Search Type: 3
+DotNetNuke.Services.Exceptions.SearchException: Unable to create Lucene writer (lock file is in use). Please recycle AppPool in IIS to release lock. ---> System.IO.IOException: The process cannot access the file 'C:\Data\Source\QLSC\QLSC\QuanLySuCo_2018_11_08\3-Coding\code\App_Data\Search\write.lock' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalDelete(String path, Boolean checkHost)
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.get_Writer()
+   --- End of inner exception stack trace ---
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.get_Writer()
+   at DotNetNuke.Services.Search.Internals.LuceneControllerImpl.Delete(Query query)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.DeleteSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.AddSearchDocumentInternal(SearchDocument searchDocument, Boolean autoCommit)
+   at DotNetNuke.Services.Search.Internals.InternalSearchControllerImpl.AddSearchDocuments(IEnumerable`1 searchDocuments)

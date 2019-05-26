@@ -50,6 +50,12 @@ namespace QLSC
             {
                 lstSuCoNamHienTai = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year).ToList();
                 lstSuCoNamTruoc = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year - 1).ToList();
+                if (!_currentUser.IsInRole("Administrator"))
+                {
+                    var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
+                    lstSuCoNamHienTai = lstSuCoNamHienTai.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
+                    lstSuCoNamTruoc = lstSuCoNamTruoc.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
+                }
                 loadData();                
             }
             catch (Exception ex)
@@ -62,7 +68,18 @@ namespace QLSC
         
         public int countSuCoTheoThang(List<QLSC_SUCO> lstSUCO, int thang, int loaiID)
         {
-            int count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Count();
+            int count = 0;
+            if (_currentUser.IsInRole("Administrator"))
+            {                
+                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Count();
+            }
+            else
+            {
+                var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
+                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Where(x=>x.DONVI_ID == objNGUOIDUNG.DONVI_ID).Count();
+            }
+         
+            
             return count;
         }
 

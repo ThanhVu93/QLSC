@@ -388,8 +388,8 @@ namespace QLSC
                             {
                                 string filename = userPostedFile.FileName;
                                 string extension = System.IO.Path.GetExtension(filename);
-                                //string result = filename.Substring(0, filename.Length - extension.Length)+"_"+ ClassCommon.GetUploadDateTime().ToString()+"."+extension;
-                                string result = ClassCommon.GetGuid() + extension;
+                                string result = filename.Substring(0, filename.Length - extension.Length)+"."+extension;
+                                //string result = ClassCommon.GetGuid() + extension;
                                 ClassCommon.UploadFile(userPostedFile, filepath, result, "");
 
                                 DataTable dt = Session["dgDanhSach"] as DataTable;

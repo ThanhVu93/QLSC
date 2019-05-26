@@ -136,7 +136,7 @@ namespace QLSC
                                        || SqlMethods.Like(dv.DONVI_TEN, "%" + txt_TK_NoiDung.Text.Trim() + "%")
                                        || SqlMethods.Like(nd.ND_GHICHU, "%" + txt_TK_NoiDung.Text.Trim() + "%")
                                        || SqlMethods.Like(dv.DONVI_GHICHU, "%" + txt_TK_NoiDung.Text.Trim() + "%"))
-
+                                       orderby nd.UserID descending
 
                                        select new
                                        {
@@ -218,15 +218,15 @@ namespace QLSC
         protected void dgDanhSach_Xoa(object sender, EventArgs e)
         {
             HtmlAnchor html = (HtmlAnchor)sender;
-            int nd_id = Convert.ToInt32(html.HRef.ToString());
+            int vUserID = Convert.ToInt32(html.HRef.ToString());
 
             try
             {
-                var objCheck_KhoaNgoai = vDC.QLSC_SUCOs.Where(x => x.UserID == nd_id).Count();
+                var objCheck_KhoaNgoai = vDC.QLSC_SUCOs.Where(x => x.UserID == vUserID).Count();
                 if (objCheck_KhoaNgoai == 0)
                 {
                     var objNGuoiDung = (from obj in vDC.QLSC_NGUOIDUNGs
-                                  where obj.ND_ID == nd_id
+                                  where obj.UserID == vUserID
                                         select obj).SingleOrDefault();
                     UserInfo objUserInfo = UserController.GetUserById(this.PortalId, objNGuoiDung.UserID??0);
                     UserController.DeleteUser(ref objUserInfo, false, false);
@@ -247,6 +247,15 @@ namespace QLSC
                 //log.Error("", ex);
             }
 
+        }
+        protected void drpDonVi_SelectedIndexChanged(object sender, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
+        {
+            LoadDS(0);
+        }
+
+        protected void txt_TK_NoiDung_TextChanged(object sender, EventArgs e)
+        {
+            LoadDS(0);
         }
         #endregion
 
@@ -516,14 +525,13 @@ namespace QLSC
         }
         #endregion
 
-        protected void drpDonVi_SelectedIndexChanged(object sender, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
-        {
-            LoadDS(0);
-        }
 
-        protected void txt_TK_NoiDung_TextChanged(object sender, EventArgs e)
+
+        protected void DoiMatKhau(object sender, EventArgs e)
         {
-            LoadDS(0);
+            HtmlAnchor html = (HtmlAnchor)sender;
+            int UserID = Convert.ToInt32(html.HRef.ToString());
+            Response.Redirect(Globals.NavigateURL("doimatkhau", "mid=" + this.ModuleId, "title=Đổi mật khẩu người dùng", "UserID=" + UserID));
         }
     }
 }

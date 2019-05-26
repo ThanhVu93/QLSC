@@ -41,10 +41,14 @@ namespace QLSC
         {
             try
             {
-                lstSuCoNamHienTai = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year).ToList();
-                lstSuCoNamTruoc = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year - 1).ToList();
-                lstDONVI = vDC.QLSC_DONVIs.ToList();
-                loadData();
+                if (!IsPostBack)
+                {
+                    lstSuCoNamHienTai = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year).ToList();
+                    lstSuCoNamTruoc = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year - 1).ToList();
+                    lstDONVI = vDC.QLSC_DONVIs.ToList();                                        
+                    loadData();
+                }
+               
             }
             catch (Exception ex)
             {

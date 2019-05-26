@@ -21,11 +21,14 @@ namespace QLSC
         #region Khai báo định nghĩa dữ liệu
         public string vPathCommon;
         public string vPathCommonJS = ClassParameter.vPathCommonJavascript;
+
         public string vPathCommonToastJS = ClassParameter.vPathCommonToastJS;
         public string vPathCommonToastCSS = ClassParameter.vPathCommonToastCSS;
         public string vJavascriptMask = ClassParameter.vJavascriptMaskNumber;
         public string vPathIQueryJavascript = ClassParameter.vPathIQueryJavascript;
+        TAPTINController objTAPTINController = new TAPTINController();
         public string vPathCommonCss = ClassParameter.vPathCommonCss;
+        public string vPathCommonData = ClassParameter.vPathCommonData;
         int vPageSize = ClassParameter.vPageSize;
         DataTable dtTable = new DataTable();
         public string vPathBieuMau = DotNetNuke.Common.Globals.ApplicationPath.ToString() + "/DesktopModules/QLSC/bieumau1/";
@@ -176,7 +179,9 @@ namespace QLSC
                 dtTable.Columns.Add("SC_TONGSOKHACHHANG");
                 dtTable.Columns.Add("SC_TAISAN_TBA");
                 dtTable.Columns.Add("SC_TAISAN_HA");
+                dtTable.Columns.Add("FILE");
                 dtTable.Columns.Add("SC_GHICHU");
+
                 dtTable.Columns.Add("UserID");
                 var lstSuCo1 = (from sc in vDC.QLSC_SUCOs
                                 join dv in vDC.QLSC_DONVIs on sc.DONVI_ID equals dv.DONVI_ID
@@ -247,6 +252,22 @@ namespace QLSC
                     row["SC_TONGSOKHACHHANG"] = it.SC_TONGSOKH;
                     row["SC_TAISAN_TBA"] = it.SC_TAISAN == 1 ? "x" : "";
                     row["SC_TAISAN_HA"] = it.SC_TAISAN == 2 ? "x" : "";
+                    var temp = objTAPTINController.Get_TapTin_By_ObjectID_LoaiID(it.SC_ID, (int)CommonEnum.TapTinObjectLoai.File);
+                    string strFile = "";
+                    if (temp.Count > 0)
+                    {
+                        
+                        foreach (var file in temp)
+                        {
+                            strFile += "<a title='"+ file.FILE_NAME+"' href='" + vPathCommonData + "/" + file.FILE_NAME + "' target='_blank' style='padding-left:10px;'> ";
+                            strFile += "<span class='glyphicon glyphicon-download-alt' style='color:blue;font-size:13px'></span>&emsp;";
+                            //strFile += file.FILE_MOTA;
+                            strFile += "</a>";
+                            //strFile += temp.Count > 1? ",":"";
+                        }
+                        row["FILE"] = strFile;
+                    }
+
                     row["SC_GHICHU"] = it.SC_GHICHU;
                     row["UserID"] = it.UserID;
                     dtTable.Rows.Add(row);

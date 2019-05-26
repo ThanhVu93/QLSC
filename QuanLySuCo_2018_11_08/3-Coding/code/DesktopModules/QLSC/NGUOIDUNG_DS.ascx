@@ -46,10 +46,17 @@
                 <ItemStyle Width="30%"/>
             </asp:BoundColumn>
 
+             <asp:TemplateColumn HeaderText="Đổi mật khẩu" Visible="true">
+                <ItemStyle Width="10%" HorizontalAlign="Center"/>
+                <ItemTemplate>
+                    <a onserverclick="DoiMatKhau" href='<%# Eval("UserID").ToString() %>' oncontextmenu="return false" runat="server"><span class="glyphicon glyphicon-lock" style="color:green"></span></a>
+                </ItemTemplate>
+            </asp:TemplateColumn>
+
             <asp:TemplateColumn HeaderText="Sửa" Visible="true">
                 <ItemStyle Width="5%" HorizontalAlign="Center"/>
                 <ItemTemplate>
-                    <a onserverclick="dgDanhSach_Sua" class="icon-sua" href='<%# Eval("ND_ID").ToString() %>' oncontextmenu="return false" runat="server"></span></a>
+                    <a onserverclick="dgDanhSach_Sua" class="icon-sua" href='<%# Eval("ND_ID").ToString() %>' oncontextmenu="return false" runat="server"></a>
                 </ItemTemplate>
             </asp:TemplateColumn>
 
