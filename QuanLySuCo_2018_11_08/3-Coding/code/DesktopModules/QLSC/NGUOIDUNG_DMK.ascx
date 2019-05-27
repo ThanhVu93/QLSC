@@ -61,7 +61,6 @@
                             <label class="col-sm-3 control-label">Mật khẩu mới   </label>
                             <div class="col-sm-8">
                                  <asp:TextBox ID="txtMatKhau" runat="server" placeholder="**********" MaxLength="200" TextMode="Password" CssClass="form-control requirements" Width="100%" ></asp:TextBox>
-                                <div  style="padding-top:5px;font-size:12px;color: #bb1414">Tối thiểu 7 ký tự, bao gồm chữ, số và ký tự đặc biệt</div>
                                 <asp:RequiredFieldValidator ID="txtMatKhau_rv" runat="server" ErrorMessage="Vui lòng nhập mật khẩu mới" ControlToValidate="txtMatKhau" SetFocusOnError="True" Display="None"></asp:RequiredFieldValidator>
                                 <asp:RegularExpressionValidator Display = "None" ControlToValidate = "txtMatKhau" ID="txtMatKhau_length" ValidationExpression = "^[\s\S]{7,}$" SetFocusOnError="True" runat="server" ErrorMessage="Độ dài mật khẩu bắt buộc lớn hơn 7 ký tự"></asp:RegularExpressionValidator>
                             </div>
@@ -99,7 +98,6 @@
             <div class="row mr-t20"> 
                 <div class="col-sm-12 ">
                        <span><strong>Lưu ý: </strong><span class="batbuoc">*</span> là bắt buộc nhập</span>
-                       <br /> - Quý thành viên vui lòng lưu lại <b>"Mật khẩu"</b> sau khi thay đổi để đăng nhập SGD và tuyệt đối bảo mật thông tin mật khẩu của mình.
                 </div>
             </div>
 
