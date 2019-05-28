@@ -183,7 +183,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
-                             <asp:BoundColumn DataField="FILE" HeaderText="File đính kèm" ItemStyle-Width="3%" ItemStyle-CssClass="min-width-max" ItemStyle-HorizontalAlign="Left" HeaderStyle-CssClass="headerGrid"></asp:BoundColumn>
+                             <asp:BoundColumn DataField="FILE" HeaderText="File đính kèm" ItemStyle-Width="3%" ItemStyle-CssClass="min-width-max" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="headerGrid"></asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU" HeaderStyle-CssClass="generator-stt" >
                                 <ItemStyle HorizontalAlign="Left"  />
                                 <%--<HeaderStyle Width="8%" />--%>

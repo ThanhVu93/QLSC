@@ -95,6 +95,8 @@
                 <th width="8%">SO SÁNH CÙNG KỲ NĂM 2018</th>
             </tr>
             <asp:Literal runat="server" ID="lbContent"></asp:Literal>
+           
+
         </table>
     </div>
 </body>

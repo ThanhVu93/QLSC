@@ -78,10 +78,26 @@ namespace QLSC
                 var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
                 count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Where(x=>x.DONVI_ID == objNGUOIDUNG.DONVI_ID).Count();
             }
-         
-            
             return count;
         }
+
+        public int countSuCoTongTheoLoai(List<QLSC_SUCO> lstSUCO,  int loaiID)
+        {
+            int count = 0;
+            if (_currentUser.IsInRole("Administrator"))
+            {
+                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID).Count();
+            }
+            else
+            {
+                var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
+                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID).Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).Count();
+            }
+
+
+            return count;
+        }
+
 
         public void loadData()
         {
@@ -271,9 +287,186 @@ namespace QLSC
                     }
                     vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_HanhLang + "</td>";                    
                     vHTML += "</tr>";
-                    lbContent.Text = vHTML;
+
+                  
                 }
-                               
+                vHTML += " <tr style='font-weight:bold'>";
+                vHTML += "<td width='4%' style='font-weight:bold'> Tổng";
+                vHTML += "</td>";
+                //Tổng sự cố động vật
+                int countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 1);
+                 int countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 1);
+                 int thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+
+                vHTML += "<td>" + countTongNamHienTai;                
+                vHTML += "</td>";
+                vHTML += "<td>" + countTongNamTruoc;
+                vHTML += "</td>";
+                string rsThayDoi_DongVatTong = "None";
+                if (thaydoiTong > 0)
+                {
+                    rsThayDoi_DongVatTong = "Tăng " + thaydoiTong + " vụ";
+                }
+                else
+                {
+                    if (thaydoiTong == 0)
+                    {
+                        rsThayDoi_DongVatTong = "Bằng";
+                    }
+                    else
+                    {
+                        rsThayDoi_DongVatTong = "Giảm " + Math.Abs(thaydoiTong) + " vụ";
+                    }
+                }
+                if (thaydoiTong == 0 && countTongNamHienTai == 0 && countTongNamTruoc == 0)
+                {
+                    rsThayDoi_DongVatTong = "Không SC";
+                }
+                string cssThayDoiTong = "";
+                if (thaydoiTong > 0)
+                {
+                    cssThayDoiTong = "sc_tang";
+                }
+                else
+                {
+                    if (thaydoiTong < 0)
+                    {
+                        cssThayDoiTong = "sc_giam";
+                    }
+                }
+                vHTML += "<td class='" + cssThayDoiTong + "'>" + rsThayDoi_DongVatTong + "</td>";
+
+                //Tổng sự cố sét đánh 
+                countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 2);
+                 countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 2);
+                 thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+
+                vHTML += "<td>" + countTongNamHienTai;
+                vHTML += "</td>";
+                vHTML += "<td>" + countTongNamTruoc;
+                vHTML += "</td>";
+                string rsThayDoi_SetDanhTong = "None";
+                if (thaydoiTong > 0)
+                {
+                    rsThayDoi_SetDanhTong = "Tăng " + thaydoiTong + " vụ";
+                }
+                else
+                {
+                    if (thaydoiTong == 0)
+                    {
+                        rsThayDoi_SetDanhTong = "Bằng";
+                    }
+                    else
+                    {
+                        rsThayDoi_SetDanhTong = "Giảm " + Math.Abs(thaydoiTong) + " vụ";
+                    }
+                }
+                if (thaydoiTong == 0 && countTongNamHienTai == 0 && countTongNamTruoc == 0)
+                {
+                    rsThayDoi_DongVatTong = "Không SC";
+                }
+                cssThayDoiTong = "";
+                if (thaydoiTong > 0)
+                {
+                    cssThayDoiTong = "sc_tang";
+                }
+                else
+                {
+                    if (thaydoiTong < 0)
+                    {
+                        cssThayDoiTong = "sc_giam";
+                    }
+                }
+                vHTML += "<td class='" + cssThayDoiTong + "'>" + rsThayDoi_SetDanhTong + "</td>";
+
+                //Tổng sự cố phóng điện
+                countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 3);
+                countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 3);
+                thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+
+                vHTML += "<td>" + countTongNamHienTai;
+                vHTML += "</td>";
+                vHTML += "<td>" + countTongNamTruoc;
+                vHTML += "</td>";
+                string rsThayDoi_PhongDienTong = "None";
+                if (thaydoiTong > 0)
+                {
+                    rsThayDoi_PhongDienTong = "Tăng " + thaydoiTong + " vụ";
+                }
+                else
+                {
+                    if (thaydoiTong == 0)
+                    {
+                        rsThayDoi_PhongDienTong = "Bằng";
+                    }
+                    else
+                    {
+                        rsThayDoi_PhongDienTong = "Giảm " + Math.Abs(thaydoiTong) + " vụ";
+                    }
+                }
+                if (thaydoiTong == 0 && countTongNamHienTai == 0 && countTongNamTruoc == 0)
+                {
+                    rsThayDoi_PhongDienTong = "Không SC";
+                }
+                cssThayDoiTong = "";
+                if (thaydoiTong > 0)
+                {
+                    cssThayDoiTong = "sc_tang";
+                }
+                else
+                {
+                    if (thaydoiTong < 0)
+                    {
+                        cssThayDoiTong = "sc_giam";
+                    }
+                }
+                vHTML += "<td class='" + cssThayDoiTong + "'>" + rsThayDoi_PhongDienTong + "</td>";
+
+                //Tổng sự cố phóng điện
+                countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 4);
+                countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 4);
+                thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+
+                vHTML += "<td>" + countTongNamHienTai;
+                vHTML += "</td>";
+                vHTML += "<td>" + countTongNamTruoc;
+                vHTML += "</td>";
+                string rsThayDoi_HanhLangTong = "None";
+                if (thaydoiTong > 0)
+                {
+                    rsThayDoi_HanhLangTong = "Tăng " + thaydoiTong + " vụ";
+                }
+                else
+                {
+                    if (thaydoiTong == 0)
+                    {
+                        rsThayDoi_HanhLangTong = "Bằng";
+                    }
+                    else
+                    {
+                        rsThayDoi_HanhLangTong = "Giảm " + Math.Abs(thaydoiTong) + " vụ";
+                    }
+                }
+                if (thaydoiTong == 0 && countTongNamHienTai == 0 && countTongNamTruoc == 0)
+                {
+                    rsThayDoi_HanhLangTong = "Không SC";
+                }
+                cssThayDoiTong = "";
+                if (thaydoiTong > 0)
+                {
+                    cssThayDoiTong = "sc_tang";
+                }
+                else
+                {
+                    if (thaydoiTong < 0)
+                    {
+                        cssThayDoiTong = "sc_giam";
+                    }
+                }
+                vHTML += "<td class='" + cssThayDoiTong + "'>" + rsThayDoi_HanhLangTong + "</td>";
+
+                vHTML += "</tr>";
+                lbContent.Text = vHTML;
             }
             catch (Exception ex)
             {
