@@ -86,7 +86,7 @@
         <div id="footer-content">
             <div class="bottom_left" style="">
                 <div class="footer-infomation">
-                    © Copyright 2018.                 
+                    © Copyright 2019.                 
                 </div>
             </div>
         </div>
