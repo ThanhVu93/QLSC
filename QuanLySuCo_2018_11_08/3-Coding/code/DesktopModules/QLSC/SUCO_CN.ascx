@@ -185,7 +185,7 @@
                             </div>
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại </label>
+                                    <label class="col-sm-4 control-label pd-r0">VTTB hư hỏng </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <asp:TextBox ID="txtTenChungLoai" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
                                     </div>
