@@ -48,15 +48,14 @@ namespace QLSC
         {
             try
             {
-                lstSuCoNamHienTai = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year).ToList();
-                lstSuCoNamTruoc = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == DateTime.Now.Year - 1).ToList();
-                if (!_currentUser.IsInRole("Administrator"))
+                if (!IsPostBack)
                 {
-                    var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
-                    lstSuCoNamHienTai = lstSuCoNamHienTai.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
-                    lstSuCoNamTruoc = lstSuCoNamTruoc.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
+                    loadDrpNam();
+                    drpNam.SelectedValue = DateTime.Now.Year.ToString();
+                    loadData();
                 }
-                loadData();                
+               
+
             }
             catch (Exception ex)
             {
@@ -65,23 +64,23 @@ namespace QLSC
 
 
         }
-        
+
         public int countSuCoTheoThang(List<QLSC_SUCO> lstSUCO, int thang, int loaiID)
         {
             int count = 0;
             if (_currentUser.IsInRole("Administrator"))
-            {                
+            {
                 count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Count();
             }
             else
             {
                 var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
-                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Where(x=>x.DONVI_ID == objNGUOIDUNG.DONVI_ID).Count();
+                count = lstSUCO.Where(x => x.LOAISC_ID == loaiID && x.SC_NGAYXAYRA.Value.Month == thang).Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).Count();
             }
             return count;
         }
 
-        public int countSuCoTongTheoLoai(List<QLSC_SUCO> lstSUCO,  int loaiID)
+        public int countSuCoTongTheoLoai(List<QLSC_SUCO> lstSUCO, int loaiID)
         {
             int count = 0;
             if (_currentUser.IsInRole("Administrator"))
@@ -99,13 +98,51 @@ namespace QLSC
         }
 
 
+        public void loadDrpNam()
+        {
+            try
+            {
+                dtTable = new DataTable();
+                dtTable.Columns.Add("NAM_VALUE");
+                dtTable.Columns.Add("NAM_TEXT");
+                int namHienTai = DateTime.Now.Year;
+                for (int i = namHienTai; i > namHienTai - 10; i--)
+                {
+                    DataRow row = dtTable.NewRow();
+                    row["NAM_VALUE"] = i;
+                    row["NAM_TEXT"] = i;
+                    dtTable.Rows.Add(row);
+                }
+                drpNam.Items.Clear();
+                drpNam.DataSource = dtTable;
+                drpNam.DataTextField = "NAM_TEXT";
+                drpNam.DataValueField = "NAM_VALUE";
+                drpNam.DataBind();
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
         public void loadData()
         {
             try
-            {                
+            {
+                int vNamHienTai = int.Parse(drpNam.SelectedValue);
+                lstSuCoNamHienTai = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == vNamHienTai).ToList();
+                lstSuCoNamTruoc = vDC.QLSC_SUCOs.Where(x => x.SC_NGAYXAYRA.Value.Year == vNamHienTai - 1).ToList();
+                if (!_currentUser.IsInRole("Administrator"))
+                {
+                    var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).FirstOrDefault();
+                    lstSuCoNamHienTai = lstSuCoNamHienTai.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
+                    lstSuCoNamTruoc = lstSuCoNamTruoc.Where(x => x.DONVI_ID == objNGUOIDUNG.DONVI_ID).ToList();
+                }
                 string vHTML = "";
-                string namHienTai = DateTime.Now.Year.ToString();
-                string namTruoc = (DateTime.Now.Year - 1).ToString();
+                //string namHienTai = DateTime.Now.Year.ToString();
+                //string namTruoc = (DateTime.Now.Year - 1).ToString();
+                string namHienTai = drpNam.SelectedValue;
+                string namTruoc = (int.Parse(drpNam.SelectedValue) -1 ).ToString();
                 lbNamHienTai.Text = namHienTai;
                 lbNamTruoc.Text = namTruoc;
                 for (int i = 1; i <= 12; i++)
@@ -115,16 +152,16 @@ namespace QLSC
                     vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
                     vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
-                    
+
                     vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
                     vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
 
-                    
+
                     vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
                     vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
-                    
+
                     vHTML += "<td>T." + i + "/" + namHienTai + "</td>";
                     vHTML += "<td>T." + i + "/" + namTruoc + "</td>";
                     vHTML += "<td></td>";
@@ -137,7 +174,7 @@ namespace QLSC
                     vHTML += "<td class='text_right'>" + countNamHienTai + "</td>";
                     vHTML += "<td class='text_right'>" + countNamTruoc + "</td>";
                     string rsThayDoi_DongVat = "None";
-                    if(thaydoi > 0)
+                    if (thaydoi > 0)
                     {
                         rsThayDoi_DongVat = "Tăng " + thaydoi + " vụ";
                     }
@@ -152,23 +189,23 @@ namespace QLSC
                             rsThayDoi_DongVat = "Giảm " + Math.Abs(thaydoi) + " vụ";
                         }
                     }
-                    if(thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
+                    if (thaydoi == 0 && countNamHienTai == 0 && countNamTruoc == 0)
                     {
                         rsThayDoi_DongVat = "Không SC";
                     }
                     string cssThayDoi = "";
-                    if(thaydoi > 0)
+                    if (thaydoi > 0)
                     {
                         cssThayDoi = "sc_tang";
                     }
                     else
                     {
-                        if(thaydoi < 0)
+                        if (thaydoi < 0)
                         {
                             cssThayDoi = "sc_giam";
                         }
                     }
-                    vHTML += "<td class='"+ cssThayDoi +"'>" + rsThayDoi_DongVat + "</td>";
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_DongVat + "</td>";
 
                     countNamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, i, 2);
                     countNamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, i, 2);
@@ -207,7 +244,7 @@ namespace QLSC
                             cssThayDoi = "sc_giam";
                         }
                     }
-                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_SetDanh + "</td>";                    
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_SetDanh + "</td>";
 
                     countNamHienTai = countSuCoTheoThang(lstSuCoNamHienTai, i, 3);
                     countNamTruoc = countSuCoTheoThang(lstSuCoNamTruoc, i, 3);
@@ -285,20 +322,20 @@ namespace QLSC
                             cssThayDoi = "sc_giam";
                         }
                     }
-                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_HanhLang + "</td>";                    
+                    vHTML += "<td class='" + cssThayDoi + "'>" + rsThayDoi_HanhLang + "</td>";
                     vHTML += "</tr>";
 
-                  
+
                 }
                 vHTML += " <tr style='font-weight:bold'>";
                 vHTML += "<td width='4%' style='font-weight:bold'> Tổng";
                 vHTML += "</td>";
                 //Tổng sự cố động vật
                 int countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 1);
-                 int countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 1);
-                 int thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+                int countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 1);
+                int thaydoiTong = countTongNamHienTai - countTongNamTruoc;
 
-                vHTML += "<td>" + countTongNamHienTai;                
+                vHTML += "<td>" + countTongNamHienTai;
                 vHTML += "</td>";
                 vHTML += "<td>" + countTongNamTruoc;
                 vHTML += "</td>";
@@ -338,8 +375,8 @@ namespace QLSC
 
                 //Tổng sự cố sét đánh 
                 countTongNamHienTai = countSuCoTongTheoLoai(lstSuCoNamHienTai, 2);
-                 countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 2);
-                 thaydoiTong = countTongNamHienTai - countTongNamTruoc;
+                countTongNamTruoc = countSuCoTongTheoLoai(lstSuCoNamTruoc, 2);
+                thaydoiTong = countTongNamHienTai - countTongNamTruoc;
 
                 vHTML += "<td>" + countTongNamHienTai;
                 vHTML += "</td>";
@@ -474,9 +511,9 @@ namespace QLSC
             }
         }
 
-        protected void btn_XuatExcel_Click(object sender, EventArgs e)
+        protected void drpNam_SelectedIndexChanged(object sender, Telerik.Web.UI.RadComboBoxSelectedIndexChangedEventArgs e)
         {
-            int i = 0;
+            loadData();
         }
     }
 }

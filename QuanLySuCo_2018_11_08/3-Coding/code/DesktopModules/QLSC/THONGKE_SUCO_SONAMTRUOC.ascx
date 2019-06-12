@@ -1,12 +1,18 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="THONGKE_SUCO_SONAMTRUOC.ascx.cs" Inherits="QLSC.THONGKE_SUCO_SONAMTRUOC" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
 <!DOCTYPE html>
 <html>
 <head>
 </head>
 <body>
     <div class="form-inline">
-        <%--<asp:LinkButton ID="btn_XuatExcel" Visible="true" OnClientClick="InThongKe()'" runat="server" CssClass="btn btn-primary waves-effect none-radius none-shadow btn-sm min-width-100 mr-t3 mr-b6 fright mr-r10"><i class="glyphicon glyphicon-print"></i> In báo cáo</asp:LinkButton>--%>
+        
         <button style=" color: #fff !important;background-color: #337ab7 !important;border-color: #2e6da4 !important;" class="btn btn-primary waves-effect none-radius none-shadow btn-sm min-width-100 mr-t3 mr-b6 fright mr-r10 hv" onclick="InThongKe();"><i class='fa fa-print' style="font-size: 15px"></i>In thống kê </button>
+     <telerik:RadComboBox Skin="Simple" ID="drpNam" Filter="Contains" CssClass="custom-radcombox drp" Style="font-size: 14px; float:right;padding:2px"
+                         InputCssClass="form-control" AllowCustomText="true" runat="server" Width="200px"
+                         Height="250px" EmptyMessage="Chọn năm" ShowWhileLoading="true" LoadingMessage="Đang tải..." OnSelectedIndexChanged="drpNam_SelectedIndexChanged"
+                         Localization-NoMatches="Không tìm thấy" AutoPostBack="True">
+                     </telerik:RadComboBox>
     </div>
     <div runat="server" id="pPrint">
         <div class="form-inline header_tk"><h3>SỰ CỐ NĂM <asp:Literal runat="server" ID="lbNamHienTai"></asp:Literal> SO SÁNH CÙNG KỲ NĂM <asp:Literal runat="server" ID="lbNamTruoc"></asp:Literal></h3></div>
@@ -95,8 +101,6 @@
                 <th width="8%">SO SÁNH CÙNG KỲ NĂM 2018</th>
             </tr>
             <asp:Literal runat="server" ID="lbContent"></asp:Literal>
-           
-
         </table>
     </div>
 </body>

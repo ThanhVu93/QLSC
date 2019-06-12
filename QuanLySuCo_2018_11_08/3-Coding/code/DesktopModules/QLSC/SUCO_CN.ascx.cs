@@ -43,6 +43,11 @@ namespace QLSC
             }
             if (!IsPostBack)
             {
+                if (_currentUser.IsInRole("Administrator"))
+                {
+                    drpDonVi.Enabled = true; 
+                }
+                    LoadDSNhomDV();
                 loadDrpLoaiSuCo();
                 SetInfoForm(vSC_ID);
                 if (Session["dgDanhSach"] == null)
@@ -51,23 +56,65 @@ namespace QLSC
             }
         }
 
+        public void LoadDSNhomDV()
+        {
+            try
+            {
+                List<QLSC_DONVI> lstDonVi = new List<QLSC_DONVI>();
+                lstDonVi = vDC.QLSC_DONVIs.ToList();
+                dtTable = new DataTable();
+                dtTable.Columns.Add("DV_TEN");
+                dtTable.Columns.Add("DV_ID");
+                foreach (var it in lstDonVi)
+                {
+                    DataRow row = dtTable.NewRow();
+                    row["DV_TEN"] = HttpUtility.HtmlDecode(it.DONVI_TEN);
+                    row["DV_ID"] = it.DONVI_ID;
+                    dtTable.Rows.Add(row);
+                }
+                drpDonVi.Items.Clear();
+                drpDonVi.DataSource = dtTable;
+                drpDonVi.DataTextField = "DV_TEN";
+                drpDonVi.DataValueField = "DV_ID";
+                drpDonVi.DataBind();
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
         public void SetInfoForm(int vSUCO_ID)
         {
             try
             {
+               
                 //Thêm mới sự cố
                 if (vSC_ID == 0)
                 {
-                    objSUCO = new QLSC_SUCO();
+                    if (_currentUser.IsInRole("Administrator"))
+                    {                       
+                        drpDonVi.SelectedIndex = 0;
+                    }
+                    else
+                    {
+                        var objNGUOIDUNG = vDC.QLSC_NGUOIDUNGs.Where(x => x.UserID == _currentUser.UserID).SingleOrDefault();
+                        if (objNGUOIDUNG != null)
+                        {
+                            drpDonVi.SelectedValue = objNGUOIDUNG.DONVI_ID.ToString();
+                        }
+                    }
+                  
                 }
                 // Cập nhật sự cố
                 else
                 {
+                    
                     objSUCO = vDC.QLSC_SUCOs.Where(x => x.SC_ID == vSC_ID).SingleOrDefault();
                     if (objSUCO != null)
                     {
                         drpLoaiSuCo.SelectedValue = objSUCO.LOAISC_ID.ToString();
-
+                        drpDonVi.SelectedValue = objSUCO.DONVI_ID.ToString();
                         txtNgayXayRaSuCo.SelectedDate = objSUCO.SC_NGAYXAYRA;
                         drpGioXayRa.SelectedValue = objSUCO.SC_NGAYXAYRA.Value.Hour.ToString();
                         drpPhutXayra.SelectedValue = objSUCO.SC_NGAYXAYRA.Value.Minute.ToString();
@@ -77,9 +124,32 @@ namespace QLSC
 
                         txtNoiDungSuCo.Text = objSUCO.SC_NOIDUNG;
                         txtNguyenNhan.Text = objSUCO.SC_NGUYENNHAN;
-                        txtTenChungLoai.Text = objSUCO.SC_VTTB_TENCHUNGLOAI;
-                        txtSoLuong.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG);
-                        txtNhaSX.Text = objSUCO.SC_VTTB_NHASANXUAT;
+                        txtTenChungLoai1.Text = objSUCO.SC_VTTB_TENCHUNGLOAI;
+                        txtSoLuong1.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG);
+                        txtNhaSX1.Text = objSUCO.SC_VTTB_NHASANXUAT;
+                        txtNamVanHanh1.Text = objSUCO.SC_VTTB_NAMVANHANH;
+
+                        txtTenChungLoai2.Text = objSUCO.SC_VTTB_TENCHUNGLOAI2;
+                        txtSoLuong2.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG2);
+                        txtNhaSanXuat2.Text = objSUCO.SC_VTTB_NHASANXUAT2;
+                        txtNamVanHanh2.Text = objSUCO.SC_VTTB_NAMVANHANH2;
+
+                        txtTenChungLoai3.Text = objSUCO.SC_VTTB_TENCHUNGLOAI3;
+                        txtSoLuong3.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG3);
+                        txtNhaSanXuat3.Text = objSUCO.SC_VTTB_NHASANXUAT3;
+                        txtNamVanHanh3.Text = objSUCO.SC_VTTB_NAMVANHANH3;
+
+                        txtTenChungLoai4.Text = objSUCO.SC_VTTB_TENCHUNGLOAI4;
+                        txtSoLuong4.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG4);
+                        txtNhaSanXuat4.Text = objSUCO.SC_VTTB_NHASANXUAT4;
+                        txtNamVanHanh4.Text = objSUCO.SC_VTTB_NAMVANHANH4;
+
+                        txtTenChungLoai5.Text = objSUCO.SC_VTTB_TENCHUNGLOAI5;
+                        txtSoLuong5.Text = String.Format("{0:#,0.#}", objSUCO.SC_VTTB_SOLUONG5);
+                        txtNhaSanXuat5.Text = objSUCO.SC_VTTB_NHASANXUAT5;
+                        txtNamVanHanh5.Text = objSUCO.SC_VTTB_NAMVANHANH5;
+
+                        txtThietBiDongCat.Text = objSUCO.SC_THIETBIDONGCAT_MSRCS;
 
                         DienAp.SelectedValue = objSUCO.SC_DIENAP.ToString();
                         rd_CQ_KQ.SelectedValue = objSUCO.SC_CQ == 1 ? "CQ" :"KQ";                        
@@ -138,13 +208,23 @@ namespace QLSC
                 {
                     objSUCO = new QLSC_SUCO();
                     objSUCO.UserID = _currentUser.UserID;
-                    if (objNGUOIDUNG != null)
+                    if (_currentUser.IsInRole("Administrator"))
                     {
-                        objSUCO.DONVI_ID = objNGUOIDUNG.DONVI_ID;
+                       if(drpDonVi.SelectedValue != null)
+                        {
+                            objSUCO.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
+                        }
                     }
                     else
                     {
-                        objSUCO.DONVI_ID = 1;
+                        if (objNGUOIDUNG != null)
+                        {
+                            objSUCO.DONVI_ID = objNGUOIDUNG.DONVI_ID;
+                        }
+                        else
+                        {
+                            objSUCO.DONVI_ID = 1;
+                        }
                     }
                     objSUCO.LOAISC_ID = int.Parse(drpLoaiSuCo.SelectedValue);
                     //Thời gian xãy ra sự cố
@@ -170,9 +250,32 @@ namespace QLSC
                     objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
                     //objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
 
-                    objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai.Text.Trim());
-                    objSUCO.SC_VTTB_SOLUONG = Int32.Parse(txtSoLuong.Text.ToString().Replace(".", ""));
-                    objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX.Text.Trim());
+                    objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai1.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG = Int32.Parse(txtSoLuong1.Text.ToString().Replace(".", ""));
+                    objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX1.Text.Trim());
+                    objSUCO.SC_VTTB_NAMVANHANH = ClassCommon.ClearHTML(txtNamVanHanh1.Text.Trim());
+
+                    objSUCO.SC_VTTB_TENCHUNGLOAI2 = ClassCommon.ClearHTML(txtTenChungLoai2.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG2 = Int32.Parse(txtSoLuong2.Text.ToString().Replace(".", ""));
+                    objSUCO.SC_VTTB_NHASANXUAT2 = ClassCommon.ClearHTML(txtNhaSanXuat2.Text.Trim());
+                    objSUCO.SC_VTTB_NAMVANHANH2 = ClassCommon.ClearHTML(txtNamVanHanh2.Text.Trim());
+
+                    objSUCO.SC_VTTB_TENCHUNGLOAI3 = ClassCommon.ClearHTML(txtTenChungLoai3.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG3 = Int32.Parse(txtSoLuong3.Text.ToString().Replace(".", ""));
+                    objSUCO.SC_VTTB_NHASANXUAT3 = ClassCommon.ClearHTML(txtNhaSanXuat3.Text.Trim());
+                    objSUCO.SC_VTTB_NAMVANHANH3 = ClassCommon.ClearHTML(txtNamVanHanh3.Text.Trim());
+
+                    objSUCO.SC_VTTB_TENCHUNGLOAI4 = ClassCommon.ClearHTML(txtTenChungLoai4.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG4 = Int32.Parse(txtSoLuong4.Text.ToString().Replace(".", ""));
+                    objSUCO.SC_VTTB_NHASANXUAT4 = ClassCommon.ClearHTML(txtNhaSanXuat4.Text.Trim());
+                    objSUCO.SC_VTTB_NAMVANHANH4 = ClassCommon.ClearHTML(txtNamVanHanh4.Text.Trim());
+
+                    objSUCO.SC_VTTB_TENCHUNGLOAI5 = ClassCommon.ClearHTML(txtTenChungLoai5.Text.Trim());
+                    objSUCO.SC_VTTB_SOLUONG5 = Int32.Parse(txtSoLuong5.Text.ToString().Replace(".", ""));
+                    objSUCO.SC_VTTB_NHASANXUAT5 = ClassCommon.ClearHTML(txtNhaSanXuat5.Text.Trim());
+                    objSUCO.SC_VTTB_NAMVANHANH5 = ClassCommon.ClearHTML(txtNamVanHanh5.Text.Trim());
+
+                    objSUCO.SC_THIETBIDONGCAT_MSRCS = ClassCommon.ClearHTML(txtThietBiDongCat.Text.Trim());
 
                     objSUCO.SC_DIENAP = int.Parse(DienAp.SelectedValue);
                     int vKQ = rd_CQ_KQ.SelectedValue == "KQ" ? 1 : 0;
@@ -237,14 +340,44 @@ namespace QLSC
                         string tg_tailap = DateTime.Parse(ngaytailap).ToString("yyyy-MM-dd HH:mm:ss");
                         DateTime dt_tailap = DateTime.Parse(ngayxayra);
                         objSUCO.SC_NGAYTAILAP = dt_tailap;
-
+                        if (_currentUser.IsInRole("Administrator"))
+                        {
+                            if (drpDonVi.SelectedValue != null)
+                            {
+                                objSUCO.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
+                            }
+                        }
+                        
                         objSUCO.SC_NOIDUNG = ClassCommon.ClearHTML(txtNoiDungSuCo.Text.Trim());
                         objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
                         objSUCO.SC_NGUYENNHAN = ClassCommon.ClearHTML(txtNguyenNhan.Text.Trim());
 
-                        objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai.Text.Trim());
-                        objSUCO.SC_VTTB_SOLUONG =  Int32.Parse(txtSoLuong.Text.ToString().Replace(".", ""));
-                        objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX.Text.Trim());
+                        objSUCO.SC_VTTB_TENCHUNGLOAI = ClassCommon.ClearHTML(txtTenChungLoai1.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG =  Int32.Parse(txtSoLuong1.Text.ToString().Replace(".", ""));
+                        objSUCO.SC_VTTB_NHASANXUAT = ClassCommon.ClearHTML(txtNhaSX1.Text.Trim());
+                        objSUCO.SC_VTTB_NAMVANHANH = ClassCommon.ClearHTML(txtNamVanHanh1.Text.Trim());
+
+                        objSUCO.SC_VTTB_TENCHUNGLOAI2 = ClassCommon.ClearHTML(txtTenChungLoai2.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG2 = Int32.Parse(txtSoLuong2.Text.ToString().Replace(".", ""));
+                        objSUCO.SC_VTTB_NHASANXUAT2 = ClassCommon.ClearHTML(txtNhaSanXuat2.Text.Trim());
+                        objSUCO.SC_VTTB_NAMVANHANH2 = ClassCommon.ClearHTML(txtNamVanHanh2.Text.Trim());
+
+                        objSUCO.SC_VTTB_TENCHUNGLOAI3 = ClassCommon.ClearHTML(txtTenChungLoai3.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG3 = Int32.Parse(txtSoLuong3.Text.ToString().Replace(".", ""));
+                        objSUCO.SC_VTTB_NHASANXUAT3 = ClassCommon.ClearHTML(txtNhaSanXuat3.Text.Trim());
+                        objSUCO.SC_VTTB_NAMVANHANH3 = ClassCommon.ClearHTML(txtNamVanHanh3.Text.Trim());
+
+                        objSUCO.SC_VTTB_TENCHUNGLOAI4 = ClassCommon.ClearHTML(txtTenChungLoai4.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG4 = Int32.Parse(txtSoLuong4.Text.ToString().Replace(".", ""));
+                        objSUCO.SC_VTTB_NHASANXUAT4 = ClassCommon.ClearHTML(txtNhaSanXuat4.Text.Trim());
+                        objSUCO.SC_VTTB_NAMVANHANH4 = ClassCommon.ClearHTML(txtNamVanHanh4.Text.Trim());
+
+                        objSUCO.SC_VTTB_TENCHUNGLOAI5 = ClassCommon.ClearHTML(txtTenChungLoai5.Text.Trim());
+                        objSUCO.SC_VTTB_SOLUONG5 = Int32.Parse(txtSoLuong5.Text.ToString().Replace(".", ""));
+                        objSUCO.SC_VTTB_NHASANXUAT5 = ClassCommon.ClearHTML(txtNhaSanXuat5.Text.Trim());
+                        objSUCO.SC_VTTB_NAMVANHANH5 = ClassCommon.ClearHTML(txtNamVanHanh5.Text.Trim());
+
+                        objSUCO.SC_THIETBIDONGCAT_MSRCS = ClassCommon.ClearHTML(txtThietBiDongCat.Text.Trim());
 
                         objSUCO.SC_DIENAP = int.Parse(DienAp.SelectedValue);
                         int vKQ = rd_CQ_KQ.SelectedValue == "KQ" ? 1 : 0;

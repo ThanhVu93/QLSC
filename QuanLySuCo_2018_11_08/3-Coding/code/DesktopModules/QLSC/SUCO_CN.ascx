@@ -28,21 +28,38 @@
                 <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                     <div class="panel-body">
                         <div class="form-horizontal">
+
+                            <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">Đơn vị xảy ra sự cố </label>
+                                    <div class="col-sm-8 col-md-9 col-lg-8">
+                                        <telerik:RadComboBox Enabled="false" Skin="Simple" ID="drpDonVi" Filter="Contains" CausesValidation="false" CssClass="custom-radcombox "
+                                            InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px"
+                                            EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
+                                            LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">
+                                        </telerik:RadComboBox>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="drpLoaiSuCo"
+                                            Display="None" ErrorMessage="Vui lòng chọn Loại sự cố"
+                                            SetFocusOnError="true" />
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Loại sự cố </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <telerik:RadComboBox Skin="Simple" ID="drpLoaiSuCo" Filter="Contains"  CausesValidation="false" CssClass="custom-radcombox "
-                                    InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px" 
-                                    EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
-                                    LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">                                            
-                                </telerik:RadComboBox>
+                                        <telerik:RadComboBox Skin="Simple" ID="drpLoaiSuCo" Filter="Contains" CausesValidation="false" CssClass="custom-radcombox "
+                                            InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px"
+                                            EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
+                                            LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">
+                                        </telerik:RadComboBox>
                                         <asp:RequiredFieldValidator ID="rq_LSC" runat="server" ControlToValidate="drpLoaiSuCo"
                                             Display="None" ErrorMessage="Vui lòng chọn Loại sự cố"
                                             SetFocusOnError="true" />
                                     </div>
                                 </div>
-                            </div>  
+                            </div>
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group   mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Ngày, tháng xảy ra sự cố</label>
@@ -92,19 +109,68 @@
                                         </asp:DropDownList>
                                     </div>
 
-                                    <div class="col-xs-1   pd-r5">
-                                        <asp:DropDownList ID="drpPhutXayra" runat="server" CssClass="form-control  pd-l5 pd-r5">
+                                    <div class="col-xs-1  pd-r5">
+                                        <asp:DropDownList ID="drpPhutXayra" runat="server" Width="100px" CssClass="form-control  pd-l5 pd-r5">
                                             <asp:ListItem Value="0">0 Phút</asp:ListItem>
+                                            <asp:ListItem Value="01">01 Phút</asp:ListItem>
+                                            <asp:ListItem Value="02">02 Phút</asp:ListItem>
+                                            <asp:ListItem Value="03">03 Phút</asp:ListItem>
+                                            <asp:ListItem Value="04">04 Phút</asp:ListItem>
+                                            <asp:ListItem Value="05">05 Phút</asp:ListItem>
+                                            <asp:ListItem Value="06">06 Phút</asp:ListItem>
+                                            <asp:ListItem Value="07">07 Phút</asp:ListItem>
+                                            <asp:ListItem Value="08">08 Phút</asp:ListItem>
+                                            <asp:ListItem Value="09">09 Phút</asp:ListItem>
                                             <asp:ListItem Value="10">10 Phút</asp:ListItem>
+                                            <asp:ListItem Value="11">11 Phút</asp:ListItem>
+                                            <asp:ListItem Value="12">12 Phút</asp:ListItem>
+                                            <asp:ListItem Value="13">13 Phút</asp:ListItem>
+                                            <asp:ListItem Value="14">14 Phút</asp:ListItem>
                                             <asp:ListItem Value="15">15 Phút</asp:ListItem>
+                                            <asp:ListItem Value="16">16 Phút</asp:ListItem>
+                                            <asp:ListItem Value="17">17 Phút</asp:ListItem>
+                                            <asp:ListItem Value="18">18 Phút</asp:ListItem>
+                                            <asp:ListItem Value="19">19 Phút</asp:ListItem>
                                             <asp:ListItem Value="20">20 Phút</asp:ListItem>
+                                            <asp:ListItem Value="21">21 Phút</asp:ListItem>
+                                            <asp:ListItem Value="22">22 Phút</asp:ListItem>
+                                            <asp:ListItem Value="23">23 Phút</asp:ListItem>
+                                            <asp:ListItem Value="24">24 Phút</asp:ListItem>
                                             <asp:ListItem Value="25">25 Phút</asp:ListItem>
+                                            <asp:ListItem Value="26">26 Phút</asp:ListItem>
+                                            <asp:ListItem Value="27">27 Phút</asp:ListItem>
+                                            <asp:ListItem Value="28">28 Phút</asp:ListItem>
+                                            <asp:ListItem Value="29">29 Phút</asp:ListItem>
                                             <asp:ListItem Value="30">30 Phút</asp:ListItem>
+                                            <asp:ListItem Value="31">31 Phút</asp:ListItem>
+                                            <asp:ListItem Value="32">32 Phút</asp:ListItem>
+                                            <asp:ListItem Value="33">33 Phút</asp:ListItem>
+                                            <asp:ListItem Value="34">34 Phút</asp:ListItem>
                                             <asp:ListItem Value="35">35 Phút</asp:ListItem>
+                                            <asp:ListItem Value="36">36 Phút</asp:ListItem>
+                                            <asp:ListItem Value="37">37 Phút</asp:ListItem>
+                                            <asp:ListItem Value="38">38 Phút</asp:ListItem>
+                                            <asp:ListItem Value="39">39 Phút</asp:ListItem>
                                             <asp:ListItem Value="40">40 Phút</asp:ListItem>
+                                            <asp:ListItem Value="41">41 Phút</asp:ListItem>
+                                            <asp:ListItem Value="42">42 Phút</asp:ListItem>
+                                            <asp:ListItem Value="43">43 Phút</asp:ListItem>
+                                            <asp:ListItem Value="44">44 Phút</asp:ListItem>
                                             <asp:ListItem Value="45">45 Phút</asp:ListItem>
+                                            <asp:ListItem Value="46">46 Phút</asp:ListItem>
+                                            <asp:ListItem Value="47">47 Phút</asp:ListItem>
+                                            <asp:ListItem Value="48">48 Phút</asp:ListItem>
+                                            <asp:ListItem Value="49">49 Phút</asp:ListItem>
                                             <asp:ListItem Value="50">50 Phút</asp:ListItem>
+                                            <asp:ListItem Value="51">51 Phút</asp:ListItem>
+                                            <asp:ListItem Value="52">52 Phút</asp:ListItem>
+                                            <asp:ListItem Value="53">53 Phút</asp:ListItem>
+                                            <asp:ListItem Value="54">54 Phút</asp:ListItem>
                                             <asp:ListItem Value="55">55 Phút</asp:ListItem>
+                                            <asp:ListItem Value="56">56 Phút</asp:ListItem>
+                                            <asp:ListItem Value="57">57 Phút</asp:ListItem>
+                                            <asp:ListItem Value="58">58 Phút</asp:ListItem>
+                                            <asp:ListItem Value="59">59 Phút</asp:ListItem>
                                         </asp:DropDownList>
 
 
@@ -142,18 +208,67 @@
                                     </div>
 
                                     <div class="col-xs-1 pd-r5">
-                                        <asp:DropDownList ID="drpPhutTaiLap" runat="server" CssClass="form-control  pd-l5 pd-r5">
+                                        <asp:DropDownList ID="drpPhutTaiLap" Width="100px" runat="server" CssClass="form-control  pd-l5 pd-r5">
                                             <asp:ListItem Value="0">0 Phút</asp:ListItem>
+                                            <asp:ListItem Value="01">01 Phút</asp:ListItem>
+                                            <asp:ListItem Value="02">02 Phút</asp:ListItem>
+                                            <asp:ListItem Value="03">03 Phút</asp:ListItem>
+                                            <asp:ListItem Value="04">04 Phút</asp:ListItem>
+                                            <asp:ListItem Value="05">05 Phút</asp:ListItem>
+                                            <asp:ListItem Value="06">06 Phút</asp:ListItem>
+                                            <asp:ListItem Value="07">07 Phút</asp:ListItem>
+                                            <asp:ListItem Value="08">08 Phút</asp:ListItem>
+                                            <asp:ListItem Value="09">09 Phút</asp:ListItem>
                                             <asp:ListItem Value="10">10 Phút</asp:ListItem>
+                                            <asp:ListItem Value="11">11 Phút</asp:ListItem>
+                                            <asp:ListItem Value="12">12 Phút</asp:ListItem>
+                                            <asp:ListItem Value="13">13 Phút</asp:ListItem>
+                                            <asp:ListItem Value="14">14 Phút</asp:ListItem>
                                             <asp:ListItem Value="15">15 Phút</asp:ListItem>
+                                            <asp:ListItem Value="16">16 Phút</asp:ListItem>
+                                            <asp:ListItem Value="17">17 Phút</asp:ListItem>
+                                            <asp:ListItem Value="18">18 Phút</asp:ListItem>
+                                            <asp:ListItem Value="19">19 Phút</asp:ListItem>
                                             <asp:ListItem Value="20">20 Phút</asp:ListItem>
+                                            <asp:ListItem Value="21">21 Phút</asp:ListItem>
+                                            <asp:ListItem Value="22">22 Phút</asp:ListItem>
+                                            <asp:ListItem Value="23">23 Phút</asp:ListItem>
+                                            <asp:ListItem Value="24">24 Phút</asp:ListItem>
                                             <asp:ListItem Value="25">25 Phút</asp:ListItem>
+                                            <asp:ListItem Value="26">26 Phút</asp:ListItem>
+                                            <asp:ListItem Value="27">27 Phút</asp:ListItem>
+                                            <asp:ListItem Value="28">28 Phút</asp:ListItem>
+                                            <asp:ListItem Value="29">29 Phút</asp:ListItem>
                                             <asp:ListItem Value="30">30 Phút</asp:ListItem>
+                                            <asp:ListItem Value="31">31 Phút</asp:ListItem>
+                                            <asp:ListItem Value="32">32 Phút</asp:ListItem>
+                                            <asp:ListItem Value="33">33 Phút</asp:ListItem>
+                                            <asp:ListItem Value="34">34 Phút</asp:ListItem>
                                             <asp:ListItem Value="35">35 Phút</asp:ListItem>
+                                            <asp:ListItem Value="36">36 Phút</asp:ListItem>
+                                            <asp:ListItem Value="37">37 Phút</asp:ListItem>
+                                            <asp:ListItem Value="38">38 Phút</asp:ListItem>
+                                            <asp:ListItem Value="39">39 Phút</asp:ListItem>
                                             <asp:ListItem Value="40">40 Phút</asp:ListItem>
+                                            <asp:ListItem Value="41">41 Phút</asp:ListItem>
+                                            <asp:ListItem Value="42">42 Phút</asp:ListItem>
+                                            <asp:ListItem Value="43">43 Phút</asp:ListItem>
+                                            <asp:ListItem Value="44">44 Phút</asp:ListItem>
                                             <asp:ListItem Value="45">45 Phút</asp:ListItem>
+                                            <asp:ListItem Value="46">46 Phút</asp:ListItem>
+                                            <asp:ListItem Value="47">47 Phút</asp:ListItem>
+                                            <asp:ListItem Value="48">48 Phút</asp:ListItem>
+                                            <asp:ListItem Value="49">49 Phút</asp:ListItem>
                                             <asp:ListItem Value="50">50 Phút</asp:ListItem>
+                                            <asp:ListItem Value="51">51 Phút</asp:ListItem>
+                                            <asp:ListItem Value="52">52 Phút</asp:ListItem>
+                                            <asp:ListItem Value="53">53 Phút</asp:ListItem>
+                                            <asp:ListItem Value="54">54 Phút</asp:ListItem>
                                             <asp:ListItem Value="55">55 Phút</asp:ListItem>
+                                            <asp:ListItem Value="56">56 Phút</asp:ListItem>
+                                            <asp:ListItem Value="57">57 Phút</asp:ListItem>
+                                            <asp:ListItem Value="58">58 Phút</asp:ListItem>
+                                            <asp:ListItem Value="59">59 Phút</asp:ListItem>
                                         </asp:DropDownList>
 
 
@@ -165,7 +280,7 @@
                                     <label class="col-sm-4 control-label pd-r0">Nội dung sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <asp:TextBox ID="txtNoiDungSuCo" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="5" />
-                                         <asp:RequiredFieldValidator ID="rq_NDSC" runat="server" ControlToValidate="txtNoiDungSuCo"
+                                        <asp:RequiredFieldValidator ID="rq_NDSC" runat="server" ControlToValidate="txtNoiDungSuCo"
                                             Display="None" ErrorMessage="Vui lòng nhập Nội dung sự cố"
                                             SetFocusOnError="true" />
                                     </div>
@@ -177,106 +292,244 @@
                                     <label class="col-sm-4 control-label pd-r0">Nguyên nhân sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
                                         <asp:TextBox ID="txtNguyenNhan" runat="server" CssClass="form-control requirements" TextMode="MultiLine" Rows="5" />
-                                         <asp:RequiredFieldValidator ID="rq_NguyenNhan" runat="server" ControlToValidate="txtNguyenNhan"
+                                        <asp:RequiredFieldValidator ID="rq_NguyenNhan" runat="server" ControlToValidate="txtNguyenNhan"
                                             Display="None" ErrorMessage="Vui lòng nhập Nguyên nhân sự cố"
                                             SetFocusOnError="true" />
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-11 col-lg-10">
+                            
+
+                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">VTTB hư hỏng </label>
-                                    <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <asp:TextBox ID="txtTenChungLoai" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
-                                    </div>
-                                </div>
-                            </div>                           
-                            <div class="col-sm-12 col-md-11 col-lg-10">
-                                <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">VTTB số lượng</label>
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 1</label>
                                     <div class="col-sm-3 col-md-2 col-lg-3">
-                                        <asp:TextBox ID="txtSoLuong" runat="server" CssClass="form-control requirements auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                        <asp:TextBox ID="txtTenChungLoai1" runat="server" CssClass="form-control requirements" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
+                                        <asp:RequiredFieldValidator ID="rq_TenChungLoai1" runat="server" ControlToValidate="txtTenChungLoai1"
+                                            Display="None" ErrorMessage="Vui lòng nhập VTTB tên chủng loại 1"
+                                            SetFocusOnError="true" />
                                     </div>
-                                    <label class="col-sm-2 control-label pd-r0">VTTB nhà sản xuất</label>
+                                    <label class="col-sm-2 control-label pd-r0">VTTB số lượng  </label>
                                     <div class="col-md-3">
-                                        <asp:TextBox ID="txtNhaSX" runat="server" CssClass="form-control requirements" MaxLength="500" />
+                                        <asp:TextBox ID="txtSoLuong1" runat="server" CssClass="form-control requirements auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                    <asp:RequiredFieldValidator ID="rqSoLuong1" runat="server" ControlToValidate="txtSoLuong1"
+                                            Display="None" ErrorMessage="Vui lòng nhập VTTB số lượng"
+                                            SetFocusOnError="true" />
+                                         </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
+                                <div class="form-group mr-t10">
+                                     <label class="col-sm-4 control-label pd-r0 ">VTTB nhà sản xuất </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtNhaSX1" runat="server" CssClass="form-control requirements" MaxLength="500" />
+                                         <asp:RequiredFieldValidator ID="rqNhaSX1" runat="server" ControlToValidate="txtNhaSX1"
+                                            Display="None" ErrorMessage="Vui lòng nhập VTTB nhà sản xuất"
+                                            SetFocusOnError="true" />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">Năm vận hành</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtNamVanHanh1" runat="server" CssClass="form-control requirements" MaxLength="4"  onKeyPress="return isNumberKey(event)" />
+                                         <asp:RequiredFieldValidator ID="rqNamVanHanh1" runat="server" ControlToValidate="txtNamVanHanh1"
+                                            Display="None" ErrorMessage="Vui lòng nhập VTTB năm vận hành"
+                                            SetFocusOnError="true" />
                                     </div>
                                 </div>
                             </div>
+                            <br />
+                            <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 2</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtTenChungLoai2" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">VTTB số lượng </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtSoLuong2" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
+                                <div class="form-group mr-t10">
+                                     <label class="col-sm-4 control-label pd-r0 ">VTTB nhà sản xuất </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtNhaSanXuat2" runat="server" CssClass="form-control" MaxLength="500" />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">Năm vận hành</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtNamVanHanh2" runat="server" CssClass="form-control" MaxLength="4"  onKeyPress="return isNumberKey(event)" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                            
+                             <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 3</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtTenChungLoai3" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">VTTB số lượng </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtSoLuong3" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
+                                <div class="form-group mr-t10">
+                                     <label class="col-sm-4 control-label pd-r0 ">VTTB nhà sản xuất </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtNhaSanXuat3" runat="server" CssClass="form-control" MaxLength="500" />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">Năm vận hành</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtNamVanHanh3" runat="server" CssClass="form-control" MaxLength="4"  onKeyPress="return isNumberKey(event)" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                           
+                             <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 4</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtTenChungLoai4" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">VTTB số lượng </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtSoLuong4" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
+                                <div class="form-group mr-t10">
+                                     <label class="col-sm-4 control-label pd-r0 ">VTTB nhà sản xuất </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtNhaSanXuat4" runat="server" CssClass="form-control" MaxLength="500" />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">Năm vận hành</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtNamVanHanh4" runat="server" CssClass="form-control" MaxLength="4"  onKeyPress="return isNumberKey(event)" />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 4</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtTenChungLoai5" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">VTTB số lượng </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtSoLuong5" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
+                                    </div>
+                                </div>
+                            </div>s
+
+                            <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
+                                <div class="form-group mr-t10">
+                                     <label class="col-sm-4 control-label pd-r0 ">VTTB nhà sản xuất </label>
+                                    <div class="col-md-3">
+                                        <asp:TextBox ID="txtNhaSanXuat5" runat="server" CssClass="form-control" MaxLength="500" />
+                                    </div>
+                                    <label class="col-sm-2 control-label pd-r0">Năm vận hành</label>
+                                    <div class="col-sm-3 col-md-2 col-lg-3">
+                                        <asp:TextBox ID="txtNamVanHanh5" runat="server" CssClass="form-control" MaxLength="4"  onKeyPress="return isNumberKey(event)"    />
+                                    </div>
+                                   
+                                </div>
+                            </div>
+
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Điện áp </label>
                                     <div class="radio col-xs-8 rdoList-3-col form_radiobuttonlist">
                                         <div class="col-sm-8 col-md-9 col-lg-8">
                                             <asp:RadioButtonList runat="server" RepeatColumns="2" AutoPostBack="true" RepeatLayout="Table" ID="DienAp">
-                                                <asp:ListItem Value="1" Selected="true" >HT </asp:ListItem>
-                                                <asp:ListItem Value="2"  style="padding-left:100px">TT</asp:ListItem>
+                                                <asp:ListItem Value="1" Selected="true">HT </asp:ListItem>
+                                                <asp:ListItem Value="2" style="padding-left: 100px">TT</asp:ListItem>
                                             </asp:RadioButtonList>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                               <div class="col-sm-12 col-md-11 col-lg-10">
+                            <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0"></label>
                                     <div class="radio col-xs-8 rdoList-3-col form_radiobuttonlist">
                                         <div class="col-sm-8 col-md-9 col-lg-8">
                                             <asp:RadioButtonList runat="server" RepeatColumns="2" AutoPostBack="true" RepeatLayout="Table" ID="rd_CQ_KQ">
-                                                <asp:ListItem Value="CQ" Selected="true" >CQ </asp:ListItem>
-                                                <asp:ListItem Value="KQ"  style="padding-left:100px">KQ</asp:ListItem>
+                                                <asp:ListItem Value="CQ" Selected="true">CQ </asp:ListItem>
+                                                <asp:ListItem Value="KQ" style="padding-left: 100px">KQ</asp:ListItem>
                                             </asp:RadioButtonList>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-sm-12 col-md-11 col-lg-10">
+                            <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Phân loại sự cố</label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <telerik:RadComboBox Skin="Simple" ID="drpPhanLoai" Filter="Contains"  CausesValidation="false" CssClass="custom-radcombox "
-                                    InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px" DropDownWidth="500px"
-                                    EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
-                                    LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">
+                                        <telerik:RadComboBox Skin="Simple" ID="drpPhanLoai" Filter="Contains" CausesValidation="false" CssClass="custom-radcombox "
+                                            InputCssClass="form-control requirements" AllowCustomText="true" runat="server" Width="50%" Height="250px" DropDownWidth="500px"
+                                            EmptyMessage="-- Chọn --" ShowWhileLoading="true" AutoPostBack="true"
+                                            LoadingMessage="Đang tải..." Localization-NoMatches="Không tìm thấy">
                                             <Items>
-                                                <telerik:RadComboBoxItem  Value="1" Text="TQ - Bật MC"/>
-                                                <telerik:RadComboBoxItem  Value="2" Text="TQ - RCS"/>
-                                                <telerik:RadComboBoxItem  Value="3" Text="VC - Bật MC"/>
-                                                <telerik:RadComboBoxItem  Value="4" Text="VC - RCS"/>
-                                                <telerik:RadComboBoxItem  Value="5" Text="TBA"/>
-                                                <telerik:RadComboBoxItem  Value="6" Text="HA"/>
+                                                <telerik:RadComboBoxItem Value="1" Text="TQ - Bật MC" />
+                                                <telerik:RadComboBoxItem Value="2" Text="TQ - RCS" />
+                                                <telerik:RadComboBoxItem Value="3" Text="VC - Bật MC" />
+                                                <telerik:RadComboBoxItem Value="4" Text="VC - RCS" />
+                                                <telerik:RadComboBoxItem Value="5" Text="TBA" />
+                                                <telerik:RadComboBoxItem Value="6" Text="HA" />
                                             </Items>
-                                </telerik:RadComboBox>
-                                         <asp:RequiredFieldValidator ID="rq_PHANLOAI" runat="server" ControlToValidate="drpPhanLoai"
+                                        </telerik:RadComboBox>
+                                        <asp:RequiredFieldValidator ID="rq_PHANLOAI" runat="server" ControlToValidate="drpPhanLoai"
                                             Display="None" ErrorMessage="Vui lòng chọn Phân loại sự cố"
                                             SetFocusOnError="true" />
 
                                     </div>
                                 </div>
                             </div>
-                              <div class="col-sm-12 col-md-11 col-lg-10">
+
+                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">Tổng số khách hàng mất điện </label>
+                                    <label class="col-sm-4 control-label pd-r0">Tên thiết bị đóng cắt (MC, RCS) </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
-                                        <asp:TextBox ID="txtTongSoKH" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" Width="50%"   />
+                                        <asp:TextBox ID="txtThietBiDongCat" runat="server" CssClass="form-control " Width="50%"  />
                                     </div>
                                 </div>
                             </div>
-                              <div class="col-sm-12 col-md-11 col-lg-10">
+
+                            <div class="col-sm-12 col-md-11 col-lg-10">
+                                <div class="form-group mr-t10">
+                                    <label class="col-sm-4 control-label pd-r0">Tổng số khách hàng mất điện </label>
+                                    <div class="col-sm-8 col-md-9 col-lg-8">
+                                        <asp:TextBox ID="txtTongSoKH" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" Width="50%" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Tài sản </label>
                                     <div class="radio col-xs-8 rdoList-3-col form_radiobuttonlist">
                                         <div class="col-sm-8 col-md-9 col-lg-8">
                                             <asp:RadioButtonList runat="server" RepeatColumns="2" AutoPostBack="true" RepeatLayout="Table" ID="TaiSan">
-                                                <asp:ListItem Value="1" Selected="true" >Điện lực </asp:ListItem>
-                                                <asp:ListItem Value="2"  style="padding-left:74px">Khách hàng </asp:ListItem>
+                                                <asp:ListItem Value="1" Selected="true">Điện lực </asp:ListItem>
+                                                <asp:ListItem Value="2" style="padding-left: 74px">Khách hàng </asp:ListItem>
                                             </asp:RadioButtonList>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                             <div class="col-sm-12 col-md-11 col-lg-10">
+                            <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
                                     <label class="col-sm-4 control-label pd-r0">Ghi chú </label>
                                     <div class="col-sm-8 col-md-9 col-lg-8">
@@ -284,8 +537,8 @@
                                     </div>
                                 </div>
                             </div>
-                           
-                              <div class="col-sm-12 col-md-11 col-lg-10">
+
+                            <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group">
                                     <label class="col-sm-4 control-label pd-r0">Tập tin </label>
                                     <div class="col-sm-6 col-md-7 col-lg-6">
@@ -297,35 +550,35 @@
                                     <label class="col-sm-4 control-label pd-r0"></label>
                                     <div class="col-sm-6 col-md-7 col-lg-6">
                                         <asp:Panel ID="pnlDanhSach" runat="server" CssClass="danhsach" Style="padding: 0px">
-                                    <asp:GridView  ID="dgDanhSach" CssClass="Grid" OnRowDataBound="OnRowDataBound" runat="server" OnRowDeleting="OnRowDeleting"
-                                        AutoGenerateColumns="false">
-                                        <HeaderStyle CssClass="tieude" />
-                                        <Columns>                                          
-                                            <asp:TemplateField HeaderText="Tên file">
-                                                <ItemStyle Width="20%" HorizontalAlign="Left" />
-                                                <ItemTemplate>
-                                                      <%#Eval("FILE_MOTA")%>                                                   
-                                                </ItemTemplate>
-                                                
-                                            </asp:TemplateField>
-                                           
-                                            <asp:TemplateField HeaderText="Tải về">
-                                                <ItemStyle Width="10%" HorizontalAlign="Center" />
-                                                <ItemTemplate>
-                                                    <a oncontextmenu="return false" target="_blank" href='<%#vPathCommonData+Eval("HA_FILE_PATH")%>' runat="server"><span class="glyphicon glyphicon-download-alt"></span></a>
-                                                </ItemTemplate>
-                                            </asp:TemplateField>
-                                            <asp:CommandField ItemStyle-Width="10%" HeaderText="Xóa" ShowDeleteButton="True" ItemStyle-HorizontalAlign="Center" DeleteText="<span class='glyphicon glyphicon-remove'></span>" />
-                                        </Columns>
-                                    </asp:GridView>
-                                </asp:Panel>
+                                            <asp:GridView ID="dgDanhSach" CssClass="Grid" OnRowDataBound="OnRowDataBound" runat="server" OnRowDeleting="OnRowDeleting"
+                                                AutoGenerateColumns="false">
+                                                <HeaderStyle CssClass="tieude" />
+                                                <Columns>
+                                                    <asp:TemplateField HeaderText="Tên file">
+                                                        <ItemStyle Width="20%" HorizontalAlign="Left" />
+                                                        <ItemTemplate>
+                                                            <%#Eval("FILE_MOTA")%>
+                                                        </ItemTemplate>
+
+                                                    </asp:TemplateField>
+
+                                                    <asp:TemplateField HeaderText="Tải về">
+                                                        <ItemStyle Width="10%" HorizontalAlign="Center" />
+                                                        <ItemTemplate>
+                                                            <a oncontextmenu="return false" target="_blank" href='<%#vPathCommonData+Eval("HA_FILE_PATH")%>' runat="server"><span class="glyphicon glyphicon-download-alt"></span></a>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:CommandField ItemStyle-Width="10%" HeaderText="Xóa" ShowDeleteButton="True" ItemStyle-HorizontalAlign="Center" DeleteText="<span class='glyphicon glyphicon-remove'></span>" />
+                                                </Columns>
+                                            </asp:GridView>
+                                        </asp:Panel>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>                     
+            </div>
             <div class="row">
                 <div class="form-horizontal">
                 </div>
@@ -346,14 +599,14 @@
                     <br />
                     - <span>(<span class="batbuoc" style="top: 3px; left: 1px;">*</span>) bắt buộc nhập</span><br />
                     - <span>Chỉ hỗ trợ tập tin có kích thước tối đa là <span style="color: red">10MB</span></span>.<br />
-                    - <span>Chỉ hỗ trợ tập tin có kích định dạng  <span style="color: red"> (jpg, jpeg, png, xls, xlsx, doc, docx, pdf, zip, rar)</span></span>.
+                    - <span>Chỉ hỗ trợ tập tin có kích định dạng  <span style="color: red">(jpg, jpeg, png, xls, xlsx, doc, docx, pdf, zip, rar)</span></span>.
                 </div>
             </div>
 
         </asp:Panel>
     </ContentTemplate>
-      <Triggers>
-        <asp:PostBackTrigger ControlID="btn_TL" />        
+    <Triggers>
+        <asp:PostBackTrigger ControlID="btn_TL" />
     </Triggers>
 </asp:UpdatePanel>
 
@@ -416,6 +669,12 @@
         else {
             return false;
         }
+    }
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : evt.keyCode;
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
     }
 </script>
 

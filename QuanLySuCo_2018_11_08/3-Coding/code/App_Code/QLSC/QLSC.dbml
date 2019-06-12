@@ -72,31 +72,6 @@
       <Column Name="OBJECT_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
-  <Table Name="dbo.QLSC_SUCO" Member="QLSC_SUCOs">
-    <Type Name="QLSC_SUCO">
-      <Column Name="SC_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="SC_Date" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
-      <Column Name="SC_NGAYXAYRA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="SC_NGAYTAILAP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
-      <Column Name="SC_NOIDUNG" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="SC_NGUYENNHAN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="SC_VTTB_TENCHUNGLOAI" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="SC_VTTB_SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_VTTB_NHASANXUAT" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
-      <Column Name="SC_DIENAP" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_CQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_KQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_LOAI" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_TONGSOKH" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_TAISAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="SC_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
-      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
-      <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="LOAISC_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Association Name="QLSC_DONVI_QLSC_SUCO" Member="QLSC_DONVI" ThisKey="DONVI_ID" OtherKey="DONVI_ID" Type="QLSC_DONVI" IsForeignKey="true" />
-      <Association Name="QLSC_LOAISUCO_QLSC_SUCO" Member="QLSC_LOAISUCO" ThisKey="LOAISC_ID" OtherKey="LOAISC_ID" Type="QLSC_LOAISUCO" IsForeignKey="true" />
-    </Type>
-  </Table>
   <Table Name="dbo.QLSC_DONVI" Member="QLSC_DONVIs">
     <Type Name="QLSC_DONVI">
       <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -113,6 +88,49 @@
       <Column Name="LOAISC_TEN" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
       <Column Name="LOAISC_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
       <Association Name="QLSC_LOAISUCO_QLSC_SUCO" Member="QLSC_SUCOs" ThisKey="LOAISC_ID" OtherKey="LOAISC_ID" Type="QLSC_SUCO" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QLSC_SUCO" Member="QLSC_SUCOs">
+    <Type Name="QLSC_SUCO">
+      <Column Name="SC_ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SC_Date" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SC_NGAYXAYRA" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SC_NGAYTAILAP" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SC_NOIDUNG" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SC_NGUYENNHAN" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_NAMVANHANH" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SC_DIENAP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_CQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_KQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_LOAI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_TONGSOKH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_TAISAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_GHICHU" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DONVI_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LOAISC_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT2" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_NAMVANHANH2" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT3" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_NAMVANHANH3" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI4" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG4" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT4" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_NAMVANHANH4" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SC_VTTB_TENCHUNGLOAI5" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_SOLUONG5" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SC_VTTB_NHASANXUAT5" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="SC_VTTB_NAMVANHANH5" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="SC_THIETBIDONGCAT_MSRCS" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="QLSC_DONVI_QLSC_SUCO" Member="QLSC_DONVI" ThisKey="DONVI_ID" OtherKey="DONVI_ID" Type="QLSC_DONVI" IsForeignKey="true" />
+      <Association Name="QLSC_LOAISUCO_QLSC_SUCO" Member="QLSC_LOAISUCO" ThisKey="LOAISC_ID" OtherKey="LOAISC_ID" Type="QLSC_LOAISUCO" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

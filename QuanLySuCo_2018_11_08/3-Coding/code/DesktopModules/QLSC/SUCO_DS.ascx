@@ -5,11 +5,11 @@
 <link href="<%=vPathCommonCss%>/scroller_table.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="<%=vPathCommonToastJS%>"></script>
 <link rel="stylesheet" href="<%=vPathCommonToastCSS%>" />
-<asp:UpdatePanel ID="upd" runat="server">
+<%--<asp:UpdatePanel ID="upd" runat="server">
     <Triggers>
         <asp:PostBackTrigger ControlID="btn_XuatExcel" />
     </Triggers>
-    <ContentTemplate>
+    <ContentTemplate>--%>
         <asp:Panel ID="pnlFormDanhSach" runat="server" CssClass="form">
             <div class="form-inline">
                 <div class="input-group mr-b3">
@@ -208,8 +208,8 @@
                 </div>
             </asp:Panel>
         </div>
-    </ContentTemplate>    
-</asp:UpdatePanel>
+   <%-- </ContentTemplate>    
+</asp:UpdatePanel>--%>
 <script type="text/javascript">
     function set_generator_stt() {
         $(".generator-stt-row").remove();
