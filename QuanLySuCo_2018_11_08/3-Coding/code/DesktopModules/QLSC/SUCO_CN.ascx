@@ -421,7 +421,7 @@
 
                             <div class="col-sm-12 col-md-11 col-lg-10">
                                 <div class="form-group mr-t10">
-                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 4</label>
+                                    <label class="col-sm-4 control-label pd-r0">VTTB tên chủng loại 5</label>
                                     <div class="col-sm-3 col-md-2 col-lg-3">
                                         <asp:TextBox ID="txtTenChungLoai5" runat="server" CssClass="form-control" placeholder='01 chì 3K, "01 MBA 15KBVA "' />
                                     </div>
