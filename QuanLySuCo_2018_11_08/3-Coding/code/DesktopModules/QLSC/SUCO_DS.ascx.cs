@@ -166,8 +166,9 @@ namespace QLSC
                 dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI");
                 dtTable.Columns.Add("SC_VTTB_SOLUONG");
                 dtTable.Columns.Add("SC_VTTB_NHASANXUAT");
+                dtTable.Columns.Add("SC_VTTB_NAMSANXUAT");
                 dtTable.Columns.Add("SC_DIENAP");
-                dtTable.Columns.Add("");
+                //dtTable.Columns.Add("");
                 dtTable.Columns.Add("SC_CQ");
                 dtTable.Columns.Add("SC_KQ");
                 dtTable.Columns.Add("SC_PHANLOAI_TQ_DUONGTRUC");

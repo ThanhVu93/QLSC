@@ -430,7 +430,7 @@
                                         <asp:TextBox ID="txtSoLuong5" runat="server" CssClass="form-control auto {aSep: '.', aDec: ',', aSign: '', mNum: 12, mDec: 12, aPad: false}" MaxLength="500" />
                                     </div>
                                 </div>
-                            </div>s
+                            </div>
 
                             <div class="col-sm-12 col-md-11 col-lg-10 pd-b30">
                                 <div class="form-group mr-t10">
