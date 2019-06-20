@@ -360,12 +360,10 @@ namespace QLSC
                         string tg_tailap = DateTime.Parse(ngaytailap).ToString("yyyy-MM-dd HH:mm:ss");
                         DateTime dt_tailap = DateTime.Parse(ngayxayra);
                         objSUCO.SC_NGAYTAILAP = dt_tailap;
-                        if (_currentUser.IsInRole("Administrator"))
+                      
+                        if (drpDonVi.SelectedValue != null)
                         {
-                            if (drpDonVi.SelectedValue != null)
-                            {
-                                objSUCO.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
-                            }
+                            objSUCO.DONVI_ID = int.Parse(drpDonVi.SelectedValue);
                         }
                         
                         objSUCO.SC_NOIDUNG = ClassCommon.ClearHTML(txtNoiDungSuCo.Text.Trim());
