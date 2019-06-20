@@ -167,6 +167,27 @@ namespace QLSC
                 dtTable.Columns.Add("SC_VTTB_SOLUONG");
                 dtTable.Columns.Add("SC_VTTB_NHASANXUAT");
                 dtTable.Columns.Add("SC_VTTB_NAMSANXUAT");
+
+                dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI2");
+                dtTable.Columns.Add("SC_VTTB_SOLUONG2");
+                dtTable.Columns.Add("SC_VTTB_NHASANXUAT2");
+                dtTable.Columns.Add("SC_VTTB_NAMSANXUAT2");
+
+                dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI5");
+                dtTable.Columns.Add("SC_VTTB_SOLUONG5");
+                dtTable.Columns.Add("SC_VTTB_NHASANXUAT5");
+                dtTable.Columns.Add("SC_VTTB_NAMSANXUAT5");
+
+                dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI3");
+                dtTable.Columns.Add("SC_VTTB_SOLUONG3");
+                dtTable.Columns.Add("SC_VTTB_NHASANXUAT3");
+                dtTable.Columns.Add("SC_VTTB_NAMSANXUAT3");
+
+                dtTable.Columns.Add("SC_VTTB_TENCHUNGLOAI4");
+                dtTable.Columns.Add("SC_VTTB_SOLUONG4");
+                dtTable.Columns.Add("SC_VTTB_NHASANXUAT4");
+                dtTable.Columns.Add("SC_VTTB_NAMSANXUAT4");
+
                 dtTable.Columns.Add("SC_DIENAP");
                 //dtTable.Columns.Add("");
                 dtTable.Columns.Add("SC_CQ");
@@ -181,7 +202,8 @@ namespace QLSC
                 dtTable.Columns.Add("SC_TAISAN_TBA");
                 dtTable.Columns.Add("SC_TAISAN_HA");
                 dtTable.Columns.Add("FILE");
-                dtTable.Columns.Add("SC_GHICHU");
+                dtTable.Columns.Add("SC_GHICHU"); 
+                dtTable.Columns.Add("SC_THIETBIDONGCAT_MSRCS");
 
                 dtTable.Columns.Add("UserID");
                 var lstSuCo1 = (from sc in vDC.QLSC_SUCOs
@@ -205,6 +227,18 @@ namespace QLSC
                                     sc.SC_VTTB_TENCHUNGLOAI,
                                     sc.SC_VTTB_SOLUONG,
                                     sc.SC_VTTB_NHASANXUAT,
+                                    sc.SC_VTTB_TENCHUNGLOAI2,
+                                    sc.SC_VTTB_SOLUONG2,
+                                    sc.SC_VTTB_NHASANXUAT2,
+                                    sc.SC_VTTB_TENCHUNGLOAI3,
+                                    sc.SC_VTTB_SOLUONG3,
+                                    sc.SC_VTTB_NHASANXUAT3,
+                                    sc.SC_VTTB_TENCHUNGLOAI4,
+                                    sc.SC_VTTB_SOLUONG4,
+                                    sc.SC_VTTB_NHASANXUAT4,
+                                    sc.SC_VTTB_TENCHUNGLOAI5,
+                                    sc.SC_VTTB_SOLUONG5,
+                                    sc.SC_VTTB_NHASANXUAT5,
                                     sc.SC_DIENAP,
                                     sc.SC_CQ,
                                     sc.SC_KQ,
@@ -212,7 +246,8 @@ namespace QLSC
                                     sc.SC_TONGSOKH,
                                     sc.SC_TAISAN,
                                     sc.SC_GHICHU,
-                                    sc.UserID
+                                    sc.UserID,
+                                    sc.SC_THIETBIDONGCAT_MSRCS
                                 });
 
                 count = lstSuCo1.Count();
@@ -234,12 +269,30 @@ namespace QLSC
                     row["SC_GIOXAYRA"] = String.Format("{0:HH:mm}", it.SC_NGAYTAILAP);
                     row["SC_NGAYTAILAP"] = String.Format("{0:HH:mm}", it.SC_NGAYTAILAP);
                     row["SC_NOIDUNG"] = it.SC_NOIDUNG;
-                    row["SC_NGUYENNHAN"] = it.SC_NOIDUNG;
+                    row["SC_NGUYENNHAN"] = it.SC_NGUYENNHAN;
                     row["SC_DONVI"] = it.DONVI_TEN;
                     row["SC_DONVI_TENRUTGON"] = it.DONVI_TENRUTGON;
+
                     row["SC_VTTB_TENCHUNGLOAI"] = it.SC_VTTB_TENCHUNGLOAI;
                     row["SC_VTTB_SOLUONG"] = it.SC_VTTB_SOLUONG;
                     row["SC_VTTB_NHASANXUAT"] = it.SC_VTTB_NHASANXUAT;
+
+                    row["SC_VTTB_TENCHUNGLOAI2"] = it.SC_VTTB_TENCHUNGLOAI2;
+                    row["SC_VTTB_SOLUONG2"] = it.SC_VTTB_SOLUONG2;
+                    row["SC_VTTB_NHASANXUAT2"] = it.SC_VTTB_NHASANXUAT2;
+
+                    row["SC_VTTB_TENCHUNGLOAI3"] = it.SC_VTTB_TENCHUNGLOAI3;
+                    row["SC_VTTB_SOLUONG3"] = it.SC_VTTB_SOLUONG3;
+                    row["SC_VTTB_NHASANXUAT3"] = it.SC_VTTB_NHASANXUAT3;
+
+                    row["SC_VTTB_TENCHUNGLOAI4"] = it.SC_VTTB_TENCHUNGLOAI4;
+                    row["SC_VTTB_SOLUONG4"] = it.SC_VTTB_SOLUONG4;
+                    row["SC_VTTB_NHASANXUAT4"] = it.SC_VTTB_NHASANXUAT4;
+
+                    row["SC_VTTB_TENCHUNGLOAI5"] = it.SC_VTTB_TENCHUNGLOAI5;
+                    row["SC_VTTB_SOLUONG5"] = it.SC_VTTB_SOLUONG5;
+                    row["SC_VTTB_NHASANXUAT5"] = it.SC_VTTB_NHASANXUAT5;
+
                     row["SC_DIENAP"] = it.SC_DIENAP == 1 ? "HT" : "";
                     row["SC_CQ"] = it.SC_CQ == 1 ? "x" : "";
                     row["SC_KQ"] = it.SC_KQ == 1 ? "x" : "";
@@ -253,6 +306,7 @@ namespace QLSC
                     row["SC_TONGSOKHACHHANG"] = it.SC_TONGSOKH;
                     row["SC_TAISAN_TBA"] = it.SC_TAISAN == 1 ? "x" : "";
                     row["SC_TAISAN_HA"] = it.SC_TAISAN == 2 ? "x" : "";
+                    row["SC_THIETBIDONGCAT_MSRCS"] = it.SC_THIETBIDONGCAT_MSRCS;
                     var temp = objTAPTINController.Get_TapTin_By_ObjectID_LoaiID(it.SC_ID, (int)CommonEnum.TapTinObjectLoai.File);
                     string strFile = "";
                     if (temp.Count > 0)
@@ -781,22 +835,41 @@ namespace QLSC
                                 ws.Cells[vIndexRow, 5].Value = dt.Rows[i]["SC_NOIDUNG"];
                                 ws.Cells[vIndexRow, 6].Value = dt.Rows[i]["SC_NGUYENNHAN"];
                                 ws.Cells[vIndexRow, 7].Value = dt.Rows[i]["SC_DONVI_TENRUTGON"];
+
                                 ws.Cells[vIndexRow, 8].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI"];
                                 ws.Cells[vIndexRow, 9].Value = dt.Rows[i]["SC_VTTB_SOLUONG"];
                                 ws.Cells[vIndexRow, 10].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT"];
-                                ws.Cells[vIndexRow, 11].Value = dt.Rows[i]["SC_DIENAP"];                                
-                                ws.Cells[vIndexRow, 12].Value = dt.Rows[i]["SC_CQ"];
-                                ws.Cells[vIndexRow, 13].Value = dt.Rows[i]["SC_KQ"];
-                                ws.Cells[vIndexRow, 14].Value = dt.Rows[i]["SC_PHANLOAI_TQ_DUONGTRUC"];
-                                ws.Cells[vIndexRow, 15].Value = dt.Rows[i]["SC_PHANLOAI_TQ_NGARE"];
-                                ws.Cells[vIndexRow, 16].Value = dt.Rows[i]["SC_PHANLOAI_VC_DUONGTRUC"];
-                                ws.Cells[vIndexRow, 17].Value = dt.Rows[i]["SC_PHANLOAI_VC_NGARE"];
-                                ws.Cells[vIndexRow, 18].Value = dt.Rows[i]["SC_PHANLOAI_TBA"];
-                                ws.Cells[vIndexRow, 19].Value = dt.Rows[i]["SC_PHANLOAI_HA"];
-                                ws.Cells[vIndexRow, 20].Value = dt.Rows[i]["SC_TONGSOKHACHHANG"];
-                                ws.Cells[vIndexRow, 21].Value = dt.Rows[i]["SC_TAISAN_TBA"];
-                                ws.Cells[vIndexRow, 22].Value = dt.Rows[i]["SC_TAISAN_HA"];
-                                ws.Cells[vIndexRow, 23].Value = dt.Rows[i]["SC_GHICHU"];
+
+                                ws.Cells[vIndexRow, 11].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI2"];
+                                ws.Cells[vIndexRow, 12].Value = dt.Rows[i]["SC_VTTB_SOLUONG2"];
+                                ws.Cells[vIndexRow, 13].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT2"];
+
+                                ws.Cells[vIndexRow, 14].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI3"];
+                                ws.Cells[vIndexRow, 15].Value = dt.Rows[i]["SC_VTTB_SOLUONG3"];
+                                ws.Cells[vIndexRow, 16].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT3"];
+
+                                ws.Cells[vIndexRow, 17].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI4"];
+                                ws.Cells[vIndexRow, 18].Value = dt.Rows[i]["SC_VTTB_SOLUONG4"];
+                                ws.Cells[vIndexRow, 19].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT4"];
+
+                                ws.Cells[vIndexRow, 20].Value = dt.Rows[i]["SC_VTTB_TENCHUNGLOAI5"];
+                                ws.Cells[vIndexRow, 21].Value = dt.Rows[i]["SC_VTTB_SOLUONG5"];
+                                ws.Cells[vIndexRow, 22].Value = dt.Rows[i]["SC_VTTB_NHASANXUAT5"];
+
+                                ws.Cells[vIndexRow, 23].Value = dt.Rows[i]["SC_DIENAP"];                                
+                                ws.Cells[vIndexRow, 24].Value = dt.Rows[i]["SC_CQ"];
+                                ws.Cells[vIndexRow, 25].Value = dt.Rows[i]["SC_KQ"];
+                                ws.Cells[vIndexRow, 26].Value = dt.Rows[i]["SC_PHANLOAI_TQ_DUONGTRUC"];
+                                ws.Cells[vIndexRow, 27].Value = dt.Rows[i]["SC_PHANLOAI_TQ_NGARE"];
+                                ws.Cells[vIndexRow, 28].Value = dt.Rows[i]["SC_PHANLOAI_VC_DUONGTRUC"];
+                                ws.Cells[vIndexRow, 29].Value = dt.Rows[i]["SC_PHANLOAI_VC_NGARE"];
+                                ws.Cells[vIndexRow, 30].Value = dt.Rows[i]["SC_PHANLOAI_TBA"];
+                                ws.Cells[vIndexRow, 31].Value = dt.Rows[i]["SC_PHANLOAI_HA"];
+                                ws.Cells[vIndexRow, 32].Value = dt.Rows[i]["SC_THIETBIDONGCAT_MSRCS"];
+                                ws.Cells[vIndexRow, 33].Value = dt.Rows[i]["SC_TONGSOKHACHHANG"];
+                                ws.Cells[vIndexRow, 34].Value = dt.Rows[i]["SC_TAISAN_TBA"];
+                                ws.Cells[vIndexRow, 35].Value = dt.Rows[i]["SC_TAISAN_HA"];
+                                ws.Cells[vIndexRow, 36].Value = dt.Rows[i]["SC_GHICHU"];
                                 vIndexRow++;
                                 ws.InsertRow(vIndexRow, 1, vIndexRow - 1);
                             }

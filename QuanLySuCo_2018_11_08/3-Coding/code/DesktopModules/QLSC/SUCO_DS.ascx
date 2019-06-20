@@ -37,7 +37,7 @@
         <div class="boxbox">
             <asp:Panel ID="pnlDanhSach" runat="server" CssClass="danhsach danhsach_scroller_container" >
                 <div class="wrapper_scroller" id="divTable" runat="server">
-                    <asp:DataGrid UseAccessibleHeader="true" Width="3000px" OnItemDataBound="dgDanhSach_ItemDataBound" runat="server" ID="dgDanhSach" CssClass="has_table  scroller_content" AutoGenerateColumns="False" OnInit="dgCustom_Init" OnPreRender="dgDanhSach_PreRender" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="true" AllowCustomPaging="false" OnItemCreated="dgDanhSach_ItemCreated" >
+                    <asp:DataGrid UseAccessibleHeader="true" Width="3200px" OnItemDataBound="dgDanhSach_ItemDataBound" runat="server" ID="dgDanhSach" CssClass="has_table  scroller_content" AutoGenerateColumns="False" OnInit="dgCustom_Init" OnPreRender="dgDanhSach_PreRender" OnPageIndexChanged="dgDanhSach_PageIndexChanged" AllowPaging="true" AllowCustomPaging="false" OnItemCreated="dgDanhSach_ItemCreated" >
                         <HeaderStyle CssClass="tieude" />
                         <Columns>
                             <asp:BoundColumn DataField="SC_ID" Visible="false"></asp:BoundColumn>
@@ -49,30 +49,30 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
                             <asp:BoundColumn HeaderText="Ngày tháng xảy ra<br/> sự cố" DataField="SC_NGAYXAYRA" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Center" Width="5%" Font-Bold="true" />
-                                <HeaderStyle Width="5%"/>
+                                <ItemStyle HorizontalAlign="Center" Width="3%" Font-Bold="true" />
+                                <HeaderStyle Width="3%"/>
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Giờ xảy ra <br/> sự cố" DataField="SC_GIOXAYRA" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Center" Width="3%" />
-                                <HeaderStyle Width="3%" />
+                                <ItemStyle HorizontalAlign="Center" Width="2%" />
+                                <HeaderStyle Width="2%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Giờ tái lập" DataField="SC_NGAYTAILAP" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Center" Width="3%" />
-                                <HeaderStyle Width="3%" />
+                                <ItemStyle HorizontalAlign="Center" Width="2%" />
+                                <HeaderStyle Width="2%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Nội dung sự cố" DataField="SC_NOIDUNG" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="10%" />
-                                <HeaderStyle Width="11%" />
+                                <ItemStyle HorizontalAlign="Left" Width="9%" />
+                                <HeaderStyle Width="9%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Nguyên nhân" DataField="SC_NGUYENNHAN" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="10%" />
-                                <HeaderStyle Width="11%" />
+                                <ItemStyle HorizontalAlign="Left" Width="7%" />
+                                <HeaderStyle Width="7%" />
                             </asp:BoundColumn>
                             <asp:BoundColumn HeaderText="ĐV để xảy ra <br/>sự cố" DataField="SC_DONVI" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Left" Width="5%" />
-                                <HeaderStyle Width="5%" />
+                                <ItemStyle HorizontalAlign="Left" Width="4%" />
+                                <HeaderStyle Width="4%" />
                             </asp:BoundColumn>
-                            <asp:TemplateColumn ItemStyle-Width="15%" HeaderStyle-Width="12%" ItemStyle-CssClass="pd-0">
+                            <asp:TemplateColumn ItemStyle-Width="8%" HeaderStyle-Width="8%" ItemStyle-CssClass="pd-0">
                                 <HeaderTemplate>
                                     <table class="table-header-child">
                                         <tbody>
@@ -99,13 +99,121 @@
                                     </table>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
-
+                                <asp:TemplateColumn ItemStyle-Width="8%" HeaderStyle-Width="8%" ItemStyle-CssClass="pd-0">
+                                <HeaderTemplate>
+                                    <table class="table-header-child">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 100%; border-bottom: 1px solid #ddd" colspan="3">VTTB sự cố 2</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 40%;" class="generator-stt">Tên chủng loại</td>
+                                                <td style="width: 20%;" class="generator-stt">Số lượng</td>
+                                                <td style="width: 40%;" class="generator-stt">Nhà sản xuất</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <table class="table-data-child" style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_TENCHUNGLOAI2")%></td>
+                                                <td style="width: 20%; text-align: right"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_SOLUONG2")%></td>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_NHASANXUAT2")%></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </ItemTemplate>
+                            </asp:TemplateColumn>
+                                <asp:TemplateColumn ItemStyle-Width="8%" HeaderStyle-Width="8%" ItemStyle-CssClass="pd-0">
+                                <HeaderTemplate>
+                                    <table class="table-header-child">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 100%; border-bottom: 1px solid #ddd" colspan="3">VTTB sự cố 3</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 40%;" class="generator-stt">Tên chủng loại</td>
+                                                <td style="width: 20%;" class="generator-stt">Số lượng</td>
+                                                <td style="width: 40%;" class="generator-stt">Nhà sản xuất</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <table class="table-data-child" style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_TENCHUNGLOAI3")%></td>
+                                                <td style="width: 20%; text-align: right"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_SOLUONG3")%></td>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_NHASANXUAT3")%></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </ItemTemplate>
+                            </asp:TemplateColumn>
+                                <asp:TemplateColumn ItemStyle-Width="8%" HeaderStyle-Width="8%" ItemStyle-CssClass="pd-0">
+                                <HeaderTemplate>
+                                    <table class="table-header-child">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 100%; border-bottom: 1px solid #ddd" colspan="3">VTTB sự cố 4</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 40%;" class="generator-stt">Tên chủng loại</td>
+                                                <td style="width: 20%;" class="generator-stt">Số lượng</td>
+                                                <td style="width: 40%;" class="generator-stt">Nhà sản xuất</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <table class="table-data-child" style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_TENCHUNGLOAI4")%></td>
+                                                <td style="width: 20%; text-align: right"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_SOLUONG4")%></td>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_NHASANXUAT4")%></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </ItemTemplate>
+                            </asp:TemplateColumn>
+                                <asp:TemplateColumn ItemStyle-Width="8%" HeaderStyle-Width="8%" ItemStyle-CssClass="pd-0">
+                                <HeaderTemplate>
+                                    <table class="table-header-child">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 100%; border-bottom: 1px solid #ddd" colspan="3">VTTB sự cố 5</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width: 40%;" class="generator-stt">Tên chủng loại</td>
+                                                <td style="width: 20%;" class="generator-stt">Số lượng</td>
+                                                <td style="width: 40%;" class="generator-stt">Nhà sản xuất</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </HeaderTemplate>
+                                <ItemTemplate>
+                                    <table class="table-data-child" style="width: 100%">
+                                        <tbody>
+                                            <tr>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_TENCHUNGLOAI5")%></td>
+                                                <td style="width: 20%; text-align: right"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_SOLUONG5")%></td>
+                                                <td style="width: 40%; text-align: left"><%#DataBinder.Eval(Container,"DataItem.SC_VTTB_NHASANXUAT5")%></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </ItemTemplate>
+                            </asp:TemplateColumn>
+                           
                             <asp:BoundColumn HeaderText="Điện áp (TT, HT)" DataField="SC_DIENAP" HeaderStyle-CssClass="generator-stt">
                                 <ItemStyle HorizontalAlign="Center" Width="3%" />
                                 <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
 
-                            <asp:TemplateColumn ItemStyle-Width="20%" HeaderStyle-Width="20%" ItemStyle-CssClass="pd-0">
+                            <asp:TemplateColumn ItemStyle-Width="13%" HeaderStyle-Width="13%" ItemStyle-CssClass="pd-0">
                                 <HeaderTemplate>
                                     <table class="table-header-child">
                                         <tr>
@@ -152,12 +260,15 @@
                                     </table>
                                 </ItemTemplate>
                             </asp:TemplateColumn>
-
-                            <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG" HeaderStyle-CssClass="generator-stt">
-                                <ItemStyle HorizontalAlign="Right" Width="4%" />
-                                <HeaderStyle Width="5%" />
+                              <asp:BoundColumn HeaderText="Tên thiết bị đóng cắt (MC, RCS)" DataField="SC_THIETBIDONGCAT_MSRCS" HeaderStyle-CssClass="generator-stt">
+                                <ItemStyle HorizontalAlign="Center" Width="3%" />
+                                <HeaderStyle Width="3%" />
                             </asp:BoundColumn>
-                            <asp:TemplateColumn ItemStyle-Width="7%" HeaderStyle-Width="7%" ItemStyle-CssClass="pd-0">
+                            <asp:BoundColumn HeaderText="Tổng số khách hàng bị mất điện" DataField="SC_TONGSOKHACHHANG" HeaderStyle-CssClass="generator-stt">
+                                <ItemStyle HorizontalAlign="Right" Width="3%" />
+                                <HeaderStyle Width="3%" />
+                            </asp:BoundColumn>
+                            <asp:TemplateColumn ItemStyle-Width="3%" HeaderStyle-Width="3%" ItemStyle-CssClass="pd-0">
                                 <HeaderTemplate>
                                     <table class="table-header-child">
                                         <tbody>
@@ -183,7 +294,7 @@
                                 </ItemTemplate>
                             </asp:TemplateColumn>
 
-                             <asp:BoundColumn DataField="FILE" HeaderText="File đính kèm" ItemStyle-Width="3%" ItemStyle-CssClass="min-width-max" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="headerGrid"></asp:BoundColumn>
+                             <asp:BoundColumn DataField="FILE" HeaderText="File đính kèm" ItemStyle-Width="2%" ItemStyle-CssClass="min-width-max" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="headerGrid"></asp:BoundColumn>
                             <asp:BoundColumn HeaderText="Ghi chú" DataField="SC_GHICHU" HeaderStyle-CssClass="generator-stt" >
                                 <ItemStyle HorizontalAlign="Left"  />
                                 <%--<HeaderStyle Width="8%" />--%>
